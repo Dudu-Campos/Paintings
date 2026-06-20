@@ -4,8 +4,11 @@ eps_star_ssim
 
 # Dados e outputs (ficam só no disco)
 raw/
-outputs/
+outputs/*
 logs/
+
+# Exceção: descrições geradas pelo SLM são versionadas
+!outputs/slm_descriptions/
 
 # Dataset COCO (cada servidor baixa sua própria cópia)
 data/coco/
