@@ -86,6 +86,7 @@ async def run(args):
     log(f'{len(items):,} imagens a processar  ({len(done):,} já feitas)')
 
     log(f'Carregando {args.model} no vLLM ...')
+    mm_processor_kwargs = {'max_pixels': args.max_pixels} if args.max_pixels else None
     service = VLLMMultimodalService(
         model_path=args.model,
         max_tokens=args.max_tokens,
@@ -93,6 +94,7 @@ async def run(args):
         gpu_memory_utilization=args.gpu_memory_utilization,
         max_num_seqs=args.batch_size,
         quantization=args.quantization,
+        mm_processor_kwargs=mm_processor_kwargs,
     )
     await service.init()
     log('Modelo carregado.')
@@ -148,7 +150,10 @@ def main():
     ap.add_argument('--batch_size', type=int, default=8,
                     help='Imagens por batch / max_num_seqs do vLLM.')
     ap.add_argument('--max_tokens', type=int, default=256)
-    ap.add_argument('--max_model_len', type=int, default=4096)
+    ap.add_argument('--max_model_len', type=int, default=8192)
+    ap.add_argument('--max_pixels', type=int, default=1003520,
+                    help='Cap de pixels por imagem (Qwen-VL mm_processor_kwargs) p/ limitar '
+                         'tokens de imagem. 0 = sem cap. Padrão ~1280 tokens de imagem.')
     ap.add_argument('--gpu_memory_utilization', type=float, default=0.90)
     ap.add_argument('--quantization', default=None,
                     help='Quantização do vLLM (ex: bitsandbytes para os repos -bnb-4bit da Unsloth).')

@@ -30,6 +30,7 @@ class VLLMMultimodalService:
         max_num_seqs: int = 8,
         temperature: float = 0.0,
         quantization: str | None = None,
+        mm_processor_kwargs: dict | None = None,
     ):
         self.model_path = model_path
         self.max_tokens = max_tokens
@@ -38,6 +39,7 @@ class VLLMMultimodalService:
         self.max_num_seqs = max_num_seqs
         self.temperature = temperature
         self.quantization = quantization
+        self.mm_processor_kwargs = mm_processor_kwargs
         self.engine = None
         self.processor = None
 
@@ -55,6 +57,8 @@ class VLLMMultimodalService:
             engine_kwargs['quantization'] = self.quantization
             if self.quantization == 'bitsandbytes':
                 engine_kwargs['load_format'] = 'bitsandbytes'
+        if self.mm_processor_kwargs:
+            engine_kwargs['mm_processor_kwargs'] = self.mm_processor_kwargs
         valid = {f.name for f in fields(AsyncEngineArgs)}
         if 'disable_log_requests' in valid:
             engine_kwargs['disable_log_requests'] = True
