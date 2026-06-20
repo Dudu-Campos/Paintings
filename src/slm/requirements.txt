@@ -4,3 +4,4 @@ torch
 pillow
 requests
 qwen-vl-utils
+kagglehub

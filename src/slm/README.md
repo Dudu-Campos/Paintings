@@ -1,13 +1,16 @@
-# SLM image description (COCO 2017)
+# SLM image description (COCO 2017 / ArtEmis)
 
 Pipeline autônomo para gerar descrições de imagens com um SLM multimodal via vLLM.
-Cada servidor baixa sua própria cópia do COCO localmente (sem transacionar dados
+Cada servidor baixa sua própria cópia do dataset localmente (sem transacionar dados
 entre hosts) e processa as imagens em batch.
 
 ## Componentes
 
 - `download_coco.py` — baixa e configura o COCO 2017 em `--data_dir`, extrai os
   zips e escreve `manifest.csv` (`image_id, file_name, split, path`).
+- `download_artemis.py` — baixa o ArtEmis (WikiArt) do Kaggle via `kagglehub` e
+  escreve `manifest.csv` com `image_id` rastreável (derivado de `art_style/painting`)
+  e `split = art_style`.
 - `vllm_service.py` — `VLLMMultimodalService`: wrapper assíncrono do `AsyncLLMEngine`
   do vLLM com suporte a imagem (`multi_modal_data`); batch que preserva a ordem +
   variante streaming com callback. Extensão multimodal do script base text-only de
@@ -44,7 +47,20 @@ python src/slm/generate_descriptions.py \
     --manifest data/coco/manifest.csv --split val2017 --limit 16
 ```
 
-Saída: `outputs/slm_descriptions/coco_descriptions.jsonl`
+### ArtEmis (Kaggle)
+
+```bash
+# 1. Baixar o ArtEmis (requer credenciais Kaggle em ~/.kaggle/kaggle.json)
+python src/slm/download_artemis.py --data_dir data/artemis
+
+# 2. Gerar descrições com output próprio e rastreável (distinto do COCO)
+python src/slm/generate_descriptions.py \
+    --manifest data/artemis/manifest.csv \
+    --output outputs/slm_descriptions/artemis_descriptions.jsonl
+```
+
+Saída COCO:    `outputs/slm_descriptions/coco_descriptions.jsonl`
+Saída ArtEmis: `outputs/slm_descriptions/artemis_descriptions.jsonl`
 (`{"image_id", "file_name", "split", "description", "model"}`).
 
 Modelo trocável via `--model` (qualquer VLM suportado pelo vLLM, ex.:
