@@ -7,6 +7,9 @@ raw/
 outputs/
 logs/
 
+# Dataset COCO (cada servidor baixa sua própria cópia)
+data/coco/
+
 # Python
 __pycache__/
 *.py[cod]
