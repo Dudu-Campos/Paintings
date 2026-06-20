@@ -8,9 +8,11 @@ entre hosts) e processa as imagens em batch.
 
 - `download_coco.py` — baixa e configura o COCO 2017 em `--data_dir`, extrai os
   zips e escreve `manifest.csv` (`image_id, file_name, split, path`).
-- `download_artemis.py` — baixa o ArtEmis (WikiArt) do Kaggle via `kagglehub` e
-  escreve `manifest.csv` com `image_id` rastreável (derivado de `art_style/painting`)
-  e `split = art_style`.
+- `download_artemis.py` — baixa ArtEmis (labels) **+** WikiArt (imagens) do Kaggle
+  via `kagglehub` e gera um `manifest.csv` mergeado. O ArtEmis só tem anotações; as
+  imagens vêm do WikiArt. O merge é pelo `stem` do filename (id do ArtEmis ==
+  `<stem>` da imagem WikiArt `<art_style>/<stem>.jpg`). `image_id = stem`,
+  `split = art_style`.
 - `vllm_service.py` — `VLLMMultimodalService`: wrapper assíncrono do `AsyncLLMEngine`
   do vLLM com suporte a imagem (`multi_modal_data`); batch que preserva a ordem +
   variante streaming com callback. Extensão multimodal do script base text-only de
@@ -47,10 +49,11 @@ python src/slm/generate_descriptions.py \
     --manifest data/coco/manifest.csv --split val2017 --limit 16
 ```
 
-### ArtEmis (Kaggle)
+### ArtEmis + WikiArt (Kaggle)
 
 ```bash
-# 1. Baixar o ArtEmis (requer credenciais Kaggle em ~/.kaggle/kaggle.json)
+# 1. Baixar ArtEmis (labels) + WikiArt (imagens) e gerar o manifest mergeado
+#    (requer credenciais Kaggle em ~/.kaggle/kaggle.json)
 python src/slm/download_artemis.py --data_dir data/artemis
 
 # 2. Gerar descrições com output próprio e rastreável (distinto do COCO)

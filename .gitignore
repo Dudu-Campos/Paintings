@@ -13,6 +13,10 @@ logs/
 # Dataset COCO (cada servidor baixa sua própria cópia)
 data/coco/
 
+# Datasets ArtEmis (labels) + WikiArt (imagens) — cada servidor baixa sua cópia
+data/artemis/
+data/wikiart/
+
 # Python
 __pycache__/
 *.py[cod]

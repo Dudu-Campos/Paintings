@@ -1,39 +1,36 @@
 """
-Baixa e configura o dataset ArtEmis (WikiArt) do Kaggle localmente.
+Baixa ArtEmis (labels) + WikiArt (imagens) do Kaggle e gera um manifest mergeado.
 
-Mesma lógica do download_coco.py: cada máquina baixa sua própria cópia em
---data_dir e escreve um manifest.csv compatível com generate_descriptions.py
-(image_id, file_name, split, path).
+O ArtEmis NÃO contém imagens: traz apenas anotações (emoção, utterance, etc.) por
+pintura, identificando cada uma por um id sem estilo nem extensão, ex.:
+    vasily-vereshchagin_sowar-the-messenger-of-the-government-1876
 
-Fonte: https://www.kaggle.com/datasets/samamostafa03/artemis-dataset
-Formato esperado das imagens (padrão WikiArt): <art_style>/<painting>.jpg
+As imagens vêm do WikiArt, organizadas como <art_style>/<stem>.jpg, ex.:
+    Realism/vasily-vereshchagin_sowar-the-messenger-of-the-government-1876.jpg
 
-O image_id é rastreável: derivado do caminho relativo (art_style + nome da
-pintura), garantindo unicidade e ligação direta à imagem de origem. O split
-recebe o art_style, permitindo filtrar a geração por estilo via --split.
+A chave de merge é o `stem` do filename do WikiArt (único) == id do ArtEmis.
 
 Saída em --data_dir:
-    source/            (cópia local das imagens do dataset Kaggle)
-    manifest.csv       (image_id, file_name, split, path, art_style)
+    manifest.csv   (image_id, file_name, split, path, art_style)
+                   uma linha por pintura única presente nos DOIS datasets;
+                   compatível com generate_descriptions.py (--manifest).
+
+Fontes:
+    https://www.kaggle.com/datasets/samamostafa03/artemis-dataset
+    https://www.kaggle.com/datasets/steubk/wikiart
 """
 import argparse
 import csv
-import re
-import shutil
 import time
 from pathlib import Path
 
 EXTS = {'.jpg', '.jpeg', '.png', '.webp'}
-DEFAULT_DATASET = 'samamostafa03/artemis-dataset'
+DEFAULT_ARTEMIS = 'samamostafa03/artemis-dataset'
+DEFAULT_WIKIART = 'steubk/wikiart'
 
 
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
-
-
-def slugify(text):
-    text = re.sub(r'[^\w\-]+', '_', text.strip())
-    return re.sub(r'_+', '_', text).strip('_')
 
 
 def download_dataset(dataset):
@@ -47,75 +44,114 @@ def download_dataset(dataset):
         )
     log(f'Baixando {dataset} via kagglehub ...')
     path = Path(kagglehub.dataset_download(dataset))
-    log(f'Dataset em cache: {path}')
+    log(f'  cache: {path}')
     return path
 
 
-def find_images(root):
-    return sorted(p for p in root.rglob('*') if p.suffix.lower() in EXTS)
+def index_wikiart(root):
+    """Mapa stem -> Path da imagem (stem é único no WikiArt)."""
+    stem_to_path = {}
+    collisions = 0
+    for p in root.rglob('*'):
+        if p.suffix.lower() not in EXTS:
+            continue
+        if p.stem in stem_to_path:
+            collisions += 1
+            continue
+        stem_to_path[p.stem] = p
+    log(f'WikiArt: {len(stem_to_path):,} imagens indexadas'
+        + (f'  ({collisions} stems duplicados ignorados)' if collisions else ''))
+    return stem_to_path
 
 
-def build_manifest(images, source_root, manifest_path):
+def detect_id_column(rows, stem_set):
+    """Escolhe a coluna do CSV ArtEmis cujos valores mais batem com os stems do WikiArt."""
+    if not rows:
+        raise SystemExit('CSV do ArtEmis vazio.')
+    sample = rows[:5000]
+    best_col, best_hits = None, -1
+    for col in rows[0].keys():
+        hits = sum(1 for r in sample if str(r.get(col, '')).strip() in stem_set)
+        if hits > best_hits:
+            best_col, best_hits = col, hits
+    frac = best_hits / max(len(sample), 1)
+    log(f'Coluna de id detectada no ArtEmis: "{best_col}" '
+        f'({frac:.0%} de match com o WikiArt na amostra)')
+    if frac < 0.5:
+        raise SystemExit(
+            f'Match baixo ({frac:.0%}) entre ArtEmis e WikiArt. '
+            f'Verifique os datasets / a coluna de id.')
+    return best_col
+
+
+def load_artemis_rows(artemis_root):
+    csvs = sorted(artemis_root.rglob('*.csv'))
+    if not csvs:
+        raise SystemExit(f'Nenhum CSV de anotação encontrado em {artemis_root}.')
+    csv_path = max(csvs, key=lambda p: p.stat().st_size)
+    log(f'ArtEmis: lendo {csv_path.name}')
+    with open(csv_path, newline='', encoding='utf-8') as f:
+        rows = list(csv.DictReader(f))
+    log(f'ArtEmis: {len(rows):,} anotações')
+    return rows
+
+
+def build_manifest(artemis_rows, id_col, stem_to_path, manifest_path):
     rows = []
     seen = set()
-    for p in images:
-        rel = p.relative_to(source_root)
-        art_style = rel.parts[0] if len(rel.parts) > 1 else 'artemis'
-        image_id = slugify(rel.with_suffix('').as_posix())
-        if image_id in seen:
-            image_id = f'{image_id}_{len(seen)}'
-        seen.add(image_id)
+    matched = 0
+    for r in artemis_rows:
+        pid = str(r.get(id_col, '')).strip()
+        if not pid or pid in seen:
+            continue
+        path = stem_to_path.get(pid)
+        if path is None:
+            continue
+        seen.add(pid)
+        matched += 1
         rows.append({
-            'image_id': image_id,
-            'file_name': p.name,
-            'split': art_style,
-            'path': str(p),
-            'art_style': art_style,
+            'image_id': pid,
+            'file_name': path.name,
+            'split': path.parent.name,
+            'path': str(path),
+            'art_style': path.parent.name,
         })
     with open(manifest_path, 'w', newline='') as f:
         w = csv.DictWriter(
             f, fieldnames=['image_id', 'file_name', 'split', 'path', 'art_style'])
         w.writeheader()
         w.writerows(rows)
-    log(f'Manifest: {manifest_path}  ({len(rows):,} imagens)')
+    log(f'Manifest: {manifest_path}  ({matched:,} pinturas únicas mergeadas)')
     return rows
 
 
 def main():
-    ap = argparse.ArgumentParser(description='Baixa e configura o ArtEmis (Kaggle).')
+    ap = argparse.ArgumentParser(
+        description='Baixa ArtEmis (labels) + WikiArt (imagens) e gera o manifest mergeado.')
     ap.add_argument('--data_dir', type=Path, default=Path('data/artemis'),
-                    help='Diretório local de saída (padrão: data/artemis).')
-    ap.add_argument('--dataset', default=DEFAULT_DATASET,
-                    help=f'Slug do dataset no Kaggle (padrão: {DEFAULT_DATASET}).')
-    ap.add_argument('--copy', action='store_true',
-                    help='Copia as imagens do cache do kagglehub para --data_dir/source '
-                         '(padrão: aponta o manifest direto para o cache).')
+                    help='Diretório local de saída do manifest (padrão: data/artemis).')
+    ap.add_argument('--artemis_dataset', default=DEFAULT_ARTEMIS,
+                    help=f'Slug do ArtEmis no Kaggle (padrão: {DEFAULT_ARTEMIS}).')
+    ap.add_argument('--wikiart_dataset', default=DEFAULT_WIKIART,
+                    help=f'Slug do WikiArt no Kaggle (padrão: {DEFAULT_WIKIART}).')
     args = ap.parse_args()
 
     args.data_dir.mkdir(parents=True, exist_ok=True)
-    cache_path = download_dataset(args.dataset)
 
-    csvs = sorted(cache_path.rglob('*.csv'))
-    if csvs:
-        log(f'CSVs encontrados no dataset (anotações ArtEmis): '
-            f'{", ".join(c.name for c in csvs)}')
+    artemis_root = download_dataset(args.artemis_dataset)
+    wikiart_root = download_dataset(args.wikiart_dataset)
 
-    if args.copy:
-        source_root = args.data_dir / 'source'
-        if not source_root.exists():
-            log(f'Copiando dataset para {source_root} ...')
-            shutil.copytree(cache_path, source_root)
-    else:
-        source_root = cache_path
+    stem_to_path = index_wikiart(wikiart_root)
+    if not stem_to_path:
+        raise SystemExit(f'Nenhuma imagem encontrada no WikiArt em {wikiart_root}.')
 
-    images = find_images(source_root)
-    if not images:
-        raise SystemExit(
-            f'Nenhuma imagem encontrada em {source_root}. '
-            f'Verifique o conteúdo do dataset (CSVs: {[c.name for c in csvs]}).')
-    log(f'{len(images):,} imagens encontradas.')
+    artemis_rows = load_artemis_rows(artemis_root)
+    id_col = detect_id_column(artemis_rows, set(stem_to_path))
 
-    build_manifest(images, source_root, args.data_dir / 'manifest.csv')
+    rows = build_manifest(artemis_rows, id_col, stem_to_path, args.data_dir / 'manifest.csv')
+
+    n_artemis_ids = len({str(r.get(id_col, '')).strip() for r in artemis_rows})
+    log(f'Cobertura: {len(rows):,}/{n_artemis_ids:,} ids do ArtEmis encontrados no WikiArt.')
     log('Concluído.')
     log('Próximo passo (output rastreável e distinto do COCO):')
     log('  python src/slm/generate_descriptions.py \\')
