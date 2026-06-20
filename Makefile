@@ -80,5 +80,22 @@ baselines:
 	python src/baselines/extract_descriptors_full.py \
 		--image_dir $(RAW_DIR) --meta $(META) --output $(OUT_FEATURES)
 
+## 7. Affect pipeline (pinturas ArtGAN+BestArtworks → ViT-S destilado → 768-dim)
+# Coloque ArtGAN em raw/artgan/ e Best Artworks em raw/best_artworks/ antes de rodar.
+ARTGAN_DIR      := raw/artgan
+BESTARTWORKS_DIR := raw/best_artworks
+
+affect_captions:
+	python src/affect/generate_captions.py \
+		--image_dirs $(ARTGAN_DIR) $(BESTARTWORKS_DIR)
+
+affect_finetune:
+	python src/affect/finetune_vits.py
+
+affect_features:
+	python src/affect/extract_affect_features.py
+
+affect: affect_captions affect_finetune affect_features
+
 clean:
 	rm -f coarse2 eps_star_ssim
