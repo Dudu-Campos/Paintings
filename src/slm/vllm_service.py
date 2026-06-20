@@ -10,6 +10,7 @@ O prompt final é montado com o chat template do AutoProcessor do próprio model
 """
 import asyncio
 import uuid
+from dataclasses import fields
 from typing import Callable
 
 from PIL import Image
@@ -40,15 +41,20 @@ class VLLMMultimodalService:
 
     async def init(self):
         """Inicializa o engine assíncrono do vLLM e o processor do modelo."""
-        engine_args = AsyncEngineArgs(
+        engine_kwargs = dict(
             model=self.model_path,
             max_model_len=self.max_model_len,
             gpu_memory_utilization=self.gpu_memory_utilization,
             max_num_seqs=self.max_num_seqs,
             limit_mm_per_prompt={'image': 1},
             disable_log_stats=False,
-            disable_log_requests=True,
         )
+        valid = {f.name for f in fields(AsyncEngineArgs)}
+        if 'disable_log_requests' in valid:
+            engine_kwargs['disable_log_requests'] = True
+        elif 'enable_log_requests' in valid:
+            engine_kwargs['enable_log_requests'] = False
+        engine_args = AsyncEngineArgs(**engine_kwargs)
         self.engine = AsyncLLMEngine.from_engine_args(engine_args)
         self.processor = AutoProcessor.from_pretrained(self.model_path)
 
