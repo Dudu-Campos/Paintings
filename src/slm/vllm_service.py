@@ -29,6 +29,7 @@ class VLLMMultimodalService:
         gpu_memory_utilization: float = 0.90,
         max_num_seqs: int = 8,
         temperature: float = 0.0,
+        quantization: str | None = None,
     ):
         self.model_path = model_path
         self.max_tokens = max_tokens
@@ -36,6 +37,7 @@ class VLLMMultimodalService:
         self.gpu_memory_utilization = gpu_memory_utilization
         self.max_num_seqs = max_num_seqs
         self.temperature = temperature
+        self.quantization = quantization
         self.engine = None
         self.processor = None
 
@@ -49,6 +51,10 @@ class VLLMMultimodalService:
             limit_mm_per_prompt={'image': 1},
             disable_log_stats=False,
         )
+        if self.quantization:
+            engine_kwargs['quantization'] = self.quantization
+            if self.quantization == 'bitsandbytes':
+                engine_kwargs['load_format'] = 'bitsandbytes'
         valid = {f.name for f in fields(AsyncEngineArgs)}
         if 'disable_log_requests' in valid:
             engine_kwargs['disable_log_requests'] = True

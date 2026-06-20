@@ -27,11 +27,17 @@ pip install -r src/slm/requirements.txt
 # 1. Baixar e configurar o COCO 2017 (val2017 por padrão)
 python src/slm/download_coco.py --data_dir data/coco --splits val2017
 
-# 2. Gerar descrições com o SLM (Qwen2.5-VL-3B por padrão)
+# 2. Gerar descrições com o SLM (unsloth/Qwen2.5-VL-7B-Instruct por padrão)
 python src/slm/generate_descriptions.py \
     --manifest data/coco/manifest.csv \
     --split val2017 \
     --batch_size 8
+
+# Variante 4-bit da Unsloth (menos VRAM)
+python src/slm/generate_descriptions.py \
+    --manifest data/coco/manifest.csv --split val2017 \
+    --model unsloth/Qwen2.5-VL-7B-Instruct-unsloth-bnb-4bit \
+    --quantization bitsandbytes
 
 # Teste rápido em poucas imagens
 python src/slm/generate_descriptions.py \
@@ -42,4 +48,5 @@ Saída: `outputs/slm_descriptions/coco_descriptions.jsonl`
 (`{"image_id", "file_name", "split", "description", "model"}`).
 
 Modelo trocável via `--model` (qualquer VLM suportado pelo vLLM, ex.:
-`HuggingFaceTB/SmolVLM-Instruct`, `Qwen/Qwen2-VL-2B-Instruct`).
+`HuggingFaceTB/SmolVLM-Instruct`, `Qwen/Qwen2-VL-2B-Instruct`). Para os repos
+quantizados `-bnb-4bit` da Unsloth, passe `--quantization bitsandbytes`.

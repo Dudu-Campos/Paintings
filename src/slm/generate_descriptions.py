@@ -143,6 +143,8 @@ def main():
     ap.add_argument('--max_tokens', type=int, default=256)
     ap.add_argument('--max_model_len', type=int, default=4096)
     ap.add_argument('--gpu_memory_utilization', type=float, default=0.90)
+    ap.add_argument('--quantization', default=None,
+                    help='Quantização do vLLM (ex: bitsandbytes para os repos -bnb-4bit da Unsloth).')
     ap.add_argument('--limit', type=int, default=0, help='Processa no máximo N imagens (0 = todas).')
     args = ap.parse_args()
 
