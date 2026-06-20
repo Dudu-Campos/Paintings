@@ -30,6 +30,13 @@ def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
 
+def _coerce_id(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return value
+
+
 def load_items(args):
     if args.manifest:
         with open(args.manifest) as f:
@@ -37,7 +44,7 @@ def load_items(args):
         if args.split:
             rows = [r for r in rows if r['split'] == args.split]
         return [
-            {'image_id': int(r['image_id']), 'file_name': r['file_name'],
+            {'image_id': _coerce_id(r['image_id']), 'file_name': r['file_name'],
              'split': r['split'], 'path': r['path']}
             for r in rows
         ]
