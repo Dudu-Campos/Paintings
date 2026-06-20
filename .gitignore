@@ -1,0 +1,23 @@
+# Binários compilados
+coarse2
+eps_star_ssim
+
+# Dados e outputs (ficam só no disco)
+raw/
+outputs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos temporários
+*.log
+nohup.out
+*.tmp
