@@ -15,7 +15,7 @@ import json
 import time
 from pathlib import Path
 
-DEFAULT_MODEL = 'Qwen/Qwen3-VL-30B-A3B-Instruct'
+DEFAULT_MODEL = 'Mistral-Small-3.2-24B-Instruct-2506'
 EXTS = {'.jpg', '.jpeg', '.png', '.webp'}
 
 PROMPT = (
