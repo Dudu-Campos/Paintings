@@ -15,7 +15,7 @@ EPS_LOOKUP := $(OUT_EPS_STAR)/eps_star_entropy_index.parquet
 CXX      := g++
 CXXFLAGS := -O3 -march=native -fopenmp -std=c++17
 
-.PHONY: all build eps_star coarsen features baselines clean
+.PHONY: all build eps_star coarsen features baselines clean coco_download slm_descriptions slm
 
 all: build eps_star coarsen features
 
@@ -96,6 +96,25 @@ affect_features:
 	python src/affect/extract_affect_features.py
 
 affect: affect_captions affect_finetune affect_features
+
+## 8. SLM image description (COCO 2017 → descrições via vLLM)
+COCO_DIR        := data/coco
+COCO_SPLITS     := val2017
+SLM_MODEL       := Qwen/Qwen2.5-VL-3B-Instruct
+SLM_OUT         := outputs/slm_descriptions/coco_descriptions.jsonl
+
+coco_download:
+	python src/slm/download_coco.py --data_dir $(COCO_DIR) --splits $(COCO_SPLITS)
+
+slm_descriptions:
+	python src/slm/generate_descriptions.py \
+		--manifest $(COCO_DIR)/manifest.csv \
+		--split $(COCO_SPLITS) \
+		--model $(SLM_MODEL) \
+		--output $(SLM_OUT) \
+		--batch_size 8
+
+slm: coco_download slm_descriptions
 
 clean:
 	rm -f coarse2 eps_star_ssim
