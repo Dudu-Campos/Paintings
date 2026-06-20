@@ -15,7 +15,7 @@ import json
 import time
 from pathlib import Path
 
-DEFAULT_MODEL = 'Qwen/Qwen2.5-VL-7B-Instruct'
+DEFAULT_MODEL = 'unsloth/Qwen2.5-VL-7B-Instruct'
 EXTS = {'.jpg', '.jpeg', '.png', '.webp'}
 
 PROMPT = (
@@ -85,6 +85,7 @@ async def run(args):
         max_model_len=args.max_model_len,
         gpu_memory_utilization=args.gpu_memory_utilization,
         max_num_seqs=args.batch_size,
+        quantization=args.quantization,
     )
     await service.init()
     log('Modelo carregado.')
