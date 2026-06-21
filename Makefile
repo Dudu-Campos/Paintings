@@ -18,7 +18,7 @@ CXXFLAGS := -O3 -march=native -fopenmp -std=c++17
 # Python via uv (resolve o ambiente automaticamente, sem ativar o venv)
 PYTHON := uv run python
 
-.PHONY: all setup build eps_star coarsen features baselines clean coco_download slm_descriptions slm
+.PHONY: all setup build eps_star coarsen features baselines clean coco_download slm_descriptions slm caption_finetune
 
 all: build eps_star coarsen features
 
@@ -122,6 +122,18 @@ slm_descriptions:
 		--batch_size 8
 
 slm: coco_download slm_descriptions
+
+## 9. Image captioning fine-tune (ViT+GPT2) usando as descrições do SLM como alvo
+# Requer imagens COCO baixadas (make coco_download) e o extra: uv sync --extra caption
+CAPTION_OUT := outputs/caption_model
+
+caption_finetune:
+	$(PYTHON) src/slm/finetune_caption.py \
+		--descriptions $(SLM_OUT) \
+		--coco_dir $(COCO_DIR) \
+		--output_dir $(CAPTION_OUT) \
+		--train_split train2017 \
+		--val_split val2017
 
 clean:
 	rm -f coarse2 eps_star_ssim

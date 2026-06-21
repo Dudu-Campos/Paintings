@@ -42,6 +42,17 @@ slm = [
     "qwen-vl-utils",
     "kagglehub",
 ]
+caption = [
+    "torch",
+    "torchvision",
+    "transformers>=4.49.0",
+    "datasets",
+    "evaluate",
+    "rouge-score",
+    "nltk",
+    "accelerate",
+    "pillow",
+]
 
 [tool.uv]
 package = false
