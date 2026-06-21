@@ -185,6 +185,8 @@ def main():
     ap.add_argument('--map_workers', type=int, default=1,
                     help='Processos para o pré-processamento (datasets.map).')
     ap.add_argument('--fp16', action='store_true', help='Treino em fp16 (requer GPU).')
+    ap.add_argument('--allow_cpu', action='store_true',
+                    help='Permite treinar em CPU. Por padrão, aborta se a GPU não estiver disponível.')
     ap.add_argument('--seed', type=int, default=42)
     args = ap.parse_args()
 
@@ -199,7 +201,20 @@ def main():
         default_data_collator,
     )
 
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    cuda_ok = torch.cuda.is_available()
+    log(f'torch {torch.__version__} (build CUDA {torch.version.cuda}) | '
+        f'cuda.is_available()={cuda_ok} | n_gpus={torch.cuda.device_count()}')
+    if cuda_ok:
+        for i in range(torch.cuda.device_count()):
+            log(f'  GPU {i}: {torch.cuda.get_device_name(i)}')
+    if not cuda_ok and not args.allow_cpu:
+        raise SystemExit(
+            'CUDA indisponível para o PyTorch — o treino cairia em CPU.\n'
+            '  Diagnóstico provável: o driver NVIDIA do servidor não suporta a versão de '
+            f'CUDA com que o torch foi compilado (CUDA {torch.version.cuda}). '
+            'Verifique `nvidia-smi` (versão do driver) vs. o build do torch.\n'
+            '  Para forçar treino em CPU mesmo assim, use --allow_cpu.')
+    device = 'cuda' if cuda_ok else 'cpu'
     log(f'Device: {device}')
 
     log(f'Carregando exemplos de {args.descriptions} ...')
