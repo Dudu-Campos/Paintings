@@ -4,8 +4,25 @@ eps_star_ssim
 
 # Dados e outputs (ficam só no disco)
 raw/
-outputs/
+outputs/*
 logs/
+
+# Exceção: descrições geradas pelo SLM são versionadas
+!outputs/slm_descriptions/
+
+# Exceção: só o modelo final de captioning é versionado (não os checkpoints intermediários)
+!outputs/caption_model/
+outputs/caption_model/checkpoint-*/
+
+# Exceção: predições do modelo de captioning são versionadas
+!outputs/caption_predictions/
+
+# Dataset COCO (cada servidor baixa sua própria cópia)
+data/coco/
+
+# Datasets ArtEmis (labels) + WikiArt (imagens) — cada servidor baixa sua cópia
+data/artemis/
+data/wikiart/
 
 # Python
 __pycache__/

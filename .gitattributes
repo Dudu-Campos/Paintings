@@ -1,0 +1,7 @@
+outputs/slm_descriptions/coco_descriptions.jsonl filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.h5 filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.bin filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.pt filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.pth filter=lfs diff=lfs merge=lfs -text
+outputs/caption_model/**/*.onnx filter=lfs diff=lfs merge=lfs -text

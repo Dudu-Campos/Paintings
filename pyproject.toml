@@ -1,0 +1,58 @@
+[project]
+name = "paintings"
+version = "0.1.0"
+description = "Pipeline de percolação cromática de pinturas -> grafos -> features estruturais (CNA 2026)"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scikit-image",
+    "networkx",
+    "matplotlib",
+    "xgboost",
+    "h5py",
+    "pillow",
+    "requests",
+    "imagehash",
+    "transformers>=5.12.1",
+    "vllm>=0.23.0",
+]
+
+[project.optional-dependencies]
+baselines = [
+    "torch",
+    "torchvision",
+    "lightgbm",
+    "open-clip-torch",
+]
+affect = [
+    "torch",
+    "torchvision",
+    "timm",
+    "peft",
+    "transformers>=4.49.0",
+]
+slm = [
+    "vllm>=0.19.1",
+    "transformers>=4.49.0",
+    "torch",
+    "pillow",
+    "requests",
+    "qwen-vl-utils",
+    "kagglehub",
+]
+caption = [
+    "torch",
+    "torchvision",
+    "transformers>=4.49.0",
+    "datasets",
+    "evaluate",
+    "rouge-score",
+    "nltk",
+    "accelerate",
+    "pillow",
+]
+
+[tool.uv]
+package = false

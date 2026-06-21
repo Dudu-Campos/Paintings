@@ -1,0 +1,7 @@
+vllm>=0.19.1
+transformers>=4.49.0
+torch
+pillow
+requests
+qwen-vl-utils
+kagglehub
