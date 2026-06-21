@@ -18,7 +18,7 @@ CXXFLAGS := -O3 -march=native -fopenmp -std=c++17
 # Python via uv (resolve o ambiente automaticamente, sem ativar o venv)
 PYTHON := uv run python
 
-.PHONY: all setup build eps_star coarsen features baselines clean coco_download slm_descriptions slm caption_finetune
+.PHONY: all setup build eps_star coarsen features baselines clean coco_download slm_descriptions slm caption_finetune caption_predict_artemis
 
 all: build eps_star coarsen features
 
@@ -134,6 +134,17 @@ caption_finetune:
 		--output_dir $(CAPTION_OUT) \
 		--train_split train2017 \
 		--val_split val2017
+
+## Inferência do modelo fine-tuned no ArtEmis/WikiArt (gera legendas em JSONL)
+ARTEMIS_MANIFEST := data/artemis/manifest.csv
+CAPTION_PRED     := outputs/caption_predictions/artemis_captions.jsonl
+
+caption_predict_artemis:
+	$(PYTHON) src/slm/caption_inference.py \
+		--model_dir $(CAPTION_OUT) \
+		--manifest $(ARTEMIS_MANIFEST) \
+		--output $(CAPTION_PRED) \
+		--batch_size 32 --fp16
 
 clean:
 	rm -f coarse2 eps_star_ssim

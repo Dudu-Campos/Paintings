@@ -14,6 +14,9 @@ logs/
 !outputs/caption_model/
 outputs/caption_model/checkpoint-*/
 
+# Exceção: predições do modelo de captioning são versionadas
+!outputs/caption_predictions/
+
 # Dataset COCO (cada servidor baixa sua própria cópia)
 data/coco/
 
