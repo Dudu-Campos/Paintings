@@ -78,35 +78,42 @@ def build_dataset(examples):
     return datasets.Dataset.from_list(examples)
 
 
-def make_preprocess_fn(tokenizer, image_processor, max_target_length):
-    from PIL import Image
+def make_tokenize_fn(tokenizer, max_target_length):
+    """Tokeniza os captions (rápido/leve). As imagens são processadas on-the-fly
+    no data collator — não materializamos pixel_values aqui, senão o .map varreria
+    todas as imagens em CPU antes do treino (lento) e geraria um cache enorme."""
 
-    def tokenization_fn(captions):
-        return tokenizer(
-            captions,
+    def tokenize_fn(examples):
+        labels = tokenizer(
+            examples['caption'],
             padding='max_length',
             truncation=True,
             max_length=max_target_length,
         ).input_ids
-
-    def feature_extraction_fn(image_paths):
-        images = [Image.open(p).convert('RGB') for p in image_paths]
-        return image_processor(images=images, return_tensors='np').pixel_values
-
-    def preprocess_fn(examples):
-        labels = tokenization_fn(examples['caption'])
         if IGNORE_PAD_TOKEN_FOR_LOSS:
             pad_id = tokenizer.pad_token_id
             labels = [
                 [(t if t != pad_id else -100) for t in seq]
                 for seq in labels
             ]
-        return {
-            'labels': labels,
-            'pixel_values': feature_extraction_fn(examples['image_path']),
-        }
+        return {'labels': labels}
 
-    return preprocess_fn
+    return tokenize_fn
+
+
+def make_collator(image_processor):
+    """Carrega e processa as imagens por batch (roda nos workers do DataLoader,
+    em paralelo com o cálculo na GPU)."""
+    import torch
+    from PIL import Image
+
+    def collate(features):
+        images = [Image.open(f['image_path']).convert('RGB') for f in features]
+        pixel_values = image_processor(images=images, return_tensors='pt').pixel_values
+        labels = torch.tensor([f['labels'] for f in features], dtype=torch.long)
+        return {'pixel_values': pixel_values, 'labels': labels}
+
+    return collate
 
 
 def make_compute_metrics(tokenizer):
@@ -183,7 +190,9 @@ def main():
     ap.add_argument('--max_val', type=int, default=0,
                     help='Limita o nº de exemplos de validação (0 = todos).')
     ap.add_argument('--map_workers', type=int, default=1,
-                    help='Processos para o pré-processamento (datasets.map).')
+                    help='Processos para a tokenização (datasets.map).')
+    ap.add_argument('--dataloader_workers', type=int, default=8,
+                    help='Workers do DataLoader que carregam/processam imagens em paralelo.')
     ap.add_argument('--fp16', action='store_true', help='Treino em fp16 (requer GPU).')
     ap.add_argument('--allow_cpu', action='store_true',
                     help='Permite treinar em CPU. Por padrão, aborta se a GPU não estiver disponível.')
@@ -198,7 +207,6 @@ def main():
         Seq2SeqTrainer,
         Seq2SeqTrainingArguments,
         VisionEncoderDecoderModel,
-        default_data_collator,
     )
 
     cuda_ok = torch.cuda.is_available()
@@ -249,14 +257,16 @@ def main():
     train_ds = build_dataset(train_examples)
     val_ds = build_dataset(val_examples)
 
-    preprocess_fn = make_preprocess_fn(tokenizer, image_processor, args.max_target_length)
-    log('Pré-processando (tokenização + extração de features) ...')
-    train_ds = train_ds.map(preprocess_fn, batched=True,
-                            remove_columns=train_ds.column_names,
+    tokenize_fn = make_tokenize_fn(tokenizer, args.max_target_length)
+    log('Tokenizando captions (imagens são processadas on-the-fly no collator) ...')
+    train_ds = train_ds.map(tokenize_fn, batched=True,
+                            remove_columns=['caption'],
                             num_proc=args.map_workers or 1)
-    val_ds = val_ds.map(preprocess_fn, batched=True,
-                        remove_columns=val_ds.column_names,
+    val_ds = val_ds.map(tokenize_fn, batched=True,
+                        remove_columns=['caption'],
                         num_proc=args.map_workers or 1)
+
+    collator = make_collator(image_processor)
 
     training_args = Seq2SeqTrainingArguments(
         predict_with_generate=True,
@@ -268,6 +278,9 @@ def main():
         learning_rate=args.learning_rate,
         num_train_epochs=args.epochs,
         fp16=args.fp16,
+        dataloader_num_workers=args.dataloader_workers,
+        dataloader_pin_memory=True,
+        remove_unused_columns=False,
         logging_steps=50,
         save_total_limit=2,
         seed=args.seed,
@@ -282,7 +295,7 @@ def main():
         compute_metrics=make_compute_metrics(tokenizer),
         train_dataset=train_ds,
         eval_dataset=val_ds,
-        data_collator=default_data_collator,
+        data_collator=collator,
     )
 
     log(f'Treinando: {len(train_ds):,} treino / {len(val_ds):,} validação, '
