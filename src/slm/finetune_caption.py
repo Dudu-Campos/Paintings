@@ -190,6 +190,7 @@ def main():
 
     import torch
     from transformers import (
+        AutoConfig,
         AutoImageProcessor,
         AutoTokenizer,
         Seq2SeqTrainer,
@@ -216,8 +217,11 @@ def main():
             f'Nenhum exemplo de validação encontrado para o split "{args.val_split}".')
 
     log(f'Inicializando modelo: encoder={args.encoder_model} decoder={args.decoder_model}')
+    decoder_config = AutoConfig.from_pretrained(args.decoder_model)
+    decoder_config.is_decoder = True
+    decoder_config.add_cross_attention = True
     model = VisionEncoderDecoderModel.from_encoder_decoder_pretrained(
-        args.encoder_model, args.decoder_model)
+        args.encoder_model, args.decoder_model, decoder_config=decoder_config)
     image_processor = AutoImageProcessor.from_pretrained(args.encoder_model)
     tokenizer = AutoTokenizer.from_pretrained(args.decoder_model)
 
