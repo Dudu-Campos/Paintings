@@ -7,8 +7,7 @@ For each image this script computes SLIC once, then derives:
 * a Delaunay graph over region centroids (32 features), and
 * a colour-weighted minimum spanning tree of the SLIC RAG (32 features).
 
-Unlike the paired baseline, this production extractor has no dependency on
-percolation outputs.  Its segment budget is fixed and explicit.
+Its segment budget is fixed and explicit.
 """
 
 from __future__ import annotations

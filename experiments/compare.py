@@ -35,7 +35,7 @@ FEAT_DIR = ROOT / 'outputs' / 'features'
 META_CSV = ROOT / 'meta' / 'meta.csv'
 OUT_CSV  = Path(__file__).parent / 'results.csv'
 
-# ── MLP hiper-parâmetros (mesmos do mlp_probe.py original) ─────────────────
+# ── MLP hyperparameters ──────────────────────────────────────────────────────
 DEVICE   = 'cuda' if torch.cuda.is_available() else 'cpu'
 HIDDENS  = (512, 512, 256, 128)
 DROP     = 0.35

@@ -21,7 +21,7 @@ from evaluate_big_lama_visual_pilot import (  # noqa: E402
     load_npy,
     load_representation,
 )
-from compare_fusion_classifiers import evaluate_mlp, evaluate_xgb  # noqa: E402
+from model_evaluation import evaluate_mlp, evaluate_xgb  # noqa: E402
 
 
 def load_original(slic_dir: Path, feature_dir: Path) -> tuple[pd.DataFrame, list[str]]:

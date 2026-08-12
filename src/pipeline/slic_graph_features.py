@@ -1,17 +1,14 @@
-"""Extract a SLIC graph baseline with the same 32 features as the RAG.
+"""Extract a SLIC graph baseline with the standard 32 graph features.
 
-The primary comparison mode matches the requested number of SLIC superpixels
-to the number of nodes in the per-image percolation graph.  This controls the
-region budget while changing only the segmentation method.
+The segment budget is explicit and fixed for all images in a run.
 
 Example (stratified pilot, 20 images per style)::
 
     python src/pipeline/slic_graph_features.py \
         --image-dir wikiart \
         --meta data/artemis/wikiart_meta.csv \
-        --rag-features outputs/wikiart_features/graph_features.parquet \
         --output outputs/slic_pilot/slic_c10_features.parquet \
-        --compactness 10 --sample-per-style 20 --workers 8
+        --compactness 10 --fixed-segments 2048 --sample-per-style 20 --workers 8
 """
 
 from __future__ import annotations
@@ -166,7 +163,7 @@ def resize_and_convert(
 
 
 def build_slic_nodes(labels: np.ndarray, lab: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
-    """Build coarse2-compatible NodeData and return contiguous labels."""
+    """Build region records and return contiguous labels."""
     _, inverse = np.unique(labels, return_inverse=True)
     labels = inverse.reshape(labels.shape).astype(np.int32, copy=False)
     flat = labels.ravel()
@@ -191,7 +188,7 @@ def build_slic_nodes(labels: np.ndarray, lab: np.ndarray) -> tuple[np.ndarray, n
 
 
 def build_slic_edges(labels: np.ndarray, lab: np.ndarray, nodes: np.ndarray) -> np.ndarray:
-    """Build a 4-neighbour RAG with coarse2-compatible boundary weights."""
+    """Build a 4-neighbour RAG with color and spatial boundary weights."""
     n_nodes = len(nodes)
     keys: list[np.ndarray] = []
     distances: list[np.ndarray] = []
@@ -248,7 +245,7 @@ def segment_slic_graph(
     enforce_connectivity: bool,
     region: str = "global",
 ) -> tuple[np.ndarray, np.ndarray]:
-    """Segment one image and return coarse2-compatible nodes and RAG edges."""
+    """Segment one image and return region records and RAG edges."""
     rgb, lab = resize_and_convert(path, max_side, region)
     labels = slic(
         rgb,
@@ -333,10 +330,6 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--image-dir", type=Path, required=True)
     parser.add_argument("--meta", type=Path, required=True)
-    parser.add_argument(
-        "--rag-features", type=Path,
-        help="Optional percolation RAG used only for paired node-budget comparisons",
-    )
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--compactness", type=float, default=10.0)
     parser.add_argument("--sigma", type=float, default=0.0)
@@ -362,35 +355,16 @@ def main() -> None:
         parser.error("invalid min/max segment limits")
     if args.fixed_segments < 0:
         parser.error("--fixed-segments must be non-negative")
-    if args.rag_features is None and args.fixed_segments == 0:
-        parser.error("--fixed-segments is required when --rag-features is omitted")
+    if args.fixed_segments == 0:
+        parser.error("--fixed-segments is required")
 
     records = resolve_wikiart_records(args.meta, args.image_dir)
-    if args.rag_features is not None:
-        rag = pd.read_parquet(
-            args.rag_features, columns=["stem", "style", "n_nodes"]
-        )
-        rag = rag.drop_duplicates(["stem", "style"]).rename(
-            columns={"n_nodes": "reference_n_nodes"}
-        )
-        # A few metadata stems occur under two conflicting styles.  The
-        # existing RAG fixes the paired experiment's canonical label.
-        records = records.merge(
-            rag[["stem", "style", "reference_n_nodes"]],
-            on=["stem", "style"],
-            how="inner",
-        )
-        log(
-            f"Matched to RAG features: {len(records):,} images, "
-            f"{records['style'].nunique()} styles"
-        )
-    else:
-        records = records.drop_duplicates("stem").copy()
-        records["reference_n_nodes"] = 0
-        log(
-            f"Independent SLIC cohort: {len(records):,} images, "
-            f"{records['style'].nunique()} styles"
-        )
+    records = records.drop_duplicates("stem").copy()
+    records["reference_n_nodes"] = 0
+    log(
+        f"SLIC cohort: {len(records):,} images, "
+        f"{records['style'].nunique()} styles"
+    )
     records = stratified_sample(records, args.sample_per_style, args.seed)
 
     existing_rows: list[dict] = []

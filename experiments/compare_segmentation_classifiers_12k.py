@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import LabelEncoder
 
-from compare_fusion_classifiers import DEVICE, evaluate_mlp, evaluate_xgb
+from model_evaluation import DEVICE, evaluate_mlp, evaluate_xgb
 from compare_segmentations_pilot import (
     METHOD_PATHS,
     WINNERS_CSV,

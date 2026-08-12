@@ -16,7 +16,6 @@ pré-treinadas.
 - `data/`, `wikiart/`, `raw/` e `outputs/`: dados, caches, modelos e artefatos
   de execução locais — não são versionados;
 - `conversa.md`: estado compartilhado entre as conversas de pesquisa;
-- `HANDOFF.md`: decisões e detalhes históricos do pipeline SLIC.
 
 ## Ambiente e dados
 

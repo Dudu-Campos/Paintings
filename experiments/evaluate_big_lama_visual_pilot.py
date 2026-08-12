@@ -129,7 +129,7 @@ def main() -> None:
     labels = encoder.fit_transform(frame["style"].astype(str))
     splits = list(StratifiedKFold(5, shuffle=True, random_state=42).split(np.zeros(len(labels)), labels))
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from compare_fusion_classifiers import evaluate_mlp, evaluate_xgb
+    from model_evaluation import evaluate_mlp, evaluate_xgb
 
     evaluators = {
         "LDA": lambda values: lda_scores(values.astype(np.float64), labels, splits),

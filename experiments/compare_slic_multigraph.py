@@ -62,22 +62,14 @@ def main() -> None:
         "--graph-dir", type=Path,
         default=Path("outputs/wikiart_slic_features"),
     )
-    parser.add_argument(
-        "--legacy-rag", type=Path,
-        default=Path("outputs/wikiart_features/graph_features.parquet"),
-    )
     parser.add_argument("--folds", type=int, default=5)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument(
         "--output", type=Path,
-        default=Path("paper/results_slic_multigraph_full.csv"),
+        default=Path("results/results_slic_multigraph_full.csv"),
     )
     args = parser.parse_args()
 
-    legacy_raw = pd.read_parquet(
-        args.legacy_rag, columns=["stem", "style"] + RAG_FEATURES
-    ).drop_duplicates("stem")
-    legacy = legacy_raw.set_index(legacy_raw["stem"].astype(str))
     frames = {
         "SLIC-RAG": load(args.graph_dir / "graph_features.parquet", RAG_FEATURES),
         "SLIC-kNN": load(args.graph_dir / "knn_features.parquet", KNN_FEATURES),
@@ -87,10 +79,12 @@ def main() -> None:
         "SLIC-MST": load(args.graph_dir / "mst_features.parquet", RAG_FEATURES),
     }
 
-    common = set(legacy.index)
-    for frame in frames.values():
-        common &= set(frame.index)
-    cohort = legacy.loc[sorted(common), ["stem", "style"]].copy()
+    common = set.intersection(*(set(frame.index) for frame in frames.values()))
+    metadata = pd.read_csv("data/artemis/wikiart_meta.csv")
+    labels = dict(zip(metadata["stem"].astype(str), metadata["style"].astype(str)))
+    cohort = pd.DataFrame({"stem": sorted(common)})
+    cohort["style"] = cohort["stem"].map(labels)
+    cohort = cohort.dropna(subset=["style"]).copy()
     counts = cohort["style"].value_counts()
     cohort = cohort[cohort["style"].isin(counts[counts >= args.folds].index)]
     stems = cohort["stem"].astype(str).tolist()
@@ -98,7 +92,6 @@ def main() -> None:
     n_classes = len(np.unique(y))
 
     matrices = {
-        "Percolation RAG": legacy.loc[stems, RAG_FEATURES].to_numpy(float),
         "SLIC-RAG": frames["SLIC-RAG"].loc[stems, RAG_FEATURES].to_numpy(float),
         "SLIC-kNN": frames["SLIC-kNN"].loc[stems, KNN_FEATURES].to_numpy(float),
         "SLIC-Delaunay": frames["SLIC-Delaunay"].loc[stems, RAG_FEATURES].to_numpy(float),

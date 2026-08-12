@@ -17,7 +17,7 @@ Saída:
 Uso:
     python src/baselines/extract_hilbert_features.py \
         --image_dir raw/images \
-        --meta meta/meta.csv \
+        --meta data/artemis/wikiart_meta.csv \
         --output outputs/features \
         --workers 32
 """

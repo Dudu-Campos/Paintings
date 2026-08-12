@@ -10,8 +10,8 @@ CNN ResNet50 (2048 feat):
 Mesmo protocolo do compare_wikiart.py (5-fold, BS=4096, epochs=150, patience=15).
 
 Saída:
-  paper/results_topk_curve_wikiart.csv
-  paper/topk_curve_wikiart.png
+  results/results_topk_curve_wikiart.csv
+  results/topk_curve_wikiart.png
 """
 import time
 from pathlib import Path
@@ -33,8 +33,8 @@ ROOT     = Path(__file__).parent.parent
 FEAT_DIR = ROOT / 'outputs/wikiart_features'
 GRAPH_DIR = ROOT / 'outputs/wikiart_slic_features'
 META_CSV = ROOT / 'data/artemis/wikiart_meta.csv'
-OUT_CSV  = Path(__file__).parent / 'results_topk_curve_wikiart.csv'
-OUT_PNG  = Path(__file__).parent / 'topk_curve_wikiart.png'
+OUT_CSV  = ROOT / 'results' / 'results_topk_curve_wikiart.csv'
+OUT_PNG  = ROOT / 'results' / 'topk_curve_wikiart.png'
 
 DEVICE   = 'cuda' if torch.cuda.is_available() else 'cpu'
 SEED     = 42

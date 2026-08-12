@@ -39,7 +39,7 @@ slic_features:
 		--compactness $(SLIC_COMPACTNESS) \
 		--workers $(SLIC_WORKERS)
 
-# Backwards-compatible target name; no percolation/coarsening is performed.
+# Alias for the primary feature target.
 features: slic_features
 
 ## Global image remains the existing feature table; extract only its four fixed quadrants.

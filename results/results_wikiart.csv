@@ -1,3 +1,0 @@
-method,n_feat,lda_bacc_mean,lda_bacc_std,lda_acc_mean,lda_acc_std,lda_f1_mean,lda_f1_std,mlp_bacc_mean,mlp_bacc_std,mlp_acc_mean,mlp_acc_std,mlp_f1_mean,mlp_f1_std
-Pipeline (RAG+Hil+Del+Sent+kNN),158,0.3104,0.0075,0.2493,0.0032,0.2133,0.0020,0.3808,0.0099,0.2893,0.0074,0.2599,0.0053
-CNN ResNet50,2048,0.5206,0.0081,0.4769,0.0031,0.4672,0.0053,0.5315,0.0065,0.4769,0.0064,0.4861,0.0085

@@ -1,13 +1,8 @@
-# Binários compilados
-coarse2
-eps_star_ssim
-
 # Dados e outputs (ficam só no disco)
 raw/
 wikiart/
 outputs/*
 logs/
-coarsening_results/
 
 # Metadados e subconjuntos derivados localmente.  Os scripts em src/data/
 # reconstroem estes artefatos; apenas metadados de fontes externas curados

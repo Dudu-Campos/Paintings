@@ -13,7 +13,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import LabelEncoder
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from compare_fusion_classifiers import evaluate_mlp, evaluate_xgb  # noqa: E402
+from model_evaluation import evaluate_mlp, evaluate_xgb  # noqa: E402
 from evaluate_big_lama_visual_pilot import lda_scores, load_representation  # noqa: E402
 from evaluate_super_resolution_pilot import load_original  # noqa: E402
 

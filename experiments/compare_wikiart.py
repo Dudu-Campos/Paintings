@@ -278,7 +278,7 @@ def main():
     log(f'device={DEVICE}  task={args.task}')
     X_pipe, X_cnn, X_clip, y = load_features(args.task)
 
-    out_csv = Path(__file__).parent / f'results_wikiart_{args.task}.csv'
+    out_csv = ROOT / 'results' / f'compare_wikiart_{args.task}.csv'
     configs = [
         ('Pipeline SLIC (RAG+kNN+Del+Hil+Desc+Sent)', X_pipe, None),
         ('CNN ResNet50 (2048 feat)',              X_cnn,  None),

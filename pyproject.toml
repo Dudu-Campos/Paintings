@@ -1,7 +1,7 @@
 [project]
 name = "paintings"
 version = "0.1.0"
-description = "Pipeline de percolação cromática de pinturas -> grafos -> features estruturais (CNA 2026)"
+description = "Classificação de estilos de pintura por representações visuais estruturadas (CNA 2026)"
 requires-python = ">=3.11"
 dependencies = [
     "numpy",
