@@ -40,6 +40,7 @@ __pycache__/
 .venv/
 .venv-*/
 venv/
+.tools/
 
 # Configuração local de assistentes/editores (não é configuração do projeto).
 .claude/settings.local.json
