@@ -4,9 +4,9 @@ set -euo pipefail
 cd /exp/duducampos/Paintings
 PYTHON=.venv-rtx3090-py312/bin/python
 ROOT=outputs/super_resolution_3k
-SAMPLE=paper/super_resolution_3k_sample.csv
+SAMPLE=results/super_resolution_3k_sample.csv
 
-"$PYTHON" paper/prepare_super_resolution_pilot.py \
+"$PYTHON" experiments/prepare_super_resolution_pilot.py \
   --sample "$SAMPLE" \
   --output-root "$ROOT"
 
@@ -39,13 +39,13 @@ for condition in normalized_1024 bicubic_x2 realesrgan_x2; do
 done
 for pid in "${pids[@]}"; do wait "$pid"; done
 
-"$PYTHON" paper/evaluate_super_resolution_pilot.py \
+"$PYTHON" experiments/evaluate_super_resolution_pilot.py \
   --sample "$ROOT/sample.csv" \
   --feature-root "$ROOT/features" \
-  --output paper/super_resolution_3k_results.csv
+  --output results/super_resolution_3k_results.csv
 
-"$PYTHON" paper/evaluate_super_resolution_branches.py \
+"$PYTHON" experiments/evaluate_super_resolution_branches.py \
   --root "$ROOT" \
-  --output paper/super_resolution_3k_branch_results.csv
+  --output results/super_resolution_3k_branch_results.csv
 
 echo "super-resolution 3k pipeline complete"

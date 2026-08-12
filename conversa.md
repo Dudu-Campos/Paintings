@@ -4,6 +4,10 @@ Resumo breve para manter os chats alinhados. Projeto: classificação de 27 esti
 de pintura WikiArt, comparando nosso método visual interpretável com controles
 CNN e métodos de *related work*.
 
+> **Organização (12/ago/2026):** caminhos históricos `paper/*.py` agora são
+> `experiments/*.py`; resultados históricos `paper/*` estão em `results/*`.
+> `paper` permanece como atalho de compatibilidade apenas para resultados.
+
 ## Dados e protocolo
 
 - WikiArt: 79.936 imagens rotuladas; 5-fold estratificado, com 10% do treino

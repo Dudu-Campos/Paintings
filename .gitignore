@@ -56,16 +56,16 @@ nohup.out
 *.pdf
 
 # Intermediários grandes de avaliação.  As tabelas resumidas, figuras e scripts
-# em paper/ são versionados; caches, vetores por imagem e predições OOF são
+# em results/ são versionados; caches, vetores por imagem e predições OOF são
 # reconstituíveis e ficam somente no disco de execução.
-paper/cache_*/
-paper/*_features.parquet
-paper/*_predictions.csv
-paper/*_sample.csv
-paper/*_audit.csv
-paper/*_permutation_raw.csv
-paper/*_cohort.csv
-paper/*_pairs.csv
-paper/*.npy
-paper/*.npz
-paper/.patch_probe
+results/cache_*/
+results/*_features.parquet
+results/*_predictions.csv
+results/*_sample.csv
+results/*_audit.csv
+results/*_permutation_raw.csv
+results/*_cohort.csv
+results/*_pairs.csv
+results/*.npy
+results/*.npz
+results/.patch_probe

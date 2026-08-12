@@ -15,7 +15,7 @@ cd /exp/duducampos/Paintings
 .venv-rtx3090-py312/bin/python \
   src/affect/generate_prompt_ablation_wikiart_fast.py \
   --output outputs/affect_captions/qwen_prompt_ablation_500_per_style.jsonl \
-  --sample_csv paper/qwen_prompt_ablation_sample.csv \
+  --sample_csv results/qwen_prompt_ablation_sample.csv \
   --max_per_style 500 \
   --batch_size 4 \
   --max_new_tokens 64

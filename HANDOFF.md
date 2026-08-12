@@ -3,7 +3,7 @@
 > **Nota de organização (12 de agosto de 2026).** Este arquivo preserva as
 > decisões e a migração histórica para SLIC. Para o estado experimental atual,
 > resultados consolidados e coordenação entre máquinas, use `conversa.md` e
-> `paper/metodos_final.csv`. Dados, caches e outputs pesados são locais e ficam
+> `results/metodos_final.csv`. Dados, caches e outputs pesados são locais e ficam
 > ignorados pelo Git.
 
 Atualizado originalmente em 10 de agosto de 2026, durante a migração do
@@ -156,7 +156,7 @@ outputs/wikiart_features/        baselines e resultados legados
 - `src/pipeline/slic_graph_features.py`: segmentação SLIC e piloto pareado;
 - `src/pipeline/graph_feature_utils.py`: grafos e agregados independentes da
   segmentação;
-- `paper/compare_slic_rag.py`: comparação pareada usada na decisão;
+- `experiments/compare_slic_rag.py`: comparação pareada usada na decisão;
 - `Makefile`: SLIC é o alvo padrão.
 
 Os scripts históricos da percolação permanecem apenas como legado para

@@ -8,7 +8,10 @@ pré-treinadas.
 ## Estrutura
 
 - `src/`: extração de dados/features, baselines e visualizações;
-- `paper/`: scripts de avaliação, tabelas resumidas e figuras do artigo;
+- `experiments/`: scripts de avaliação, comparação e geração de figuras;
+- `results/`: tabelas agregadas e figuras versionadas;
+- `paper/`: atalho de compatibilidade para `results/`; não adicionar código
+  novo ali;
 - `meta/`: metadados pequenos mantidos no repositório;
 - `data/`, `wikiart/`, `raw/` e `outputs/`: dados, caches, modelos e artefatos
   de execução locais — não são versionados;
@@ -44,9 +47,9 @@ antes de executar uma extração longa.
 
 ## Resultados
 
-`paper/metodos_final.csv` é a tabela compacta de métodos consolidados.
-Resultados e figuras adicionais são mantidos junto dos scripts que os geram em
-`paper/`; o índice de reprodução está em `paper/README.md`.
+`results/metodos_final.csv` é a tabela compacta de métodos consolidados.
+Resultados e figuras adicionais ficam em `results/`; os scripts que os geram e
+o índice de reprodução ficam em `experiments/README.md`.
 
 O protocolo principal usa validação cruzada estratificada de cinco folds, com
 balanced accuracy como métrica primária. Não compare resultados de coortes

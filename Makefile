@@ -63,12 +63,12 @@ quadrant_features:
 ## Gatys-style compact Gram baseline (frozen VGG-19; related-work adaptation).
 gatys_gram:
 	$(PYTHON) src/baselines/extract_gatys_compact_gram.py
-	$(PYTHON) paper/evaluate_gatys_compact_gram_mlp.py
+	$(PYTHON) experiments/evaluate_gatys_compact_gram_mlp.py
 
 ## Paired frozen VGG controls for the compact Gatys Gram representation.
 vgg_pool:
 	$(PYTHON) src/baselines/extract_vgg_pool_features.py
-	$(PYTHON) paper/evaluate_vgg_pool_mlp.py
+	$(PYTHON) experiments/evaluate_vgg_pool_mlp.py
 
 ## Controlled image perturbations for modality-invariance diagnostics.
 robustness_dataset:

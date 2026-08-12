@@ -16,4 +16,4 @@ done
     --log-every 100
 
 exec /exp/duducampos/Paintings/.venv-rtx3090-py312/bin/python \
-    /exp/duducampos/Paintings/paper/evaluate_catr_coco.py
+    /exp/duducampos/Paintings/experiments/evaluate_catr_coco.py
