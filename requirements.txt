@@ -1,0 +1,40 @@
+# Runtime target: Python 3.11 or newer.
+#
+# This file mirrors the core project dependencies and all optional pipelines
+# declared in pyproject.toml, so a fresh server can reproduce every workflow.
+
+# Core pipeline
+numpy
+pandas
+scikit-learn
+scikit-image
+networkx
+matplotlib
+xgboost
+h5py
+pillow
+requests
+imagehash
+transformers>=5.12.1
+vllm>=0.23.0
+
+# CNN and feature-extractor baselines
+torch
+torchvision
+lightgbm
+open-clip-torch
+
+# Affective-caption pipeline
+timm
+peft
+
+# Vision-language description pipeline
+qwen-vl-utils
+kagglehub
+
+# Image-caption fine-tuning pipeline
+datasets
+evaluate
+rouge-score
+nltk
+accelerate

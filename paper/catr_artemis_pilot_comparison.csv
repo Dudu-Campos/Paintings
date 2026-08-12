@@ -1,0 +1,6 @@
+affect_cue_image_rate,condition,cross_image_reused_sentence_rate,explicit_reaction_image_rate,images,mean_sentences,mean_words,repeated_exact_sentence_image_rate,repeated_trigram_image_rate,sep_termination_rate,unique_caption_rate
+0.0,CATR COCO baseline,0.01,0.0,200,1.0,10.5,0.0,0.065,,0.995
+0.02,Long concatenated target,0.75,0.0,200,4.265,44.15,0.1,0.995,0.995,1.0
+0.01,Independent + conservative replay,0.02,0.0,200,3.035,32.805,0.0,0.58,1.0,1.0
+0.115,Independent human-only full decoder,0.01,0.04,200,3.2,39.065,0.0,0.21,0.995,1.0
+0.6666666666666666,Old emotional model,1.0,0.23232323232323232,198,23.782828282828284,222.77272727272728,0.9949494949494949,1.0,,1.0

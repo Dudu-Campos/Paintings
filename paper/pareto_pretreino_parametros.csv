@@ -1,0 +1,9 @@
+method,family,bacc,parameters,pareto
+GIST (hand-crafted) + MLP,Hand-crafted,0.452248,400795,True
+VGG-19 conv_5 GAP + MLP,VGG pooled,0.458274,824027,True
+VGG-19 final GAP + MLP,VGG pooled,0.491821,20325851,False
+Gatys compact Gram + MLP,Gatys Gram,0.5148,1129179,True
+Frozen ResNet-50 linear,ResNet,0.554631,23563355,False
+Frozen ResNet-50 + MLP,ResNet,0.530207,24006107,False
+GIST + frozen ResNet-50,Fusion,0.55481,24236891,False
+Fine-tuned ResNet-50,ResNet,0.627181,23563355,True

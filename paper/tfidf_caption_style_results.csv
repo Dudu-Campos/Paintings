@@ -1,0 +1,2 @@
+representation,n_images,n_styles,max_features,min_df,svm_c,bacc_oof,bacc_fold_mean,bacc_fold_std,accuracy_oof,macro_f1_oof
+cleaned_binary_tfidf_unigram_bigram,79207,27,50000,10,0.1,0.23492617416122663,0.23498609182315439,0.001548597605258773,0.1853876551314909,0.15673436900712834

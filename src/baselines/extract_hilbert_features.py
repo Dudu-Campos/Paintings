@@ -25,11 +25,15 @@ import argparse
 import time
 from multiprocessing import Pool
 from pathlib import Path
+import sys
 
 import numpy as np
 import pandas as pd
 from PIL import Image
 from skimage import color
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'pipeline'))
+from slic_graph_features import REGIONS, crop_to_region
 
 N_SIZE = 128
 N_BANDS = 8
@@ -67,10 +71,11 @@ def _init_worker(rows, cols):
 
 
 def _extract_one(args):
-    stem, img_path = args
+    stem, img_path, region = args
     global _hilbert_rows, _hilbert_cols
     try:
-        img = Image.open(img_path).convert('RGB')
+        with Image.open(img_path) as opened:
+            img = crop_to_region(opened.convert('RGB'), region)
         img = img.resize((N_SIZE, N_SIZE), Image.BILINEAR)
         arr = np.array(img, dtype=np.float32) / 255.0
         lab = color.rgb2lab(arr).astype(np.float32)  # (128, 128, 3)
@@ -99,30 +104,46 @@ def _extract_one(args):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--image_dir', required=True)
-    parser.add_argument('--meta',      required=True)
+    parser.add_argument('--meta',      help='Metadata CSV with filename (omit with --manifest)')
+    parser.add_argument('--manifest',  help='Derived-image manifest with sample_id/image_relative_path')
     parser.add_argument('--output',    required=True)
     parser.add_argument('--workers',   type=int, default=32)
+    parser.add_argument('--region', choices=REGIONS, default='global')
     args = parser.parse_args()
 
-    meta = pd.read_csv(args.meta)
     image_dir = Path(args.image_dir)
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
 
-    tasks = []
-    for _, row in meta.iterrows():
-        stem = str(row['filename']).split('.')[0]
-        for ext in ('.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'):
-            p = image_dir / (stem + ext)
-            if p.exists():
-                tasks.append((stem, str(p)))
-                break
+    if bool(args.meta) == bool(args.manifest):
+        parser.error('provide exactly one of --meta or --manifest')
+    if args.manifest:
+        manifest = pd.read_csv(args.manifest)
+        required = {'sample_id', 'image_relative_path'}
+        missing = required - set(manifest.columns)
+        if missing:
+            parser.error(f'manifest missing columns: {sorted(missing)}')
+        tasks = [
+            (str(sample_id), str(image_dir / relative_path), args.region)
+            for sample_id, relative_path in manifest[['sample_id', 'image_relative_path']].itertuples(index=False)
+        ]
+        if any(not Path(path).is_file() for _, path, _ in tasks):
+            parser.error('manifest references missing images')
+    else:
+        meta = pd.read_csv(args.meta)
+        # build stem → path index (suporta subdirs como raw/wikiart/<Style>/)
+        stem_to_path = {}
+        for p in image_dir.rglob('*'):
+            if p.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp'):
+                stem_to_path[p.stem] = str(p)
+        meta_stems = set(Path(str(r)).stem for r in meta['filename'])
+        tasks = [(s, stem_to_path[s], args.region) for s in meta_stems if s in stem_to_path]
 
     rows, cols = _build_hilbert_indices(N_SIZE)
 
     t0 = time.time()
     log = lambda msg: print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
-    log(f"{len(tasks)} imagens, {args.workers} workers")
+    log(f"{len(tasks)} imagens ({args.region}), {args.workers} workers")
 
     stems_out, feats_out = [], []
     with Pool(args.workers, initializer=_init_worker, initargs=(rows, cols)) as pool:

@@ -1,0 +1,4 @@
+method,family,bacc,wall_minutes,time_type,notes,pareto
+Haralick + HOG + MLP,Baseline clássico,0.226822,16.024283,measured,12.2 min feature extraction plus measured MLP cross-validation.,True
+Nosso método visual,Visual interpretável,0.452248,63.907251,estimated,"SLIC + descriptors + Hilbert preparation, then MLP CV.",True
+ResNet-50 do zero,CNN do zero,0.423435,681.376667,measured,Five-fold end-to-end training from random initialization; data augmentation.,False

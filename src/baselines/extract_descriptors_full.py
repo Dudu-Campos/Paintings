@@ -19,16 +19,16 @@ from skimage import color as skcolor
 from skimage.feature import local_binary_pattern, graycomatrix, graycoprops
 from scipy.stats import skew
 
-IMAGE_DIR  = Path('./raw/images')
-META_PATH  = Path('./meta/meta.csv')
-OUT_FEATS  = Path('./plots_v3/desc_full_features.npy')
-OUT_STEMS  = Path('./plots_v3/desc_full_stems.npy')
-TARGET     = 128
-N_WORKERS  = 32
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'pipeline'))
+from slic_graph_features import REGIONS, crop_to_region
 
-def extract(path: Path):
+TARGET     = 128
+
+def extract(task: tuple[str, Path, str]):
+    stem, path, region = task
     try:
-        img = Image.open(path).convert('RGB')
+        with Image.open(path) as opened:
+            img = crop_to_region(opened.convert('RGB'), region)
         # Redimensionar
         w, h = img.size
         if w > TARGET or h > TARGET:
@@ -74,29 +74,63 @@ def extract(path: Path):
         feat_har = np.array(feat_har[:13], dtype=np.float32)
 
         feat = np.concatenate([feat_hist, feat_stats, feat_lbp, feat_har])
-        return path.stem, feat
+        return stem, feat
     except Exception:
-        return path.stem, None
+        return stem, None
 
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
 if __name__ == '__main__':
-    meta = pd.read_csv(META_PATH)
-    stems_meta = set(Path(f).stem for f in meta['filename'])
-    paths = [p for p in IMAGE_DIR.glob('*.jpg') if p.stem in stems_meta]
-    log(f'{len(paths):,} imagens para processar com {N_WORKERS} workers')
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--image_dir', required=True)
+    ap.add_argument('--meta',      help='Metadata CSV with filename (omit with --manifest)')
+    ap.add_argument('--manifest',  help='Derived-image manifest with sample_id/image_relative_path')
+    ap.add_argument('--output',    required=True)
+    ap.add_argument('--workers',   type=int, default=32)
+    ap.add_argument('--region', choices=REGIONS, default='global')
+    args = ap.parse_args()
+
+    OUT_FEATS = Path(args.output) / 'desc_full_features.npy'
+    OUT_STEMS = Path(args.output) / 'desc_full_stems.npy'
+    Path(args.output).mkdir(parents=True, exist_ok=True)
+    N_WORKERS = args.workers
+
+    if bool(args.meta) == bool(args.manifest):
+        ap.error('provide exactly one of --meta or --manifest')
+    if args.manifest:
+        manifest = pd.read_csv(args.manifest)
+        required = {'sample_id', 'image_relative_path'}
+        missing = required - set(manifest.columns)
+        if missing:
+            ap.error(f'manifest missing columns: {sorted(missing)}')
+        paths = [Path(args.image_dir) / path for path in manifest['image_relative_path']]
+        missing_paths = [path for path in paths if not path.is_file()]
+        if missing_paths:
+            ap.error(f'manifest references {len(missing_paths):,} missing images')
+        tasks = [
+            (str(sample_id), path, args.region)
+            for sample_id, path in zip(manifest['sample_id'], paths, strict=True)
+        ]
+    else:
+        meta = pd.read_csv(args.meta)
+        stems_meta = set(Path(f).stem for f in meta['filename'])
+        stem_to_path = {p.stem: p for p in Path(args.image_dir).rglob('*')
+                        if p.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp')}
+        tasks = [(s, stem_to_path[s], args.region) for s in stems_meta if s in stem_to_path]
+    log(f'{len(tasks):,} imagens ({args.region}) para processar com {N_WORKERS} workers')
 
     stems_out, feats_out = [], []
     t0 = time.time()
     with mp.Pool(N_WORKERS) as pool:
-        for i, (stem, feat) in enumerate(pool.imap_unordered(extract, paths, chunksize=50)):
+        for i, (stem, feat) in enumerate(pool.imap_unordered(extract, tasks, chunksize=50)):
             if feat is not None:
                 stems_out.append(stem)
                 feats_out.append(feat)
             if (i+1) % 5000 == 0:
                 elapsed = time.time() - t0
-                log(f'{i+1:,}/{len(paths):,}  ({elapsed/60:.1f} min)')
+                log(f'{i+1:,}/{len(tasks):,}  ({elapsed/60:.1f} min)')
 
     X = np.stack(feats_out, axis=0)
     stems_arr = np.array(stems_out)

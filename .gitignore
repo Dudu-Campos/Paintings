@@ -4,8 +4,16 @@ eps_star_ssim
 
 # Dados e outputs (ficam só no disco)
 raw/
+wikiart/
 outputs/*
 logs/
+coarsening_results/
+
+# Metadados e subconjuntos derivados localmente.  Os scripts em src/data/
+# reconstroem estes artefatos; apenas metadados de fontes externas curados
+# manualmente devem ser adicionados explicitamente.
+data/wikiart_all_images.csv
+data/wikiart_robustness*/
 
 # Exceção: descrições geradas pelo SLM são versionadas
 !outputs/slm_descriptions/
@@ -23,13 +31,18 @@ data/coco/
 # Datasets ArtEmis (labels) + WikiArt (imagens) — cada servidor baixa sua cópia
 data/artemis/
 data/wikiart/
+data/wikiart_robustness*/images/
 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
+.venv-*/
 venv/
+
+# Configuração local de assistentes/editores (não é configuração do projeto).
+.claude/settings.local.json
 
 # Jupyter
 .ipynb_checkpoints/
@@ -38,3 +51,20 @@ venv/
 *.log
 nohup.out
 *.tmp
+*.orig
+*.pdf
+
+# Intermediários grandes de avaliação.  As tabelas resumidas, figuras e scripts
+# em paper/ são versionados; caches, vetores por imagem e predições OOF são
+# reconstituíveis e ficam somente no disco de execução.
+paper/cache_*/
+paper/*_features.parquet
+paper/*_predictions.csv
+paper/*_sample.csv
+paper/*_audit.csv
+paper/*_permutation_raw.csv
+paper/*_cohort.csv
+paper/*_pairs.csv
+paper/*.npy
+paper/*.npz
+paper/.patch_probe

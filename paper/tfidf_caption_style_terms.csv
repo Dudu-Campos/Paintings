@@ -1,0 +1,1216 @@
+style,direction,rank,term,coefficient,document_frequency
+Abstract_Expressionism,positive,1,colors sharp,1.860116339689081,108
+Abstract_Expressionism,positive,2,shapes,1.7411138042575658,5810
+Abstract_Expressionism,positive,3,angular reds,1.4460677874909604,47
+Abstract_Expressionism,positive,4,reds like,1.4277131757919497,60
+Abstract_Expressionism,positive,5,colorful shapes,1.35703092053063,783
+Abstract_Expressionism,positive,6,orange like,1.0736723261659333,141
+Abstract_Expressionism,positive,7,green like,0.9264704067663521,294
+Abstract_Expressionism,positive,8,strokes,0.8818641847210255,1085
+Abstract_Expressionism,positive,9,shapes fluid,0.8740647822932184,136
+Abstract_Expressionism,positive,10,yellow like,0.7413140611084911,244
+Abstract_Expressionism,positive,11,confusing,0.7202139183360139,210
+Abstract_Expressionism,positive,12,like blood,0.6806211899452905,154
+Abstract_Expressionism,positive,13,fluid angular,0.6112414011740785,81
+Abstract_Expressionism,positive,14,sharp,0.5540889548701983,1090
+Abstract_Expressionism,positive,15,chaotic,0.5443387294560165,79
+Abstract_Expressionism,positive,16,white colors,0.5275955264450685,1136
+Abstract_Expressionism,positive,17,shapes like,0.526091520431746,225
+Abstract_Expressionism,positive,18,bright colorful,0.5211973043250513,1477
+Abstract_Expressionism,positive,19,paint,0.5177585116342212,81
+Abstract_Expressionism,positive,20,happening,0.4859471946573159,243
+Abstract_Expressionism,positive,21,like dead,0.4779852834050418,176
+Abstract_Expressionism,positive,22,greens interesting,0.47483966593829124,145
+Abstract_Expressionism,positive,23,blood,0.47139227460396427,215
+Abstract_Expressionism,positive,24,red orange,0.4631130956089494,274
+Abstract_Expressionism,positive,25,colors,0.4614012864941562,60325
+Abstract_Expressionism,positive,26,reds greens,0.45625874980525066,511
+Abstract_Expressionism,positive,27,orange colors,0.4494058195873523,283
+Abstract_Expressionism,positive,28,dead body,0.438759843772612,51
+Abstract_Expressionism,positive,29,boring shapes,0.41971546167641915,123
+Abstract_Expressionism,positive,30,reds,0.41552952760847506,1570
+Abstract_Expressionism,negative,1,shapes interesting,-0.6711308975498398,1127
+Abstract_Expressionism,negative,2,man,-0.5759382322086813,19872
+Abstract_Expressionism,negative,3,sky,-0.549935907970654,14305
+Abstract_Expressionism,negative,4,woman,-0.5099293783895541,21498
+Abstract_Expressionism,negative,5,people,-0.46534675396877445,12087
+Abstract_Expressionism,negative,6,trees,-0.4430080766591771,7569
+Abstract_Expressionism,negative,7,flowers,-0.3304350449417405,3151
+Abstract_Expressionism,negative,8,shapes simple,-0.3170616839120089,1793
+Abstract_Expressionism,negative,9,orange yellow,-0.29616459291013114,242
+Abstract_Expressionism,negative,10,detailed,-0.2842662005567762,2954
+Abstract_Expressionism,negative,11,background,-0.27260936422390203,18693
+Abstract_Expressionism,negative,12,interesting interesting,-0.25654440387266725,119
+Abstract_Expressionism,negative,13,peaceful,-0.24851130311898373,12356
+Abstract_Expressionism,negative,14,table,-0.23747523738907145,678
+Abstract_Expressionism,negative,15,figures,-0.2092900000308175,1252
+Action_painting,positive,1,flower greens,4.160408360705212,10
+Action_painting,positive,2,uninteresting colors,3.497129893644274,10
+Action_painting,positive,3,confused,3.0728804944971873,29
+Action_painting,positive,4,ghost haunting,3.065176762069746,25
+Action_painting,positive,5,sharp red,3.040457968897746,17
+Action_painting,positive,6,painted shapes,2.779639883541259,13
+Action_painting,positive,7,like lot,2.7657464826662808,26
+Action_painting,positive,8,sad shapes,2.6990523572719027,19
+Action_painting,positive,9,giant clock,2.6669508017459997,20
+Action_painting,positive,10,burning background,2.606449960853571,14
+Action_painting,positive,11,ghostly figure,2.327006429964001,48
+Action_painting,positive,12,like knife,2.318455665741954,10
+Action_painting,positive,13,leaves like,2.3125969586984993,236
+Action_painting,positive,14,demon trying,2.223265831408004,38
+Action_painting,positive,15,dying leaves,2.202686588347431,20
+Action_painting,positive,16,panic,2.2024971169815055,15
+Action_painting,positive,17,going don,2.1011250875797014,12
+Action_painting,positive,18,die black,2.088571267769223,11
+Action_painting,positive,19,angular brush,2.062428648254161,11
+Action_painting,positive,20,chaotic shapes,2.0011470052352287,18
+Action_painting,positive,21,sharp lines,1.9819946790335448,101
+Action_painting,positive,22,artist use,1.977330320267169,10
+Action_painting,positive,23,storm coming,1.9586868291379333,696
+Action_painting,positive,24,brush strokes,1.9384333096810107,1054
+Action_painting,positive,25,expression peaceful,1.893454218723324,49
+Action_painting,positive,26,pleasing black,1.8785253592651132,10
+Action_painting,positive,27,person deep,1.841376863666158,23
+Action_painting,positive,28,missing like,1.8395616313754668,20
+Action_painting,positive,29,blanket,1.8175838092092036,25
+Action_painting,positive,30,like like,1.7984213170571515,24
+Action_painting,negative,1,pain,-1.7226740726242609,10264
+Action_painting,negative,2,gloomy,-1.0159816150558212,4231
+Action_painting,negative,3,dull lack,-0.9489786445910748,105
+Action_painting,negative,4,muted brush,-0.9291716193374748,148
+Action_painting,negative,5,green,-0.6552373547874089,4020
+Action_painting,negative,6,dark colors,-0.6264053251891833,12078
+Action_painting,negative,7,muted,-0.5187496080522777,9166
+Action_painting,negative,8,red orange,-0.5151030210709254,274
+Action_painting,negative,9,figure scary,-0.4959164210101052,238
+Action_painting,negative,10,straight,-0.47527961539003816,1334
+Action_painting,negative,11,background dark,-0.4564466657228683,11001
+Action_painting,negative,12,boring,-0.37891748681696613,1008
+Action_painting,negative,13,dark dark,-0.3762868674874599,1597
+Action_painting,negative,14,pleasing,-0.35352791430176994,1146
+Action_painting,negative,15,people,-0.34122441757597666,12087
+Analytical_Cubism,positive,1,peaceful moment,3.13541224240672,14
+Analytical_Cubism,positive,2,wearing mask,3.0659894311246805,11
+Analytical_Cubism,positive,3,battle man,2.840378930616305,13
+Analytical_Cubism,positive,4,overly complex,2.748347121964117,13
+Analytical_Cubism,positive,5,calming artist,2.680261434475813,33
+Analytical_Cubism,positive,6,naked women,2.5461875515454055,10
+Analytical_Cubism,positive,7,shapes,2.515736478313008,5810
+Analytical_Cubism,positive,8,intimidating like,2.4580012694526587,11
+Analytical_Cubism,positive,9,job creating,2.36310095923645,27
+Analytical_Cubism,positive,10,place brush,2.291081735108458,11
+Analytical_Cubism,positive,11,hand dark,2.290749469712387,25
+Analytical_Cubism,positive,12,scary place,2.218289587121511,17
+Analytical_Cubism,positive,13,colors unsettling,2.1969728759074,22
+Analytical_Cubism,positive,14,uncluttered background,2.185882844863793,19
+Analytical_Cubism,positive,15,shiny,2.1414998692034004,14
+Analytical_Cubism,positive,16,use different,2.1187621185871994,93
+Analytical_Cubism,positive,17,forest colors,2.0914700535719266,27
+Analytical_Cubism,positive,18,white black,2.0805865232593512,36
+Analytical_Cubism,positive,19,brown,2.0351526301913396,214
+Analytical_Cubism,positive,20,blended like,2.0301183488249626,21
+Analytical_Cubism,positive,21,subject relaxed,1.9998129161667826,20
+Analytical_Cubism,positive,22,man,1.9934152646544923,19872
+Analytical_Cubism,positive,23,foggy,1.982028583682851,27
+Analytical_Cubism,positive,24,fish fish,1.9283463701125505,34
+Analytical_Cubism,positive,25,texture,1.8684143378188611,59
+Analytical_Cubism,positive,26,geometric blue,1.8408432610881513,60
+Analytical_Cubism,positive,27,coming window,1.7677944264459589,24
+Analytical_Cubism,positive,28,state chaos,1.697805140104154,32
+Analytical_Cubism,positive,29,violent man,1.6953874932768995,30
+Analytical_Cubism,positive,30,detailed subject,1.6893228072522353,42
+Analytical_Cubism,negative,1,bright,-1.105828200400016,21990
+Analytical_Cubism,negative,2,pain woman,-1.0923191447513554,1036
+Analytical_Cubism,negative,3,black,-1.0901192027152777,2355
+Analytical_Cubism,negative,4,yellow,-1.0867189829448811,1879
+Analytical_Cubism,negative,5,calming lines,-0.9810614261977059,561
+Analytical_Cubism,negative,6,interesting green,-0.8379729826294223,48
+Analytical_Cubism,negative,7,bright vibrant,-0.7355914493841552,914
+Analytical_Cubism,negative,8,kill woman,-0.7000399894041258,965
+Analytical_Cubism,negative,9,colorful,-0.6639761169826673,1966
+Analytical_Cubism,negative,10,calming peaceful,-0.6140634252134045,1844
+Analytical_Cubism,negative,11,reds greens,-0.543706994278406,511
+Analytical_Cubism,negative,12,dark colors,-0.518268827240279,12078
+Analytical_Cubism,negative,13,man like,-0.5135165003159994,9601
+Analytical_Cubism,negative,14,shapes dull,-0.482561054420093,75
+Analytical_Cubism,negative,15,bright colors,-0.4429089526804904,3355
+Art_Nouveau_Modern,positive,1,dress bold,0.5774608552408661,114
+Art_Nouveau_Modern,positive,2,lines defined,0.4677878338288458,257
+Art_Nouveau_Modern,positive,3,gold,0.3821869884928217,219
+Art_Nouveau_Modern,positive,4,vibrant man,0.36519058802004417,115
+Art_Nouveau_Modern,positive,5,matter interesting,0.3073092489737941,367
+Art_Nouveau_Modern,positive,6,detailed,0.30025197774159446,2954
+Art_Nouveau_Modern,positive,7,man nose,0.2987101156287789,254
+Art_Nouveau_Modern,positive,8,woman,0.28479716143270617,21498
+Art_Nouveau_Modern,positive,9,dress,0.2819663587619408,3041
+Art_Nouveau_Modern,positive,10,pose,0.2754677942528913,614
+Art_Nouveau_Modern,positive,11,lines face,0.2663299577232001,146
+Art_Nouveau_Modern,positive,12,background detailed,0.2501031238776256,147
+Art_Nouveau_Modern,positive,13,woman holding,0.21592647755206212,1657
+Art_Nouveau_Modern,positive,14,drawn,0.21292710811966467,686
+Art_Nouveau_Modern,positive,15,way holding,0.20390519263348106,770
+Art_Nouveau_Modern,positive,16,trying fight,0.1981970451552471,158
+Art_Nouveau_Modern,positive,17,distorted like,0.19635065166498392,588
+Art_Nouveau_Modern,positive,18,face beautiful,0.18206830499201934,593
+Art_Nouveau_Modern,positive,19,dress beautiful,0.17056765982726063,408
+Art_Nouveau_Modern,positive,20,lines,0.16457762066938064,4247
+Art_Nouveau_Modern,positive,21,background simple,0.1447362211748998,1398
+Art_Nouveau_Modern,positive,22,holding,0.14380850098864842,6066
+Art_Nouveau_Modern,positive,23,white colors,0.13869925805998898,1136
+Art_Nouveau_Modern,positive,24,simple colors,0.1364033150916419,1559
+Art_Nouveau_Modern,positive,25,wearing red,0.13628305258492324,921
+Art_Nouveau_Modern,positive,26,beautiful way,0.13444706903229214,374
+Art_Nouveau_Modern,positive,27,giant,0.13377843092068778,1062
+Art_Nouveau_Modern,positive,28,colors vibrant,0.13261148845886758,1119
+Art_Nouveau_Modern,positive,29,exciting man,0.1258881426185671,52
+Art_Nouveau_Modern,positive,30,figure,0.12240807749772387,4273
+Art_Nouveau_Modern,negative,1,shapes,-0.23355272762891127,5810
+Art_Nouveau_Modern,negative,2,baby,-0.16203215660720496,1213
+Art_Nouveau_Modern,negative,3,like deep,-0.15779782015614527,4207
+Art_Nouveau_Modern,negative,4,sky,-0.13325393187778284,14305
+Art_Nouveau_Modern,negative,5,straight,-0.12281177162861596,1334
+Art_Nouveau_Modern,negative,6,background dark,-0.12008750015593654,11001
+Art_Nouveau_Modern,negative,7,blue,-0.08487438406494997,7030
+Art_Nouveau_Modern,negative,8,woman body,-0.07677179510884292,655
+Art_Nouveau_Modern,negative,9,brush strokes,-0.07599148243315361,1054
+Art_Nouveau_Modern,negative,10,dark colors,-0.07533778601181282,12078
+Art_Nouveau_Modern,negative,11,subject detailed,-0.06603631858469075,174
+Art_Nouveau_Modern,negative,12,ready,-0.06417712262055365,961
+Art_Nouveau_Modern,negative,13,praying,-0.06259792203659,905
+Art_Nouveau_Modern,negative,14,appears pain,-0.05965582338714295,711
+Art_Nouveau_Modern,negative,15,dark subject,-0.05878316270230895,635
+Baroque,positive,1,angels,0.5255146838400707,299
+Baroque,positive,2,children,0.36498485447187795,533
+Baroque,positive,3,people,0.35337978680605925,12087
+Baroque,positive,4,sad dark,0.31694694182403155,1090
+Baroque,positive,5,going dark,0.30782013561357846,186
+Baroque,positive,6,stern stern,0.29424415899665995,226
+Baroque,positive,7,woman sad,0.2885543345678751,659
+Baroque,positive,8,man,0.287237795646299,19872
+Baroque,positive,9,baby like,0.27382406203881243,612
+Baroque,positive,10,child,0.25175604208933755,1737
+Baroque,positive,11,bleeding,0.24808315382340518,232
+Baroque,positive,12,baby,0.23901665866457655,1213
+Baroque,positive,13,table,0.23655603750887014,678
+Baroque,positive,14,angelic figure,0.22921981335644717,221
+Baroque,positive,15,faces,0.2291250819425772,314
+Baroque,positive,16,tell woman,0.2256220818939388,104
+Baroque,positive,17,held,0.2214752262784378,238
+Baroque,positive,18,man pain,0.21470055212598946,239
+Baroque,positive,19,dark gloomy,0.19608037433360737,2146
+Baroque,positive,20,lighting,0.19351051420031234,199
+Baroque,positive,21,center,0.1916243588306352,971
+Baroque,positive,22,sad background,0.18199043191644826,1187
+Baroque,positive,23,comfort,0.17777150463846797,476
+Baroque,positive,24,detailed,0.17357277917165745,2954
+Baroque,positive,25,dark,0.17015886043337294,26748
+Baroque,positive,26,help,0.16948599301712436,1252
+Baroque,positive,27,time,0.15194917942499447,3212
+Baroque,positive,28,figure going,0.14889913891826387,1166
+Baroque,positive,29,dark figures,0.14619016167444288,289
+Baroque,positive,30,colors dark,0.1441588542189777,14611
+Baroque,negative,1,bright,-0.25704324510301757,21990
+Baroque,negative,2,trees,-0.18191027372357493,7569
+Baroque,negative,3,shapes,-0.15258195305771602,5810
+Baroque,negative,4,bright colors,-0.14748961928126345,3355
+Baroque,negative,5,muted,-0.12829472879085568,9166
+Baroque,negative,6,calming,-0.1257409899422559,10671
+Baroque,negative,7,man eyes,-0.11528244637658888,2676
+Baroque,negative,8,cheerful,-0.10888069105262291,2319
+Baroque,negative,9,dark figure,-0.10820835281400441,853
+Baroque,negative,10,flowers,-0.10807436792855901,3151
+Baroque,negative,11,black,-0.10678466090455425,2355
+Baroque,negative,12,distorted,-0.0986294565696113,1082
+Baroque,negative,13,white,-0.08897098056492732,4911
+Baroque,negative,14,green,-0.08442042777441713,4020
+Baroque,negative,15,lines,-0.08410050183402726,4247
+Color_Field_Painting,positive,1,cheerful lines,2.377234585736639,86
+Color_Field_Painting,positive,2,red dark,1.5785450883071361,23
+Color_Field_Painting,positive,3,red calming,1.4041517579149598,273
+Color_Field_Painting,positive,4,vibrant lines,1.3787429967772922,112
+Color_Field_Painting,positive,5,colorful lines,1.2975906025506714,52
+Color_Field_Painting,positive,6,confusing like,1.2899425268990035,81
+Color_Field_Painting,positive,7,calming content,1.2619123075849874,326
+Color_Field_Painting,positive,8,calming soothing,1.2205727363002925,193
+Color_Field_Painting,positive,9,straight lines,1.1317933753867504,375
+Color_Field_Painting,positive,10,red dull,1.1157234120332482,19
+Color_Field_Painting,positive,11,shapes simple,1.0861035164146766,1793
+Color_Field_Painting,positive,12,simplicity,1.0665767637596915,443
+Color_Field_Painting,positive,13,calming green,1.0381673772927362,163
+Color_Field_Painting,positive,14,cheerful shapes,1.0293552669632489,49
+Color_Field_Painting,positive,15,red confusing,0.9769986123492252,39
+Color_Field_Painting,positive,16,lines clean,0.9730072919614664,71
+Color_Field_Painting,positive,17,calming remind,0.9009681568968202,37
+Color_Field_Painting,positive,18,vibrant shapes,0.8939775061372996,195
+Color_Field_Painting,positive,19,orange calming,0.8654965002041012,146
+Color_Field_Painting,positive,20,orange,0.8149693224353705,983
+Color_Field_Painting,positive,21,yellow calming,0.8141477641624297,378
+Color_Field_Painting,positive,22,bright lines,0.7997112088429635,148
+Color_Field_Painting,positive,23,bright vibrant,0.7899421080452772,914
+Color_Field_Painting,positive,24,depressing dark,0.7701427725455904,22
+Color_Field_Painting,positive,25,colors straight,0.7693800503190006,17
+Color_Field_Painting,positive,26,long colors,0.7139682518370335,165
+Color_Field_Painting,positive,27,calming lines,0.6744977809389564,561
+Color_Field_Painting,positive,28,orange bold,0.6725128711528595,16
+Color_Field_Painting,positive,29,inviting lines,0.6584380509519121,14
+Color_Field_Painting,positive,30,yellow like,0.6583274009363896,244
+Color_Field_Painting,negative,1,woman,-1.0732633480582379,21498
+Color_Field_Painting,negative,2,man,-0.8583513293455574,19872
+Color_Field_Painting,negative,3,trees,-0.7844135875135847,7569
+Color_Field_Painting,negative,4,simple simple,-0.7612378120694981,1610
+Color_Field_Painting,negative,5,flowers,-0.7516723054134221,3151
+Color_Field_Painting,negative,6,people,-0.7376449942869564,12087
+Color_Field_Painting,negative,7,sky,-0.7305922772151833,14305
+Color_Field_Painting,negative,8,peaceful,-0.645869651511719,12356
+Color_Field_Painting,negative,9,simple like,-0.6193035223588846,362
+Color_Field_Painting,negative,10,sketch,-0.6150656093079758,221
+Color_Field_Painting,negative,11,simple colors,-0.552768976089361,1559
+Color_Field_Painting,negative,12,detailed,-0.47736623850541576,2954
+Color_Field_Painting,negative,13,drawing,-0.4313923348713915,259
+Color_Field_Painting,negative,14,shapes colors,-0.42137819633754375,452
+Color_Field_Painting,negative,15,simple pleasing,-0.37505489458143965,267
+Contemporary_Realism,positive,1,variety objects,2.2586085054101193,11
+Contemporary_Realism,positive,2,sky sandy,2.1686150240640236,12
+Contemporary_Realism,positive,3,clear defined,1.8321727019592253,31
+Contemporary_Realism,positive,4,perfect,1.6957252193765473,32
+Contemporary_Realism,positive,5,horizon,1.6925060112934829,30
+Contemporary_Realism,positive,6,pond,1.4720955047928366,42
+Contemporary_Realism,positive,7,state holding,1.4023425976483856,11
+Contemporary_Realism,positive,8,sand,1.3833903601668087,61
+Contemporary_Realism,positive,9,softness,1.2486524001700092,63
+Contemporary_Realism,positive,10,dark tree,1.2039172005366752,24
+Contemporary_Realism,positive,11,blue sky,1.1983908567649837,1234
+Contemporary_Realism,positive,12,paper like,1.1684035444195982,21
+Contemporary_Realism,positive,13,bleak bleak,1.1518601785116365,12
+Contemporary_Realism,positive,14,water waves,1.1285804949208373,23
+Contemporary_Realism,positive,15,walls painted,1.0799257431396483,11
+Contemporary_Realism,positive,16,colors leaves,1.0758638477015425,10
+Contemporary_Realism,positive,17,sky red,1.0604409596088402,19
+Contemporary_Realism,positive,18,dark green,1.0411639951935416,96
+Contemporary_Realism,positive,19,white snow,1.02097728640377,62
+Contemporary_Realism,positive,20,state background,1.0106088378293716,15
+Contemporary_Realism,positive,21,clouds beautiful,0.9817814920622234,12
+Contemporary_Realism,positive,22,sky ocean,0.9257154642649682,20
+Contemporary_Realism,positive,23,red nice,0.9225299872699741,14
+Contemporary_Realism,positive,24,women enjoying,0.9086268464716157,96
+Contemporary_Realism,positive,25,cow like,0.882202688566056,32
+Contemporary_Realism,positive,26,like blow,0.8642747453057313,20
+Contemporary_Realism,positive,27,ocean,0.8058138485208897,386
+Contemporary_Realism,positive,28,eyes wide,0.8049265925605765,12
+Contemporary_Realism,positive,29,gloomy bleak,0.7874717360179846,41
+Contemporary_Realism,positive,30,floor simple,0.7511824292382692,20
+Contemporary_Realism,negative,1,people,-0.47779138894119344,12087
+Contemporary_Realism,negative,2,grass blue,-0.46988000148341674,168
+Contemporary_Realism,negative,3,content peaceful,-0.3976518639302554,278
+Contemporary_Realism,negative,4,water calming,-0.39752817864870665,157
+Contemporary_Realism,negative,5,sky mountains,-0.3953812562320049,82
+Contemporary_Realism,negative,6,waves crashing,-0.3665893416624323,316
+Contemporary_Realism,negative,7,calming soothing,-0.2978041144613774,193
+Contemporary_Realism,negative,8,sky like,-0.28973408251402333,1908
+Contemporary_Realism,negative,9,sky green,-0.27820945430719585,81
+Contemporary_Realism,negative,10,majestic,-0.2637624839473663,370
+Contemporary_Realism,negative,11,peaceful relaxing,-0.2509747358332914,1170
+Contemporary_Realism,negative,12,mountains,-0.23878941417329275,1335
+Contemporary_Realism,negative,13,sky bright,-0.22445478445239642,3426
+Contemporary_Realism,negative,14,green grass,-0.20973788816610542,657
+Contemporary_Realism,negative,15,lush,-0.2009499434437764,652
+Cubism,positive,1,shapes colors,1.2479703815106853,452
+Cubism,positive,2,shapes,1.0328754562193463,5810
+Cubism,positive,3,shapes interesting,0.9636748265993804,1127
+Cubism,positive,4,sculpture,0.8870733824793994,109
+Cubism,positive,5,interesting,0.6740141688288216,2183
+Cubism,positive,6,sculpture simple,0.6657428923916131,15
+Cubism,positive,7,create shapes,0.5978904055538439,35
+Cubism,positive,8,figure colors,0.567161687166997,23
+Cubism,positive,9,cartoonish,0.5455833430356439,31
+Cubism,positive,10,colors interesting,0.5221088198647829,292
+Cubism,positive,11,figure like,0.4743055712870109,1427
+Cubism,positive,12,artist great,0.47188593438865073,220
+Cubism,positive,13,giant alien,0.4460879259726175,116
+Cubism,positive,14,shapes geometric,0.44293467854003077,430
+Cubism,positive,15,energetic,0.4365417100637867,36
+Cubism,positive,16,shapes exciting,0.42793434228868715,43
+Cubism,positive,17,like motion,0.4211661311121261,873
+Cubism,positive,18,interesting interesting,0.357810215592609,119
+Cubism,positive,19,distorted distorted,0.35749521581027166,704
+Cubism,positive,20,shapes angular,0.3532853839013804,529
+Cubism,positive,21,person,0.31647236148598806,1217
+Cubism,positive,22,bright exciting,0.30873468554089084,332
+Cubism,positive,23,interesting table,0.30644430543205387,29
+Cubism,positive,24,angular,0.3026296885439956,810
+Cubism,positive,25,delicious,0.2901969553696828,111
+Cubism,positive,26,lifelike,0.27522279521965143,903
+Cubism,positive,27,table,0.27337049848339295,678
+Cubism,positive,28,cartoon,0.2685114024492277,95
+Cubism,positive,29,person face,0.2652665776684932,191
+Cubism,positive,30,interesting subject,0.2632660106839892,163
+Cubism,negative,1,colorful shapes,-0.37152352083299206,783
+Cubism,negative,2,shapes simple,-0.36027217780032034,1793
+Cubism,negative,3,green like,-0.27299628000496357,294
+Cubism,negative,4,interesting lines,-0.21046031186857764,154
+Cubism,negative,5,yellow,-0.19272500576766455,1879
+Cubism,negative,6,lines,-0.16632990088584454,4247
+Cubism,negative,7,background,-0.1491150685401902,18693
+Cubism,negative,8,reds,-0.14903599250702915,1570
+Cubism,negative,9,simplicity,-0.14796433504003756,443
+Cubism,negative,10,boring shapes,-0.14456566534514897,123
+Cubism,negative,11,people,-0.14030445029389735,12087
+Cubism,negative,12,simplicity shapes,-0.13938931659571968,115
+Cubism,negative,13,sky,-0.12667534942205488,14305
+Cubism,negative,14,water,-0.12644275057149743,4984
+Cubism,negative,15,interesting colors,-0.11738806735563709,291
+Early_Renaissance,positive,1,religious,1.410285358389917,36
+Early_Renaissance,positive,2,praying,1.3627408673113108,905
+Early_Renaissance,positive,3,mother holding,1.0034130529304413,351
+Early_Renaissance,positive,4,angel holding,0.781393431230931,276
+Early_Renaissance,positive,5,gold,0.7192707671688422,219
+Early_Renaissance,positive,6,robe,0.5702144823315225,158
+Early_Renaissance,positive,7,detailed,0.545509468086877,2954
+Early_Renaissance,positive,8,like praying,0.5429019643633215,510
+Early_Renaissance,positive,9,sword pain,0.5412587474350878,124
+Early_Renaissance,positive,10,cross,0.5403382305226794,194
+Early_Renaissance,positive,11,amazing lines,0.5367685474536273,59
+Early_Renaissance,positive,12,intricate colors,0.5284255525639441,30
+Early_Renaissance,positive,13,details,0.517219386008447,748
+Early_Renaissance,positive,14,calming man,0.4940668279444119,174
+Early_Renaissance,positive,15,center,0.48873198260211775,971
+Early_Renaissance,positive,16,bright figures,0.48265119003595436,491
+Early_Renaissance,positive,17,happy detailed,0.46598216031255874,240
+Early_Renaissance,positive,18,baby like,0.4659098121159901,612
+Early_Renaissance,positive,19,angels,0.45798324048043537,299
+Early_Renaissance,positive,20,love mother,0.4540830450703595,137
+Early_Renaissance,positive,21,child holding,0.42664417316734204,241
+Early_Renaissance,positive,22,center important,0.419999573148134,25
+Early_Renaissance,positive,23,artist colors,0.40626319166439884,14
+Early_Renaissance,positive,24,close chest,0.3999545124226039,170
+Early_Renaissance,positive,25,crucified,0.3669650693336791,256
+Early_Renaissance,positive,26,baby,0.3428052526787233,1213
+Early_Renaissance,positive,27,people like,0.34010827927418974,4298
+Early_Renaissance,positive,28,figures lifelike,0.3347001116098138,446
+Early_Renaissance,positive,29,awe,0.33089804643731546,372
+Early_Renaissance,positive,30,mourning colors,0.3115493678371998,22
+Early_Renaissance,negative,1,sky,-0.38755247474572624,14305
+Early_Renaissance,negative,2,people praying,-0.2679568396178772,212
+Early_Renaissance,negative,3,enjoying,-0.173842106417323,5413
+Early_Renaissance,negative,4,trees,-0.17042797292148865,7569
+Early_Renaissance,negative,5,relaxed,-0.1563295604113617,2549
+Early_Renaissance,negative,6,shapes,-0.15124951787365157,5810
+Early_Renaissance,negative,7,relaxing,-0.14848468168358964,5206
+Early_Renaissance,negative,8,man like,-0.14837962524903006,9601
+Early_Renaissance,negative,9,bright colors,-0.1420976226506538,3355
+Early_Renaissance,negative,10,subject,-0.1369353386867378,2265
+Early_Renaissance,negative,11,background,-0.12749189673480804,18693
+Early_Renaissance,negative,12,scary,-0.1178850811946964,1935
+Early_Renaissance,negative,13,bright man,-0.1143153069362783,590
+Early_Renaissance,negative,14,green,-0.10972141323144219,4020
+Early_Renaissance,negative,15,dress detailed,-0.10844917301137663,349
+Expressionism,positive,1,distorted distorted,0.3274357420215945,704
+Expressionism,positive,2,eyes scary,0.3125430386397707,132
+Expressionism,positive,3,body,0.3122226092703974,1094
+Expressionism,positive,4,dark face,0.2851651532560516,101
+Expressionism,positive,5,face,0.25732653343939615,12862
+Expressionism,positive,6,face scary,0.2526458103426126,211
+Expressionism,positive,7,eyes like,0.2278056563536892,228
+Expressionism,positive,8,eyes,0.22640964161723537,4728
+Expressionism,positive,9,reds,0.20559073373041162,1570
+Expressionism,positive,10,sad like,0.20458827783599334,1347
+Expressionism,positive,11,disgusting,0.1964663088902344,104
+Expressionism,positive,12,eyes dark,0.17862254844174505,2736
+Expressionism,positive,13,motion,0.1755431159181527,1162
+Expressionism,positive,14,black white,0.1727476209576535,1489
+Expressionism,positive,15,simple,0.15645479543303595,9104
+Expressionism,positive,16,pain,0.1515094341030673,10264
+Expressionism,positive,17,defined,0.15140056328491075,1025
+Expressionism,positive,18,relaxed,0.15051161844450012,2549
+Expressionism,positive,19,figure like,0.1350564578892225,1427
+Expressionism,positive,20,woman body,0.13317652655273898,655
+Expressionism,positive,21,body relaxed,0.11686045313502916,295
+Expressionism,positive,22,pain like,0.11545205437207977,611
+Expressionism,positive,23,muted shapes,0.11324651779296216,270
+Expressionism,positive,24,woman,0.11222692273910637,21498
+Expressionism,positive,25,muted subject,0.11220610930493985,761
+Expressionism,positive,26,sharp,0.10679415147532291,1090
+Expressionism,positive,27,like having,0.10385947388437405,2974
+Expressionism,positive,28,black,0.0974902428569827,2355
+Expressionism,positive,29,colors like,0.0927592154250119,2457
+Expressionism,positive,30,distorted sad,0.08948132076160291,422
+Expressionism,negative,1,sky,-0.15199918127334322,14305
+Expressionism,negative,2,detailed,-0.14101501414279416,2954
+Expressionism,negative,3,background dark,-0.1281711199159267,11001
+Expressionism,negative,4,warm,-0.12416996955795666,4459
+Expressionism,negative,5,water,-0.10958428100323264,4984
+Expressionism,negative,6,hat,-0.10202391504287911,1894
+Expressionism,negative,7,praying,-0.09627696019380967,905
+Expressionism,negative,8,baby,-0.09278710645870372,1213
+Expressionism,negative,9,trees,-0.08858938740950743,7569
+Expressionism,negative,10,center,-0.08424868169502434,971
+Expressionism,negative,11,beautiful,-0.0837526221890152,5242
+Expressionism,negative,12,help,-0.08039652056994598,1252
+Expressionism,negative,13,love,-0.07875024551134031,1697
+Expressionism,negative,14,background,-0.0678779315314826,18693
+Expressionism,negative,15,shapes simple,-0.06723337907105492,1793
+Fauvism,positive,1,colors happy,1.2429610372790578,450
+Fauvism,positive,2,bright appealing,1.074988341699092,38
+Fauvism,positive,3,fruit appealing,0.9548620178313235,23
+Fauvism,positive,4,red woman,0.89085802866875,53
+Fauvism,positive,5,fruit colors,0.8162379269680046,43
+Fauvism,positive,6,bright arrangement,0.8024674800248346,95
+Fauvism,positive,7,warm table,0.8019009843714044,10
+Fauvism,positive,8,relaxing figure,0.7021724682781583,19
+Fauvism,positive,9,bright birds,0.6482767402549845,16
+Fauvism,positive,10,cheerful relaxing,0.6439660525570321,16
+Fauvism,positive,11,bright fruit,0.6334245812865473,91
+Fauvism,positive,12,flower flower,0.6313486113818733,13
+Fauvism,positive,13,orange leaves,0.5909908854511859,13
+Fauvism,positive,14,colors use,0.5855802373241656,252
+Fauvism,positive,15,bit blurred,0.5811639934275559,72
+Fauvism,positive,16,greens,0.5590218282319314,570
+Fauvism,positive,17,background colorful,0.5517311422256183,74
+Fauvism,positive,18,colors playful,0.5326724416222134,260
+Fauvism,positive,19,orange yellow,0.5130524038868083,242
+Fauvism,positive,20,bird beautiful,0.5060927930054814,22
+Fauvism,positive,21,subject clearly,0.5045107909919284,79
+Fauvism,positive,22,leaves bright,0.49666044823525385,78
+Fauvism,positive,23,table simple,0.4961395537893161,267
+Fauvism,positive,24,fun,0.47793358326508295,673
+Fauvism,positive,25,colors bright,0.46294215574469005,16576
+Fauvism,positive,26,colorful,0.4610806901626953,1966
+Fauvism,positive,27,pleasing,0.4530344580001539,1146
+Fauvism,positive,28,orange colors,0.4520309119463983,283
+Fauvism,positive,29,day beach,0.43914553590833055,45
+Fauvism,positive,30,bowl,0.430904515400413,344
+Fauvism,negative,1,lines,-0.44199227507560684,4247
+Fauvism,negative,2,grass,-0.31678403084982076,1810
+Fauvism,negative,3,peaceful,-0.27142616356031396,12356
+Fauvism,negative,4,dark,-0.2585082198350602,26748
+Fauvism,negative,5,children,-0.25607507354464304,533
+Fauvism,negative,6,happy background,-0.2367448478585891,744
+Fauvism,negative,7,happy people,-0.219110022598204,737
+Fauvism,negative,8,shapes,-0.21416431980355824,5810
+Fauvism,negative,9,beautiful,-0.21166170289725617,5242
+Fauvism,negative,10,detailed,-0.20467405730261756,2954
+Fauvism,negative,11,interesting red,-0.1906369916350445,217
+Fauvism,negative,12,soft,-0.1819483592314131,1243
+Fauvism,negative,13,people,-0.18054192705929759,12087
+Fauvism,negative,14,flowers beautiful,-0.1794666862742014,991
+Fauvism,negative,15,geometric,-0.17940212873415157,533
+High_Renaissance,positive,1,holding child,0.9332715424689881,320
+High_Renaissance,positive,2,praying,0.8639528217748956,905
+High_Renaissance,positive,3,mother baby,0.8290830039151139,81
+High_Renaissance,positive,4,center holding,0.8027332250305339,197
+High_Renaissance,positive,5,mother trying,0.7312724698642239,28
+High_Renaissance,positive,6,detailed detailed,0.6906299341455968,278
+High_Renaissance,positive,7,baby,0.6316230058111698,1213
+High_Renaissance,positive,8,angels,0.5518356021300527,299
+High_Renaissance,positive,9,love mother,0.5480525544181865,137
+High_Renaissance,positive,10,like praying,0.5389610102097367,510
+High_Renaissance,positive,11,close child,0.4756067182766805,177
+High_Renaissance,positive,12,man body,0.4403922668691529,111
+High_Renaissance,positive,13,drawing,0.4301173628755289,259
+High_Renaissance,positive,14,detailed,0.42468624788588943,2954
+High_Renaissance,positive,15,cross woman,0.42186489711910125,42
+High_Renaissance,positive,16,expressions happy,0.3910406348875666,47
+High_Renaissance,positive,17,like held,0.3881448715375144,155
+High_Renaissance,positive,18,statue,0.35415108407047624,84
+High_Renaissance,positive,19,woman right,0.34732267559934027,389
+High_Renaissance,positive,20,holding sword,0.33831398907626553,904
+High_Renaissance,positive,21,people dancing,0.335306176484698,92
+High_Renaissance,positive,22,figures lifelike,0.3338812972612007,446
+High_Renaissance,positive,23,man,0.29894374893759257,19872
+High_Renaissance,positive,24,holding mother,0.28790220799753014,70
+High_Renaissance,positive,25,large rock,0.2852663504688641,68
+High_Renaissance,positive,26,body distorted,0.27804226423484063,254
+High_Renaissance,positive,27,help colors,0.2772473149356718,374
+High_Renaissance,positive,28,children,0.2717623378811538,533
+High_Renaissance,positive,29,mother,0.2683564696131089,638
+High_Renaissance,positive,30,kill woman,0.25402023326130085,965
+High_Renaissance,negative,1,sky,-0.20125865541909355,14305
+High_Renaissance,negative,2,colors like,-0.17972155421982897,2457
+High_Renaissance,negative,3,trees,-0.134795257804118,7569
+High_Renaissance,negative,4,dress detailed,-0.13391769780908527,349
+High_Renaissance,negative,5,water,-0.12115484060061302,4984
+High_Renaissance,negative,6,shapes,-0.11642936511701663,5810
+High_Renaissance,negative,7,figures like,-0.1080920613923741,239
+High_Renaissance,negative,8,background,-0.10622312960325633,18693
+High_Renaissance,negative,9,dead people,-0.1040885734097151,77
+High_Renaissance,negative,10,woman dress,-0.10089400183463969,972
+High_Renaissance,negative,11,white,-0.09933342058489474,4911
+High_Renaissance,negative,12,sad background,-0.09844386633250152,1187
+High_Renaissance,negative,13,cheerful,-0.09806786413009234,2319
+High_Renaissance,negative,14,bright,-0.0932320698419933,21990
+High_Renaissance,negative,15,muted,-0.09317382688249312,9166
+Impressionism,positive,1,grass,0.608075534533049,1810
+Impressionism,positive,2,trees,0.5440059563032449,7569
+Impressionism,positive,3,water,0.5294599762958605,4984
+Impressionism,positive,4,girl,0.3664566643735011,321
+Impressionism,positive,5,boats,0.35037324903602163,977
+Impressionism,positive,6,sky,0.34970020540312585,14305
+Impressionism,positive,7,people walking,0.3390195357428071,628
+Impressionism,positive,8,background bit,0.25828353356119843,541
+Impressionism,positive,9,muted,0.2581410383743816,9166
+Impressionism,positive,10,enjoying,0.2568141520282943,5413
+Impressionism,positive,11,water beautiful,0.24863089985766515,241
+Impressionism,positive,12,garden,0.24484540398412755,159
+Impressionism,positive,13,soft,0.23463690656329766,1243
+Impressionism,positive,14,warm,0.21699642531460686,4459
+Impressionism,positive,15,flowers,0.21579361037960168,3151
+Impressionism,positive,16,walking,0.20661850041799015,1026
+Impressionism,positive,17,houses,0.1965105873364473,333
+Impressionism,positive,18,peaceful,0.18432259372059934,12356
+Impressionism,positive,19,lively,0.17894060651357932,350
+Impressionism,positive,20,dress,0.17159905059868405,3041
+Impressionism,positive,21,nice,0.17158178527459753,3687
+Impressionism,positive,22,sunny,0.16253651102538147,578
+Impressionism,positive,23,bit,0.14408787270477202,1770
+Impressionism,positive,24,trees vibrant,0.14242262560028432,226
+Impressionism,positive,25,water calm,0.14221959412001475,2516
+Impressionism,positive,26,like melting,0.14145306682124578,1122
+Impressionism,positive,27,inviting,0.13483963605418917,2275
+Impressionism,positive,28,day,0.13184753514757158,1503
+Impressionism,positive,29,little,0.12105700367164608,746
+Impressionism,positive,30,content,0.10604948053370156,4014
+Impressionism,negative,1,shapes,-0.34111901790717947,5810
+Impressionism,negative,2,mountains,-0.33319041591358745,1335
+Impressionism,negative,3,lines,-0.32442255334763254,4247
+Impressionism,negative,4,trees dark,-0.29782916237114937,1311
+Impressionism,negative,5,man,-0.2760394087467836,19872
+Impressionism,negative,6,trees like,-0.13029052698282362,614
+Impressionism,negative,7,praying,-0.12129498115112816,905
+Impressionism,negative,8,people,-0.11843219004308157,12087
+Impressionism,negative,9,figure,-0.09961699166266456,4273
+Impressionism,negative,10,simple,-0.09823770656252227,9104
+Impressionism,negative,11,holding,-0.09563378245459885,6066
+Impressionism,negative,12,dark sky,-0.08765330593017283,1885
+Impressionism,negative,13,scary,-0.07542228564853265,1935
+Impressionism,negative,14,grass trees,-0.07236587067372177,202
+Impressionism,negative,15,dark,-0.07029157748088123,26748
+Mannerism_Late_Renaissance,positive,1,angels,1.118326055002563,299
+Mannerism_Late_Renaissance,positive,2,ominous people,0.8045424523140302,62
+Mannerism_Late_Renaissance,positive,3,baby eyes,0.7672573445997526,39
+Mannerism_Late_Renaissance,positive,4,angel holding,0.6708762379440842,276
+Mannerism_Late_Renaissance,positive,5,praying angels,0.6230566713013195,31
+Mannerism_Late_Renaissance,positive,6,angelic figure,0.6178979437193253,221
+Mannerism_Late_Renaissance,positive,7,holding colors,0.6149436333553633,10
+Mannerism_Late_Renaissance,positive,8,people praying,0.6130877193861549,212
+Mannerism_Late_Renaissance,positive,9,baby,0.5987379349035323,1213
+Mannerism_Late_Renaissance,positive,10,fear man,0.5626411139557677,49
+Mannerism_Late_Renaissance,positive,11,like dying,0.5206732914981197,1126
+Mannerism_Late_Renaissance,positive,12,people pain,0.5156845171922841,113
+Mannerism_Late_Renaissance,positive,13,center,0.48510955597302835,971
+Mannerism_Late_Renaissance,positive,14,expressions,0.47206662737301086,212
+Mannerism_Late_Renaissance,positive,15,detailed detailed,0.4469125661212744,278
+Mannerism_Late_Renaissance,positive,16,trying protect,0.4207503039751553,167
+Mannerism_Late_Renaissance,positive,17,vibrant people,0.41781911341557465,80
+Mannerism_Late_Renaissance,positive,18,dying colors,0.41705225026237697,268
+Mannerism_Late_Renaissance,positive,19,dark,0.40153780559767044,26748
+Mannerism_Late_Renaissance,positive,20,praying,0.3928323253503818,905
+Mannerism_Late_Renaissance,positive,21,detailed people,0.3896939413682666,500
+Mannerism_Late_Renaissance,positive,22,bright expressions,0.3869255942118841,106
+Mannerism_Late_Renaissance,positive,23,mother baby,0.38476249549481395,81
+Mannerism_Late_Renaissance,positive,24,depicted way,0.3789895039623678,71
+Mannerism_Late_Renaissance,positive,25,figures,0.36439953243459067,1252
+Mannerism_Late_Renaissance,positive,26,mother,0.3502067794607187,638
+Mannerism_Late_Renaissance,positive,27,woman naked,0.346637140466327,259
+Mannerism_Late_Renaissance,positive,28,man body,0.34641610903450104,111
+Mannerism_Late_Renaissance,positive,29,gloomy people,0.3326023763973768,551
+Mannerism_Late_Renaissance,positive,30,face grim,0.3319966037277076,142
+Mannerism_Late_Renaissance,negative,1,trees,-0.5785956713806292,7569
+Mannerism_Late_Renaissance,negative,2,sky,-0.37921627247988227,14305
+Mannerism_Late_Renaissance,negative,3,lack,-0.2810285590724165,2152
+Mannerism_Late_Renaissance,negative,4,muted,-0.27865024265560545,9166
+Mannerism_Late_Renaissance,negative,5,colors gloomy,-0.21918222601166754,1643
+Mannerism_Late_Renaissance,negative,6,bright,-0.20278042062432391,21990
+Mannerism_Late_Renaissance,negative,7,white,-0.16401620084920981,4911
+Mannerism_Late_Renaissance,negative,8,simple,-0.156224021704839,9104
+Mannerism_Late_Renaissance,negative,9,background,-0.14026735438019647,18693
+Mannerism_Late_Renaissance,negative,10,dull,-0.13262656490797287,1838
+Mannerism_Late_Renaissance,negative,11,fight,-0.12624867166419526,719
+Mannerism_Late_Renaissance,negative,12,shapes,-0.12446731150207395,5810
+Mannerism_Late_Renaissance,negative,13,gloomy colors,-0.12436540335001191,661
+Mannerism_Late_Renaissance,negative,14,dark like,-0.10573796374488076,1464
+Mannerism_Late_Renaissance,negative,15,thought colors,-0.09953909740217877,569
+Minimalism,positive,1,blank canvas,2.260876627542733,71
+Minimalism,positive,2,simplicity,1.9748217473109566,443
+Minimalism,positive,3,black lines,1.7349294835286242,86
+Minimalism,positive,4,lack emotion,1.6020114851091403,62
+Minimalism,positive,5,muted uninteresting,1.5549184914167515,29
+Minimalism,positive,6,wall,1.51438383869066,175
+Minimalism,positive,7,rectangular,1.5003391235614225,12
+Minimalism,positive,8,shapes calming,1.491288795464709,37
+Minimalism,positive,9,lines,1.454174022920548,4247
+Minimalism,positive,10,circle,1.4397842951022437,32
+Minimalism,positive,11,scheme,1.370947758784055,274
+Minimalism,positive,12,red striking,1.335157951398607,61
+Minimalism,positive,13,boring dark,1.3125188347745764,18
+Minimalism,positive,14,yellow dull,1.2983025833954152,49
+Minimalism,positive,15,dull lines,1.0990842307070416,96
+Minimalism,positive,16,effective,1.081781707987108,124
+Minimalism,positive,17,lack depressing,1.034370180469478,45
+Minimalism,positive,18,calming calm,0.9798100748877981,64
+Minimalism,positive,19,boring lines,0.9664479595845995,134
+Minimalism,positive,20,lines calming,0.9472367069758219,74
+Minimalism,positive,21,just plain,0.9241003934743119,49
+Minimalism,positive,22,blue calming,0.91103496570008,444
+Minimalism,positive,23,calming,0.9107667788417849,10671
+Minimalism,positive,24,design,0.8956271070267784,206
+Minimalism,positive,25,confusing confusing,0.875456126994219,112
+Minimalism,positive,26,box,0.8644293510876618,11
+Minimalism,positive,27,lack,0.8092351075103539,2152
+Minimalism,positive,28,floor,0.8087579629562359,359
+Minimalism,positive,29,boring black,0.7957442242738723,48
+Minimalism,positive,30,white lines,0.7851801519836817,95
+Minimalism,negative,1,woman,-1.9618236261015054,21498
+Minimalism,negative,2,man,-1.4841649333171893,19872
+Minimalism,negative,3,trees,-1.0478289236809724,7569
+Minimalism,negative,4,like simplicity,-1.025922931114201,88
+Minimalism,negative,5,peaceful,-0.947880445374608,12356
+Minimalism,negative,6,people,-0.8142497688469433,12087
+Minimalism,negative,7,figure,-0.6626603030117229,4273
+Minimalism,negative,8,colors,-0.5851052115213781,60325
+Minimalism,negative,9,colors calming,-0.5834236216112594,7877
+Minimalism,negative,10,defined,-0.5785532433668086,1025
+Minimalism,negative,11,drawing,-0.5739960129796129,259
+Minimalism,negative,12,interesting lines,-0.5705661325085616,154
+Minimalism,negative,13,sky,-0.5414792447445578,14305
+Minimalism,negative,14,detailed,-0.5096726589573145,2954
+Minimalism,negative,15,straight lines,-0.4400611573311878,375
+Naive_Art_Primitivism,positive,1,playful nature,1.1184193330230785,89
+Naive_Art_Primitivism,positive,2,colors playful,0.906898243860173,260
+Naive_Art_Primitivism,positive,3,colorful figures,0.6725637638948726,27
+Naive_Art_Primitivism,positive,4,fun,0.6086176343540518,673
+Naive_Art_Primitivism,positive,5,like zoo,0.5998131388588017,49
+Naive_Art_Primitivism,positive,6,animal,0.5918075009934038,187
+Naive_Art_Primitivism,positive,7,happy flowers,0.5883718330839833,109
+Naive_Art_Primitivism,positive,8,bright figure,0.4984543455772781,564
+Naive_Art_Primitivism,positive,9,animal like,0.44159866274396126,105
+Naive_Art_Primitivism,positive,10,animals happy,0.43774757878285103,62
+Naive_Art_Primitivism,positive,11,confusion confusion,0.37804029195866423,78
+Naive_Art_Primitivism,positive,12,colors happy,0.3732318029213791,450
+Naive_Art_Primitivism,positive,13,animals,0.34224499823396565,347
+Naive_Art_Primitivism,positive,14,bird,0.2866863687860369,548
+Naive_Art_Primitivism,positive,15,flowers,0.28173984257930706,3151
+Naive_Art_Primitivism,positive,16,motion,0.2740573113811803,1162
+Naive_Art_Primitivism,positive,17,bright cheerful,0.26823758593493413,2282
+Naive_Art_Primitivism,positive,18,eyes large,0.26027513131403957,53
+Naive_Art_Primitivism,positive,19,bright man,0.2349981123687897,590
+Naive_Art_Primitivism,positive,20,woman background,0.23317460696549563,380
+Naive_Art_Primitivism,positive,21,scary,0.23279334472949564,1935
+Naive_Art_Primitivism,positive,22,animals like,0.22584263666809026,124
+Naive_Art_Primitivism,positive,23,drinking,0.20937858019262973,105
+Naive_Art_Primitivism,positive,24,sanctuary colors,0.20039930985839766,10
+Naive_Art_Primitivism,positive,25,smiling happy,0.1982435871818681,121
+Naive_Art_Primitivism,positive,26,fish,0.18660842257936355,185
+Naive_Art_Primitivism,positive,27,figure like,0.17161408508153064,1427
+Naive_Art_Primitivism,positive,28,holding stick,0.17070537494282942,946
+Naive_Art_Primitivism,positive,29,bright colors,0.17060807193745872,3355
+Naive_Art_Primitivism,positive,30,people,0.1647944351043555,12087
+Naive_Art_Primitivism,negative,1,warm,-0.20325324154292954,4459
+Naive_Art_Primitivism,negative,2,detailed,-0.17599768663097465,2954
+Naive_Art_Primitivism,negative,3,muted,-0.17444667474502426,9166
+Naive_Art_Primitivism,negative,4,dark,-0.17091822739695206,26748
+Naive_Art_Primitivism,negative,5,shapes fun,-0.1562195310812637,117
+Naive_Art_Primitivism,negative,6,time colors,-0.15355338953094527,1360
+Naive_Art_Primitivism,negative,7,fun colors,-0.14417373194995087,111
+Naive_Art_Primitivism,negative,8,water,-0.09906674674976486,4984
+Naive_Art_Primitivism,negative,9,praying,-0.09607243236500901,905
+Naive_Art_Primitivism,negative,10,lines straight,-0.08411499554283079,1270
+Naive_Art_Primitivism,negative,11,clouds,-0.07761713108944518,1874
+Naive_Art_Primitivism,negative,12,dying,-0.0750324447858687,1410
+Naive_Art_Primitivism,negative,13,content,-0.06948761280960344,4014
+Naive_Art_Primitivism,negative,14,beautiful,-0.06786096955025445,5242
+Naive_Art_Primitivism,negative,15,mountains,-0.06394279425218892,1335
+New_Realism,positive,1,enjoying setting,2.5501552724196346,12
+New_Realism,positive,2,contrast rest,1.9868605996936197,17
+New_Realism,positive,3,house inviting,1.8759520318790035,58
+New_Realism,positive,4,view ocean,1.8683579534722399,11
+New_Realism,positive,5,clothing like,1.8602189070509663,43
+New_Realism,positive,6,colors snow,1.848063747427932,12
+New_Realism,positive,7,door door,1.8246185359111264,13
+New_Realism,positive,8,realistic sky,1.61592442916866,14
+New_Realism,positive,9,clean people,1.6038466166161083,11
+New_Realism,positive,10,rocks nice,1.600849588272693,31
+New_Realism,positive,11,bleak day,1.5325075135694695,21
+New_Realism,positive,12,place mountains,1.50979555596365,21
+New_Realism,positive,13,giant building,1.4713436762742906,39
+New_Realism,positive,14,enjoying holding,1.417674734304056,42
+New_Realism,positive,15,calm bridge,1.340332764331405,11
+New_Realism,positive,16,enjoying blue,1.2896714837573349,37
+New_Realism,positive,17,waiting come,1.2883243502166994,77
+New_Realism,positive,18,floor calm,1.1465220907174043,14
+New_Realism,positive,19,gloomy boat,1.1396616359148943,31
+New_Realism,positive,20,enjoying trees,1.1262736946524683,39
+New_Realism,positive,21,bit small,1.1158819067171506,30
+New_Realism,positive,22,comfortable like,1.0937169842966596,23
+New_Realism,positive,23,red object,1.0708919206778473,61
+New_Realism,positive,24,phone,0.9724195386499791,28
+New_Realism,positive,25,flames,0.9707844729276547,33
+New_Realism,positive,26,waiting,0.9480777508182777,361
+New_Realism,positive,27,music colors,0.935155167798128,11
+New_Realism,positive,28,relaxed people,0.9328684160240409,17
+New_Realism,positive,29,muted blue,0.9245389413721211,20
+New_Realism,positive,30,plain colors,0.9241174965565874,86
+New_Realism,negative,1,trees,-0.41122267483869895,7569
+New_Realism,negative,2,come home,-0.3912449532720758,56
+New_Realism,negative,3,flowers,-0.37577397393803863,3151
+New_Realism,negative,4,shade,-0.3332716726282729,411
+New_Realism,negative,5,castle,-0.27620157468310214,99
+New_Realism,negative,6,sky nice,-0.26838996979930846,959
+New_Realism,negative,7,lot,-0.26483094066606555,632
+New_Realism,negative,8,water,-0.2642782288242113,4984
+New_Realism,negative,9,colors calming,-0.22805155937609556,7877
+New_Realism,negative,10,dressed white,-0.22150131533874168,252
+New_Realism,negative,11,peaceful people,-0.21999933602662114,1232
+New_Realism,negative,12,muted woman,-0.19580303881796676,754
+New_Realism,negative,13,shapes,-0.19243823147772152,5810
+New_Realism,negative,14,calm people,-0.17032196609687233,337
+New_Realism,negative,15,red,-0.16901102669018597,4415
+Northern_Renaissance,positive,1,baby,0.7018639354515425,1213
+Northern_Renaissance,positive,2,praying,0.6479096153800682,905
+Northern_Renaissance,positive,3,mother holding,0.5108115944156998,351
+Northern_Renaissance,positive,4,mother child,0.42595060547049185,384
+Northern_Renaissance,positive,5,happy realistic,0.39910500015406325,392
+Northern_Renaissance,positive,6,symbol,0.38606603493602104,96
+Northern_Renaissance,positive,7,awe man,0.3773143875260476,26
+Northern_Renaissance,positive,8,figure holding,0.3718699566990659,45
+Northern_Renaissance,positive,9,lying ground,0.36705351604490555,339
+Northern_Renaissance,positive,10,man,0.3583769798930674,19872
+Northern_Renaissance,positive,11,center,0.326296150955951,971
+Northern_Renaissance,positive,12,pain people,0.30931303307535113,299
+Northern_Renaissance,positive,13,people,0.3047576919332943,12087
+Northern_Renaissance,positive,14,robe,0.28857690856649854,158
+Northern_Renaissance,positive,15,amazing,0.28600008257776244,278
+Northern_Renaissance,positive,16,detailed,0.2782480970799774,2954
+Northern_Renaissance,positive,17,disgusting,0.2693387382062023,104
+Northern_Renaissance,positive,18,realistic people,0.26720112725239364,174
+Northern_Renaissance,positive,19,child,0.2401064519962736,1737
+Northern_Renaissance,positive,20,dead people,0.20616976798048428,77
+Northern_Renaissance,positive,21,appears,0.19794372541081912,1642
+Northern_Renaissance,positive,22,realistic,0.19094214387352826,1749
+Northern_Renaissance,positive,23,men,0.19016410767708175,689
+Northern_Renaissance,positive,24,people state,0.18585485871803467,439
+Northern_Renaissance,positive,25,sad sad,0.17765567986610306,1347
+Northern_Renaissance,positive,26,bleeding,0.17683670606332857,232
+Northern_Renaissance,positive,27,sad colors,0.17382522440745665,4033
+Northern_Renaissance,positive,28,gold,0.17216196631542766,219
+Northern_Renaissance,positive,29,close mother,0.17212651862040274,91
+Northern_Renaissance,positive,30,pain woman,0.16651660956160083,1036
+Northern_Renaissance,negative,1,sky,-0.19765293657905394,14305
+Northern_Renaissance,negative,2,away,-0.14352594827468879,2542
+Northern_Renaissance,negative,3,bright colors,-0.14249707695805156,3355
+Northern_Renaissance,negative,4,bright,-0.14195165679236788,21990
+Northern_Renaissance,negative,5,woman dress,-0.1348418108416389,972
+Northern_Renaissance,negative,6,muted,-0.12413209423449248,9166
+Northern_Renaissance,negative,7,water,-0.11474778708899136,4984
+Northern_Renaissance,negative,8,colors,-0.09145657630452576,60325
+Northern_Renaissance,negative,9,shapes,-0.08725463562946474,5810
+Northern_Renaissance,negative,10,enjoying,-0.08456755153143197,5413
+Northern_Renaissance,negative,11,distorted distorted,-0.0841736651691752,704
+Northern_Renaissance,negative,12,relaxing,-0.08108945434442863,5206
+Northern_Renaissance,negative,13,inviting,-0.07853036948874823,2275
+Northern_Renaissance,negative,14,away woman,-0.07432834421233203,942
+Northern_Renaissance,negative,15,trees,-0.07280313471537589,7569
+Pointillism,positive,1,like bright,1.7090107255843223,44
+Pointillism,positive,2,sun wearing,1.3846897206140552,76
+Pointillism,positive,3,realistic content,1.0958064581874605,65
+Pointillism,positive,4,bright water,1.0747048737890348,102
+Pointillism,positive,5,sailing water,0.9875020227341805,56
+Pointillism,positive,6,land calm,0.9267290624761902,13
+Pointillism,positive,7,happy relaxing,0.8695731863498781,25
+Pointillism,positive,8,painted happy,0.8460185853715965,39
+Pointillism,positive,9,trees vibrant,0.744899676604039,226
+Pointillism,positive,10,leaves painted,0.7340373704198392,13
+Pointillism,positive,11,nice trees,0.7210300995619691,44
+Pointillism,positive,12,vibrant trees,0.6969674241309857,13
+Pointillism,positive,13,sunlight bright,0.6837642284886836,54
+Pointillism,positive,14,time dressed,0.63646916624387,109
+Pointillism,positive,15,relaxing water,0.6324002739798582,121
+Pointillism,positive,16,boats like,0.6234991076133154,195
+Pointillism,positive,17,water white,0.6182775976657313,15
+Pointillism,positive,18,variety shapes,0.6121621134054925,19
+Pointillism,positive,19,thought calm,0.5800271812733782,22
+Pointillism,positive,20,cheerful relaxing,0.5743299660234055,16
+Pointillism,positive,21,sunny day,0.5622808886638148,183
+Pointillism,positive,22,cheerful blue,0.5522758975152757,24
+Pointillism,positive,23,enjoying company,0.5517013862572535,269
+Pointillism,positive,24,texture,0.5371038197033771,59
+Pointillism,positive,25,garden,0.5351937949192033,159
+Pointillism,positive,26,colorful figures,0.5262119581123873,27
+Pointillism,positive,27,trees flowers,0.5159407965184647,17
+Pointillism,positive,28,boats,0.5027265644796155,977
+Pointillism,positive,29,table surrounded,0.4944429995625632,27
+Pointillism,positive,30,girls like,0.4916754352810425,19
+Pointillism,negative,1,trees green,-0.3631271750388306,369
+Pointillism,negative,2,enjoying scenery,-0.31888054332658033,424
+Pointillism,negative,3,people like,-0.3061488547777031,4298
+Pointillism,negative,4,colors nice,-0.2579196851877369,635
+Pointillism,negative,5,blue people,-0.2426441155843579,343
+Pointillism,negative,6,blue sky,-0.23187865540241703,1234
+Pointillism,negative,7,nice peaceful,-0.22456839606558363,152
+Pointillism,negative,8,trees peaceful,-0.2193517914426824,785
+Pointillism,negative,9,red,-0.19356337004684163,4415
+Pointillism,negative,10,like sunny,-0.1926404211320909,136
+Pointillism,negative,11,mountains,-0.19183790435804424,1335
+Pointillism,negative,12,fun,-0.19144739886178852,673
+Pointillism,negative,13,snow,-0.18361817162843408,863
+Pointillism,negative,14,trees dark,-0.17349429548295486,1311
+Pointillism,negative,15,playful,-0.1652456254023178,267
+Pop_Art,positive,1,colors playful,1.6689078322407673,260
+Pop_Art,positive,2,red blue,0.8510148520541412,183
+Pop_Art,positive,3,bottle,0.7981172258607916,86
+Pop_Art,positive,4,people flying,0.7329234303815828,23
+Pop_Art,positive,5,shapes fun,0.728808734335717,117
+Pop_Art,positive,6,colors shapes,0.6909291316960261,115
+Pop_Art,positive,7,people grouped,0.6907361276372949,21
+Pop_Art,positive,8,appealing,0.6581725030843739,373
+Pop_Art,positive,9,colors appealing,0.6332416829479554,86
+Pop_Art,positive,10,colorful man,0.6152152344744442,33
+Pop_Art,positive,11,bright colors,0.572175480783411,3355
+Pop_Art,positive,12,bold,0.5703223712948375,440
+Pop_Art,positive,13,appealing like,0.5226141649974554,25
+Pop_Art,positive,14,exciting,0.5178450401961285,646
+Pop_Art,positive,15,distorted colors,0.47775893624127963,32
+Pop_Art,positive,16,bright colorful,0.4615297441672877,1477
+Pop_Art,positive,17,confusing,0.4580824158435215,210
+Pop_Art,positive,18,people excited,0.441687937915341,52
+Pop_Art,positive,19,red,0.42528551022258293,4415
+Pop_Art,positive,20,striking,0.4104001919679458,611
+Pop_Art,positive,21,movement,0.40335803208800536,136
+Pop_Art,positive,22,face funny,0.4018991581543898,22
+Pop_Art,positive,23,yellow colors,0.3763073190048852,341
+Pop_Art,positive,24,person face,0.3756068437806519,191
+Pop_Art,positive,25,person like,0.36411686389389425,256
+Pop_Art,positive,26,bright yellow,0.34930978143461744,178
+Pop_Art,positive,27,red white,0.33760221640416643,411
+Pop_Art,positive,28,colors think,0.33675480143076353,84
+Pop_Art,positive,29,pleasing,0.3330089357535251,1146
+Pop_Art,positive,30,bright subject,0.3245034107718519,446
+Pop_Art,negative,1,trees,-0.36238620702617513,7569
+Pop_Art,negative,2,peaceful,-0.34487470574966056,12356
+Pop_Art,negative,3,colorful shapes,-0.26006397509728446,783
+Pop_Art,negative,4,playful nature,-0.25946811182019464,89
+Pop_Art,negative,5,red dress,-0.2348390577290198,634
+Pop_Art,negative,6,detailed,-0.2273107811577332,2954
+Pop_Art,negative,7,wearing red,-0.2257942022363529,921
+Pop_Art,negative,8,time colors,-0.2186643298634362,1360
+Pop_Art,negative,9,sky,-0.1992220184903759,14305
+Pop_Art,negative,10,flowers bright,-0.18472906765083366,932
+Pop_Art,negative,11,walking,-0.15044004993275784,1026
+Pop_Art,negative,12,children,-0.1459123230124237,533
+Pop_Art,negative,13,flowers,-0.14099617226758437,3151
+Pop_Art,negative,14,dress,-0.13998210115067258,3041
+Pop_Art,negative,15,background dark,-0.13910808832341265,11001
+Post_Impressionism,positive,1,street,1.4381971480694238,316
+Post_Impressionism,positive,2,fruit like,0.4586091952644429,755
+Post_Impressionism,positive,3,flowers,0.3494302748770544,3151
+Post_Impressionism,positive,4,peaceful buildings,0.3017184701148226,213
+Post_Impressionism,positive,5,trees,0.288447128712076,7569
+Post_Impressionism,positive,6,leaves,0.2703357232494893,625
+Post_Impressionism,positive,7,table,0.2596607638726704,678
+Post_Impressionism,positive,8,flowers bright,0.19236603201595154,932
+Post_Impressionism,positive,9,buildings,0.19017627511503782,1321
+Post_Impressionism,positive,10,nice,0.18850379515837756,3687
+Post_Impressionism,positive,11,ready eaten,0.16728964351134523,252
+Post_Impressionism,positive,12,relaxing,0.16085149415228486,5206
+Post_Impressionism,positive,13,bright,0.15699116050034487,21990
+Post_Impressionism,positive,14,colors dull,0.15466879063879083,1587
+Post_Impressionism,positive,15,nice place,0.14682727923375002,721
+Post_Impressionism,positive,16,bright peaceful,0.1461787305419601,2629
+Post_Impressionism,positive,17,houses,0.14536385540806077,333
+Post_Impressionism,positive,18,colors muted,0.12118512839953512,9029
+Post_Impressionism,positive,19,simple,0.11883517836982287,9104
+Post_Impressionism,positive,20,like floating,0.11739140497771529,406
+Post_Impressionism,positive,21,place live,0.11302499035039927,618
+Post_Impressionism,positive,22,muted,0.1123256915055914,9166
+Post_Impressionism,positive,23,cheerful people,0.11223277853344173,387
+Post_Impressionism,positive,24,calming peaceful,0.1104118094112204,1844
+Post_Impressionism,positive,25,grass trees,0.10766663764018411,202
+Post_Impressionism,positive,26,peaceful,0.10556597682884618,12356
+Post_Impressionism,positive,27,eaten,0.10355232210068549,482
+Post_Impressionism,positive,28,walking,0.09309643133671591,1026
+Post_Impressionism,positive,29,bright relaxing,0.09218277389489879,373
+Post_Impressionism,positive,30,people walking,0.09059985443826793,628
+Post_Impressionism,negative,1,shapes,-0.3520444066131904,5810
+Post_Impressionism,negative,2,man,-0.1834081367589169,19872
+Post_Impressionism,negative,3,lines,-0.17901227217964047,4247
+Post_Impressionism,negative,4,holding,-0.11623167467946481,6066
+Post_Impressionism,negative,5,dark,-0.10569464396198891,26748
+Post_Impressionism,negative,6,beautiful,-0.1027085106069034,5242
+Post_Impressionism,negative,7,praying,-0.09837225558277231,905
+Post_Impressionism,negative,8,detailed,-0.0961669602697499,2954
+Post_Impressionism,negative,9,child,-0.07076336328171849,1737
+Post_Impressionism,negative,10,people like,-0.06516671406046126,4298
+Post_Impressionism,negative,11,mountains,-0.0637158514179923,1335
+Post_Impressionism,negative,12,clouds,-0.05782517750637818,1874
+Post_Impressionism,negative,13,lifelike,-0.05552111180147054,903
+Post_Impressionism,negative,14,woman holding,-0.05445371702933083,1657
+Post_Impressionism,negative,15,figure,-0.04478519815722449,4273
+Realism,positive,1,forest,0.6484781590658987,319
+Realism,positive,2,trees,0.4821147263833357,7569
+Realism,positive,3,trees dark,0.41718005426977484,1311
+Realism,positive,4,forest dark,0.3662328079470293,86
+Realism,positive,5,jacket,0.34427982834034054,261
+Realism,positive,6,dark forest,0.303120994183922,81
+Realism,positive,7,confident,0.27459050614323666,303
+Realism,positive,8,dark flowers,0.27120569382293896,337
+Realism,positive,9,like flowers,0.25157290412115607,198
+Realism,positive,10,ready,0.25103627327276745,961
+Realism,positive,11,working hard,0.2474989573349787,423
+Realism,positive,12,flowers beautiful,0.24635489969790814,991
+Realism,positive,13,deep,0.2072325650247257,5000
+Realism,positive,14,background plain,0.20534434856521164,234
+Realism,positive,15,beautiful background,0.18287311180463006,442
+Realism,positive,16,hard,0.1650290731289329,507
+Realism,positive,17,life,0.14277354413038681,759
+Realism,positive,18,waiting,0.14223579686174362,361
+Realism,positive,19,vibrant happy,0.14026200277974207,249
+Realism,positive,20,falling,0.126601193621971,865
+Realism,positive,21,cows,0.12484567803512234,212
+Realism,positive,22,man like,0.12464495793066582,9601
+Realism,positive,23,wearing hat,0.12066487701711871,688
+Realism,positive,24,tell background,0.12030397341781547,222
+Realism,positive,25,gloomy,0.11299621582910177,4231
+Realism,positive,26,wearing,0.11281608591400918,3870
+Realism,positive,27,muted man,0.11274154182611432,1245
+Realism,positive,28,colors gloomy,0.10780025265720769,1643
+Realism,positive,29,dark,0.10720795506422824,26748
+Realism,positive,30,background,0.10624377897311792,18693
+Realism,negative,1,colors,-0.36764028378475283,60325
+Realism,negative,2,shapes,-0.23554455778944272,5810
+Realism,negative,3,peaceful trees,-0.20110129642701025,1030
+Realism,negative,4,calming,-0.18134190059215385,10671
+Realism,negative,5,bright,-0.1729349704848817,21990
+Realism,negative,6,woman,-0.16622147691076905,21498
+Realism,negative,7,bright colors,-0.14828366208141133,3355
+Realism,negative,8,red,-0.14083774767558016,4415
+Realism,negative,9,sword,-0.11222952606056422,964
+Realism,negative,10,colors dark,-0.11213330067544545,14611
+Realism,negative,11,kill,-0.10913621362809933,1881
+Realism,negative,12,baby,-0.1077982228554982,1213
+Realism,negative,13,praying,-0.09237944639871544,905
+Realism,negative,14,scary,-0.08950292689460994,1935
+Realism,negative,15,dull,-0.08825468543898239,1838
+Rococo,positive,1,proud,1.6393725571940727,46
+Rococo,positive,2,stern stern,1.2987078905435334,226
+Rococo,positive,3,warm background,0.7716892474650057,167
+Rococo,positive,4,eyes bright,0.6807776868100254,240
+Rococo,positive,5,angels flying,0.6805407015502999,22
+Rococo,positive,6,background dark,0.6145515493451478,11001
+Rococo,positive,7,content like,0.5229303366851649,193
+Rococo,positive,8,angels,0.5102209460496224,299
+Rococo,positive,9,dark subject,0.4708589515286235,635
+Rococo,positive,10,like built,0.4527494597693704,67
+Rococo,positive,11,content happy,0.4466920124115003,121
+Rococo,positive,12,expression calm,0.4005842267780242,615
+Rococo,positive,13,trying point,0.38356227425766837,90
+Rococo,positive,14,man expression,0.35452382202265026,2182
+Rococo,positive,15,detailed,0.34530933797910096,2954
+Rococo,positive,16,face stern,0.334330560857723,55
+Rococo,positive,17,clothing dark,0.3299042842336384,55
+Rococo,positive,18,subject calm,0.3255783571069302,110
+Rococo,positive,19,realistic,0.32469221941117665,1749
+Rococo,positive,20,woman expression,0.31284351982742725,2162
+Rococo,positive,21,children,0.31120805015206043,533
+Rococo,positive,22,dark child,0.3070558368612146,278
+Rococo,positive,23,elegant background,0.28612221187096454,27
+Rococo,positive,24,content background,0.2810312259798851,209
+Rococo,positive,25,confident,0.2804510399649601,303
+Rococo,positive,26,colors warm,0.26156671769789624,3857
+Rococo,positive,27,people,0.25840888822252767,12087
+Rococo,positive,28,grandeur building,0.24817510970342632,42
+Rococo,positive,29,subject sad,0.23595552504313164,245
+Rococo,positive,30,expression colors,0.23365377871653129,246
+Rococo,negative,1,bright colors,-0.2906938491398451,3355
+Rococo,negative,2,flowers,-0.26443180633881347,3151
+Rococo,negative,3,thought confident,-0.2544737374184025,139
+Rococo,negative,4,muted,-0.20422585683155398,9166
+Rococo,negative,5,contemplating colors,-0.1896264036202296,252
+Rococo,negative,6,colors bright,-0.17960340036765288,16576
+Rococo,negative,7,mountains,-0.1791747852783199,1335
+Rococo,negative,8,vibrant,-0.16627690421311547,2504
+Rococo,negative,9,calming,-0.16107727741184089,10671
+Rococo,negative,10,face dark,-0.16041374811210526,1920
+Rococo,negative,11,pain trying,-0.15455859006253475,1864
+Rococo,negative,12,lines,-0.1468809721258005,4247
+Rococo,negative,13,clearly,-0.14009950168260898,562
+Rococo,negative,14,inviting,-0.13351902709440347,2275
+Rococo,negative,15,sad background,-0.133277684902298,1187
+Romanticism,positive,1,crashing ship,1.1356939215193975,101
+Romanticism,positive,2,ship,0.8936476640414359,348
+Romanticism,positive,3,dark clouds,0.6209145824010903,242
+Romanticism,positive,4,shining,0.5662666443794007,326
+Romanticism,positive,5,sailing,0.5423685941632006,420
+Romanticism,positive,6,ground man,0.45217350211200047,98
+Romanticism,positive,7,sun shining,0.4172616923489081,261
+Romanticism,positive,8,sinking,0.37310029947422463,320
+Romanticism,positive,9,smoke,0.36278014377751394,157
+Romanticism,positive,10,waves crashing,0.35242706383202677,316
+Romanticism,positive,11,horse,0.3363652953223123,710
+Romanticism,positive,12,fear,0.31698758880852657,595
+Romanticism,positive,13,clouds,0.27730895971992603,1874
+Romanticism,positive,14,crashing,0.2714638137546657,569
+Romanticism,positive,15,men,0.2565363892999475,689
+Romanticism,positive,16,man,0.2509277911335936,19872
+Romanticism,positive,17,hunted,0.2475639571074086,103
+Romanticism,positive,18,boat,0.24453543404963293,937
+Romanticism,positive,19,people,0.21867189541277438,12087
+Romanticism,positive,20,sky,0.21525484932279326,14305
+Romanticism,positive,21,woman expression,0.18595120898533196,2162
+Romanticism,positive,22,fighting,0.1858285656435369,75
+Romanticism,positive,23,shining brightly,0.180305255270254,140
+Romanticism,positive,24,horses,0.1699190601234299,354
+Romanticism,positive,25,appears,0.1639614968881126,1642
+Romanticism,positive,26,sun,0.1576484128039022,762
+Romanticism,positive,27,warm,0.1552768752452447,4459
+Romanticism,positive,28,foreground,0.14036559281294878,822
+Romanticism,positive,29,dark,0.13918016860988403,26748
+Romanticism,positive,30,dying dark,0.13516784743473498,184
+Romanticism,negative,1,shapes,-0.23527378654483455,5810
+Romanticism,negative,2,bright,-0.21257125165531102,21990
+Romanticism,negative,3,lines,-0.17229914093708681,4247
+Romanticism,negative,4,trees,-0.1583098446480438,7569
+Romanticism,negative,5,bright colors,-0.1421510986506791,3355
+Romanticism,negative,6,white,-0.10609947963654509,4911
+Romanticism,negative,7,green,-0.09832881609904057,4020
+Romanticism,negative,8,distorted,-0.09130806311435381,1082
+Romanticism,negative,9,calming,-0.09034648866392361,10671
+Romanticism,negative,10,blue sky,-0.08975293055442647,1234
+Romanticism,negative,11,blue,-0.08862968227720368,7030
+Romanticism,negative,12,fruit,-0.07875465728238909,1004
+Romanticism,negative,13,dull,-0.07524370146922996,1838
+Romanticism,negative,14,colors muted,-0.07122691376809269,9029
+Romanticism,negative,15,colors,-0.06958059208279217,60325
+Symbolism,positive,1,mountains,2.2217327774927633,1335
+Symbolism,positive,2,majestic blue,1.0776357285004028,62
+Symbolism,positive,3,sky mountains,1.0337202164402668,82
+Symbolism,positive,4,majestic majestic,0.7934863988625315,224
+Symbolism,positive,5,mountain,0.7236078043646529,152
+Symbolism,positive,6,majestic,0.6870086157967413,370
+Symbolism,positive,7,mountains like,0.5832162277898145,211
+Symbolism,positive,8,calming mountains,0.49589905831200126,241
+Symbolism,positive,9,figure,0.43630027128780957,4273
+Symbolism,positive,10,angel,0.42297134866998864,429
+Symbolism,positive,11,blue sky,0.3563159058836041,1234
+Symbolism,positive,12,ghost dark,0.3077486422436337,98
+Symbolism,positive,13,mountains majestic,0.2757546643022459,125
+Symbolism,positive,14,mountains peaceful,0.26308520859974116,113
+Symbolism,positive,15,snow,0.24079605527420778,863
+Symbolism,positive,16,scary,0.23587592064448998,1935
+Symbolism,positive,17,like crucified,0.2356457610135334,206
+Symbolism,positive,18,sky white,0.234280215764481,77
+Symbolism,positive,19,woman holding,0.22400436407815327,1657
+Symbolism,positive,20,ghost,0.20297981245752747,742
+Symbolism,positive,21,awe,0.17802873788528326,372
+Symbolism,positive,22,majestic colors,0.1725323424627268,78
+Symbolism,positive,23,mountains calming,0.17225507313317204,124
+Symbolism,positive,24,dark ominous,0.15614780401808392,520
+Symbolism,positive,25,scary dark,0.1459443852988159,193
+Symbolism,positive,26,clouds,0.13348270165655932,1874
+Symbolism,positive,27,sky calming,0.12474181045855899,357
+Symbolism,positive,28,simple lines,0.12284161609843505,247
+Symbolism,positive,29,coming,0.1191404096726632,1304
+Symbolism,positive,30,melting sky,0.11876278243748858,248
+Symbolism,negative,1,trees,-0.27470646868798915,7569
+Symbolism,negative,2,trying figure,-0.24966052404779424,1555
+Symbolism,negative,3,shapes,-0.13538463668835576,5810
+Symbolism,negative,4,boats,-0.11949462957229039,977
+Symbolism,negative,5,expression,-0.118261376719773,6173
+Symbolism,negative,6,content,-0.10010689569313508,4014
+Symbolism,negative,7,background dark,-0.08875929236268544,11001
+Symbolism,negative,8,people,-0.08538028236529678,12087
+Symbolism,negative,9,water calm,-0.07874770611434637,2516
+Symbolism,negative,10,enjoying,-0.07638242299792417,5413
+Symbolism,negative,11,like deep,-0.06803737874016308,4207
+Symbolism,negative,12,bright,-0.06601155448552981,21990
+Symbolism,negative,13,calming lines,-0.06326441793098089,561
+Symbolism,negative,14,thought trying,-0.05257664881670118,1427
+Symbolism,negative,15,going,-0.04804843591220254,2242
+Synthetic_Cubism,positive,1,colors,2.653361557817277,60325
+Synthetic_Cubism,positive,2,like house,2.35580487220535,49
+Synthetic_Cubism,positive,3,shapes,2.162769367869844,5810
+Synthetic_Cubism,positive,4,lifelike blue,1.9814740450966255,31
+Synthetic_Cubism,positive,5,like room,1.923429433524785,152
+Synthetic_Cubism,positive,6,sharp simple,1.85572417387829,11
+Synthetic_Cubism,positive,7,real artist,1.8516556602377563,10
+Synthetic_Cubism,positive,8,shapes interesting,1.841569649875697,1127
+Synthetic_Cubism,positive,9,confused,1.8004226651918163,29
+Synthetic_Cubism,positive,10,away sad,1.788833018335733,17
+Synthetic_Cubism,positive,11,boring colors,1.6880262271407778,202
+Synthetic_Cubism,positive,12,motion figure,1.6640515397337012,38
+Synthetic_Cubism,positive,13,geometric artist,1.6406828788308183,14
+Synthetic_Cubism,positive,14,overly detailed,1.6191652954735056,10
+Synthetic_Cubism,positive,15,cat like,1.602379937841166,16
+Synthetic_Cubism,positive,16,bright food,1.593529254406397,33
+Synthetic_Cubism,positive,17,like puzzle,1.5775455590804381,10
+Synthetic_Cubism,positive,18,place red,1.5636688323157382,21
+Synthetic_Cubism,positive,19,shapes dull,1.5049883009903298,75
+Synthetic_Cubism,positive,20,defined subject,1.4644950089218207,37
+Synthetic_Cubism,positive,21,book like,1.3890778376047677,84
+Synthetic_Cubism,positive,22,simple shapes,1.3563843129085653,62
+Synthetic_Cubism,positive,23,wood,1.3472490472369607,59
+Synthetic_Cubism,positive,24,way man,1.3366065433068144,59
+Synthetic_Cubism,positive,25,guitar,1.3307275773273117,82
+Synthetic_Cubism,positive,26,drawing,1.313293421713973,259
+Synthetic_Cubism,positive,27,bird like,1.29279843176868,224
+Synthetic_Cubism,positive,28,simple like,1.29178490609839,362
+Synthetic_Cubism,positive,29,angular,1.2875705855915605,810
+Synthetic_Cubism,positive,30,uncluttered simple,1.2809625651147942,36
+Synthetic_Cubism,negative,1,colorful,-2.242505040279871,1966
+Synthetic_Cubism,negative,2,yellow,-1.5887296086017415,1879
+Synthetic_Cubism,negative,3,angular colors,-1.2695474643793125,185
+Synthetic_Cubism,negative,4,bright colors,-1.2509711368346539,3355
+Synthetic_Cubism,negative,5,straight colors,-0.9828157338913805,340
+Synthetic_Cubism,negative,6,peaceful,-0.867462895208968,12356
+Synthetic_Cubism,negative,7,angular lines,-0.8281262105913726,64
+Synthetic_Cubism,negative,8,vibrant shapes,-0.7330423243875862,195
+Synthetic_Cubism,negative,9,orange interesting,-0.730387280614708,42
+Synthetic_Cubism,negative,10,red calming,-0.716862234273527,273
+Synthetic_Cubism,negative,11,muted,-0.7084537847873152,9166
+Synthetic_Cubism,negative,12,pain woman,-0.6481513992697047,1036
+Synthetic_Cubism,negative,13,greens interesting,-0.6460504597831548,145
+Synthetic_Cubism,negative,14,lack like,-0.6318111103558639,1107
+Synthetic_Cubism,negative,15,interesting people,-0.6013107884328932,91
+Ukiyo_e,positive,1,bold way,1.601261015667438,26
+Ukiyo_e,positive,2,birds,1.1864119644498252,159
+Ukiyo_e,positive,3,people different,0.9115033673567158,12
+Ukiyo_e,positive,4,bird,0.7962636473476629,548
+Ukiyo_e,positive,5,holding cigarette,0.7572450427033728,79
+Ukiyo_e,positive,6,appears fight,0.6941982460566645,58
+Ukiyo_e,positive,7,bright bird,0.6428731392730789,22
+Ukiyo_e,positive,8,fun time,0.6098716324679941,29
+Ukiyo_e,positive,9,scary background,0.6065879355344418,25
+Ukiyo_e,positive,10,bird wings,0.5956159471935291,104
+Ukiyo_e,positive,11,like bloom,0.5856060777377015,49
+Ukiyo_e,positive,12,love man,0.5470632319010529,271
+Ukiyo_e,positive,13,trying fight,0.49544258548852976,158
+Ukiyo_e,positive,14,dog trying,0.48500073092285934,73
+Ukiyo_e,positive,15,cheerful people,0.45255592548060813,387
+Ukiyo_e,positive,16,motion sky,0.45226027312950917,118
+Ukiyo_e,positive,17,calming birds,0.4517936606792307,19
+Ukiyo_e,positive,18,man colors,0.44031089939520046,327
+Ukiyo_e,positive,19,boat,0.43208760896429604,937
+Ukiyo_e,positive,20,kill bird,0.4106265859680426,22
+Ukiyo_e,positive,21,hat background,0.401829385534316,43
+Ukiyo_e,positive,22,red hat,0.3907879549002591,419
+Ukiyo_e,positive,23,colors vibrant,0.385648384714373,1119
+Ukiyo_e,positive,24,woman holding,0.380679213002176,1657
+Ukiyo_e,positive,25,lifelike figure,0.3711739235866493,135
+Ukiyo_e,positive,26,calming mood,0.3672623697385142,59
+Ukiyo_e,positive,27,background simple,0.350813752643747,1398
+Ukiyo_e,positive,28,wearing red,0.3321140922908961,921
+Ukiyo_e,positive,29,flying,0.3218613948769517,155
+Ukiyo_e,positive,30,colors,0.3176198667380347,60325
+Ukiyo_e,negative,1,gloomy,-0.3945921612945743,4231
+Ukiyo_e,negative,2,shapes,-0.27558136851497034,5810
+Ukiyo_e,negative,3,warm,-0.2402004044298116,4459
+Ukiyo_e,negative,4,praying,-0.23127048515508877,905
+Ukiyo_e,negative,5,dark colors,-0.2063253857627723,12078
+Ukiyo_e,negative,6,dark,-0.194494200021239,26748
+Ukiyo_e,negative,7,happy realistic,-0.18577350267157194,392
+Ukiyo_e,negative,8,buildings,-0.1770208480289192,1321
+Ukiyo_e,negative,9,angel,-0.1725104015570355,429
+Ukiyo_e,negative,10,child,-0.17237685785805867,1737
+Ukiyo_e,negative,11,deep,-0.16357144965213674,5000
+Ukiyo_e,negative,12,flowers bright,-0.16250641778103053,932
+Ukiyo_e,negative,13,trees,-0.16096374292724738,7569
+Ukiyo_e,negative,14,dark background,-0.159870727079876,3510
+Ukiyo_e,negative,15,yellows,-0.13900658352957942,638

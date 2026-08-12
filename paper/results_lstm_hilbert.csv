@@ -1,0 +1,2 @@
+method,n_feat,lda_mean,lda_std,mlp_mean,mlp_std
+BiLSTM on Hilbert curve (32×32),seq 1024×3,—,—,0.1381,0.0038

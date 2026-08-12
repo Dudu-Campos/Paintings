@@ -1,0 +1,11 @@
+step,group,lda_mean,lda_std,xgb_mean,xgb_std,mlp_mean,mlp_std,selected
+0,Chance,0.0370,0.0000,,,,,
+1,Descriptors,0.3026,0.0071,0.3410,0.0108,0.3933,0.0138,Descriptors
+2,Delaunay,0.3281,0.0095,0.3643,0.0091,0.4310,0.0118,Descriptors + Delaunay
+3,Hilbert,0.3498,0.0052,0.3785,0.0079,0.4431,0.0121,Descriptors + Delaunay + Hilbert
+4,Sentiment,0.3615,0.0075,0.3817,0.0112,0.4471,0.0146,Descriptors + Delaunay + Hilbert + Sentiment
+5,RAG,0.3677,0.0092,0.3839,0.0108,0.4528,0.0147,Descriptors + Delaunay + Hilbert + Sentiment + RAG
+6,kNN,0.3706,0.0102,0.3857,0.0095,0.4620,0.0158,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN
+7,MST,0.3723,0.0102,0.3866,0.0096,0.4623,0.0140,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST
+8,RW,0.3715,0.0131,0.3883,0.0078,0.4555,0.0156,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST + RW
+9,Hybrid Walk,0.3708,0.0104,0.3876,0.0107,0.4559,0.0141,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST + RW + Hybrid Walk

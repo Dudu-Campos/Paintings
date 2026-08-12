@@ -21,10 +21,6 @@ from PIL import Image
 sys.path.insert(0, '.')
 from baseline_cnn import _build_resnet50, letterbox_resize
 
-IMAGE_DIR   = './raw/images'
-RAG_PARQUET = './plots_v3/full_rag_features.parquet'
-OUT_FEATS   = './plots_v3/cnn_full_features.npy'
-OUT_STEMS   = './plots_v3/cnn_full_stems.npy'
 DEVICE      = 'cuda'
 BATCH_SIZE  = 512
 NUM_WORKERS = 16
@@ -68,20 +64,29 @@ class PaintingDataset(Dataset):
             return dummy, self.stems[idx], False
 
 
+import argparse
+ap = argparse.ArgumentParser()
+ap.add_argument('--image_dir', required=True)
+ap.add_argument('--meta',      required=True)
+ap.add_argument('--output',    required=True)
+_args = ap.parse_args()
+
+OUT_FEATS = str(Path(_args.output) / 'cnn_full_features.npy')
+OUT_STEMS = str(Path(_args.output) / 'cnn_full_stems.npy')
+Path(_args.output).mkdir(parents=True, exist_ok=True)
+
 if Path(OUT_FEATS).exists() and Path(OUT_STEMS).exists():
     log('Já existe — saindo.')
     sys.exit(0)
 
 log('Carregando stems...')
-rag = pd.read_parquet(RAG_PARQUET)[['stem']]
-rag['stem'] = rag['stem'].astype(str)
-stems = rag['stem'].tolist()
-
-image_dir = Path(IMAGE_DIR)
-paths = [str(image_dir / f'{s}.jpg') for s in stems]
-missing = sum(1 for p in paths if not Path(p).exists())
-if missing:
-    log(f'AVISO: {missing} imagens não encontradas')
+meta = pd.read_csv(_args.meta)
+stems_meta = set(Path(f).stem for f in meta['filename'])
+stem_to_path = {p.stem: str(p) for p in Path(_args.image_dir).rglob('*')
+                if p.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp')}
+stems = [s for s in stems_meta if s in stem_to_path]
+paths = [stem_to_path[s] for s in stems]
+log(f'{len(stems):,} imagens encontradas')
 
 log('Carregando modelo ResNet50...')
 model, preprocess, feat_dim = _build_resnet50()

@@ -1,11 +1,12 @@
-"""
-xgboost_ablation.py — Roda o ablation completo (curva, RAG, k-NN, combinado)
-usando XGBoost em vez de LDA.
+"""Avalia os grafos SLIC com XGBoost.
 
-Reaproveita os parquets já salvos pelos scripts anteriores:
-  - graph_features.parquet     (de lda_graph_features.py)   → RAG básico
-  - knn_features.parquet       (de lda_knn_features.py)     → k-NN básico
-  - combined_features.parquet  (de lda_combined_features.py) → RAG+kNN
+Reaproveita os parquets produzidos por ``slic_multigraph_features.py``:
+
+* ``graph_features.parquet``: SLIC-RAG, 32 features;
+* ``knn_features.parquet``: kNN, 21 features.
+
+Um parquet combinado legado ainda pode ser informado explicitamente para
+reproduzir experiências antigas, mas não faz parte do pipeline padrão.
 
 Se algum parquet não existir, o cenário correspondente é pulado.
 
@@ -38,7 +39,7 @@ from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
 from sklearn.utils.class_weight import compute_sample_weight
 
 
-GRAPH_FEATURE_COLS = [
+BASE_FEATURE_COLS = [
     'n_nodes', 'n_edges', 'density',
     'area_gini', 'area_entropy', 'area_max_frac', 'area_mean', 'area_std',
     'color_dist_mean', 'color_dist_std', 'color_dist_max',
@@ -46,13 +47,23 @@ GRAPH_FEATURE_COLS = [
     'degree_mean', 'degree_std',
 ]
 
-TOPO_FEATURE_COLS = [
-    'modularity', 'n_communities',
-    'clustering_coef_mean', 'clustering_coef_std',
-    'assortativity_degree',
-    'avg_path_length_approx', 'diameter_approx',
-    'spectral_gap',
+STRUCT_FEATURE_COLS = [
+    'degree_max', 'hub_degree_ratio', 'n_leaf_frac', 'degree_gini',
+    'area_second_max_frac', 'area_cv',
 ]
+
+SPATIAL_FEATURE_COLS = ['spatial_density_cv', 'spatial_density_max_block_frac']
+
+COLOR_FEATURE_COLS = [
+    'L_mean_w', 'L_std_w', 'a_mean_w', 'a_std_w', 'b_mean_w', 'b_std_w',
+    'chroma_mean_w', 'chroma_std_w', 'warm_frac',
+]
+
+RAG_FEATURE_COLS = (
+    BASE_FEATURE_COLS + STRUCT_FEATURE_COLS
+    + SPATIAL_FEATURE_COLS + COLOR_FEATURE_COLS
+)
+KNN_FEATURE_COLS = BASE_FEATURE_COLS + STRUCT_FEATURE_COLS
 
 
 def filter_min_count(df: pd.DataFrame, min_count: int) -> pd.DataFrame:
@@ -173,8 +184,6 @@ def main():
     parser.add_argument('--n_iter_grid', type=int, default=60,
                         help='Número de combinações de hiperparâmetros '
                              'testadas via RandomizedSearchCV')
-    parser.add_argument('--acc_curve_lda', type=float, default=0.150,
-                        help='Acurácia LDA da curva N(ε), para referência')
     args = parser.parse_args()
 
     out = Path(args.output)
@@ -187,20 +196,17 @@ def main():
 
     if args.graph_parquet and Path(args.graph_parquet).exists():
         df = filter_min_count(pd.read_parquet(args.graph_parquet), args.min_count)
-        scenarios.append(('RAG básico', df, GRAPH_FEATURE_COLS))
-        if all(c in df.columns for c in TOPO_FEATURE_COLS):
-            scenarios.append(('RAG + topológicas', df,
-                               GRAPH_FEATURE_COLS + TOPO_FEATURE_COLS))
+        scenarios.append(('SLIC-RAG', df, RAG_FEATURE_COLS))
 
     if args.knn_parquet and Path(args.knn_parquet).exists():
         df = filter_min_count(pd.read_parquet(args.knn_parquet), args.min_count)
-        scenarios.append(('k-NN básico', df, GRAPH_FEATURE_COLS))
+        scenarios.append(('SLIC k-NN', df, KNN_FEATURE_COLS))
 
     if args.combined_parquet and Path(args.combined_parquet).exists():
         df = filter_min_count(pd.read_parquet(args.combined_parquet), args.min_count)
-        combined_cols = [f'rag_{c}' for c in GRAPH_FEATURE_COLS] + \
-                         [f'knn_{c}' for c in GRAPH_FEATURE_COLS]
-        scenarios.append(('RAG + k-NN combinado', df, combined_cols))
+        combined_cols = [f'rag_{c}' for c in BASE_FEATURE_COLS] + \
+                         [f'knn_{c}' for c in BASE_FEATURE_COLS]
+        scenarios.append(('RAG + k-NN combinado (legado)', df, combined_cols))
 
     for label, df, cols in scenarios:
         print(f'\n[{label}] {len(df):,} imagens  {df["style"].nunique()} estilos  '
@@ -217,8 +223,6 @@ def main():
     print(f'{"Método":<38} {"Acc tr":>7} {"BAcc tr":>8} {"F1 tr":>7} '
           f'{"Acc te":>7} {"BAcc te":>8} {"F1 te":>7}')
     print('-'*108)
-    print(f'{"Curva N(ε) (LDA, ref, sem balanceamento)":<38} {"—":>7} {"—":>8} '
-          f'{"—":>7} {args.acc_curve_lda:>7.3f} {"—":>8} {"—":>7}')
     for name, r in results.items():
         print(f'{name:<38} {r["acc_train"]:>7.3f} {r["bacc_train"]:>8.3f} '
               f'{r["f1_train"]:>7.3f} {r["acc_test"]:>7.3f} '

@@ -1,0 +1,2 @@
+condition,n_images,n_styles,bacc_oof,bacc_fold_mean,bacc_fold_std,accuracy_oof,macro_f1_oof
+CATR COCO human,12210,27,0.18138156777520376,0.18134010645363957,0.012794707882919878,0.15511875511875511,0.1309872501857595

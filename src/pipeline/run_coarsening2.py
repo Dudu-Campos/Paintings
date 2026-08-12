@@ -214,7 +214,10 @@ def process_one(args: tuple) -> dict | None:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f'{stem}.coarse'
 
-    if not out_path.exists() or out_path.stat().st_size < 16:
+    graph_path = out_path.with_suffix('.graph')
+    need_run = (not out_path.exists() or out_path.stat().st_size < 16
+                or (save_graph and not graph_path.exists()))
+    if need_run:
         cmd = [coarse_bin, str(image_path), str(out_path)]
         if save_graph:
             cmd += ['--graph', '--epsilon_star', str(epsilon_star)]

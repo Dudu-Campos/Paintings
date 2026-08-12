@@ -1,0 +1,2 @@
+condition,n_images,bacc_oof,accuracy_oof,macro_f1_oof,numeric_bacc_oof,delta_bacc_vs_numeric,bacc_fold_mean,bacc_fold_std,text_only_correct,base_only_correct,mcnemar_exact_p,placebo_delta_mean,placebo_delta_p975,placebo_delta_max,empirical_p_placebo_ge_real
+CATR COCO human,12210,0.3986117446671092,0.36855036855036855,0.3494686317068399,0.3852875865974113,0.013324158069697889,0.39863697418929644,0.006484924218859923,887,746,0.0005274671828991122,-0.008691309294548737,-0.00235587949111162,-0.0006768328832879,0.047619047619047616

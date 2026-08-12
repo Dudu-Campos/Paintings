@@ -1,91 +1,103 @@
 SHELL := /bin/bash
 
-# Paths
-META      := meta/meta.csv
-RAW_DIR   := raw/images
-COARSE_BIN := ./coarse2
+# WikiArt and feature paths
+WIKIART_DIR       ?= wikiart
+WIKIART_META      ?= data/artemis/wikiart_meta.csv
+OUT_SLIC_FEATURES ?= outputs/wikiart_slic_features
+OUT_FEATURES      ?= outputs/wikiart_features
+OUT_QUADRANT_FEATURES ?= outputs/wikiart_quadrant_features
+ROBUSTNESS_DIR    ?= data/wikiart_robustness
+ROBUSTNESS_PER_STYLE ?= 100
+ROBUSTNESS_WORKERS ?= 8
+ROBUSTNESS_FEATURES_DIR ?= outputs/wikiart_robustness_features
 
-OUT_COARSENING := outputs/coarsening
-OUT_EPS_STAR   := outputs/eps_star
-OUT_FEATURES   := outputs/features
+# SLIC configuration selected on a balanced validation pilot.
+SLIC_SEGMENTS    ?= 2048
+SLIC_COMPACTNESS ?= 10
+SLIC_WORKERS     ?= 32
+QUADRANT_WORKERS ?= 16
 
-EPS_LOOKUP := $(OUT_EPS_STAR)/eps_star_entropy_index.parquet
+# Activate the desired virtual environment before invoking make, or override
+# with e.g. make PYTHON=.venv-rtx3090-py312/bin/python.
+PYTHON ?= python3
 
-# Compilation flags
-CXX      := g++
-CXXFLAGS := -O3 -march=native -fopenmp -std=c++17
+.PHONY: all setup slic_features features quadrant_features gatys_gram vgg_pool classify baselines robustness_dataset robustness_graph_features coco_download slm_descriptions slm caption_finetune caption_predict_artemis cnn_scratch cnn_frozen cnn_frozen_cached cnn_transfer
 
-# Python via uv (resolve o ambiente automaticamente, sem ativar o venv)
-PYTHON := uv run python
+all: slic_features
 
-.PHONY: all setup build eps_star coarsen features baselines clean coco_download slm_descriptions slm caption_finetune caption_predict_artemis
-
-all: build eps_star coarsen features
-
-## 0. Setup do ambiente Python (core). Extras: uv sync --extra baselines|affect|slm
+## 0. Setup the complete project environment.
 setup:
-	uv sync
+	$(PYTHON) -m pip install -r requirements.txt
 
-## 1. Build C++ binaries
-build:
-	$(CXX) $(CXXFLAGS) src/cpp/coarse2.cpp -o coarse2
-	$(CXX) $(CXXFLAGS) src/cpp/eps_star_ssim.cpp -o eps_star_ssim
+## 1. Primary graph pipeline: one SLIC segmentation, four graph families.
+slic_features:
+	$(PYTHON) src/pipeline/slic_multigraph_features.py \
+		--image-dir $(WIKIART_DIR) \
+		--meta $(WIKIART_META) \
+		--output-dir $(OUT_SLIC_FEATURES) \
+		--segments $(SLIC_SEGMENTS) \
+		--compactness $(SLIC_COMPACTNESS) \
+		--workers $(SLIC_WORKERS)
 
-## 2. Compute ε* per image (entropy criterion)
-eps_star:
-	mkdir -p $(OUT_EPS_STAR)
-	$(PYTHON) src/pipeline/compute_eps_star_entropy.py \
-		--coarse_bin $(COARSE_BIN) \
-		--image_dir $(RAW_DIR) \
-		--meta $(META) \
-		--output_dir $(OUT_EPS_STAR)
+# Backwards-compatible target name; no percolation/coarsening is performed.
+features: slic_features
 
-## 3. Materialize graphs at ε*
-coarsen:
-	mkdir -p $(OUT_COARSENING)
-	$(PYTHON) src/pipeline/run_coarsening2.py \
-		--coarse_bin $(COARSE_BIN) \
-		--image_dir $(RAW_DIR) \
-		--eps_lookup $(EPS_LOOKUP) \
-		--coarse_dir $(OUT_COARSENING) \
-		--workers 32
+## Global image remains the existing feature table; extract only its four fixed quadrants.
+quadrant_features:
+	for REGION in top_left top_right bottom_left bottom_right; do \
+		$(PYTHON) src/pipeline/slic_multigraph_features.py \
+			--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+			--output-dir $(OUT_QUADRANT_FEATURES)/$$REGION/slic \
+			--segments $(SLIC_SEGMENTS) --compactness $(SLIC_COMPACTNESS) \
+			--region $$REGION --workers $(QUADRANT_WORKERS); \
+		$(PYTHON) src/baselines/extract_descriptors_full.py \
+			--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+			--output $(OUT_QUADRANT_FEATURES)/$$REGION \
+			--region $$REGION --workers $(QUADRANT_WORKERS); \
+		$(PYTHON) src/baselines/extract_hilbert_features.py \
+			--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+			--output $(OUT_QUADRANT_FEATURES)/$$REGION \
+			--region $$REGION --workers $(QUADRANT_WORKERS); \
+	done
 
-## 4. Extract graph features (balanced, min=31 max=100)
-features:
-	mkdir -p $(OUT_FEATURES)
-	$(PYTHON) src/pipeline/lda_graph_features.py \
-		--coarse_dir $(OUT_COARSENING)/coarse \
-		--meta $(META) \
-		--output $(OUT_FEATURES) \
-		--balanced_min 31 --balanced_max 100 --min_count 0 \
-		--workers 32
-	$(PYTHON) src/pipeline/lda_knn_features.py \
-		--coarse_dir $(OUT_COARSENING)/coarse \
-		--meta $(META) \
-		--output $(OUT_FEATURES) \
-		--balanced_min 31 --balanced_max 100 --min_count 0 \
-		--k 10 --workers 32
-	$(PYTHON) src/pipeline/lda_combined_features.py \
-		--coarse_dir $(OUT_COARSENING)/coarse \
-		--meta $(META) \
-		--output $(OUT_FEATURES) \
-		--balanced_min 31 --balanced_max 100 --min_count 0 \
-		--k 10 --workers 32
+## Gatys-style compact Gram baseline (frozen VGG-19; related-work adaptation).
+gatys_gram:
+	$(PYTHON) src/baselines/extract_gatys_compact_gram.py
+	$(PYTHON) paper/evaluate_gatys_compact_gram_mlp.py
+
+## Paired frozen VGG controls for the compact Gatys Gram representation.
+vgg_pool:
+	$(PYTHON) src/baselines/extract_vgg_pool_features.py
+	$(PYTHON) paper/evaluate_vgg_pool_mlp.py
+
+## Controlled image perturbations for modality-invariance diagnostics.
+robustness_dataset:
+	$(PYTHON) src/data/build_wikiart_robustness.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+		--output-dir $(ROBUSTNESS_DIR) --per-style $(ROBUSTNESS_PER_STYLE) \
+		--workers $(ROBUSTNESS_WORKERS)
+
+robustness_graph_features:
+	$(PYTHON) src/pipeline/slic_multigraph_features.py \
+		--image-dir $(ROBUSTNESS_DIR) --manifest $(ROBUSTNESS_DIR)/manifest.csv \
+		--output-dir $(ROBUSTNESS_FEATURES_DIR)/slic \
+		--segments $(SLIC_SEGMENTS) --compactness $(SLIC_COMPACTNESS) \
+		--workers $(SLIC_WORKERS)
 
 ## 5. Classification ablation
 classify:
 	$(PYTHON) src/pipeline/xgboost_ablation.py \
-		--features $(OUT_FEATURES)/graph_features.parquet
-	$(PYTHON) src/pipeline/compare_baselines_filtered.py \
-		--features_dir $(OUT_FEATURES)
+		--graph_parquet $(OUT_SLIC_FEATURES)/graph_features.parquet \
+		--knn_parquet $(OUT_SLIC_FEATURES)/knn_features.parquet \
+		--output $(OUT_SLIC_FEATURES)/classification
 
 ## 6. Extract CNN and descriptor baselines
 baselines:
 	mkdir -p $(OUT_FEATURES)
 	$(PYTHON) src/baselines/extract_cnn_full.py \
-		--image_dir $(RAW_DIR) --meta $(META) --output $(OUT_FEATURES)
+		--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) --output $(OUT_FEATURES)
 	$(PYTHON) src/baselines/extract_descriptors_full.py \
-		--image_dir $(RAW_DIR) --meta $(META) --output $(OUT_FEATURES)
+		--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) --output $(OUT_FEATURES)
 
 ## 7. Affect pipeline (pinturas ArtGAN+BestArtworks → ViT-S destilado → 768-dim)
 # Coloque ArtGAN em raw/artgan/ e Best Artworks em raw/best_artworks/ antes de rodar.
@@ -146,5 +158,26 @@ caption_predict_artemis:
 		--output $(CAPTION_PRED) \
 		--batch_size 32 --fp16
 
-clean:
-	rm -f coarse2 eps_star_ssim
+## 10. End-to-end WikiArt ResNet-50 controls for transfer learning.
+## Both targets use the same folds and hyperparameters; only initialization changes.
+CNN_TRAIN_ARGS   ?= --batch-size 128 --workers 16 --epochs 75 --patience 12 --lr 0.03
+
+cnn_scratch:
+	$(PYTHON) src/baselines/train_resnet_wikiart.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) --init scratch \
+		--output outputs/cnn_scratch $(CNN_TRAIN_ARGS)
+
+cnn_frozen:
+	$(PYTHON) src/baselines/train_resnet_wikiart.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) --init frozen \
+		--output outputs/cnn_frozen $(CNN_TRAIN_ARGS)
+
+cnn_frozen_cached:
+	$(PYTHON) src/baselines/train_frozen_resnet_cached.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+		--output outputs/cnn_frozen_cached $(CNN_TRAIN_ARGS)
+
+cnn_transfer:
+	$(PYTHON) src/baselines/train_resnet_wikiart.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) --init imagenet \
+		--output outputs/cnn_transfer $(CNN_TRAIN_ARGS)

@@ -108,7 +108,6 @@ def _train_fold(X_tr, y_tr, X_va, y_va, n_classes):
     Xtr = torch.tensor(Xtr_s, dtype=torch.float32, device=DEVICE)
     Xva = torch.tensor(Xva_s, dtype=torch.float32, device=DEVICE)
     ytr = torch.tensor(y_tr,  dtype=torch.long,    device=DEVICE)
-    yva = torch.tensor(y_va,  dtype=torch.long,    device=DEVICE)
 
     loader = DataLoader(TensorDataset(Xtr, ytr), batch_size=BS, shuffle=True)
     model  = MLP(Xtr.shape[1], n_classes).to(DEVICE)
@@ -168,12 +167,10 @@ def load_features():
     hil_s  = np.load(FEAT_DIR / 'hilbert_stems.npy', allow_pickle=True).astype(str)
     cnn_f  = np.load(FEAT_DIR / 'cnn_full_features.npy')
     cnn_s  = np.load(FEAT_DIR / 'cnn_full_stems.npy', allow_pickle=True).astype(str)
-    clip_f = np.load(FEAT_DIR / 'clip_features.npy')
-    clip_s = np.load(FEAT_DIR / 'clip_stems.npy', allow_pickle=True).astype(str)
 
     common = (set(rag['stem'].astype(str)) & set(knn['stem'].astype(str)) &
               set(delx['stem'].astype(str)) & set(mst['stem'].astype(str)) &
-              set(desc_s) & set(hil_s) & set(cnn_s) & set(clip_s))
+              set(desc_s) & set(hil_s) & set(cnn_s))
 
     meta      = pd.read_csv(META_CSV)
     meta['stem'] = meta['filename'].astype(str).str.split('.').str[0]
@@ -196,7 +193,6 @@ def load_features():
     desc_map = {s: i for i, s in enumerate(desc_s)}
     hil_map  = {s: i for i, s in enumerate(hil_s)}
     cnn_map  = {s: i for i, s in enumerate(cnn_s)}
-    clip_map = {s: i for i, s in enumerate(clip_s)}
 
     X_rag  = rag_ord.loc[stems, feat_cols].values.astype(float)
     X_knn  = knn_ord.loc[stems, feat_cols].values.astype(float)
@@ -205,19 +201,17 @@ def load_features():
     X_desc = desc_f[[desc_map[s] for s in stems]]
     X_hil  = hil_f[[hil_map[s] for s in stems]]
     X_cnn  = cnn_f[[cnn_map[s] for s in stems]]
-    X_clip = clip_f[[clip_map[s] for s in stems]]
-
-    X_pipe = np.hstack([X_rag, X_knn, X_del, X_mst, X_desc, X_hil])
+    X_pipe = np.hstack([X_rag, X_knn, X_del, X_mst, X_desc, X_hil])   # 315 feat
     y      = LabelEncoder().fit_transform(styles)
 
-    return X_pipe, X_cnn, X_clip, y
+    return X_pipe, X_cnn, y
 
 
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def main():
     log(f'device={DEVICE}')
-    X_pipe, X_cnn, X_clip, y = load_features()
+    X_pipe, X_cnn, y = load_features()
 
     configs = [
         ('CNN ResNet50',   X_cnn),

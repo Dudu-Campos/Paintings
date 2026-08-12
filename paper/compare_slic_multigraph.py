@@ -1,0 +1,154 @@
+"""Paired evaluation of the four SLIC graph families and their concatenation."""
+
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.model_selection import StratifiedKFold
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+
+
+RAG_FEATURES = [
+    "n_nodes", "n_edges", "density", "area_gini", "area_entropy",
+    "area_max_frac", "area_mean", "area_std", "color_dist_mean",
+    "color_dist_std", "color_dist_max", "spatial_dist_mean",
+    "spatial_dist_std", "degree_mean", "degree_std", "degree_max",
+    "hub_degree_ratio", "n_leaf_frac", "degree_gini",
+    "area_second_max_frac", "area_cv", "spatial_density_cv",
+    "spatial_density_max_block_frac", "L_mean_w", "L_std_w", "a_mean_w",
+    "a_std_w", "b_mean_w", "b_std_w", "chroma_mean_w", "chroma_std_w",
+    "warm_frac",
+]
+KNN_FEATURES = RAG_FEATURES[:21]
+
+# These depend on the edge set.  The remaining features describe the shared
+# SLIC nodes and would otherwise be repeated once for every graph family.
+EDGE_FEATURES = [
+    "n_edges", "density", "color_dist_mean", "color_dist_std",
+    "color_dist_max", "spatial_dist_mean", "spatial_dist_std",
+    "degree_mean", "degree_std", "degree_max", "hub_degree_ratio",
+    "n_leaf_frac", "degree_gini",
+]
+
+
+def load(path: Path, columns: list[str]) -> pd.DataFrame:
+    frame = pd.read_parquet(path, columns=["stem"] + columns)
+    if frame["stem"].duplicated().any():
+        frame = frame.drop_duplicates("stem")
+    return frame.set_index(frame["stem"].astype(str))
+
+
+def model(n_classes: int, n_features: int) -> Pipeline:
+    return Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        ("scaler", StandardScaler()),
+        ("lda", LinearDiscriminantAnalysis(
+            n_components=min(n_classes - 1, n_features),
+            priors=np.ones(n_classes) / n_classes,
+        )),
+    ])
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--graph-dir", type=Path,
+        default=Path("outputs/wikiart_slic_features"),
+    )
+    parser.add_argument(
+        "--legacy-rag", type=Path,
+        default=Path("outputs/wikiart_features/graph_features.parquet"),
+    )
+    parser.add_argument("--folds", type=int, default=5)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--output", type=Path,
+        default=Path("paper/results_slic_multigraph_full.csv"),
+    )
+    args = parser.parse_args()
+
+    legacy_raw = pd.read_parquet(
+        args.legacy_rag, columns=["stem", "style"] + RAG_FEATURES
+    ).drop_duplicates("stem")
+    legacy = legacy_raw.set_index(legacy_raw["stem"].astype(str))
+    frames = {
+        "SLIC-RAG": load(args.graph_dir / "graph_features.parquet", RAG_FEATURES),
+        "SLIC-kNN": load(args.graph_dir / "knn_features.parquet", KNN_FEATURES),
+        "SLIC-Delaunay": load(
+            args.graph_dir / "delaunay_features.parquet", RAG_FEATURES
+        ),
+        "SLIC-MST": load(args.graph_dir / "mst_features.parquet", RAG_FEATURES),
+    }
+
+    common = set(legacy.index)
+    for frame in frames.values():
+        common &= set(frame.index)
+    cohort = legacy.loc[sorted(common), ["stem", "style"]].copy()
+    counts = cohort["style"].value_counts()
+    cohort = cohort[cohort["style"].isin(counts[counts >= args.folds].index)]
+    stems = cohort["stem"].astype(str).tolist()
+    y = cohort["style"].astype(str).to_numpy()
+    n_classes = len(np.unique(y))
+
+    matrices = {
+        "Percolation RAG": legacy.loc[stems, RAG_FEATURES].to_numpy(float),
+        "SLIC-RAG": frames["SLIC-RAG"].loc[stems, RAG_FEATURES].to_numpy(float),
+        "SLIC-kNN": frames["SLIC-kNN"].loc[stems, KNN_FEATURES].to_numpy(float),
+        "SLIC-Delaunay": frames["SLIC-Delaunay"].loc[stems, RAG_FEATURES].to_numpy(float),
+        "SLIC-MST": frames["SLIC-MST"].loc[stems, RAG_FEATURES].to_numpy(float),
+    }
+    matrices["SLIC concat raw"] = np.hstack([
+        matrices["SLIC-RAG"], matrices["SLIC-kNN"],
+        matrices["SLIC-Delaunay"], matrices["SLIC-MST"],
+    ])
+    matrices["SLIC concat unique"] = np.hstack([
+        matrices["SLIC-RAG"],
+        frames["SLIC-kNN"].loc[stems, EDGE_FEATURES].to_numpy(float),
+        frames["SLIC-Delaunay"].loc[stems, EDGE_FEATURES].to_numpy(float),
+        frames["SLIC-MST"].loc[stems, EDGE_FEATURES].to_numpy(float),
+    ])
+
+    print(
+        f"Paired cohort: {len(stems):,} images, {n_classes} styles, "
+        f"{args.folds} identical folds"
+    )
+    splitter = StratifiedKFold(
+        n_splits=args.folds, shuffle=True, random_state=args.seed
+    )
+    splits = list(splitter.split(np.zeros(len(y)), y))
+    rows = []
+    for name, values in matrices.items():
+        scores = []
+        for fold, (train, test) in enumerate(splits, 1):
+            estimator = model(n_classes, values.shape[1])
+            estimator.fit(values[train], y[train])
+            score = balanced_accuracy_score(y[test], estimator.predict(values[test]))
+            scores.append(float(score))
+            print(f"  {name:<21} fold {fold}: BAcc={score:.4f}")
+        scores_array = np.asarray(scores)
+        rows.append({
+            "method": name,
+            "n_images": len(stems),
+            "n_styles": n_classes,
+            "n_features": values.shape[1],
+            "bacc_mean": scores_array.mean(),
+            "bacc_std": scores_array.std(),
+            **{f"fold_{i + 1}": value for i, value in enumerate(scores_array)},
+        })
+
+    result = pd.DataFrame(rows).sort_values("bacc_mean", ascending=False)
+    print("\n", result[["method", "n_features", "bacc_mean", "bacc_std"]].to_string(index=False))
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    result.to_csv(args.output, index=False)
+    print(f"Saved: {args.output}")
+
+
+if __name__ == "__main__":
+    main()

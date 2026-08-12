@@ -1,0 +1,16 @@
+nome_metodo,bacc,tempo_minutos,exige_pre_treino
+Haralick + HOG + MLP,0.226822,16.024,nao
+ResNet-50 do zero,0.423435,681.377,nao
+Nosso metodo visual (SLIC + descritores + Hilbert),0.452248,63.907,nao
+Nosso metodo visual + TF-IDF (captions ArtEmis),0.488440,63.959,sim
+VGG-19 conv_5 GAP + MLP,0.458274,5.942,sim
+VGG-19 final GAP + MLP,0.491821,5.206,sim
+Gram compacto de Gatys (VGG-19 frozen) + MLP,0.514800,19.077,sim
+ResNet-50 ImageNet frozen + cabeca linear,0.554631,3.725,sim
+ResNet-50 ImageNet frozen + MLP,0.530207,6.727,sim
+Nosso visual + ResNet-50 frozen,0.554810,68.380,sim
+Nosso visual + ResNet-50 frozen + TF-IDF,0.556361,68.143,sim
+ResNet-50 ImageNet fine-tuned,0.627181,341.002,sim
+Numeric 274 + BranchFusionMLP,0.458106,NA,nao
+Numeric 274 + CATR COCO + BranchFusionMLP,0.466034,NA,sim
+CATR COCO (texto isolado),0.197215,NA,sim

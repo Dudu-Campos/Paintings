@@ -1,0 +1,4 @@
+method,n_feat,n_feat_used,lda_bacc_mean,lda_bacc_std,lda_acc_mean,lda_acc_std,lda_f1_mean,lda_f1_std,mlp_bacc_mean,mlp_bacc_std,mlp_acc_mean,mlp_acc_std,mlp_f1_mean,mlp_f1_std
+Pipeline (RAG+kNN+Del+Hil+Desc+Sent),288,288,0.3707,0.0102,0.3046,0.0011,0.2646,0.0024,0.4484,0.0143,0.3545,0.0107,0.3298,0.0123
+CNN ResNet50 (2048 feat),2048,2048,0.5206,0.0081,0.4769,0.0031,0.4672,0.0053,0.5315,0.0065,0.4769,0.0064,0.4861,0.0085
+CLIP ViT-L/14 (768 feat),768,768,0.6855,0.0094,0.6434,0.0024,0.6293,0.0067,0.7330,0.0075,0.6713,0.0110,0.6783,0.0139

@@ -1,0 +1,11 @@
+step,group,bacc_mean,bacc_std,selected
+0,Chance,0.037037037037037035,0.0,
+1,Descriptors,0.30256870947592873,0.007110397912277542,Descriptors
+2,Delaunay,0.3281126421109058,0.009533977604345349,Descriptors + Delaunay
+3,Hilbert,0.34981857825902696,0.005226935812976018,Descriptors + Delaunay + Hilbert
+4,Sentiment,0.3614946831486793,0.0075021097077929404,Descriptors + Delaunay + Hilbert + Sentiment
+5,RAG,0.36770631469525933,0.00920177235713645,Descriptors + Delaunay + Hilbert + Sentiment + RAG
+6,kNN,0.3705591320828895,0.010239929976312751,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN
+7,MST,0.37227126822110607,0.01019788991478715,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST
+8,RW,0.37145537513880733,0.013098952356946266,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST + RW
+9,Hybrid Walk,0.37080168214900755,0.010367412980831579,Descriptors + Delaunay + Hilbert + Sentiment + RAG + kNN + MST + RW + Hybrid Walk

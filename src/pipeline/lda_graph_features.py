@@ -709,6 +709,42 @@ def select_balanced_paths(paths: list[Path], meta: dict,
 
 # ── Coleta do dataset de features de grafo ────────────────────────────────────
 
+def _process_one(args):
+    p, meta, include_topo, pyramid, remove_giant, max_nodes = args
+    data = read_coarse2(str(p))
+    if data is None:
+        return None
+    if max_nodes > 0 and len(data['nodes']) > max_nodes:
+        return None
+    try:
+        if remove_giant:
+            nodes_ng, edges_ng, giant_info = remove_giant_component(
+                data['nodes'], data['edges'])
+            feats = extract_graph_features(nodes_ng, edges_ng)
+            feats['giant_removed_frac'] = giant_info['giant_frac']
+            feats.update(spatial_density_cv(nodes_ng))
+            feats.update(extract_color_features(nodes_ng))
+            if include_topo:
+                G = build_nx_graph(nodes_ng, edges_ng)
+                feats.update(extract_topo_features(G))
+            if pyramid:
+                feats.update(extract_pyramid_features(nodes_ng, edges_ng))
+        else:
+            feats = extract_graph_features(data['nodes'], data['edges'])
+            feats.update(spatial_density_cv(data['nodes']))
+            feats.update(extract_color_features(data['nodes']))
+            if include_topo:
+                G = build_nx_graph(data['nodes'], data['edges'])
+                feats.update(extract_topo_features(G))
+            if pyramid:
+                feats.update(extract_pyramid_features(data['nodes'], data['edges']))
+        feats['stem']  = p.stem
+        feats['style'] = meta.get(p.stem, 'unknown')
+        return feats
+    except Exception:
+        return None
+
+
 def build_graph_feature_dataset(coarse_dir: str, meta_path: str,
                                  n_sample: int = 0,
                                  seed: int = 42,
@@ -717,7 +753,8 @@ def build_graph_feature_dataset(coarse_dir: str, meta_path: str,
                                  balanced_min: int = 0,
                                  balanced_max: int = 0,
                                  remove_giant: bool = False,
-                                 max_nodes: int = 100_000) -> pd.DataFrame:
+                                 max_nodes: int = 100_000,
+                                 n_workers: int = 1) -> pd.DataFrame:
     """
     balanced_min/balanced_max > 0 ativa seleção balanceada por estilo
     (replicando o protocolo da CNN: min=31, max=100), aplicada ANTES de
@@ -744,45 +781,24 @@ def build_graph_feature_dataset(coarse_dir: str, meta_path: str,
         idx = rng.choice(len(paths), n_sample, replace=False)
         paths = [paths[i] for i in idx]
 
+    from concurrent.futures import ProcessPoolExecutor, as_completed
+    worker_args = [(p, meta, include_topo, pyramid, remove_giant, max_nodes)
+                   for p in paths]
     rows = []
     failed = 0
-    for i, p in enumerate(paths):
-        data = read_coarse2(str(p))
-        if data is None:
-            failed += 1
-            continue
-
-        if max_nodes > 0 and len(data['nodes']) > max_nodes:
-            failed += 1
-            continue
-
-        if remove_giant:
-            nodes_ng, edges_ng, giant_info = remove_giant_component(
-                data['nodes'], data['edges'])
-            feats = extract_graph_features(nodes_ng, edges_ng)
-            feats['giant_removed_frac'] = giant_info['giant_frac']
-            feats.update(spatial_density_cv(nodes_ng))
-            feats.update(extract_color_features(nodes_ng))
-            if include_topo:
-                G = build_nx_graph(nodes_ng, edges_ng)
-                feats.update(extract_topo_features(G))
-            if pyramid:
-                feats.update(extract_pyramid_features(nodes_ng, edges_ng))
-        else:
-            feats = extract_graph_features(data['nodes'], data['edges'])
-            feats.update(spatial_density_cv(data['nodes']))
-            feats.update(extract_color_features(data['nodes']))
-            if include_topo:
-                G = build_nx_graph(data['nodes'], data['edges'])
-                feats.update(extract_topo_features(G))
-            if pyramid:
-                feats.update(extract_pyramid_features(data['nodes'], data['edges']))
-
-        feats['stem'] = p.stem
-        feats['style'] = meta.get(p.stem, 'unknown')
-        rows.append(feats)
-        if (i+1) % 500 == 0:
-            print(f'  {i+1:>7}/{len(paths):,}...', end='\r')
+    done = 0
+    with ProcessPoolExecutor(max_workers=n_workers) as ex:
+        futs = {ex.submit(_process_one, a): a for a in worker_args}
+        for fut in as_completed(futs):
+            done += 1
+            result = fut.result()
+            if result is None:
+                failed += 1
+            else:
+                rows.append(result)
+            if done % 500 == 0:
+                print(f'  {done:>7}/{len(paths):,}  ok={len(rows)}  fail={failed}',
+                      flush=True)
 
     print(f'\nProcessados: {len(rows):,}  falhas: {failed}')
     return pd.DataFrame(rows)
@@ -889,6 +905,8 @@ def main():
                              'de nó e computa as 23 features por janela '
                              '(4×23=92 features). Salvo em '
                              'graph_features_pyramid.parquet.')
+    parser.add_argument('--workers', type=int, default=1,
+                        help='Número de processos paralelos para extração de features.')
     args = parser.parse_args()
 
     out = Path(args.output)
@@ -900,7 +918,8 @@ def main():
                                       balanced_min=args.balanced_min,
                                       balanced_max=args.balanced_max,
                                       remove_giant=args.remove_giant,
-                                      max_nodes=args.max_nodes)
+                                      max_nodes=args.max_nodes,
+                                      n_workers=args.workers)
     df = df[df['style'] != 'unknown'].copy()
 
     # Se já passou pela seleção balanceada, min_count é redundante mas
