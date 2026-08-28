@@ -1,0 +1,7 @@
+bloco,metric,value
+fidelidade_coco,bleu4,0.19115957743324885
+fidelidade_coco,rougeL,0.4310513195111885
+vazamento_estudante,true_style_pct,0.22698612862547288
+vazamento_estudante,surname_pct,0.0
+downstream,bacc_estudante,0.23782791515264845
+downstream,bacc_catr_ref,0.18138

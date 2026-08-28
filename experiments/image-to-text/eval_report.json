@@ -1,0 +1,123 @@
+{
+  "report": {
+    "coco_fidelity": {
+      "n": 478,
+      "bleu4": 0.19115957743324885,
+      "rougeL": 0.4310513195111885
+    },
+    "leakage": {
+      "n": 15860,
+      "true_style_mention_pct": 0.22698612862547288,
+      "any_style_mention_pct": 9.489281210592686,
+      "surname_mention_pct": 0.0
+    },
+    "tfidf_downstream": {
+      "n_images": 15860,
+      "n_styles": 27,
+      "bacc_oof": 0.23782791515264845,
+      "bacc_fold_mean": 0.23737908321131815,
+      "bacc_fold_std": 0.01321723499644952
+    },
+    "catr_reference": {
+      "bacc_oof": 0.18138,
+      "n_images": 12210,
+      "true_style_mention_pct": 0.0,
+      "surname_mention_pct": 0.0,
+      "note": "results/catr_coco_standalone_results.csv + catr_coco_leakage_summary.csv"
+    }
+  },
+  "coco_examples": [
+    {
+      "path": "000000000724.jpg",
+      "professor": "A stop sign stands prominently in a well-maintained area with lush greenery and clear blue skies. The bright red of the sign contrasts sharply with the greenery and blue sky, evoking a sense of clarity and order.",
+      "estudante": "The image shows a stop sign with the word \"M\" sign, parked on a sidewalk, with a stop. The sign is overcast, and the overall tone is somber and muted, with the colors of the sign contrasting against the muted tones of the surroundings."
+    },
+    {
+      "path": "000000000776.jpg",
+      "professor": "Three teddy bears of varying sizes are huddled together, their plush textures and warm brown hues creating a sense of comfort and nostalgia. The soft lighting and close composition evoke a feeling of warmth and affection, reminiscent of childhood memories.",
+      "estudante": "The image shows a small teddy bear with a brown teddy bear, placed on a wooden fence. The colors are warm brown and soft, evoking a sense of comfort and nostalgia. The composition is simple and soft due to the teddy bear's relaxed posture and the cozy."
+    },
+    {
+      "path": "000000001268.jpg",
+      "professor": "A woman takes a photo under a bridge, while a swan stands on the riverbank. The scene evokes a calm and serene atmosphere, with soft lighting and natural colors.",
+      "estudante": "A person stands on a bench at an outdoor outdoor outdoor setting, with a boat and a boat in the background. The image evokes a sense of solitude and tranquility, with the soft lighting and calm waters creating a peaceful atmosphere."
+    },
+    {
+      "path": "000000002261.jpg",
+      "professor": "A person is bodyboarding on a greenish wave, with their arm raised, creating a splash. The image evokes a sense of excitement and adventure, with the vibrant colors and dynamic composition.",
+      "estudante": "A person and a wetsuit rides a wave on a surfboard. The image evokes a sense of adventure and excitement, with the bright colors of the surfboard and the dynamic movement of the wetsuit."
+    },
+    {
+      "path": "000000005001.jpg",
+      "professor": "A group of people, including children, are gathered around a ribbon-cutting ceremony. The scene is lively and celebratory, with bright colors and a sense of community.",
+      "estudante": "A woman in a blue shirt and black pants is playing frisbee on a grassy field, with a group of people in the background. The scene is bright and cheerful, with the vibrant colors of the kite and the kite contrasting against the muted tones of the sky and the scene."
+    },
+    {
+      "path": "000000005193.jpg",
+      "professor": "The image shows a group of young people holding surfboards, with one person taking a photo. The colors are vibrant, with the yellow and blue surfboards standing out, and the lighting is warm, creating a cheerful and lively atmosphere.",
+      "estudante": "A young man stands on a video game, while a man wearing a red shirt and hat stands. The scene is lively and cheerful, with bright colors and a sense of excitement and camaraderie."
+    },
+    {
+      "path": "000000005600.jpg",
+      "professor": "The image shows two bowls of food on a plate, one containing a reddish-brown stew and the other with peeled, halved vegetables. The colors are warm and inviting, with the rich reds and yellows of the food contrasting against the metallic sheen of the bowls.",
+      "estudante": "The image shows a bowl of chocolate sauce, including carrots, placed on a white plate. The colors are vibrant, with the orange of the carrots, and the orange sauce, creating a warm and inviting atmosphere."
+    },
+    {
+      "path": "000000006213.jpg",
+      "professor": "The image depicts a modern bathroom with a white bathtub, a glass shower enclosure, a wooden vanity with two sinks, and a red shower curtain. The warm lighting and neutral colors create a cozy and inviting atmosphere.",
+      "estudante": "The image depicts a modern bathroom with a white sink, a bathtub, and a sink. The warm lighting and soft colors create a cozy and inviting atmosphere."
+    }
+  ],
+  "wikiart_examples": [
+    {
+      "style": "Abstract_Expressionism",
+      "artist": "aaron siskind",
+      "caption": "The image features a black and white photograph of a window with Roman numerals and intricate designs. The clock has a nostalgic and somewhat somber tone, with the dark background."
+    },
+    {
+      "style": "Action_painting",
+      "artist": "antonio palolo",
+      "caption": "The image features a vibrant, ornate, ornate design with a black, red, and white photograph of a large, creating a vibrant and dynamic scene. The composition suggests a sense of nostalgia and creativity. The vibrant colors and the composition evoke a sense sense of energy and simplicity."
+    },
+    {
+      "style": "Analytical_Cubism",
+      "artist": "albert gleizes",
+      "caption": "The image depicts a vibrant, ornate clock with a large, red and white photograph, standing on a group of people in the other people. The warm, earthy tones of the wood and the bright colors of the attire of the clothing contrast, evoking a sense of energy and relaxation."
+    },
+    {
+      "style": "Art_Nouveau_Modern",
+      "artist": "a.y. jackson",
+      "caption": "The image features a serene scene with two and two red flowers in the background, including a large, a bird holding an orange flowers. The warm colors and soft lighting create a serene and peaceful atmosphere."
+    },
+    {
+      "style": "Baroque",
+      "artist": "adriaen brouwer",
+      "caption": "A person sits at a table with a laptop, wearing a white shirt with a patterned tie and a man in the background. The image evokes a sense of curiosity and nostalgia, with warm, earthy tones and soft lighting."
+    },
+    {
+      "style": "Color_Field_Painting",
+      "artist": "ad reinhardt",
+      "caption": "The image features a group of people standing in front of a window with a few people. The composition suggests a moment of historical significance. The colors are muted, with the image is neutral, evoking a sense of calm and quiet contemplation."
+    },
+    {
+      "style": "Contemporary_Realism",
+      "artist": "chuck close",
+      "caption": "The image shows a man holding a banana standing on a wall wall wall, including a banana in front of a building with various items on it. The background features a mix of warm and cool colors, evoking a sense of everyday life."
+    },
+    {
+      "style": "Cubism",
+      "artist": "albert gleizes",
+      "caption": "The image depicts a serene pastoral scene with a large, ornate clock tower and a bowl filled with various items, including carrots and a cup, including yellow flowers. The overall tone is calm and serene, with soft lighting and a peaceful atmosphere."
+    },
+    {
+      "style": "Early_Renaissance",
+      "artist": "andrea del castagno",
+      "caption": "The image depicts a close-shirt with two two cats, one standing out of their face, including a mix of light and dark, creating a somber and focused atmosphere."
+    },
+    {
+      "style": "Expressionism",
+      "artist": "abidin dino",
+      "caption": "The image features a person holding a cow, one black and one black, and the other standing nearby. The background features a floral pattern, and a person is placed on a wooden surface with a window in the background."
+    }
+  ]
+}

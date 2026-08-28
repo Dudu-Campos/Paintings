@@ -1,0 +1,6 @@
+field,metric,value
+artist,recall,0.1
+year,exact,0.1
+year,within_1,0.1
+title,hit@0.5,0.4
+title,mean_overlap,0.3727
