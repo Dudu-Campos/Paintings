@@ -49,7 +49,9 @@ EOS = "<eos>"
 PAD = "<pad>"
 IMG = "<img>"                                  # marcador do prefixo visual
 SPECIAL_TOKENS = [PAD, BOS, EOS, IMG]
-VOCAB_SIZE = 12000                             # BPE sobre legendas do professor
+VOCAB_SIZE = 8000                              # BPE sobre legendas do professor
+# Piloto COCO val (~5k legendas, 5093 palavras únicas): o BPE satura em ~6.3k
+# tokens antes do teto. Para o COCO train completo (118k) subir p/ ~12000.
 
 # --------------------------------------------------------------------------
 # Estudante (decoder-only, prefixo visual)
@@ -64,7 +66,8 @@ PREFIX_LEN = 10                                # tokens de prefixo (ClipCap)
 IMAGE_ENCODER = "ViT-B/32"                     # CLIP congelado; TODO alternativa
 
 # Comprimento textual máximo do alvo (trunca o professor p/ "caber").
-MAX_CAPTION_TOKENS = 64
+# Prompt do professor pede 2 frases / <=40 palavras -> ~45 tokens de folga.
+MAX_CAPTION_TOKENS = 48
 
 # --------------------------------------------------------------------------
 # Treino

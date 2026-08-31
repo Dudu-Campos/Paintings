@@ -64,3 +64,9 @@ results/*_pairs.csv
 results/*.npy
 results/*.npz
 results/.patch_probe
+
+# image-to-text: caches e artefatos grandes regeneráveis pela pipeline
+experiments/image-to-text/artifacts/clip_feats_*.npy
+experiments/image-to-text/artifacts/teacher_captions*.jsonl
+experiments/image-to-text/teacher_captions*.jsonl
+experiments/image-to-text/artifacts/full_run/
