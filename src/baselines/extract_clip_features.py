@@ -1,5 +1,6 @@
 """
-Extrai embeddings CLIP ViT-L/14 (openai) para todas as imagens WikiArt.
+Extrai embeddings CLIP ViT-L/14 (DataComp-1B, datacomp_xl_s13b_b90k) para
+todas as imagens WikiArt.
 Saída: outputs/wikiart_features/clip_features.npy  (N, 768)
        outputs/wikiart_features/clip_stems.npy     (N,)
 """
@@ -20,7 +21,7 @@ DEVICE      = 'cuda' if torch.cuda.is_available() else 'cpu'
 BATCH       = 256
 NUM_WORKERS = 8
 MODEL_NAME  = 'ViT-L-14'
-PRETRAINED  = 'openai'
+PRETRAINED  = 'datacomp_xl_s13b_b90k'
 
 
 def log(msg):
