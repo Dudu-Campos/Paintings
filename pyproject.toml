@@ -25,6 +25,7 @@ baselines = [
     "torchvision",
     "lightgbm",
     "open-clip-torch",
+    "duckdb",
 ]
 affect = [
     "torch",
