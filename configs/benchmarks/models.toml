@@ -1,0 +1,49 @@
+# `blocks` names representations in src/pipeline/registry.py.  New feature
+# extractors become benchmarkable by registering their representation here and
+# adding a model entry below; the launcher itself is unchanged.
+
+[models.engineered_lda]
+runner = "blocks"
+classifier = "lda"
+blocks = ["Descriptors", "SLIC", "Felzenszwalb", "Line graph", "L(G_felz)", "Hilbert", "Fourier", "Multiscale"]
+description = "All explicit visual representations, linear probe"
+
+[models.engineered_mlp]
+runner = "blocks"
+classifier = "mlp"
+blocks = ["Descriptors", "SLIC", "Felzenszwalb", "Line graph", "L(G_felz)", "Hilbert", "Fourier", "Multiscale"]
+epochs = 150
+patience = 15
+description = "All explicit visual representations, branch MLP"
+
+[models.resnet50_frozen]
+runner = "blocks"
+classifier = "mlp"
+blocks = ["ResNet50"]
+allow_external = true
+epochs = 150
+patience = 15
+description = "ImageNet ResNet-50 embedding with the same branch-MLP probe"
+
+[models.engineered_plus_resnet50]
+runner = "blocks"
+classifier = "mlp"
+blocks = ["Descriptors", "SLIC", "Felzenszwalb", "Line graph", "L(G_felz)", "Hilbert", "Fourier", "Multiscale", "ResNet50"]
+allow_external = true
+epochs = 150
+patience = 15
+description = "Late fusion: explicit representations plus frozen ImageNet embedding"
+
+[models.resnet50_scratch]
+runner = "resnet"
+initialization = "scratch"
+epochs = 75
+patience = 12
+description = "ResNet-50 optimized end-to-end from random initialization"
+
+[models.resnet50_frozen_head]
+runner = "resnet"
+initialization = "frozen"
+epochs = 75
+patience = 12
+description = "ImageNet ResNet-50 with frozen backbone and trained classifier"

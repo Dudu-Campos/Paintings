@@ -1,0 +1,8 @@
+condition,bacc
+nosso (hand-designed),0.508079
+ResNet50 fine-tuned,0.647053
+média das log-probs,0.662886
+melhor peso fixo (w=0.60),0.663404
+oráculo (algum acerta),0.714533
+só o nosso acerta,0.079993
+só o fine-tuned acerta,0.291287

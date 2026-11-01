@@ -1,0 +1,1610 @@
+block,feature,origin,group,solo_accuracy
+Descriptors,0,image,2,0.030111
+Descriptors,1,image,2,0.040375
+Descriptors,2,image,2,0.042181
+Descriptors,3,image,2,0.040804
+Descriptors,4,image,2,0.044554
+Descriptors,5,image,2,0.031790
+Descriptors,6,image,2,0.032005
+Descriptors,7,image,2,0.029656
+Descriptors,8,image,2,0.028508
+Descriptors,9,image,2,0.023458
+Descriptors,10,image,2,0.017675
+Descriptors,11,image,2,0.018357
+Descriptors,12,image,2,0.019670
+Descriptors,13,image,2,0.036954
+Descriptors,14,image,2,0.049074
+Descriptors,15,image,2,0.051561
+Descriptors,16,image,2,0.052041
+Descriptors,17,image,2,0.053114
+Descriptors,18,image,2,0.053291
+Descriptors,19,image,2,0.055361
+Descriptors,20,image,2,0.056838
+Descriptors,21,image,2,0.056876
+Descriptors,22,image,0,0.029631
+Descriptors,23,image,0,0.029189
+Descriptors,24,image,0,0.028394
+Descriptors,25,image,0,0.029833
+Descriptors,26,image,0,0.028760
+Descriptors,27,image,0,0.029518
+Descriptors,28,image,0,0.033267
+Descriptors,29,image,2,0.029972
+Descriptors,30,image,2,0.015807
+Descriptors,31,image,2,0.014683
+Descriptors,32,image,2,0.015037
+Descriptors,33,image,0,0.020188
+Descriptors,34,image,0,0.021362
+Descriptors,35,image,0,0.021210
+Descriptors,36,image,0,0.022422
+Descriptors,37,image,0,0.021652
+Descriptors,38,image,0,0.020945
+Descriptors,39,image,0,0.021513
+Descriptors,40,image,0,0.021993
+Descriptors,41,image,0,0.024417
+Descriptors,42,image,0,0.022788
+Descriptors,43,image,0,0.022788
+Descriptors,44,image,0,0.022599
+Descriptors,45,image,0,0.022006
+Descriptors,46,image,0,0.021526
+Descriptors,47,image,0,0.022561
+Descriptors,48,image,0,0.022788
+Descriptors,49,image,0,0.022511
+Descriptors,50,image,0,0.021690
+Descriptors,51,image,0,0.018609
+Descriptors,52,image,0,0.018572
+Descriptors,53,image,0,0.016438
+Descriptors,54,image,0,0.012297
+Descriptors,55,image,2,0.016034
+Descriptors,56,image,2,0.014885
+Descriptors,57,image,2,0.015163
+Descriptors,58,image,2,0.017132
+Descriptors,59,image,2,0.016892
+Descriptors,60,image,2,0.040249
+Descriptors,61,image,2,0.015567
+Descriptors,62,image,2,0.019342
+Descriptors,63,image,2,0.016829
+Descriptors,64,image,0,0.021816
+Descriptors,65,image,0,0.022902
+Descriptors,66,image,0,0.018281
+Descriptors,67,image,0,0.020465
+Descriptors,68,image,0,0.020554
+Descriptors,69,image,0,0.020200
+Descriptors,70,image,0,0.020112
+Descriptors,71,image,0,0.021892
+Descriptors,72,image,0,0.022384
+Descriptors,73,image,0,0.021425
+Descriptors,74,image,0,0.022738
+Descriptors,75,image,0,0.021463
+Descriptors,76,image,0,0.021816
+Descriptors,77,image,0,0.020907
+Descriptors,78,image,0,0.020882
+Descriptors,79,image,0,0.020718
+Descriptors,80,image,0,0.021071
+Descriptors,81,image,0,0.019657
+Descriptors,82,image,0,0.019897
+Descriptors,83,image,0,0.018496
+Descriptors,84,image,0,0.018092
+Descriptors,85,image,0,0.011678
+Descriptors,86,image,0,0.011022
+Descriptors,87,image,2,0.010201
+Descriptors,88,image,2,0.012537
+Descriptors,89,image,2,0.015074
+Descriptors,90,image,0,0.039946
+Descriptors,91,image,2,0.025579
+Descriptors,92,image,2,0.054162
+Descriptors,93,image,1,0.030300
+Descriptors,94,image,0,0.039984
+Descriptors,95,image,2,0.025111
+Descriptors,96,image,0,0.025781
+Descriptors,97,image,0,0.042989
+Descriptors,98,image,2,0.041461
+Descriptors,99,image,2,0.056308
+Descriptors,100,image,2,0.041739
+Descriptors,101,image,2,0.046006
+Descriptors,102,image,2,0.048948
+Descriptors,103,image,2,0.052016
+Descriptors,104,image,2,0.046145
+Descriptors,105,image,2,0.053026
+Descriptors,106,image,2,0.034227
+Descriptors,107,image,2,0.029909
+Descriptors,108,image,2,0.045918
+Descriptors,109,image,2,0.040274
+Descriptors,110,image,2,0.041549
+Descriptors,111,image,2,0.037232
+Descriptors,112,image,2,0.050602
+Descriptors,113,image,2,0.023470
+Descriptors,114,image,2,0.041423
+Descriptors,115,image,2,0.039567
+Descriptors,116,image,2,0.040173
+Descriptors,117,image,2,0.031134
+Descriptors,118,image,2,0.037206
+Descriptors,119,image,2,0.041171
+Descriptors,120,image,2,0.034984
+Descriptors,121,image,2,0.043746
+Descriptors,122,image,2,0.044781
+Descriptors,123,image,2,0.034909
+Descriptors,124,image,2,0.039971
+Descriptors,125,image,2,0.041196
+Descriptors,126,image,2,0.043784
+Descriptors,127,image,2,0.027018
+Descriptors,128,image,2,0.034934
+Descriptors,129,image,2,0.038418
+SLIC,n_nodes,region graphs,2,0.034845
+SLIC,n_edges,region graphs,2,0.036777
+SLIC,density,region graphs,2,0.042181
+SLIC,area_gini,region graphs,2,0.044958
+SLIC,area_entropy,region graphs,2,0.035855
+SLIC,area_max_frac,region graphs,2,0.023925
+SLIC,area_mean,region graphs,2,0.037257
+SLIC,area_std,region graphs,2,0.036802
+SLIC,color_dist_mean,region graphs,2,0.045362
+SLIC,color_dist_std,region graphs,2,0.055450
+SLIC,color_dist_max,region graphs,2,0.033116
+SLIC,spatial_dist_mean,region graphs,2,0.040943
+SLIC,spatial_dist_std,region graphs,2,0.043292
+SLIC,degree_mean,region graphs,2,0.033886
+SLIC,degree_std,region graphs,2,0.043683
+SLIC,degree_max,region graphs,2,0.131478
+SLIC,hub_degree_ratio,region graphs,2,0.138283
+SLIC,n_leaf_frac,region graphs,2,0.031689
+SLIC,degree_gini,region graphs,2,0.044264
+SLIC,area_second_max_frac,region graphs,2,0.024064
+SLIC,area_cv,region graphs,2,0.039050
+SLIC,spatial_density_cv,region graphs,2,0.021576
+SLIC,spatial_density_max_block_frac,region graphs,2,0.023344
+SLIC,L_mean_w,region graphs,0,0.039706
+SLIC,L_std_w,region graphs,2,0.027801
+SLIC,a_mean_w,region graphs,1,0.029871
+SLIC,a_std_w,region graphs,0,0.051069
+SLIC,b_mean_w,region graphs,0,0.025882
+SLIC,b_std_w,region graphs,0,0.041701
+SLIC,chroma_mean_w,region graphs,0,0.038582
+SLIC,chroma_std_w,region graphs,0,0.035717
+SLIC,warm_frac,region graphs,0,0.013989
+SLIC,knn_n_edges,region graphs,2,0.041562
+SLIC,knn_density,region graphs,2,0.038709
+SLIC,knn_color_dist_mean,region graphs,2,0.056687
+SLIC,knn_color_dist_std,region graphs,0,0.040729
+SLIC,knn_color_dist_max,region graphs,2,0.020377
+SLIC,knn_spatial_dist_mean,region graphs,2,0.036537
+SLIC,knn_spatial_dist_std,region graphs,2,0.031613
+SLIC,knn_degree_mean,region graphs,2,0.047407
+SLIC,knn_degree_std,region graphs,2,0.076003
+SLIC,knn_degree_max,region graphs,2,0.060841
+SLIC,knn_hub_degree_ratio,region graphs,2,0.027636
+SLIC,knn_degree_gini,region graphs,2,0.074867
+SLIC,del_n_edges,region graphs,2,0.034909
+SLIC,del_density,region graphs,2,0.036865
+SLIC,del_color_dist_mean,region graphs,2,0.046498
+SLIC,del_color_dist_std,region graphs,2,0.102630
+SLIC,del_color_dist_max,region graphs,0,0.032636
+SLIC,del_spatial_dist_mean,region graphs,2,0.037989
+SLIC,del_spatial_dist_std,region graphs,2,0.113450
+SLIC,del_degree_mean,region graphs,2,0.040135
+SLIC,del_degree_std,region graphs,2,0.042294
+SLIC,del_degree_max,region graphs,2,0.031613
+SLIC,del_hub_degree_ratio,region graphs,2,0.031336
+SLIC,del_degree_gini,region graphs,2,0.033798
+SLIC,mst_n_edges,region graphs,2,0.125986
+SLIC,mst_density,region graphs,2,0.055993
+SLIC,mst_color_dist_mean,region graphs,2,0.082821
+SLIC,mst_color_dist_std,region graphs,2,0.164985
+SLIC,mst_color_dist_max,region graphs,2,0.046435
+SLIC,mst_spatial_dist_mean,region graphs,2,0.127287
+SLIC,mst_spatial_dist_std,region graphs,2,0.133271
+SLIC,mst_degree_mean,region graphs,2,0.040451
+SLIC,mst_degree_std,region graphs,2,0.138182
+SLIC,mst_degree_max,region graphs,2,0.156527
+SLIC,mst_hub_degree_ratio,region graphs,2,0.154342
+SLIC,mst_n_leaf_frac,region graphs,2,0.035552
+SLIC,mst_degree_gini,region graphs,2,0.040047
+Felzenszwalb,n_nodes,region graphs,2,0.046385
+Felzenszwalb,n_edges,region graphs,2,0.045488
+Felzenszwalb,density,region graphs,2,0.038216
+Felzenszwalb,area_gini,region graphs,2,0.043936
+Felzenszwalb,area_entropy,region graphs,2,0.040476
+Felzenszwalb,area_max_frac,region graphs,2,0.030401
+Felzenszwalb,area_mean,region graphs,2,0.035919
+Felzenszwalb,area_std,region graphs,2,0.035174
+Felzenszwalb,color_dist_mean,region graphs,2,0.039188
+Felzenszwalb,color_dist_std,region graphs,2,0.038734
+Felzenszwalb,color_dist_max,region graphs,2,0.025036
+Felzenszwalb,spatial_dist_mean,region graphs,2,0.045728
+Felzenszwalb,spatial_dist_std,region graphs,2,0.045514
+Felzenszwalb,degree_mean,region graphs,2,0.032384
+Felzenszwalb,degree_std,region graphs,2,0.030717
+Felzenszwalb,degree_max,region graphs,2,0.020541
+Felzenszwalb,hub_degree_ratio,region graphs,2,0.023571
+Felzenszwalb,n_leaf_frac,region graphs,2,0.035729
+Felzenszwalb,degree_gini,region graphs,2,0.035969
+Felzenszwalb,area_second_max_frac,region graphs,2,0.035616
+Felzenszwalb,area_cv,region graphs,2,0.030313
+Felzenszwalb,spatial_density_cv,region graphs,2,0.036663
+Felzenszwalb,spatial_density_max_block_frac,region graphs,2,0.034025
+Felzenszwalb,L_mean_w,region graphs,0,0.039706
+Felzenszwalb,L_std_w,region graphs,2,0.027043
+Felzenszwalb,a_mean_w,region graphs,1,0.029871
+Felzenszwalb,a_std_w,region graphs,0,0.053013
+Felzenszwalb,b_mean_w,region graphs,0,0.025882
+Felzenszwalb,b_std_w,region graphs,0,0.043620
+Felzenszwalb,chroma_mean_w,region graphs,0,0.038153
+Felzenszwalb,chroma_std_w,region graphs,0,0.034580
+Felzenszwalb,warm_frac,region graphs,0,0.015579
+Felzenszwalb,knn_n_edges,region graphs,2,0.047837
+Felzenszwalb,knn_density,region graphs,2,0.036007
+Felzenszwalb,knn_color_dist_mean,region graphs,0,0.040400
+Felzenszwalb,knn_color_dist_std,region graphs,2,0.040438
+Felzenszwalb,knn_color_dist_max,region graphs,2,0.017940
+Felzenszwalb,knn_spatial_dist_mean,region graphs,0,0.030603
+Felzenszwalb,knn_spatial_dist_std,region graphs,0,0.026778
+Felzenszwalb,knn_degree_mean,region graphs,2,0.040918
+Felzenszwalb,knn_degree_std,region graphs,2,0.038343
+Felzenszwalb,knn_degree_max,region graphs,2,0.034063
+Felzenszwalb,knn_hub_degree_ratio,region graphs,2,0.029252
+Felzenszwalb,knn_degree_gini,region graphs,2,0.037547
+Felzenszwalb,del_n_edges,region graphs,2,0.046372
+Felzenszwalb,del_density,region graphs,2,0.035969
+Felzenszwalb,del_color_dist_mean,region graphs,2,0.046334
+Felzenszwalb,del_color_dist_std,region graphs,2,0.128057
+Felzenszwalb,del_color_dist_max,region graphs,0,0.033406
+Felzenszwalb,del_spatial_dist_mean,region graphs,2,0.033886
+Felzenszwalb,del_spatial_dist_std,region graphs,2,0.037093
+Felzenszwalb,del_degree_mean,region graphs,2,0.034757
+Felzenszwalb,del_degree_std,region graphs,2,0.064211
+Felzenszwalb,del_degree_max,region graphs,2,0.038355
+Felzenszwalb,del_hub_degree_ratio,region graphs,2,0.039491
+Felzenszwalb,del_degree_gini,region graphs,2,0.065651
+Felzenszwalb,mst_n_edges,region graphs,2,0.045703
+Felzenszwalb,mst_density,region graphs,2,0.037080
+Felzenszwalb,mst_color_dist_mean,region graphs,2,0.039555
+Felzenszwalb,mst_color_dist_std,region graphs,2,0.041650
+Felzenszwalb,mst_color_dist_max,region graphs,2,0.031020
+Felzenszwalb,mst_spatial_dist_mean,region graphs,2,0.049150
+Felzenszwalb,mst_spatial_dist_std,region graphs,2,0.047622
+Felzenszwalb,mst_degree_mean,region graphs,2,0.038873
+Felzenszwalb,mst_degree_std,region graphs,2,0.024076
+Felzenszwalb,mst_degree_max,region graphs,2,0.015958
+Felzenszwalb,mst_hub_degree_ratio,region graphs,2,0.018685
+Felzenszwalb,mst_n_leaf_frac,region graphs,0,0.034189
+Felzenszwalb,mst_degree_gini,region graphs,2,0.036209
+Line graph,lg_n_nodes,region graphs,2,0.036777
+Line graph,lg_n_edges,region graphs,2,0.034479
+Line graph,lg_density,region graphs,2,0.038343
+Line graph,lg_degree_mean,region graphs,2,0.041486
+Line graph,lg_degree_std,region graphs,2,0.126883
+Line graph,lg_degree_max,region graphs,2,0.128398
+Line graph,lg_degree_q90,region graphs,2,0.034227
+Line graph,lg_degree_gini,region graphs,2,0.122729
+Line graph,lg_wedge_load_gini,region graphs,2,0.044946
+Line graph,lg_wedge_load_max_frac,region graphs,2,0.140329
+Line graph,lg_degree_assortativity,region graphs,2,0.140278
+Line graph,lg_color_gini,region graphs,2,0.081180
+Line graph,lg_spatial_gini,region graphs,2,0.048784
+Line graph,lg_color_spatial_corr,region graphs,2,0.086369
+Line graph,lg_orientation_coherence,region graphs,2,0.029189
+Line graph,lg_midpoint_grid_cv,region graphs,2,0.021968
+Line graph,lg_midpoint_grid_max_frac,region graphs,2,0.020289
+Line graph,lg_contrast_assortativity,region graphs,2,0.032939
+Line graph,lg_spatial_assortativity,region graphs,2,0.037560
+Line graph,lg_acute_junction_frac,region graphs,2,0.066333
+Line graph,lg_straight_junction_frac,region graphs,2,0.033798
+Line graph,lg_luminance_reversal_frac,region graphs,2,0.039946
+Line graph,lg_both_strong_frac,region graphs,2,0.044592
+Line graph,lg_one_strong_frac,region graphs,2,0.035653
+Line graph,lg_color_mean,region graphs,2,0.045362
+Line graph,lg_color_std,region graphs,2,0.055450
+Line graph,lg_color_q10,region graphs,2,0.020768
+Line graph,lg_color_q50,region graphs,2,0.037484
+Line graph,lg_color_q90,region graphs,2,0.052824
+Line graph,lg_spatial_mean,region graphs,2,0.040943
+Line graph,lg_spatial_std,region graphs,2,0.043292
+Line graph,lg_spatial_q10,region graphs,2,0.025389
+Line graph,lg_spatial_q50,region graphs,2,0.040779
+Line graph,lg_spatial_q90,region graphs,2,0.039454
+Line graph,lg_endpoint_log_area_ratio_mean,region graphs,2,0.048380
+Line graph,lg_endpoint_log_area_ratio_std,region graphs,2,0.039757
+Line graph,lg_endpoint_log_area_ratio_q50,region graphs,2,0.047067
+Line graph,lg_endpoint_log_area_ratio_q90,region graphs,2,0.046536
+Line graph,lg_contrast_delta_mean,region graphs,2,0.057040
+Line graph,lg_contrast_delta_std,region graphs,2,0.056460
+Line graph,lg_contrast_delta_q50,region graphs,2,0.051258
+Line graph,lg_contrast_delta_q90,region graphs,2,0.057836
+Line graph,lg_spatial_delta_mean,region graphs,2,0.044794
+Line graph,lg_spatial_delta_std,region graphs,2,0.134559
+Line graph,lg_spatial_delta_q50,region graphs,2,0.042585
+Line graph,lg_spatial_delta_q90,region graphs,2,0.045981
+Line graph,lg_junction_angle_mean,region graphs,2,0.059414
+Line graph,lg_junction_angle_std,region graphs,2,0.089904
+Line graph,lg_junction_angle_q10,region graphs,2,0.040855
+Line graph,lg_junction_angle_q50,region graphs,2,0.046397
+Line graph,lg_junction_angle_q90,region graphs,2,0.038848
+Line graph,lg_outer_lab_distance_mean,region graphs,0,0.045703
+Line graph,lg_outer_lab_distance_std,region graphs,2,0.120659
+Line graph,lg_outer_lab_distance_q50,region graphs,2,0.047003
+Line graph,lg_outer_lab_distance_q90,region graphs,2,0.045716
+Line graph,lg_outer_spatial_distance_mean,region graphs,2,0.046322
+Line graph,lg_outer_spatial_distance_std,region graphs,2,0.131213
+Line graph,lg_outer_spatial_distance_q50,region graphs,2,0.040009
+Line graph,lg_outer_spatial_distance_q90,region graphs,2,0.045653
+Line graph,lg_shared_area_mean,region graphs,2,0.021640
+Line graph,lg_shared_area_std,region graphs,2,0.023117
+Line graph,lg_shared_area_q50,region graphs,2,0.044251
+Line graph,lg_shared_area_q90,region graphs,2,0.027662
+L(G_felz),felz)_lg_n_nodes,region graphs,2,0.045488
+L(G_felz),felz)_lg_n_edges,region graphs,2,0.050589
+L(G_felz),felz)_lg_density,region graphs,2,0.029189
+L(G_felz),felz)_lg_degree_mean,region graphs,2,0.027725
+L(G_felz),felz)_lg_degree_std,region graphs,2,0.025427
+L(G_felz),felz)_lg_degree_max,region graphs,2,0.034416
+L(G_felz),felz)_lg_degree_q90,region graphs,2,0.023975
+L(G_felz),felz)_lg_degree_gini,region graphs,2,0.029417
+L(G_felz),felz)_lg_wedge_load_gini,region graphs,2,0.035325
+L(G_felz),felz)_lg_wedge_load_max_frac,region graphs,2,0.024430
+L(G_felz),felz)_lg_degree_assortativity,region graphs,2,0.027914
+L(G_felz),felz)_lg_color_gini,region graphs,2,0.041234
+L(G_felz),felz)_lg_spatial_gini,region graphs,2,0.041246
+L(G_felz),felz)_lg_color_spatial_corr,region graphs,2,0.038090
+L(G_felz),felz)_lg_orientation_coherence,region graphs,2,0.023458
+L(G_felz),felz)_lg_midpoint_grid_cv,region graphs,2,0.032939
+L(G_felz),felz)_lg_midpoint_grid_max_frac,region graphs,2,0.031272
+L(G_felz),felz)_lg_contrast_assortativity,region graphs,2,0.031083
+L(G_felz),felz)_lg_spatial_assortativity,region graphs,2,0.042029
+L(G_felz),felz)_lg_acute_junction_frac,region graphs,2,0.052243
+L(G_felz),felz)_lg_straight_junction_frac,region graphs,2,0.053139
+L(G_felz),felz)_lg_luminance_reversal_frac,region graphs,2,0.049453
+L(G_felz),felz)_lg_both_strong_frac,region graphs,2,0.078579
+L(G_felz),felz)_lg_one_strong_frac,region graphs,2,0.033002
+L(G_felz),felz)_lg_color_mean,region graphs,2,0.039188
+L(G_felz),felz)_lg_color_std,region graphs,2,0.038734
+L(G_felz),felz)_lg_color_q10,region graphs,2,0.037004
+L(G_felz),felz)_lg_color_q50,region graphs,2,0.040678
+L(G_felz),felz)_lg_color_q90,region graphs,2,0.045728
+L(G_felz),felz)_lg_spatial_mean,region graphs,2,0.045728
+L(G_felz),felz)_lg_spatial_std,region graphs,2,0.045514
+L(G_felz),felz)_lg_spatial_q10,region graphs,2,0.040451
+L(G_felz),felz)_lg_spatial_q50,region graphs,2,0.051877
+L(G_felz),felz)_lg_spatial_q90,region graphs,2,0.047306
+L(G_felz),felz)_lg_endpoint_log_area_ratio_mean,region graphs,2,0.038204
+L(G_felz),felz)_lg_endpoint_log_area_ratio_std,region graphs,2,0.039895
+L(G_felz),felz)_lg_endpoint_log_area_ratio_q50,region graphs,2,0.035982
+L(G_felz),felz)_lg_endpoint_log_area_ratio_q90,region graphs,2,0.033520
+L(G_felz),felz)_lg_contrast_delta_mean,region graphs,2,0.040363
+L(G_felz),felz)_lg_contrast_delta_std,region graphs,2,0.035287
+L(G_felz),felz)_lg_contrast_delta_q50,region graphs,2,0.039693
+L(G_felz),felz)_lg_contrast_delta_q90,region graphs,2,0.041751
+L(G_felz),felz)_lg_spatial_delta_mean,region graphs,2,0.047887
+L(G_felz),felz)_lg_spatial_delta_std,region graphs,2,0.049251
+L(G_felz),felz)_lg_spatial_delta_q50,region graphs,2,0.044668
+L(G_felz),felz)_lg_spatial_delta_q90,region graphs,2,0.049945
+L(G_felz),felz)_lg_junction_angle_mean,region graphs,2,0.041221
+L(G_felz),felz)_lg_junction_angle_std,region graphs,2,0.067784
+L(G_felz),felz)_lg_junction_angle_q10,region graphs,2,0.062444
+L(G_felz),felz)_lg_junction_angle_q50,region graphs,2,0.038848
+L(G_felz),felz)_lg_junction_angle_q90,region graphs,2,0.059376
+L(G_felz),felz)_lg_outer_lab_distance_mean,region graphs,2,0.041373
+L(G_felz),felz)_lg_outer_lab_distance_std,region graphs,2,0.044857
+L(G_felz),felz)_lg_outer_lab_distance_q50,region graphs,2,0.055096
+L(G_felz),felz)_lg_outer_lab_distance_q90,region graphs,2,0.052382
+L(G_felz),felz)_lg_outer_spatial_distance_mean,region graphs,2,0.042345
+L(G_felz),felz)_lg_outer_spatial_distance_std,region graphs,2,0.046877
+L(G_felz),felz)_lg_outer_spatial_distance_q50,region graphs,2,0.041600
+L(G_felz),felz)_lg_outer_spatial_distance_q90,region graphs,2,0.042395
+L(G_felz),felz)_lg_shared_area_mean,region graphs,2,0.021778
+L(G_felz),felz)_lg_shared_area_std,region graphs,2,0.026046
+L(G_felz),felz)_lg_shared_area_q50,region graphs,2,0.016514
+L(G_felz),felz)_lg_shared_area_q90,region graphs,2,0.021905
+Hilbert,0,curve,0,0.034416
+Hilbert,1,curve,0,0.035881
+Hilbert,2,curve,2,0.048607
+Hilbert,3,curve,0,0.041941
+Hilbert,4,curve,0,0.043835
+Hilbert,5,curve,2,0.048531
+Hilbert,6,curve,0,0.035464
+Hilbert,7,curve,0,0.035325
+Hilbert,8,curve,2,0.026563
+Hilbert,9,curve,2,0.031310
+Hilbert,10,curve,2,0.024594
+Hilbert,11,curve,2,0.026765
+Hilbert,12,curve,2,0.026841
+Hilbert,13,curve,2,0.023117
+Hilbert,14,curve,2,0.029366
+Hilbert,15,curve,2,0.025212
+Hilbert,16,curve,0,0.040009
+Hilbert,17,curve,2,0.026071
+Hilbert,18,curve,1,0.026046
+Hilbert,19,curve,1,0.029126
+Hilbert,20,curve,1,0.025932
+Hilbert,21,curve,1,0.025692
+Hilbert,22,curve,1,0.026033
+Hilbert,23,curve,1,0.025970
+Hilbert,24,curve,1,0.025212
+Hilbert,25,curve,1,0.028937
+Hilbert,26,curve,0,0.091078
+Hilbert,27,curve,0,0.044239
+Hilbert,28,curve,0,0.041448
+Hilbert,29,curve,0,0.050879
+Hilbert,30,curve,0,0.039782
+Hilbert,31,curve,0,0.041019
+Hilbert,32,curve,0,0.038784
+Hilbert,33,curve,0,0.090560
+Hilbert,34,curve,1,0.029871
+Hilbert,35,curve,0,0.040703
+Hilbert,36,curve,0,0.015403
+Hilbert,37,curve,0,0.021097
+Hilbert,38,curve,0,0.025137
+Hilbert,39,curve,0,0.024606
+Hilbert,40,curve,0,0.022990
+Hilbert,41,curve,0,0.026626
+Hilbert,42,curve,0,0.022839
+Hilbert,43,curve,0,0.014910
+Hilbert,44,curve,0,0.038204
+Hilbert,45,curve,0,0.041814
+Hilbert,46,curve,0,0.039441
+Hilbert,47,curve,0,0.041878
+Hilbert,48,curve,0,0.041789
+Hilbert,49,curve,0,0.038873
+Hilbert,50,curve,0,0.042420
+Hilbert,51,curve,0,0.040451
+Hilbert,52,curve,0,0.025730
+Hilbert,53,curve,0,0.043519
+Hilbert,54,curve,2,0.049579
+Hilbert,55,curve,0,0.039466
+Hilbert,56,curve,2,0.022725
+Fourier,log_power_r00_a00,spectral,2,0.025313
+Fourier,log_power_r00_a03,spectral,2,0.029063
+Fourier,log_power_r00_a06,spectral,2,0.062962
+Fourier,log_power_r00_a09,spectral,2,0.043090
+Fourier,log_power_r01_a00,spectral,2,0.028407
+Fourier,log_power_r01_a01,spectral,2,0.032548
+Fourier,log_power_r01_a04,spectral,2,0.094209
+Fourier,log_power_r01_a06,spectral,2,0.089500
+Fourier,log_power_r01_a07,spectral,2,0.093464
+Fourier,log_power_r01_a10,spectral,2,0.032964
+Fourier,log_power_r02_a00,spectral,2,0.028369
+Fourier,log_power_r02_a01,spectral,2,0.032649
+Fourier,log_power_r02_a03,spectral,2,0.048607
+Fourier,log_power_r02_a04,spectral,2,0.054566
+Fourier,log_power_r02_a06,spectral,2,0.086899
+Fourier,log_power_r02_a07,spectral,2,0.107655
+Fourier,log_power_r02_a09,spectral,2,0.041562
+Fourier,log_power_r02_a10,spectral,2,0.029985
+Fourier,log_power_r03_a00,spectral,2,0.021084
+Fourier,log_power_r03_a01,spectral,2,0.021854
+Fourier,log_power_r03_a02,spectral,2,0.024556
+Fourier,log_power_r03_a03,spectral,2,0.045387
+Fourier,log_power_r03_a04,spectral,2,0.029783
+Fourier,log_power_r03_a05,spectral,2,0.035944
+Fourier,log_power_r03_a06,spectral,2,0.069830
+Fourier,log_power_r03_a07,spectral,2,0.036133
+Fourier,log_power_r03_a08,spectral,2,0.027119
+Fourier,log_power_r03_a09,spectral,2,0.030793
+Fourier,log_power_r03_a10,spectral,2,0.021059
+Fourier,log_power_r03_a11,spectral,2,0.018988
+Fourier,log_power_r04_a00,spectral,2,0.030212
+Fourier,log_power_r04_a01,spectral,2,0.025705
+Fourier,log_power_r04_a02,spectral,2,0.027169
+Fourier,log_power_r04_a03,spectral,2,0.025074
+Fourier,log_power_r04_a04,spectral,2,0.034694
+Fourier,log_power_r04_a05,spectral,2,0.024518
+Fourier,log_power_r04_a06,spectral,2,0.023369
+Fourier,log_power_r04_a07,spectral,2,0.030742
+Fourier,log_power_r04_a08,spectral,2,0.027447
+Fourier,log_power_r04_a09,spectral,2,0.026046
+Fourier,log_power_r04_a10,spectral,2,0.023937
+Fourier,log_power_r04_a11,spectral,2,0.029732
+Fourier,log_power_r05_a00,spectral,2,0.028280
+Fourier,log_power_r05_a01,spectral,2,0.027094
+Fourier,log_power_r05_a02,spectral,2,0.029404
+Fourier,log_power_r05_a03,spectral,2,0.031828
+Fourier,log_power_r05_a04,spectral,2,0.028432
+Fourier,log_power_r05_a05,spectral,2,0.033330
+Fourier,log_power_r05_a06,spectral,2,0.033406
+Fourier,log_power_r05_a07,spectral,2,0.034277
+Fourier,log_power_r05_a08,spectral,2,0.028684
+Fourier,log_power_r05_a09,spectral,2,0.030427
+Fourier,log_power_r05_a10,spectral,2,0.032131
+Fourier,log_power_r05_a11,spectral,2,0.028545
+Fourier,log_power_r06_a00,spectral,2,0.024253
+Fourier,log_power_r06_a01,spectral,2,0.036891
+Fourier,log_power_r06_a02,spectral,2,0.035729
+Fourier,log_power_r06_a03,spectral,2,0.035830
+Fourier,log_power_r06_a04,spectral,2,0.032737
+Fourier,log_power_r06_a05,spectral,2,0.034391
+Fourier,log_power_r06_a06,spectral,2,0.035982
+Fourier,log_power_r06_a07,spectral,2,0.036461
+Fourier,log_power_r06_a08,spectral,2,0.032257
+Fourier,log_power_r06_a09,spectral,2,0.034669
+Fourier,log_power_r06_a10,spectral,2,0.037396
+Fourier,log_power_r06_a11,spectral,2,0.030275
+Fourier,log_power_r07_a00,spectral,2,0.028470
+Fourier,log_power_r07_a01,spectral,2,0.037598
+Fourier,log_power_r07_a02,spectral,2,0.035123
+Fourier,log_power_r07_a03,spectral,2,0.031235
+Fourier,log_power_r07_a04,spectral,2,0.038380
+Fourier,log_power_r07_a05,spectral,2,0.039883
+Fourier,log_power_r07_a06,spectral,2,0.036360
+Fourier,log_power_r07_a07,spectral,2,0.042521
+Fourier,log_power_r07_a08,spectral,2,0.031373
+Fourier,log_power_r07_a09,spectral,2,0.034101
+Fourier,log_power_r07_a10,spectral,2,0.037370
+Fourier,log_power_r07_a11,spectral,2,0.034126
+Fourier,log_power_r08_a00,spectral,2,0.026399
+Fourier,log_power_r08_a01,spectral,2,0.040009
+Fourier,log_power_r08_a02,spectral,2,0.035414
+Fourier,log_power_r08_a03,spectral,2,0.041082
+Fourier,log_power_r08_a04,spectral,2,0.044466
+Fourier,log_power_r08_a05,spectral,2,0.034176
+Fourier,log_power_r08_a06,spectral,2,0.032560
+Fourier,log_power_r08_a07,spectral,2,0.045956
+Fourier,log_power_r08_a08,spectral,2,0.038254
+Fourier,log_power_r08_a09,spectral,2,0.033747
+Fourier,log_power_r08_a10,spectral,2,0.037976
+Fourier,log_power_r08_a11,spectral,2,0.031033
+Fourier,log_power_r09_a00,spectral,2,0.028924
+Fourier,log_power_r09_a01,spectral,2,0.037673
+Fourier,log_power_r09_a02,spectral,2,0.038040
+Fourier,log_power_r09_a03,spectral,2,0.041739
+Fourier,log_power_r09_a04,spectral,2,0.044958
+Fourier,log_power_r09_a05,spectral,2,0.034404
+Fourier,log_power_r09_a06,spectral,2,0.035578
+Fourier,log_power_r09_a07,spectral,2,0.043872
+Fourier,log_power_r09_a08,spectral,2,0.044062
+Fourier,log_power_r09_a09,spectral,2,0.037358
+Fourier,log_power_r09_a10,spectral,2,0.035767
+Fourier,log_power_r09_a11,spectral,2,0.033962
+Fourier,log_power_r10_a00,spectral,2,0.033330
+Fourier,log_power_r10_a01,spectral,2,0.038608
+Fourier,log_power_r10_a02,spectral,2,0.044112
+Fourier,log_power_r10_a03,spectral,2,0.041739
+Fourier,log_power_r10_a04,spectral,2,0.044731
+Fourier,log_power_r10_a05,spectral,2,0.035982
+Fourier,log_power_r10_a06,spectral,2,0.035729
+Fourier,log_power_r10_a07,spectral,2,0.044617
+Fourier,log_power_r10_a08,spectral,2,0.038002
+Fourier,log_power_r10_a09,spectral,2,0.038014
+Fourier,log_power_r10_a10,spectral,2,0.034656
+Fourier,log_power_r10_a11,spectral,2,0.032825
+Fourier,log_power_r11_a00,spectral,2,0.033091
+Fourier,log_power_r11_a01,spectral,2,0.038418
+Fourier,log_power_r11_a02,spectral,2,0.038279
+Fourier,log_power_r11_a03,spectral,2,0.040678
+Fourier,log_power_r11_a04,spectral,2,0.043279
+Fourier,log_power_r11_a05,spectral,2,0.036348
+Fourier,log_power_r11_a06,spectral,2,0.035780
+Fourier,log_power_r11_a07,spectral,2,0.043039
+Fourier,log_power_r11_a08,spectral,2,0.041474
+Fourier,log_power_r11_a09,spectral,2,0.040514
+Fourier,log_power_r11_a10,spectral,2,0.038141
+Fourier,log_power_r11_a11,spectral,2,0.034808
+Fourier,radial_centroid,spectral,2,0.035199
+Fourier,radial_spread,spectral,2,0.032598
+Fourier,low_frequency_fraction,spectral,2,0.032598
+Fourier,high_frequency_fraction,spectral,2,0.035969
+Fourier,spectral_entropy,spectral,2,0.035477
+Fourier,orientation_entropy,spectral,2,0.030136
+Fourier,orientation_peak_fraction,spectral,2,0.027283
+Fourier,spectral_slope,spectral,2,0.039024
+Multiscale/Descriptors,top_left_Descriptors_0,image,2,0.022511
+Multiscale/Descriptors,top_left_Descriptors_1,image,2,0.035552
+Multiscale/Descriptors,top_left_Descriptors_2,image,2,0.036234
+Multiscale/Descriptors,top_left_Descriptors_3,image,2,0.023925
+Multiscale/Descriptors,top_left_Descriptors_4,image,2,0.027397
+Multiscale/Descriptors,top_left_Descriptors_5,image,2,0.027649
+Multiscale/Descriptors,top_left_Descriptors_6,image,2,0.028760
+Multiscale/Descriptors,top_left_Descriptors_7,image,2,0.023192
+Multiscale/Descriptors,top_left_Descriptors_8,image,2,0.022170
+Multiscale/Descriptors,top_left_Descriptors_9,image,2,0.023054
+Multiscale/Descriptors,top_left_Descriptors_10,image,2,0.016653
+Multiscale/Descriptors,top_left_Descriptors_11,image,2,0.014898
+Multiscale/Descriptors,top_left_Descriptors_12,image,2,0.015832
+Multiscale/Descriptors,top_left_Descriptors_13,image,2,0.018130
+Multiscale/Descriptors,top_left_Descriptors_14,image,2,0.016211
+Multiscale/Descriptors,top_left_Descriptors_15,image,2,0.015693
+Multiscale/Descriptors,top_left_Descriptors_16,image,2,0.043771
+Multiscale/Descriptors,top_left_Descriptors_17,image,2,0.042875
+Multiscale/Descriptors,top_left_Descriptors_18,image,2,0.024303
+Multiscale/Descriptors,top_left_Descriptors_19,image,2,0.041612
+Multiscale/Descriptors,top_left_Descriptors_20,image,2,0.036348
+Multiscale/Descriptors,top_left_Descriptors_21,image,0,0.027687
+Multiscale/Descriptors,top_left_Descriptors_22,image,0,0.029959
+Multiscale/Descriptors,top_left_Descriptors_23,image,0,0.028811
+Multiscale/Descriptors,top_left_Descriptors_24,image,0,0.027005
+Multiscale/Descriptors,top_left_Descriptors_25,image,0,0.025983
+Multiscale/Descriptors,top_left_Descriptors_26,image,0,0.025579
+Multiscale/Descriptors,top_left_Descriptors_27,image,0,0.027321
+Multiscale/Descriptors,top_left_Descriptors_28,image,0,0.028331
+Multiscale/Descriptors,top_left_Descriptors_29,image,2,0.119434
+Multiscale/Descriptors,top_left_Descriptors_30,image,2,0.014898
+Multiscale/Descriptors,top_left_Descriptors_31,image,2,0.014292
+Multiscale/Descriptors,top_left_Descriptors_32,image,2,0.014633
+Multiscale/Descriptors,top_left_Descriptors_33,image,2,0.016072
+Multiscale/Descriptors,top_left_Descriptors_34,image,0,0.021513
+Multiscale/Descriptors,top_left_Descriptors_35,image,0,0.021652
+Multiscale/Descriptors,top_left_Descriptors_36,image,0,0.023003
+Multiscale/Descriptors,top_left_Descriptors_37,image,0,0.024240
+Multiscale/Descriptors,top_left_Descriptors_38,image,0,0.021374
+Multiscale/Descriptors,top_left_Descriptors_39,image,0,0.023773
+Multiscale/Descriptors,top_left_Descriptors_40,image,0,0.021968
+Multiscale/Descriptors,top_left_Descriptors_41,image,0,0.024064
+Multiscale/Descriptors,top_left_Descriptors_42,image,0,0.024240
+Multiscale/Descriptors,top_left_Descriptors_43,image,0,0.022031
+Multiscale/Descriptors,top_left_Descriptors_44,image,0,0.025238
+Multiscale/Descriptors,top_left_Descriptors_45,image,0,0.022523
+Multiscale/Descriptors,top_left_Descriptors_46,image,0,0.026134
+Multiscale/Descriptors,top_left_Descriptors_47,image,0,0.026450
+Multiscale/Descriptors,top_left_Descriptors_48,image,0,0.022044
+Multiscale/Descriptors,top_left_Descriptors_49,image,0,0.020844
+Multiscale/Descriptors,top_left_Descriptors_50,image,0,0.021261
+Multiscale/Descriptors,top_left_Descriptors_51,image,0,0.018218
+Multiscale/Descriptors,top_left_Descriptors_52,image,0,0.018887
+Multiscale/Descriptors,top_left_Descriptors_53,image,2,0.016135
+Multiscale/Descriptors,top_left_Descriptors_54,image,2,0.014847
+Multiscale/Descriptors,top_left_Descriptors_55,image,2,0.015529
+Multiscale/Descriptors,top_left_Descriptors_56,image,2,0.013080
+Multiscale/Descriptors,top_left_Descriptors_57,image,2,0.014999
+Multiscale/Descriptors,top_left_Descriptors_58,image,2,0.016223
+Multiscale/Descriptors,top_left_Descriptors_59,image,2,0.012916
+Multiscale/Descriptors,top_left_Descriptors_60,image,2,0.013749
+Multiscale/Descriptors,top_left_Descriptors_61,image,2,0.017814
+Multiscale/Descriptors,top_left_Descriptors_62,image,2,0.016905
+Multiscale/Descriptors,top_left_Descriptors_63,image,2,0.019291
+Multiscale/Descriptors,top_left_Descriptors_64,image,2,0.018218
+Multiscale/Descriptors,top_left_Descriptors_65,image,0,0.023091
+Multiscale/Descriptors,top_left_Descriptors_66,image,0,0.021033
+Multiscale/Descriptors,top_left_Descriptors_67,image,0,0.020705
+Multiscale/Descriptors,top_left_Descriptors_68,image,0,0.020251
+Multiscale/Descriptors,top_left_Descriptors_69,image,0,0.020465
+Multiscale/Descriptors,top_left_Descriptors_70,image,0,0.022485
+Multiscale/Descriptors,top_left_Descriptors_71,image,0,0.021248
+Multiscale/Descriptors,top_left_Descriptors_72,image,0,0.023344
+Multiscale/Descriptors,top_left_Descriptors_73,image,0,0.022877
+Multiscale/Descriptors,top_left_Descriptors_74,image,0,0.021905
+Multiscale/Descriptors,top_left_Descriptors_75,image,0,0.023508
+Multiscale/Descriptors,top_left_Descriptors_76,image,0,0.024190
+Multiscale/Descriptors,top_left_Descriptors_77,image,0,0.022574
+Multiscale/Descriptors,top_left_Descriptors_78,image,0,0.021021
+Multiscale/Descriptors,top_left_Descriptors_79,image,0,0.021842
+Multiscale/Descriptors,top_left_Descriptors_80,image,0,0.022523
+Multiscale/Descriptors,top_left_Descriptors_81,image,0,0.020806
+Multiscale/Descriptors,top_left_Descriptors_82,image,0,0.020137
+Multiscale/Descriptors,top_left_Descriptors_83,image,0,0.015958
+Multiscale/Descriptors,top_left_Descriptors_84,image,2,0.015643
+Multiscale/Descriptors,top_left_Descriptors_85,image,2,0.014898
+Multiscale/Descriptors,top_left_Descriptors_86,image,2,0.014090
+Multiscale/Descriptors,top_left_Descriptors_87,image,2,0.014001
+Multiscale/Descriptors,top_left_Descriptors_88,image,2,0.015453
+Multiscale/Descriptors,top_left_Descriptors_89,image,2,0.014557
+Multiscale/Descriptors,top_left_Descriptors_90,image,0,0.035969
+Multiscale/Descriptors,top_left_Descriptors_91,image,2,0.028078
+Multiscale/Descriptors,top_left_Descriptors_92,image,2,0.052773
+Multiscale/Descriptors,top_left_Descriptors_93,image,1,0.029101
+Multiscale/Descriptors,top_left_Descriptors_94,image,0,0.052420
+Multiscale/Descriptors,top_left_Descriptors_95,image,2,0.028003
+Multiscale/Descriptors,top_left_Descriptors_96,image,0,0.016539
+Multiscale/Descriptors,top_left_Descriptors_97,image,0,0.039428
+Multiscale/Descriptors,top_left_Descriptors_98,image,2,0.035098
+Multiscale/Descriptors,top_left_Descriptors_99,image,2,0.051422
+Multiscale/Descriptors,top_left_Descriptors_100,image,2,0.031878
+Multiscale/Descriptors,top_left_Descriptors_101,image,2,0.046372
+Multiscale/Descriptors,top_left_Descriptors_102,image,2,0.122704
+Multiscale/Descriptors,top_left_Descriptors_103,image,2,0.076508
+Multiscale/Descriptors,top_left_Descriptors_104,image,2,0.033103
+Multiscale/Descriptors,top_left_Descriptors_105,image,2,0.039214
+Multiscale/Descriptors,top_left_Descriptors_106,image,2,0.033330
+Multiscale/Descriptors,top_left_Descriptors_107,image,2,0.034353
+Multiscale/Descriptors,top_left_Descriptors_108,image,2,0.049491
+Multiscale/Descriptors,top_left_Descriptors_109,image,2,0.034202
+Multiscale/Descriptors,top_left_Descriptors_110,image,2,0.038885
+Multiscale/Descriptors,top_left_Descriptors_111,image,2,0.042408
+Multiscale/Descriptors,top_left_Descriptors_112,image,2,0.024657
+Multiscale/Descriptors,top_left_Descriptors_113,image,2,0.025503
+Multiscale/Descriptors,top_left_Descriptors_114,image,2,0.034517
+Multiscale/Descriptors,top_left_Descriptors_115,image,2,0.041979
+Multiscale/Descriptors,top_left_Descriptors_116,image,2,0.034492
+Multiscale/Descriptors,top_left_Descriptors_117,image,2,0.042824
+Multiscale/Descriptors,top_left_Descriptors_118,image,2,0.039037
+Multiscale/Descriptors,top_left_Descriptors_119,image,2,0.041587
+Multiscale/Descriptors,top_left_Descriptors_120,image,2,0.046195
+Multiscale/Descriptors,top_left_Descriptors_121,image,2,0.049768
+Multiscale/Descriptors,top_left_Descriptors_122,image,2,0.034340
+Multiscale/Descriptors,top_left_Descriptors_123,image,2,0.039302
+Multiscale/Descriptors,top_left_Descriptors_124,image,2,0.042787
+Multiscale/Descriptors,top_left_Descriptors_125,image,2,0.034744
+Multiscale/Descriptors,top_left_Descriptors_126,image,2,0.040224
+Multiscale/Descriptors,top_left_Descriptors_127,image,2,0.027573
+Multiscale/Descriptors,top_left_Descriptors_128,image,2,0.031904
+Multiscale/Descriptors,top_left_Descriptors_129,image,2,0.034025
+Multiscale/Descriptors,top_right_Descriptors_0,image,2,0.019594
+Multiscale/Descriptors,top_right_Descriptors_1,image,2,0.037156
+Multiscale/Descriptors,top_right_Descriptors_2,image,2,0.035136
+Multiscale/Descriptors,top_right_Descriptors_3,image,2,0.024745
+Multiscale/Descriptors,top_right_Descriptors_4,image,2,0.025149
+Multiscale/Descriptors,top_right_Descriptors_5,image,2,0.031399
+Multiscale/Descriptors,top_right_Descriptors_6,image,2,0.029379
+Multiscale/Descriptors,top_right_Descriptors_7,image,2,0.026222
+Multiscale/Descriptors,top_right_Descriptors_8,image,2,0.021993
+Multiscale/Descriptors,top_right_Descriptors_9,image,2,0.028242
+Multiscale/Descriptors,top_right_Descriptors_10,image,2,0.016451
+Multiscale/Descriptors,top_right_Descriptors_11,image,2,0.015832
+Multiscale/Descriptors,top_right_Descriptors_12,image,2,0.015201
+Multiscale/Descriptors,top_right_Descriptors_13,image,2,0.016387
+Multiscale/Descriptors,top_right_Descriptors_14,image,2,0.020844
+Multiscale/Descriptors,top_right_Descriptors_15,image,2,0.018180
+Multiscale/Descriptors,top_right_Descriptors_16,image,2,0.024707
+Multiscale/Descriptors,top_right_Descriptors_17,image,2,0.021374
+Multiscale/Descriptors,top_right_Descriptors_18,image,2,0.040703
+Multiscale/Descriptors,top_right_Descriptors_19,image,2,0.046145
+Multiscale/Descriptors,top_right_Descriptors_20,image,2,0.042635
+Multiscale/Descriptors,top_right_Descriptors_21,image,2,0.027611
+Multiscale/Descriptors,top_right_Descriptors_22,image,0,0.027750
+Multiscale/Descriptors,top_right_Descriptors_23,image,0,0.028293
+Multiscale/Descriptors,top_right_Descriptors_24,image,0,0.029114
+Multiscale/Descriptors,top_right_Descriptors_25,image,0,0.026500
+Multiscale/Descriptors,top_right_Descriptors_26,image,0,0.026273
+Multiscale/Descriptors,top_right_Descriptors_27,image,0,0.027296
+Multiscale/Descriptors,top_right_Descriptors_28,image,0,0.026854
+Multiscale/Descriptors,top_right_Descriptors_29,image,2,0.055121
+Multiscale/Descriptors,top_right_Descriptors_30,image,2,0.012815
+Multiscale/Descriptors,top_right_Descriptors_31,image,2,0.013976
+Multiscale/Descriptors,top_right_Descriptors_32,image,2,0.016110
+Multiscale/Descriptors,top_right_Descriptors_33,image,2,0.015933
+Multiscale/Descriptors,top_right_Descriptors_34,image,0,0.022182
+Multiscale/Descriptors,top_right_Descriptors_35,image,0,0.024480
+Multiscale/Descriptors,top_right_Descriptors_36,image,0,0.021071
+Multiscale/Descriptors,top_right_Descriptors_37,image,0,0.022637
+Multiscale/Descriptors,top_right_Descriptors_38,image,0,0.022435
+Multiscale/Descriptors,top_right_Descriptors_39,image,0,0.022738
+Multiscale/Descriptors,top_right_Descriptors_40,image,0,0.026172
+Multiscale/Descriptors,top_right_Descriptors_41,image,0,0.024392
+Multiscale/Descriptors,top_right_Descriptors_42,image,0,0.022700
+Multiscale/Descriptors,top_right_Descriptors_43,image,0,0.022056
+Multiscale/Descriptors,top_right_Descriptors_44,image,0,0.024619
+Multiscale/Descriptors,top_right_Descriptors_45,image,0,0.023054
+Multiscale/Descriptors,top_right_Descriptors_46,image,0,0.024127
+Multiscale/Descriptors,top_right_Descriptors_47,image,0,0.022902
+Multiscale/Descriptors,top_right_Descriptors_48,image,0,0.023167
+Multiscale/Descriptors,top_right_Descriptors_49,image,0,0.023180
+Multiscale/Descriptors,top_right_Descriptors_50,image,0,0.022208
+Multiscale/Descriptors,top_right_Descriptors_51,image,0,0.020642
+Multiscale/Descriptors,top_right_Descriptors_52,image,0,0.017385
+Multiscale/Descriptors,top_right_Descriptors_53,image,2,0.016059
+Multiscale/Descriptors,top_right_Descriptors_54,image,2,0.015744
+Multiscale/Descriptors,top_right_Descriptors_55,image,2,0.014266
+Multiscale/Descriptors,top_right_Descriptors_56,image,2,0.014178
+Multiscale/Descriptors,top_right_Descriptors_57,image,2,0.014481
+Multiscale/Descriptors,top_right_Descriptors_58,image,2,0.014405
+Multiscale/Descriptors,top_right_Descriptors_59,image,2,0.014241
+Multiscale/Descriptors,top_right_Descriptors_60,image,2,0.013698
+Multiscale/Descriptors,top_right_Descriptors_61,image,2,0.016514
+Multiscale/Descriptors,top_right_Descriptors_62,image,2,0.015756
+Multiscale/Descriptors,top_right_Descriptors_63,image,2,0.017536
+Multiscale/Descriptors,top_right_Descriptors_64,image,2,0.019859
+Multiscale/Descriptors,top_right_Descriptors_65,image,0,0.023937
+Multiscale/Descriptors,top_right_Descriptors_66,image,0,0.020453
+Multiscale/Descriptors,top_right_Descriptors_67,image,0,0.023091
+Multiscale/Descriptors,top_right_Descriptors_68,image,0,0.022195
+Multiscale/Descriptors,top_right_Descriptors_69,image,0,0.026854
+Multiscale/Descriptors,top_right_Descriptors_70,image,0,0.022309
+Multiscale/Descriptors,top_right_Descriptors_71,image,0,0.022018
+Multiscale/Descriptors,top_right_Descriptors_72,image,0,0.020225
+Multiscale/Descriptors,top_right_Descriptors_73,image,0,0.023369
+Multiscale/Descriptors,top_right_Descriptors_74,image,0,0.021778
+Multiscale/Descriptors,top_right_Descriptors_75,image,0,0.021602
+Multiscale/Descriptors,top_right_Descriptors_76,image,0,0.022448
+Multiscale/Descriptors,top_right_Descriptors_77,image,0,0.020844
+Multiscale/Descriptors,top_right_Descriptors_78,image,0,0.023091
+Multiscale/Descriptors,top_right_Descriptors_79,image,0,0.019897
+Multiscale/Descriptors,top_right_Descriptors_80,image,0,0.020642
+Multiscale/Descriptors,top_right_Descriptors_81,image,0,0.020907
+Multiscale/Descriptors,top_right_Descriptors_82,image,0,0.018205
+Multiscale/Descriptors,top_right_Descriptors_83,image,0,0.014569
+Multiscale/Descriptors,top_right_Descriptors_84,image,2,0.016034
+Multiscale/Descriptors,top_right_Descriptors_85,image,2,0.013774
+Multiscale/Descriptors,top_right_Descriptors_86,image,2,0.014607
+Multiscale/Descriptors,top_right_Descriptors_87,image,2,0.013029
+Multiscale/Descriptors,top_right_Descriptors_88,image,2,0.010668
+Multiscale/Descriptors,top_right_Descriptors_89,image,2,0.014809
+Multiscale/Descriptors,top_right_Descriptors_90,image,0,0.037939
+Multiscale/Descriptors,top_right_Descriptors_91,image,2,0.027283
+Multiscale/Descriptors,top_right_Descriptors_92,image,2,0.037168
+Multiscale/Descriptors,top_right_Descriptors_93,image,1,0.027965
+Multiscale/Descriptors,top_right_Descriptors_94,image,0,0.043633
+Multiscale/Descriptors,top_right_Descriptors_95,image,2,0.025528
+Multiscale/Descriptors,top_right_Descriptors_96,image,0,0.017511
+Multiscale/Descriptors,top_right_Descriptors_97,image,0,0.039176
+Multiscale/Descriptors,top_right_Descriptors_98,image,2,0.041423
+Multiscale/Descriptors,top_right_Descriptors_99,image,2,0.052861
+Multiscale/Descriptors,top_right_Descriptors_100,image,2,0.033709
+Multiscale/Descriptors,top_right_Descriptors_101,image,2,0.046423
+Multiscale/Descriptors,top_right_Descriptors_102,image,2,0.119775
+Multiscale/Descriptors,top_right_Descriptors_103,image,2,0.045627
+Multiscale/Descriptors,top_right_Descriptors_104,image,2,0.036701
+Multiscale/Descriptors,top_right_Descriptors_105,image,2,0.038014
+Multiscale/Descriptors,top_right_Descriptors_106,image,2,0.034505
+Multiscale/Descriptors,top_right_Descriptors_107,image,2,0.031979
+Multiscale/Descriptors,top_right_Descriptors_108,image,2,0.045791
+Multiscale/Descriptors,top_right_Descriptors_109,image,2,0.034757
+Multiscale/Descriptors,top_right_Descriptors_110,image,2,0.038961
+Multiscale/Descriptors,top_right_Descriptors_111,image,2,0.043140
+Multiscale/Descriptors,top_right_Descriptors_112,image,2,0.040969
+Multiscale/Descriptors,top_right_Descriptors_113,image,2,0.024720
+Multiscale/Descriptors,top_right_Descriptors_114,image,2,0.034290
+Multiscale/Descriptors,top_right_Descriptors_115,image,2,0.043910
+Multiscale/Descriptors,top_right_Descriptors_116,image,2,0.035035
+Multiscale/Descriptors,top_right_Descriptors_117,image,2,0.038911
+Multiscale/Descriptors,top_right_Descriptors_118,image,2,0.038961
+Multiscale/Descriptors,top_right_Descriptors_119,image,2,0.039592
+Multiscale/Descriptors,top_right_Descriptors_120,image,2,0.043746
+Multiscale/Descriptors,top_right_Descriptors_121,image,2,0.049023
+Multiscale/Descriptors,top_right_Descriptors_122,image,2,0.036234
+Multiscale/Descriptors,top_right_Descriptors_123,image,2,0.038885
+Multiscale/Descriptors,top_right_Descriptors_124,image,2,0.041701
+Multiscale/Descriptors,top_right_Descriptors_125,image,2,0.036234
+Multiscale/Descriptors,top_right_Descriptors_126,image,2,0.040552
+Multiscale/Descriptors,top_right_Descriptors_127,image,2,0.027220
+Multiscale/Descriptors,top_right_Descriptors_128,image,2,0.033482
+Multiscale/Descriptors,top_right_Descriptors_129,image,2,0.035363
+Multiscale/Descriptors,bottom_left_Descriptors_0,image,2,0.021046
+Multiscale/Descriptors,bottom_left_Descriptors_1,image,2,0.037004
+Multiscale/Descriptors,bottom_left_Descriptors_2,image,2,0.039757
+Multiscale/Descriptors,bottom_left_Descriptors_3,image,2,0.036020
+Multiscale/Descriptors,bottom_left_Descriptors_4,image,2,0.029480
+Multiscale/Descriptors,bottom_left_Descriptors_5,image,2,0.030982
+Multiscale/Descriptors,bottom_left_Descriptors_6,image,2,0.023836
+Multiscale/Descriptors,bottom_left_Descriptors_7,image,2,0.023773
+Multiscale/Descriptors,bottom_left_Descriptors_8,image,2,0.017902
+Multiscale/Descriptors,bottom_left_Descriptors_9,image,2,0.018710
+Multiscale/Descriptors,bottom_left_Descriptors_10,image,2,0.017233
+Multiscale/Descriptors,bottom_left_Descriptors_11,image,2,0.017839
+Multiscale/Descriptors,bottom_left_Descriptors_12,image,2,0.017726
+Multiscale/Descriptors,bottom_left_Descriptors_13,image,2,0.021299
+Multiscale/Descriptors,bottom_left_Descriptors_14,image,2,0.026576
+Multiscale/Descriptors,bottom_left_Descriptors_15,image,2,0.033558
+Multiscale/Descriptors,bottom_left_Descriptors_16,image,2,0.052483
+Multiscale/Descriptors,bottom_left_Descriptors_17,image,2,0.051460
+Multiscale/Descriptors,bottom_left_Descriptors_18,image,2,0.055942
+Multiscale/Descriptors,bottom_left_Descriptors_19,image,2,0.058720
+Multiscale/Descriptors,bottom_left_Descriptors_20,image,2,0.060171
+Multiscale/Descriptors,bottom_left_Descriptors_21,image,2,0.061611
+Multiscale/Descriptors,bottom_left_Descriptors_22,image,2,0.052445
+Multiscale/Descriptors,bottom_left_Descriptors_23,image,2,0.032384
+Multiscale/Descriptors,bottom_left_Descriptors_24,image,2,0.031866
+Multiscale/Descriptors,bottom_left_Descriptors_25,image,2,0.032964
+Multiscale/Descriptors,bottom_left_Descriptors_26,image,2,0.036070
+Multiscale/Descriptors,bottom_left_Descriptors_27,image,0,0.033469
+Multiscale/Descriptors,bottom_left_Descriptors_28,image,0,0.030149
+Multiscale/Descriptors,bottom_left_Descriptors_29,image,2,0.149608
+Multiscale/Descriptors,bottom_left_Descriptors_30,image,2,0.012360
+Multiscale/Descriptors,bottom_left_Descriptors_31,image,2,0.013951
+Multiscale/Descriptors,bottom_left_Descriptors_32,image,2,0.014279
+Multiscale/Descriptors,bottom_left_Descriptors_33,image,2,0.015024
+Multiscale/Descriptors,bottom_left_Descriptors_34,image,2,0.017372
+Multiscale/Descriptors,bottom_left_Descriptors_35,image,0,0.021778
+Multiscale/Descriptors,bottom_left_Descriptors_36,image,0,0.019417
+Multiscale/Descriptors,bottom_left_Descriptors_37,image,0,0.022309
+Multiscale/Descriptors,bottom_left_Descriptors_38,image,0,0.022953
+Multiscale/Descriptors,bottom_left_Descriptors_39,image,0,0.023697
+Multiscale/Descriptors,bottom_left_Descriptors_40,image,0,0.022119
+Multiscale/Descriptors,bottom_left_Descriptors_41,image,0,0.022347
+Multiscale/Descriptors,bottom_left_Descriptors_42,image,0,0.023584
+Multiscale/Descriptors,bottom_left_Descriptors_43,image,0,0.023218
+Multiscale/Descriptors,bottom_left_Descriptors_44,image,0,0.023786
+Multiscale/Descriptors,bottom_left_Descriptors_45,image,0,0.023584
+Multiscale/Descriptors,bottom_left_Descriptors_46,image,0,0.025137
+Multiscale/Descriptors,bottom_left_Descriptors_47,image,0,0.023192
+Multiscale/Descriptors,bottom_left_Descriptors_48,image,0,0.024127
+Multiscale/Descriptors,bottom_left_Descriptors_49,image,0,0.021943
+Multiscale/Descriptors,bottom_left_Descriptors_50,image,0,0.022763
+Multiscale/Descriptors,bottom_left_Descriptors_51,image,0,0.018382
+Multiscale/Descriptors,bottom_left_Descriptors_52,image,0,0.017461
+Multiscale/Descriptors,bottom_left_Descriptors_53,image,2,0.014936
+Multiscale/Descriptors,bottom_left_Descriptors_54,image,2,0.014809
+Multiscale/Descriptors,bottom_left_Descriptors_55,image,2,0.014355
+Multiscale/Descriptors,bottom_left_Descriptors_56,image,2,0.013143
+Multiscale/Descriptors,bottom_left_Descriptors_57,image,2,0.012638
+Multiscale/Descriptors,bottom_left_Descriptors_58,image,2,0.013888
+Multiscale/Descriptors,bottom_left_Descriptors_59,image,2,0.014645
+Multiscale/Descriptors,bottom_left_Descriptors_60,image,2,0.024947
+Multiscale/Descriptors,bottom_left_Descriptors_61,image,2,0.015074
+Multiscale/Descriptors,bottom_left_Descriptors_62,image,2,0.017296
+Multiscale/Descriptors,bottom_left_Descriptors_63,image,2,0.017486
+Multiscale/Descriptors,bottom_left_Descriptors_64,image,2,0.017259
+Multiscale/Descriptors,bottom_left_Descriptors_65,image,2,0.019001
+Multiscale/Descriptors,bottom_left_Descriptors_66,image,0,0.016564
+Multiscale/Descriptors,bottom_left_Descriptors_67,image,2,0.014670
+Multiscale/Descriptors,bottom_left_Descriptors_68,image,0,0.016968
+Multiscale/Descriptors,bottom_left_Descriptors_69,image,0,0.019582
+Multiscale/Descriptors,bottom_left_Descriptors_70,image,0,0.022751
+Multiscale/Descriptors,bottom_left_Descriptors_71,image,0,0.020907
+Multiscale/Descriptors,bottom_left_Descriptors_72,image,0,0.021046
+Multiscale/Descriptors,bottom_left_Descriptors_73,image,0,0.022624
+Multiscale/Descriptors,bottom_left_Descriptors_74,image,0,0.020516
+Multiscale/Descriptors,bottom_left_Descriptors_75,image,0,0.020440
+Multiscale/Descriptors,bottom_left_Descriptors_76,image,0,0.022889
+Multiscale/Descriptors,bottom_left_Descriptors_77,image,0,0.024303
+Multiscale/Descriptors,bottom_left_Descriptors_78,image,0,0.022713
+Multiscale/Descriptors,bottom_left_Descriptors_79,image,0,0.024581
+Multiscale/Descriptors,bottom_left_Descriptors_80,image,0,0.022258
+Multiscale/Descriptors,bottom_left_Descriptors_81,image,0,0.021059
+Multiscale/Descriptors,bottom_left_Descriptors_82,image,0,0.021475
+Multiscale/Descriptors,bottom_left_Descriptors_83,image,0,0.018685
+Multiscale/Descriptors,bottom_left_Descriptors_84,image,0,0.011994
+Multiscale/Descriptors,bottom_left_Descriptors_85,image,2,0.014809
+Multiscale/Descriptors,bottom_left_Descriptors_86,image,2,0.013395
+Multiscale/Descriptors,bottom_left_Descriptors_87,image,2,0.014443
+Multiscale/Descriptors,bottom_left_Descriptors_88,image,2,0.013698
+Multiscale/Descriptors,bottom_left_Descriptors_89,image,2,0.015062
+Multiscale/Descriptors,bottom_left_Descriptors_90,image,0,0.041764
+Multiscale/Descriptors,bottom_left_Descriptors_91,image,2,0.028369
+Multiscale/Descriptors,bottom_left_Descriptors_92,image,2,0.058126
+Multiscale/Descriptors,bottom_left_Descriptors_93,image,1,0.026488
+Multiscale/Descriptors,bottom_left_Descriptors_94,image,0,0.052748
+Multiscale/Descriptors,bottom_left_Descriptors_95,image,2,0.025793
+Multiscale/Descriptors,bottom_left_Descriptors_96,image,0,0.025048
+Multiscale/Descriptors,bottom_left_Descriptors_97,image,0,0.042294
+Multiscale/Descriptors,bottom_left_Descriptors_98,image,2,0.033621
+Multiscale/Descriptors,bottom_left_Descriptors_99,image,2,0.046057
+Multiscale/Descriptors,bottom_left_Descriptors_100,image,2,0.035022
+Multiscale/Descriptors,bottom_left_Descriptors_101,image,2,0.047786
+Multiscale/Descriptors,bottom_left_Descriptors_102,image,2,0.119661
+Multiscale/Descriptors,bottom_left_Descriptors_103,image,2,0.053985
+Multiscale/Descriptors,bottom_left_Descriptors_104,image,2,0.035161
+Multiscale/Descriptors,bottom_left_Descriptors_105,image,2,0.025326
+Multiscale/Descriptors,bottom_left_Descriptors_106,image,2,0.034656
+Multiscale/Descriptors,bottom_left_Descriptors_107,image,2,0.041322
+Multiscale/Descriptors,bottom_left_Descriptors_108,image,2,0.037345
+Multiscale/Descriptors,bottom_left_Descriptors_109,image,2,0.022725
+Multiscale/Descriptors,bottom_left_Descriptors_110,image,2,0.038065
+Multiscale/Descriptors,bottom_left_Descriptors_111,image,2,0.106367
+Multiscale/Descriptors,bottom_left_Descriptors_112,image,2,0.031260
+Multiscale/Descriptors,bottom_left_Descriptors_113,image,2,0.026399
+Multiscale/Descriptors,bottom_left_Descriptors_114,image,2,0.032775
+Multiscale/Descriptors,bottom_left_Descriptors_115,image,2,0.039466
+Multiscale/Descriptors,bottom_left_Descriptors_116,image,2,0.038229
+Multiscale/Descriptors,bottom_left_Descriptors_117,image,2,0.033091
+Multiscale/Descriptors,bottom_left_Descriptors_118,image,2,0.033381
+Multiscale/Descriptors,bottom_left_Descriptors_119,image,2,0.039277
+Multiscale/Descriptors,bottom_left_Descriptors_120,image,2,0.036323
+Multiscale/Descriptors,bottom_left_Descriptors_121,image,2,0.046372
+Multiscale/Descriptors,bottom_left_Descriptors_122,image,2,0.038557
+Multiscale/Descriptors,bottom_left_Descriptors_123,image,2,0.044718
+Multiscale/Descriptors,bottom_left_Descriptors_124,image,2,0.042850
+Multiscale/Descriptors,bottom_left_Descriptors_125,image,2,0.034202
+Multiscale/Descriptors,bottom_left_Descriptors_126,image,2,0.033545
+Multiscale/Descriptors,bottom_left_Descriptors_127,image,2,0.102137
+Multiscale/Descriptors,bottom_left_Descriptors_128,image,2,0.036878
+Multiscale/Descriptors,bottom_left_Descriptors_129,image,2,0.033709
+Multiscale/Descriptors,bottom_right_Descriptors_0,image,2,0.025099
+Multiscale/Descriptors,bottom_right_Descriptors_1,image,2,0.036512
+Multiscale/Descriptors,bottom_right_Descriptors_2,image,2,0.038229
+Multiscale/Descriptors,bottom_right_Descriptors_3,image,2,0.037888
+Multiscale/Descriptors,bottom_right_Descriptors_4,image,2,0.035287
+Multiscale/Descriptors,bottom_right_Descriptors_5,image,2,0.027687
+Multiscale/Descriptors,bottom_right_Descriptors_6,image,2,0.024707
+Multiscale/Descriptors,bottom_right_Descriptors_7,image,2,0.025755
+Multiscale/Descriptors,bottom_right_Descriptors_8,image,2,0.025313
+Multiscale/Descriptors,bottom_right_Descriptors_9,image,2,0.018218
+Multiscale/Descriptors,bottom_right_Descriptors_10,image,2,0.019771
+Multiscale/Descriptors,bottom_right_Descriptors_11,image,2,0.020364
+Multiscale/Descriptors,bottom_right_Descriptors_12,image,2,0.021829
+Multiscale/Descriptors,bottom_right_Descriptors_13,image,2,0.020049
+Multiscale/Descriptors,bottom_right_Descriptors_14,image,2,0.021400
+Multiscale/Descriptors,bottom_right_Descriptors_15,image,2,0.027359
+Multiscale/Descriptors,bottom_right_Descriptors_16,image,2,0.050425
+Multiscale/Descriptors,bottom_right_Descriptors_17,image,2,0.052937
+Multiscale/Descriptors,bottom_right_Descriptors_18,image,2,0.055866
+Multiscale/Descriptors,bottom_right_Descriptors_19,image,2,0.060070
+Multiscale/Descriptors,bottom_right_Descriptors_20,image,2,0.062999
+Multiscale/Descriptors,bottom_right_Descriptors_21,image,2,0.062419
+Multiscale/Descriptors,bottom_right_Descriptors_22,image,2,0.041309
+Multiscale/Descriptors,bottom_right_Descriptors_23,image,2,0.034921
+Multiscale/Descriptors,bottom_right_Descriptors_24,image,2,0.035414
+Multiscale/Descriptors,bottom_right_Descriptors_25,image,2,0.035300
+Multiscale/Descriptors,bottom_right_Descriptors_26,image,2,0.034505
+Multiscale/Descriptors,bottom_right_Descriptors_27,image,2,0.035338
+Multiscale/Descriptors,bottom_right_Descriptors_28,image,0,0.030767
+Multiscale/Descriptors,bottom_right_Descriptors_29,image,2,0.101456
+Multiscale/Descriptors,bottom_right_Descriptors_30,image,2,0.014229
+Multiscale/Descriptors,bottom_right_Descriptors_31,image,2,0.015138
+Multiscale/Descriptors,bottom_right_Descriptors_32,image,2,0.015579
+Multiscale/Descriptors,bottom_right_Descriptors_33,image,2,0.017928
+Multiscale/Descriptors,bottom_right_Descriptors_34,image,0,0.019064
+Multiscale/Descriptors,bottom_right_Descriptors_35,image,0,0.022460
+Multiscale/Descriptors,bottom_right_Descriptors_36,image,0,0.019935
+Multiscale/Descriptors,bottom_right_Descriptors_37,image,0,0.021892
+Multiscale/Descriptors,bottom_right_Descriptors_38,image,0,0.022586
+Multiscale/Descriptors,bottom_right_Descriptors_39,image,0,0.023483
+Multiscale/Descriptors,bottom_right_Descriptors_40,image,0,0.022056
+Multiscale/Descriptors,bottom_right_Descriptors_41,image,0,0.023079
+Multiscale/Descriptors,bottom_right_Descriptors_42,image,0,0.022347
+Multiscale/Descriptors,bottom_right_Descriptors_43,image,0,0.022599
+Multiscale/Descriptors,bottom_right_Descriptors_44,image,0,0.024392
+Multiscale/Descriptors,bottom_right_Descriptors_45,image,0,0.023407
+Multiscale/Descriptors,bottom_right_Descriptors_46,image,0,0.022940
+Multiscale/Descriptors,bottom_right_Descriptors_47,image,0,0.021677
+Multiscale/Descriptors,bottom_right_Descriptors_48,image,0,0.021071
+Multiscale/Descriptors,bottom_right_Descriptors_49,image,0,0.021753
+Multiscale/Descriptors,bottom_right_Descriptors_50,image,0,0.022864
+Multiscale/Descriptors,bottom_right_Descriptors_51,image,0,0.016829
+Multiscale/Descriptors,bottom_right_Descriptors_52,image,2,0.016059
+Multiscale/Descriptors,bottom_right_Descriptors_53,image,2,0.014607
+Multiscale/Descriptors,bottom_right_Descriptors_54,image,2,0.014203
+Multiscale/Descriptors,bottom_right_Descriptors_55,image,2,0.014039
+Multiscale/Descriptors,bottom_right_Descriptors_56,image,2,0.015592
+Multiscale/Descriptors,bottom_right_Descriptors_57,image,2,0.016211
+Multiscale/Descriptors,bottom_right_Descriptors_58,image,2,0.014229
+Multiscale/Descriptors,bottom_right_Descriptors_59,image,2,0.013825
+Multiscale/Descriptors,bottom_right_Descriptors_60,image,2,0.013421
+Multiscale/Descriptors,bottom_right_Descriptors_61,image,2,0.017599
+Multiscale/Descriptors,bottom_right_Descriptors_62,image,2,0.017511
+Multiscale/Descriptors,bottom_right_Descriptors_63,image,2,0.018029
+Multiscale/Descriptors,bottom_right_Descriptors_64,image,2,0.018382
+Multiscale/Descriptors,bottom_right_Descriptors_65,image,2,0.016754
+Multiscale/Descriptors,bottom_right_Descriptors_66,image,2,0.013256
+Multiscale/Descriptors,bottom_right_Descriptors_67,image,0,0.019607
+Multiscale/Descriptors,bottom_right_Descriptors_68,image,0,0.018622
+Multiscale/Descriptors,bottom_right_Descriptors_69,image,0,0.021122
+Multiscale/Descriptors,bottom_right_Descriptors_70,image,0,0.020188
+Multiscale/Descriptors,bottom_right_Descriptors_71,image,0,0.020453
+Multiscale/Descriptors,bottom_right_Descriptors_72,image,0,0.022523
+Multiscale/Descriptors,bottom_right_Descriptors_73,image,0,0.022321
+Multiscale/Descriptors,bottom_right_Descriptors_74,image,0,0.021425
+Multiscale/Descriptors,bottom_right_Descriptors_75,image,0,0.020945
+Multiscale/Descriptors,bottom_right_Descriptors_76,image,0,0.022107
+Multiscale/Descriptors,bottom_right_Descriptors_77,image,0,0.022637
+Multiscale/Descriptors,bottom_right_Descriptors_78,image,0,0.022612
+Multiscale/Descriptors,bottom_right_Descriptors_79,image,0,0.023129
+Multiscale/Descriptors,bottom_right_Descriptors_80,image,0,0.022044
+Multiscale/Descriptors,bottom_right_Descriptors_81,image,0,0.020958
+Multiscale/Descriptors,bottom_right_Descriptors_82,image,0,0.015138
+Multiscale/Descriptors,bottom_right_Descriptors_83,image,0,0.013724
+Multiscale/Descriptors,bottom_right_Descriptors_84,image,0,0.011552
+Multiscale/Descriptors,bottom_right_Descriptors_85,image,0,0.010921
+Multiscale/Descriptors,bottom_right_Descriptors_86,image,0,0.011060
+Multiscale/Descriptors,bottom_right_Descriptors_87,image,2,0.014241
+Multiscale/Descriptors,bottom_right_Descriptors_88,image,2,0.015150
+Multiscale/Descriptors,bottom_right_Descriptors_89,image,2,0.015882
+Multiscale/Descriptors,bottom_right_Descriptors_90,image,0,0.040375
+Multiscale/Descriptors,bottom_right_Descriptors_91,image,2,0.026904
+Multiscale/Descriptors,bottom_right_Descriptors_92,image,0,0.042837
+Multiscale/Descriptors,bottom_right_Descriptors_93,image,1,0.026260
+Multiscale/Descriptors,bottom_right_Descriptors_94,image,0,0.040426
+Multiscale/Descriptors,bottom_right_Descriptors_95,image,2,0.029341
+Multiscale/Descriptors,bottom_right_Descriptors_96,image,0,0.024594
+Multiscale/Descriptors,bottom_right_Descriptors_97,image,0,0.040678
+Multiscale/Descriptors,bottom_right_Descriptors_98,image,2,0.025654
+Multiscale/Descriptors,bottom_right_Descriptors_99,image,2,0.048417
+Multiscale/Descriptors,bottom_right_Descriptors_100,image,2,0.036537
+Multiscale/Descriptors,bottom_right_Descriptors_101,image,2,0.048973
+Multiscale/Descriptors,bottom_right_Descriptors_102,image,2,0.118664
+Multiscale/Descriptors,bottom_right_Descriptors_103,image,2,0.060740
+Multiscale/Descriptors,bottom_right_Descriptors_104,image,2,0.035893
+Multiscale/Descriptors,bottom_right_Descriptors_105,image,2,0.024404
+Multiscale/Descriptors,bottom_right_Descriptors_106,image,2,0.027056
+Multiscale/Descriptors,bottom_right_Descriptors_107,image,2,0.039782
+Multiscale/Descriptors,bottom_right_Descriptors_108,image,2,0.035704
+Multiscale/Descriptors,bottom_right_Descriptors_109,image,2,0.022687
+Multiscale/Descriptors,bottom_right_Descriptors_110,image,2,0.037850
+Multiscale/Descriptors,bottom_right_Descriptors_111,image,2,0.105534
+Multiscale/Descriptors,bottom_right_Descriptors_112,image,2,0.029290
+Multiscale/Descriptors,bottom_right_Descriptors_113,image,2,0.027182
+Multiscale/Descriptors,bottom_right_Descriptors_114,image,2,0.034025
+Multiscale/Descriptors,bottom_right_Descriptors_115,image,2,0.105773
+Multiscale/Descriptors,bottom_right_Descriptors_116,image,2,0.037535
+Multiscale/Descriptors,bottom_right_Descriptors_117,image,2,0.031525
+Multiscale/Descriptors,bottom_right_Descriptors_118,image,2,0.033002
+Multiscale/Descriptors,bottom_right_Descriptors_119,image,2,0.037610
+Multiscale/Descriptors,bottom_right_Descriptors_120,image,2,0.031676
+Multiscale/Descriptors,bottom_right_Descriptors_121,image,2,0.042799
+Multiscale/Descriptors,bottom_right_Descriptors_122,image,2,0.034492
+Multiscale/Descriptors,bottom_right_Descriptors_123,image,2,0.045968
+Multiscale/Descriptors,bottom_right_Descriptors_124,image,2,0.042610
+Multiscale/Descriptors,bottom_right_Descriptors_125,image,2,0.021248
+Multiscale/Descriptors,bottom_right_Descriptors_126,image,2,0.036259
+Multiscale/Descriptors,bottom_right_Descriptors_127,image,2,0.029606
+Multiscale/Descriptors,bottom_right_Descriptors_128,image,2,0.041751
+Multiscale/Descriptors,bottom_right_Descriptors_129,image,2,0.034530
+Multiscale/SLIC,top_left_SLIC_n_nodes,region graphs,2,0.028760
+Multiscale/SLIC,top_left_SLIC_n_edges,region graphs,2,0.031247
+Multiscale/SLIC,top_left_SLIC_density,region graphs,2,0.037774
+Multiscale/SLIC,top_left_SLIC_area_gini,region graphs,2,0.038519
+Multiscale/SLIC,top_left_SLIC_area_entropy,region graphs,2,0.029290
+Multiscale/SLIC,top_left_SLIC_area_max_frac,region graphs,2,0.033444
+Multiscale/SLIC,top_left_SLIC_area_mean,region graphs,2,0.038873
+Multiscale/SLIC,top_left_SLIC_area_std,region graphs,2,0.037989
+Multiscale/SLIC,top_left_SLIC_color_dist_mean,region graphs,2,0.037560
+Multiscale/SLIC,top_left_SLIC_color_dist_std,region graphs,2,0.047344
+Multiscale/SLIC,top_left_SLIC_color_dist_max,region graphs,2,0.033570
+Multiscale/SLIC,top_left_SLIC_spatial_dist_mean,region graphs,2,0.030086
+Multiscale/SLIC,top_left_SLIC_spatial_dist_std,region graphs,2,0.046713
+Multiscale/SLIC,top_left_SLIC_degree_mean,region graphs,2,0.034580
+Multiscale/SLIC,top_left_SLIC_degree_std,region graphs,2,0.042774
+Multiscale/SLIC,top_left_SLIC_degree_max,region graphs,2,0.084046
+Multiscale/SLIC,top_left_SLIC_hub_degree_ratio,region graphs,2,0.133056
+Multiscale/SLIC,top_left_SLIC_n_leaf_frac,region graphs,2,0.013080
+Multiscale/SLIC,top_left_SLIC_degree_gini,region graphs,2,0.031146
+Multiscale/SLIC,top_left_SLIC_area_second_max_frac,region graphs,2,0.036373
+Multiscale/SLIC,top_left_SLIC_area_cv,region graphs,2,0.032485
+Multiscale/SLIC,top_left_SLIC_spatial_density_cv,region graphs,2,0.026488
+Multiscale/SLIC,top_left_SLIC_spatial_density_max_block_frac,region graphs,2,0.025680
+Multiscale/SLIC,top_left_SLIC_L_mean_w,region graphs,0,0.035818
+Multiscale/SLIC,top_left_SLIC_L_std_w,region graphs,2,0.028646
+Multiscale/SLIC,top_left_SLIC_a_mean_w,region graphs,1,0.029353
+Multiscale/SLIC,top_left_SLIC_a_std_w,region graphs,0,0.058417
+Multiscale/SLIC,top_left_SLIC_b_mean_w,region graphs,0,0.016476
+Multiscale/SLIC,top_left_SLIC_b_std_w,region graphs,0,0.040047
+Multiscale/SLIC,top_left_SLIC_chroma_mean_w,region graphs,0,0.036461
+Multiscale/SLIC,top_left_SLIC_chroma_std_w,region graphs,0,0.050248
+Multiscale/SLIC,top_left_SLIC_warm_frac,region graphs,0,0.012108
+Multiscale/SLIC,top_left_SLIC_knn_n_edges,region graphs,2,0.035212
+Multiscale/SLIC,top_left_SLIC_knn_density,region graphs,2,0.041486
+Multiscale/SLIC,top_left_SLIC_knn_color_dist_mean,region graphs,2,0.046069
+Multiscale/SLIC,top_left_SLIC_knn_color_dist_std,region graphs,2,0.033772
+Multiscale/SLIC,top_left_SLIC_knn_color_dist_max,region graphs,2,0.028369
+Multiscale/SLIC,top_left_SLIC_knn_spatial_dist_mean,region graphs,2,0.045488
+Multiscale/SLIC,top_left_SLIC_knn_spatial_dist_std,region graphs,2,0.034555
+Multiscale/SLIC,top_left_SLIC_knn_degree_mean,region graphs,2,0.042648
+Multiscale/SLIC,top_left_SLIC_knn_degree_std,region graphs,2,0.046183
+Multiscale/SLIC,top_left_SLIC_knn_degree_max,region graphs,2,0.036007
+Multiscale/SLIC,top_left_SLIC_knn_hub_degree_ratio,region graphs,2,0.021640
+Multiscale/SLIC,top_left_SLIC_knn_degree_gini,region graphs,2,0.046094
+Multiscale/SLIC,top_left_SLIC_del_n_edges,region graphs,2,0.028053
+Multiscale/SLIC,top_left_SLIC_del_density,region graphs,2,0.038822
+Multiscale/SLIC,top_left_SLIC_del_color_dist_mean,region graphs,2,0.040363
+Multiscale/SLIC,top_left_SLIC_del_color_dist_std,region graphs,2,0.048670
+Multiscale/SLIC,top_left_SLIC_del_color_dist_max,region graphs,0,0.032914
+Multiscale/SLIC,top_left_SLIC_del_spatial_dist_mean,region graphs,2,0.032358
+Multiscale/SLIC,top_left_SLIC_del_spatial_dist_std,region graphs,2,0.118904
+Multiscale/SLIC,top_left_SLIC_del_degree_mean,region graphs,2,0.039504
+Multiscale/SLIC,top_left_SLIC_del_degree_std,region graphs,2,0.120027
+Multiscale/SLIC,top_left_SLIC_del_degree_max,region graphs,2,0.055172
+Multiscale/SLIC,top_left_SLIC_del_hub_degree_ratio,region graphs,2,0.055020
+Multiscale/SLIC,top_left_SLIC_del_degree_gini,region graphs,2,0.043973
+Multiscale/SLIC,top_left_SLIC_mst_n_edges,region graphs,2,0.126302
+Multiscale/SLIC,top_left_SLIC_mst_density,region graphs,2,0.048064
+Multiscale/SLIC,top_left_SLIC_mst_color_dist_mean,region graphs,2,0.086470
+Multiscale/SLIC,top_left_SLIC_mst_color_dist_std,region graphs,2,0.149040
+Multiscale/SLIC,top_left_SLIC_mst_color_dist_max,region graphs,2,0.043330
+Multiscale/SLIC,top_left_SLIC_mst_spatial_dist_mean,region graphs,2,0.122502
+Multiscale/SLIC,top_left_SLIC_mst_spatial_dist_std,region graphs,2,0.133978
+Multiscale/SLIC,top_left_SLIC_mst_degree_mean,region graphs,2,0.035704
+Multiscale/SLIC,top_left_SLIC_mst_degree_std,region graphs,2,0.130834
+Multiscale/SLIC,top_left_SLIC_mst_degree_max,region graphs,2,0.143472
+Multiscale/SLIC,top_left_SLIC_mst_hub_degree_ratio,region graphs,2,0.035300
+Multiscale/SLIC,top_left_SLIC_mst_n_leaf_frac,region graphs,2,0.041777
+Multiscale/SLIC,top_left_SLIC_mst_degree_gini,region graphs,2,0.038418
+Multiscale/SLIC,top_right_SLIC_n_nodes,region graphs,2,0.030730
+Multiscale/SLIC,top_right_SLIC_n_edges,region graphs,2,0.032611
+Multiscale/SLIC,top_right_SLIC_density,region graphs,2,0.037194
+Multiscale/SLIC,top_right_SLIC_area_gini,region graphs,2,0.037825
+Multiscale/SLIC,top_right_SLIC_area_entropy,region graphs,2,0.030629
+Multiscale/SLIC,top_right_SLIC_area_max_frac,region graphs,2,0.034643
+Multiscale/SLIC,top_right_SLIC_area_mean,region graphs,2,0.037926
+Multiscale/SLIC,top_right_SLIC_area_std,region graphs,2,0.038595
+Multiscale/SLIC,top_right_SLIC_color_dist_mean,region graphs,2,0.039731
+Multiscale/SLIC,top_right_SLIC_color_dist_std,region graphs,2,0.045703
+Multiscale/SLIC,top_right_SLIC_color_dist_max,region graphs,2,0.033469
+Multiscale/SLIC,top_right_SLIC_spatial_dist_mean,region graphs,2,0.031904
+Multiscale/SLIC,top_right_SLIC_spatial_dist_std,region graphs,2,0.044201
+Multiscale/SLIC,top_right_SLIC_degree_mean,region graphs,2,0.034984
+Multiscale/SLIC,top_right_SLIC_degree_std,region graphs,2,0.044756
+Multiscale/SLIC,top_right_SLIC_degree_max,region graphs,2,0.130102
+Multiscale/SLIC,top_right_SLIC_hub_degree_ratio,region graphs,2,0.131238
+Multiscale/SLIC,top_right_SLIC_n_leaf_frac,region graphs,2,0.012991
+Multiscale/SLIC,top_right_SLIC_degree_gini,region graphs,2,0.032712
+Multiscale/SLIC,top_right_SLIC_area_second_max_frac,region graphs,2,0.036588
+Multiscale/SLIC,top_right_SLIC_area_cv,region graphs,2,0.031613
+Multiscale/SLIC,top_right_SLIC_spatial_density_cv,region graphs,2,0.026399
+Multiscale/SLIC,top_right_SLIC_spatial_density_max_block_frac,region graphs,2,0.025301
+Multiscale/SLIC,top_right_SLIC_L_mean_w,region graphs,0,0.037875
+Multiscale/SLIC,top_right_SLIC_L_std_w,region graphs,2,0.028495
+Multiscale/SLIC,top_right_SLIC_a_mean_w,region graphs,1,0.027914
+Multiscale/SLIC,top_right_SLIC_a_std_w,region graphs,0,0.042989
+Multiscale/SLIC,top_right_SLIC_b_mean_w,region graphs,0,0.017625
+Multiscale/SLIC,top_right_SLIC_b_std_w,region graphs,0,0.039226
+Multiscale/SLIC,top_right_SLIC_chroma_mean_w,region graphs,0,0.036032
+Multiscale/SLIC,top_right_SLIC_chroma_std_w,region graphs,0,0.050071
+Multiscale/SLIC,top_right_SLIC_warm_frac,region graphs,0,0.012095
+Multiscale/SLIC,top_right_SLIC_knn_n_edges,region graphs,2,0.035805
+Multiscale/SLIC,top_right_SLIC_knn_density,region graphs,2,0.041928
+Multiscale/SLIC,top_right_SLIC_knn_color_dist_mean,region graphs,2,0.045930
+Multiscale/SLIC,top_right_SLIC_knn_color_dist_std,region graphs,2,0.038570
+Multiscale/SLIC,top_right_SLIC_knn_color_dist_max,region graphs,2,0.020162
+Multiscale/SLIC,top_right_SLIC_knn_spatial_dist_mean,region graphs,2,0.040464
+Multiscale/SLIC,top_right_SLIC_knn_spatial_dist_std,region graphs,2,0.032737
+Multiscale/SLIC,top_right_SLIC_knn_degree_mean,region graphs,2,0.042976
+Multiscale/SLIC,top_right_SLIC_knn_degree_std,region graphs,2,0.045627
+Multiscale/SLIC,top_right_SLIC_knn_degree_max,region graphs,2,0.062027
+Multiscale/SLIC,top_right_SLIC_knn_hub_degree_ratio,region graphs,2,0.022650
+Multiscale/SLIC,top_right_SLIC_knn_degree_gini,region graphs,2,0.044971
+Multiscale/SLIC,top_right_SLIC_del_n_edges,region graphs,2,0.030060
+Multiscale/SLIC,top_right_SLIC_del_density,region graphs,2,0.038305
+Multiscale/SLIC,top_right_SLIC_del_color_dist_mean,region graphs,2,0.039353
+Multiscale/SLIC,top_right_SLIC_del_color_dist_std,region graphs,2,0.046663
+Multiscale/SLIC,top_right_SLIC_del_color_dist_max,region graphs,0,0.034505
+Multiscale/SLIC,top_right_SLIC_del_spatial_dist_mean,region graphs,2,0.034151
+Multiscale/SLIC,top_right_SLIC_del_spatial_dist_std,region graphs,2,0.118765
+Multiscale/SLIC,top_right_SLIC_del_degree_mean,region graphs,2,0.037206
+Multiscale/SLIC,top_right_SLIC_del_degree_std,region graphs,2,0.115962
+Multiscale/SLIC,top_right_SLIC_del_degree_max,region graphs,2,0.059250
+Multiscale/SLIC,top_right_SLIC_del_hub_degree_ratio,region graphs,2,0.058101
+Multiscale/SLIC,top_right_SLIC_del_degree_gini,region graphs,2,0.043317
+Multiscale/SLIC,top_right_SLIC_mst_n_edges,region graphs,2,0.108374
+Multiscale/SLIC,top_right_SLIC_mst_density,region graphs,2,0.049213
+Multiscale/SLIC,top_right_SLIC_mst_color_dist_mean,region graphs,2,0.044731
+Multiscale/SLIC,top_right_SLIC_mst_color_dist_std,region graphs,2,0.148270
+Multiscale/SLIC,top_right_SLIC_mst_color_dist_max,region graphs,2,0.043633
+Multiscale/SLIC,top_right_SLIC_mst_spatial_dist_mean,region graphs,2,0.124194
+Multiscale/SLIC,top_right_SLIC_mst_spatial_dist_std,region graphs,2,0.136251
+Multiscale/SLIC,top_right_SLIC_mst_degree_mean,region graphs,2,0.037825
+Multiscale/SLIC,top_right_SLIC_mst_degree_std,region graphs,2,0.130317
+Multiscale/SLIC,top_right_SLIC_mst_degree_max,region graphs,2,0.145126
+Multiscale/SLIC,top_right_SLIC_mst_hub_degree_ratio,region graphs,2,0.044138
+Multiscale/SLIC,top_right_SLIC_mst_n_leaf_frac,region graphs,2,0.042446
+Multiscale/SLIC,top_right_SLIC_mst_degree_gini,region graphs,2,0.040716
+Multiscale/SLIC,bottom_left_SLIC_n_nodes,region graphs,2,0.031323
+Multiscale/SLIC,bottom_left_SLIC_n_edges,region graphs,2,0.033330
+Multiscale/SLIC,bottom_left_SLIC_density,region graphs,2,0.039100
+Multiscale/SLIC,bottom_left_SLIC_area_gini,region graphs,2,0.040451
+Multiscale/SLIC,bottom_left_SLIC_area_entropy,region graphs,2,0.030477
+Multiscale/SLIC,bottom_left_SLIC_area_max_frac,region graphs,2,0.036095
+Multiscale/SLIC,bottom_left_SLIC_area_mean,region graphs,2,0.034290
+Multiscale/SLIC,bottom_left_SLIC_area_std,region graphs,2,0.040691
+Multiscale/SLIC,bottom_left_SLIC_color_dist_mean,region graphs,2,0.041297
+Multiscale/SLIC,bottom_left_SLIC_color_dist_std,region graphs,2,0.037269
+Multiscale/SLIC,bottom_left_SLIC_color_dist_max,region graphs,2,0.029682
+Multiscale/SLIC,bottom_left_SLIC_spatial_dist_mean,region graphs,2,0.032434
+Multiscale/SLIC,bottom_left_SLIC_spatial_dist_std,region graphs,2,0.043014
+Multiscale/SLIC,bottom_left_SLIC_degree_mean,region graphs,2,0.104991
+Multiscale/SLIC,bottom_left_SLIC_degree_std,region graphs,2,0.032901
+Multiscale/SLIC,bottom_left_SLIC_degree_max,region graphs,2,0.116025
+Multiscale/SLIC,bottom_left_SLIC_hub_degree_ratio,region graphs,2,0.136844
+Multiscale/SLIC,bottom_left_SLIC_n_leaf_frac,region graphs,2,0.013850
+Multiscale/SLIC,bottom_left_SLIC_degree_gini,region graphs,2,0.033495
+Multiscale/SLIC,bottom_left_SLIC_area_second_max_frac,region graphs,2,0.037888
+Multiscale/SLIC,bottom_left_SLIC_area_cv,region graphs,2,0.032598
+Multiscale/SLIC,bottom_left_SLIC_spatial_density_cv,region graphs,2,0.026134
+Multiscale/SLIC,bottom_left_SLIC_spatial_density_max_block_frac,region graphs,2,0.025086
+Multiscale/SLIC,bottom_left_SLIC_L_mean_w,region graphs,0,0.041448
+Multiscale/SLIC,bottom_left_SLIC_L_std_w,region graphs,2,0.029215
+Multiscale/SLIC,bottom_left_SLIC_a_mean_w,region graphs,1,0.026513
+Multiscale/SLIC,bottom_left_SLIC_a_std_w,region graphs,0,0.051801
+Multiscale/SLIC,bottom_left_SLIC_b_mean_w,region graphs,0,0.024594
+Multiscale/SLIC,bottom_left_SLIC_b_std_w,region graphs,0,0.041284
+Multiscale/SLIC,bottom_left_SLIC_chroma_mean_w,region graphs,2,0.025995
+Multiscale/SLIC,bottom_left_SLIC_chroma_std_w,region graphs,0,0.032447
+Multiscale/SLIC,bottom_left_SLIC_warm_frac,region graphs,2,0.022081
+Multiscale/SLIC,bottom_left_SLIC_knn_n_edges,region graphs,2,0.026235
+Multiscale/SLIC,bottom_left_SLIC_knn_density,region graphs,2,0.035136
+Multiscale/SLIC,bottom_left_SLIC_knn_color_dist_mean,region graphs,2,0.053846
+Multiscale/SLIC,bottom_left_SLIC_knn_color_dist_std,region graphs,2,0.035388
+Multiscale/SLIC,bottom_left_SLIC_knn_color_dist_max,region graphs,2,0.029290
+Multiscale/SLIC,bottom_left_SLIC_knn_spatial_dist_mean,region graphs,2,0.049099
+Multiscale/SLIC,bottom_left_SLIC_knn_spatial_dist_std,region graphs,2,0.033633
+Multiscale/SLIC,bottom_left_SLIC_knn_degree_mean,region graphs,2,0.040956
+Multiscale/SLIC,bottom_left_SLIC_knn_degree_std,region graphs,2,0.050324
+Multiscale/SLIC,bottom_left_SLIC_knn_degree_max,region graphs,2,0.046271
+Multiscale/SLIC,bottom_left_SLIC_knn_hub_degree_ratio,region graphs,2,0.025301
+Multiscale/SLIC,bottom_left_SLIC_knn_degree_gini,region graphs,2,0.048051
+Multiscale/SLIC,bottom_left_SLIC_del_n_edges,region graphs,2,0.030805
+Multiscale/SLIC,bottom_left_SLIC_del_density,region graphs,2,0.033091
+Multiscale/SLIC,bottom_left_SLIC_del_color_dist_mean,region graphs,2,0.035704
+Multiscale/SLIC,bottom_left_SLIC_del_color_dist_std,region graphs,2,0.039353
+Multiscale/SLIC,bottom_left_SLIC_del_color_dist_max,region graphs,0,0.033394
+Multiscale/SLIC,bottom_left_SLIC_del_spatial_dist_mean,region graphs,2,0.032876
+Multiscale/SLIC,bottom_left_SLIC_del_spatial_dist_std,region graphs,2,0.112982
+Multiscale/SLIC,bottom_left_SLIC_del_degree_mean,region graphs,2,0.030666
+Multiscale/SLIC,bottom_left_SLIC_del_degree_std,region graphs,2,0.030376
+Multiscale/SLIC,bottom_left_SLIC_del_degree_max,region graphs,2,0.038898
+Multiscale/SLIC,bottom_left_SLIC_del_hub_degree_ratio,region graphs,2,0.038418
+Multiscale/SLIC,bottom_left_SLIC_del_degree_gini,region graphs,2,0.038178
+Multiscale/SLIC,bottom_left_SLIC_mst_n_edges,region graphs,2,0.041158
+Multiscale/SLIC,bottom_left_SLIC_mst_density,region graphs,2,0.060159
+Multiscale/SLIC,bottom_left_SLIC_mst_color_dist_mean,region graphs,2,0.096923
+Multiscale/SLIC,bottom_left_SLIC_mst_color_dist_std,region graphs,2,0.155693
+Multiscale/SLIC,bottom_left_SLIC_mst_color_dist_max,region graphs,2,0.036777
+Multiscale/SLIC,bottom_left_SLIC_mst_spatial_dist_mean,region graphs,2,0.036891
+Multiscale/SLIC,bottom_left_SLIC_mst_spatial_dist_std,region graphs,2,0.096065
+Multiscale/SLIC,bottom_left_SLIC_mst_degree_mean,region graphs,2,0.042408
+Multiscale/SLIC,bottom_left_SLIC_mst_degree_std,region graphs,2,0.139079
+Multiscale/SLIC,bottom_left_SLIC_mst_degree_max,region graphs,2,0.141174
+Multiscale/SLIC,bottom_left_SLIC_mst_hub_degree_ratio,region graphs,2,0.143207
+Multiscale/SLIC,bottom_left_SLIC_mst_n_leaf_frac,region graphs,2,0.043128
+Multiscale/SLIC,bottom_left_SLIC_mst_degree_gini,region graphs,2,0.038822
+Multiscale/SLIC,bottom_right_SLIC_n_nodes,region graphs,2,0.030401
+Multiscale/SLIC,bottom_right_SLIC_n_edges,region graphs,2,0.033621
+Multiscale/SLIC,bottom_right_SLIC_density,region graphs,2,0.037737
+Multiscale/SLIC,bottom_right_SLIC_area_gini,region graphs,2,0.037673
+Multiscale/SLIC,bottom_right_SLIC_area_entropy,region graphs,2,0.031386
+Multiscale/SLIC,bottom_right_SLIC_area_max_frac,region graphs,2,0.035855
+Multiscale/SLIC,bottom_right_SLIC_area_mean,region graphs,2,0.034239
+Multiscale/SLIC,bottom_right_SLIC_area_std,region graphs,2,0.043140
+Multiscale/SLIC,bottom_right_SLIC_color_dist_mean,region graphs,2,0.038040
+Multiscale/SLIC,bottom_right_SLIC_color_dist_std,region graphs,2,0.035148
+Multiscale/SLIC,bottom_right_SLIC_color_dist_max,region graphs,2,0.028015
+Multiscale/SLIC,bottom_right_SLIC_spatial_dist_mean,region graphs,2,0.034441
+Multiscale/SLIC,bottom_right_SLIC_spatial_dist_std,region graphs,2,0.042900
+Multiscale/SLIC,bottom_right_SLIC_degree_mean,region graphs,2,0.031841
+Multiscale/SLIC,bottom_right_SLIC_degree_std,region graphs,2,0.034050
+Multiscale/SLIC,bottom_right_SLIC_degree_max,region graphs,2,0.111745
+Multiscale/SLIC,bottom_right_SLIC_hub_degree_ratio,region graphs,2,0.124926
+Multiscale/SLIC,bottom_right_SLIC_n_leaf_frac,region graphs,2,0.011565
+Multiscale/SLIC,bottom_right_SLIC_degree_gini,region graphs,2,0.028672
+Multiscale/SLIC,bottom_right_SLIC_area_second_max_frac,region graphs,2,0.037484
+Multiscale/SLIC,bottom_right_SLIC_area_cv,region graphs,2,0.032447
+Multiscale/SLIC,bottom_right_SLIC_spatial_density_cv,region graphs,2,0.025263
+Multiscale/SLIC,bottom_right_SLIC_spatial_density_max_block_frac,region graphs,2,0.024379
+Multiscale/SLIC,bottom_right_SLIC_L_mean_w,region graphs,0,0.040804
+Multiscale/SLIC,bottom_right_SLIC_L_std_w,region graphs,2,0.028230
+Multiscale/SLIC,bottom_right_SLIC_a_mean_w,region graphs,1,0.026096
+Multiscale/SLIC,bottom_right_SLIC_a_std_w,region graphs,0,0.039428
+Multiscale/SLIC,bottom_right_SLIC_b_mean_w,region graphs,0,0.024594
+Multiscale/SLIC,bottom_right_SLIC_b_std_w,region graphs,0,0.040640
+Multiscale/SLIC,bottom_right_SLIC_chroma_mean_w,region graphs,0,0.037244
+Multiscale/SLIC,bottom_right_SLIC_chroma_std_w,region graphs,0,0.033520
+Multiscale/SLIC,bottom_right_SLIC_warm_frac,region graphs,0,0.016754
+Multiscale/SLIC,bottom_right_SLIC_knn_n_edges,region graphs,2,0.026614
+Multiscale/SLIC,bottom_right_SLIC_knn_density,region graphs,2,0.036108
+Multiscale/SLIC,bottom_right_SLIC_knn_color_dist_mean,region graphs,2,0.050968
+Multiscale/SLIC,bottom_right_SLIC_knn_color_dist_std,region graphs,2,0.041309
+Multiscale/SLIC,bottom_right_SLIC_knn_color_dist_max,region graphs,2,0.026967
+Multiscale/SLIC,bottom_right_SLIC_knn_spatial_dist_mean,region graphs,2,0.042711
+Multiscale/SLIC,bottom_right_SLIC_knn_spatial_dist_std,region graphs,2,0.034189
+Multiscale/SLIC,bottom_right_SLIC_knn_degree_mean,region graphs,2,0.042862
+Multiscale/SLIC,bottom_right_SLIC_knn_degree_std,region graphs,2,0.047395
+Multiscale/SLIC,bottom_right_SLIC_knn_degree_max,region graphs,2,0.053973
+Multiscale/SLIC,bottom_right_SLIC_knn_hub_degree_ratio,region graphs,2,0.027258
+Multiscale/SLIC,bottom_right_SLIC_knn_degree_gini,region graphs,2,0.048973
+Multiscale/SLIC,bottom_right_SLIC_del_n_edges,region graphs,2,0.030439
+Multiscale/SLIC,bottom_right_SLIC_del_density,region graphs,2,0.034037
+Multiscale/SLIC,bottom_right_SLIC_del_color_dist_mean,region graphs,2,0.038646
+Multiscale/SLIC,bottom_right_SLIC_del_color_dist_std,region graphs,2,0.041284
+Multiscale/SLIC,bottom_right_SLIC_del_color_dist_max,region graphs,0,0.034429
+Multiscale/SLIC,bottom_right_SLIC_del_spatial_dist_mean,region graphs,2,0.034037
+Multiscale/SLIC,bottom_right_SLIC_del_spatial_dist_std,region graphs,2,0.113955
+Multiscale/SLIC,bottom_right_SLIC_del_degree_mean,region graphs,2,0.030906
+Multiscale/SLIC,bottom_right_SLIC_del_degree_std,region graphs,2,0.043405
+Multiscale/SLIC,bottom_right_SLIC_del_degree_max,region graphs,2,0.040034
+Multiscale/SLIC,bottom_right_SLIC_del_hub_degree_ratio,region graphs,2,0.040072
+Multiscale/SLIC,bottom_right_SLIC_del_degree_gini,region graphs,2,0.039176
+Multiscale/SLIC,bottom_right_SLIC_mst_n_edges,region graphs,2,0.089424
+Multiscale/SLIC,bottom_right_SLIC_mst_density,region graphs,2,0.051902
+Multiscale/SLIC,bottom_right_SLIC_mst_color_dist_mean,region graphs,2,0.042256
+Multiscale/SLIC,bottom_right_SLIC_mst_color_dist_std,region graphs,2,0.153762
+Multiscale/SLIC,bottom_right_SLIC_mst_color_dist_max,region graphs,2,0.041019
+Multiscale/SLIC,bottom_right_SLIC_mst_spatial_dist_mean,region graphs,2,0.036575
+Multiscale/SLIC,bottom_right_SLIC_mst_spatial_dist_std,region graphs,2,0.128953
+Multiscale/SLIC,bottom_right_SLIC_mst_degree_mean,region graphs,2,0.040868
+Multiscale/SLIC,bottom_right_SLIC_mst_degree_std,region graphs,2,0.138687
+Multiscale/SLIC,bottom_right_SLIC_mst_degree_max,region graphs,2,0.140783
+Multiscale/SLIC,bottom_right_SLIC_mst_hub_degree_ratio,region graphs,2,0.153206
+Multiscale/SLIC,bottom_right_SLIC_mst_n_leaf_frac,region graphs,2,0.044920
+Multiscale/SLIC,bottom_right_SLIC_mst_degree_gini,region graphs,2,0.039491
+Multiscale/Hilbert,top_left_Hilbert_0,curve,0,0.033368
+Multiscale/Hilbert,top_left_Hilbert_1,curve,0,0.033469
+Multiscale/Hilbert,top_left_Hilbert_2,curve,0,0.036461
+Multiscale/Hilbert,top_left_Hilbert_3,curve,0,0.032384
+Multiscale/Hilbert,top_left_Hilbert_4,curve,0,0.031992
+Multiscale/Hilbert,top_left_Hilbert_5,curve,2,0.024796
+Multiscale/Hilbert,top_left_Hilbert_6,curve,0,0.027902
+Multiscale/Hilbert,top_left_Hilbert_7,curve,0,0.034656
+Multiscale/Hilbert,top_left_Hilbert_8,curve,2,0.031487
+Multiscale/Hilbert,top_left_Hilbert_9,curve,2,0.023660
+Multiscale/Hilbert,top_left_Hilbert_10,curve,2,0.024973
+Multiscale/Hilbert,top_left_Hilbert_11,curve,2,0.028432
+Multiscale/Hilbert,top_left_Hilbert_12,curve,2,0.031096
+Multiscale/Hilbert,top_left_Hilbert_13,curve,2,0.035653
+Multiscale/Hilbert,top_left_Hilbert_14,curve,2,0.028028
+Multiscale/Hilbert,top_left_Hilbert_15,curve,2,0.063631
+Multiscale/Hilbert,top_left_Hilbert_16,curve,0,0.036474
+Multiscale/Hilbert,top_left_Hilbert_17,curve,2,0.028179
+Multiscale/Hilbert,top_left_Hilbert_18,curve,1,0.025414
+Multiscale/Hilbert,top_left_Hilbert_19,curve,1,0.027144
+Multiscale/Hilbert,top_left_Hilbert_20,curve,1,0.026235
+Multiscale/Hilbert,top_left_Hilbert_21,curve,1,0.027662
+Multiscale/Hilbert,top_left_Hilbert_22,curve,1,0.030351
+Multiscale/Hilbert,top_left_Hilbert_23,curve,1,0.023293
+Multiscale/Hilbert,top_left_Hilbert_24,curve,1,0.028886
+Multiscale/Hilbert,top_left_Hilbert_25,curve,1,0.027245
+Multiscale/Hilbert,top_left_Hilbert_26,curve,0,0.034404
+Multiscale/Hilbert,top_left_Hilbert_27,curve,0,0.078604
+Multiscale/Hilbert,top_left_Hilbert_28,curve,0,0.038052
+Multiscale/Hilbert,top_left_Hilbert_29,curve,0,0.041474
+Multiscale/Hilbert,top_left_Hilbert_30,curve,0,0.037989
+Multiscale/Hilbert,top_left_Hilbert_31,curve,0,0.037004
+Multiscale/Hilbert,top_left_Hilbert_32,curve,0,0.036777
+Multiscale/Hilbert,top_left_Hilbert_33,curve,0,0.078831
+Multiscale/Hilbert,top_left_Hilbert_34,curve,1,0.029139
+Multiscale/Hilbert,top_left_Hilbert_35,curve,0,0.052521
+Multiscale/Hilbert,top_left_Hilbert_36,curve,0,0.015377
+Multiscale/Hilbert,top_left_Hilbert_37,curve,0,0.014986
+Multiscale/Hilbert,top_left_Hilbert_38,curve,0,0.020276
+Multiscale/Hilbert,top_left_Hilbert_39,curve,0,0.015239
+Multiscale/Hilbert,top_left_Hilbert_40,curve,0,0.022536
+Multiscale/Hilbert,top_left_Hilbert_41,curve,0,0.026172
+Multiscale/Hilbert,top_left_Hilbert_42,curve,0,0.013282
+Multiscale/Hilbert,top_left_Hilbert_43,curve,0,0.014456
+Multiscale/Hilbert,top_left_Hilbert_44,curve,0,0.033747
+Multiscale/Hilbert,top_left_Hilbert_45,curve,0,0.037269
+Multiscale/Hilbert,top_left_Hilbert_46,curve,0,0.035161
+Multiscale/Hilbert,top_left_Hilbert_47,curve,0,0.038153
+Multiscale/Hilbert,top_left_Hilbert_48,curve,0,0.042370
+Multiscale/Hilbert,top_left_Hilbert_49,curve,0,0.041171
+Multiscale/Hilbert,top_left_Hilbert_50,curve,0,0.040501
+Multiscale/Hilbert,top_left_Hilbert_51,curve,0,0.034227
+Multiscale/Hilbert,top_left_Hilbert_52,curve,0,0.016690
+Multiscale/Hilbert,top_left_Hilbert_53,curve,0,0.039681
+Multiscale/Hilbert,top_left_Hilbert_54,curve,2,0.061686
+Multiscale/Hilbert,top_left_Hilbert_55,curve,0,0.028697
+Multiscale/Hilbert,top_left_Hilbert_56,curve,0,0.026374
+Multiscale/Hilbert,top_right_Hilbert_0,curve,0,0.032964
+Multiscale/Hilbert,top_right_Hilbert_1,curve,0,0.030679
+Multiscale/Hilbert,top_right_Hilbert_2,curve,0,0.029126
+Multiscale/Hilbert,top_right_Hilbert_3,curve,0,0.033570
+Multiscale/Hilbert,top_right_Hilbert_4,curve,0,0.033785
+Multiscale/Hilbert,top_right_Hilbert_5,curve,0,0.035212
+Multiscale/Hilbert,top_right_Hilbert_6,curve,0,0.033368
+Multiscale/Hilbert,top_right_Hilbert_7,curve,0,0.034631
+Multiscale/Hilbert,top_right_Hilbert_8,curve,2,0.028091
+Multiscale/Hilbert,top_right_Hilbert_9,curve,2,0.029025
+Multiscale/Hilbert,top_right_Hilbert_10,curve,2,0.034618
+Multiscale/Hilbert,top_right_Hilbert_11,curve,2,0.031108
+Multiscale/Hilbert,top_right_Hilbert_12,curve,2,0.029429
+Multiscale/Hilbert,top_right_Hilbert_13,curve,2,0.025137
+Multiscale/Hilbert,top_right_Hilbert_14,curve,2,0.024670
+Multiscale/Hilbert,top_right_Hilbert_15,curve,2,0.032813
+Multiscale/Hilbert,top_right_Hilbert_16,curve,0,0.037737
+Multiscale/Hilbert,top_right_Hilbert_17,curve,2,0.028318
+Multiscale/Hilbert,top_right_Hilbert_18,curve,1,0.028369
+Multiscale/Hilbert,top_right_Hilbert_19,curve,1,0.028015
+Multiscale/Hilbert,top_right_Hilbert_20,curve,1,0.024442
+Multiscale/Hilbert,top_right_Hilbert_21,curve,1,0.024127
+Multiscale/Hilbert,top_right_Hilbert_22,curve,1,0.024783
+Multiscale/Hilbert,top_right_Hilbert_23,curve,1,0.023912
+Multiscale/Hilbert,top_right_Hilbert_24,curve,1,0.026993
+Multiscale/Hilbert,top_right_Hilbert_25,curve,1,0.025616
+Multiscale/Hilbert,top_right_Hilbert_26,curve,0,0.083755
+Multiscale/Hilbert,top_right_Hilbert_27,curve,0,0.036727
+Multiscale/Hilbert,top_right_Hilbert_28,curve,0,0.038658
+Multiscale/Hilbert,top_right_Hilbert_29,curve,0,0.040135
+Multiscale/Hilbert,top_right_Hilbert_30,curve,0,0.041903
+Multiscale/Hilbert,top_right_Hilbert_31,curve,0,0.037471
+Multiscale/Hilbert,top_right_Hilbert_32,curve,0,0.065512
+Multiscale/Hilbert,top_right_Hilbert_33,curve,0,0.035919
+Multiscale/Hilbert,top_right_Hilbert_34,curve,1,0.027927
+Multiscale/Hilbert,top_right_Hilbert_35,curve,0,0.043595
+Multiscale/Hilbert,top_right_Hilbert_36,curve,0,0.014140
+Multiscale/Hilbert,top_right_Hilbert_37,curve,0,0.011754
+Multiscale/Hilbert,top_right_Hilbert_38,curve,0,0.026589
+Multiscale/Hilbert,top_right_Hilbert_39,curve,0,0.023533
+Multiscale/Hilbert,top_right_Hilbert_40,curve,0,0.022561
+Multiscale/Hilbert,top_right_Hilbert_41,curve,0,0.022788
+Multiscale/Hilbert,top_right_Hilbert_42,curve,0,0.014620
+Multiscale/Hilbert,top_right_Hilbert_43,curve,0,0.015276
+Multiscale/Hilbert,top_right_Hilbert_44,curve,0,0.034606
+Multiscale/Hilbert,top_right_Hilbert_45,curve,0,0.038797
+Multiscale/Hilbert,top_right_Hilbert_46,curve,0,0.042269
+Multiscale/Hilbert,top_right_Hilbert_47,curve,0,0.043027
+Multiscale/Hilbert,top_right_Hilbert_48,curve,0,0.039378
+Multiscale/Hilbert,top_right_Hilbert_49,curve,0,0.034656
+Multiscale/Hilbert,top_right_Hilbert_50,curve,0,0.035590
+Multiscale/Hilbert,top_right_Hilbert_51,curve,0,0.033734
+Multiscale/Hilbert,top_right_Hilbert_52,curve,0,0.017486
+Multiscale/Hilbert,top_right_Hilbert_53,curve,0,0.039239
+Multiscale/Hilbert,top_right_Hilbert_54,curve,2,0.048455
+Multiscale/Hilbert,top_right_Hilbert_55,curve,0,0.029947
+Multiscale/Hilbert,top_right_Hilbert_56,curve,2,0.021198
+Multiscale/Hilbert,bottom_left_Hilbert_0,curve,2,0.044605
+Multiscale/Hilbert,bottom_left_Hilbert_1,curve,2,0.045236
+Multiscale/Hilbert,bottom_left_Hilbert_2,curve,2,0.047269
+Multiscale/Hilbert,bottom_left_Hilbert_3,curve,2,0.046208
+Multiscale/Hilbert,bottom_left_Hilbert_4,curve,0,0.039037
+Multiscale/Hilbert,bottom_left_Hilbert_5,curve,0,0.037838
+Multiscale/Hilbert,bottom_left_Hilbert_6,curve,0,0.034492
+Multiscale/Hilbert,bottom_left_Hilbert_7,curve,0,0.034606
+Multiscale/Hilbert,bottom_left_Hilbert_8,curve,2,0.026500
+Multiscale/Hilbert,bottom_left_Hilbert_9,curve,2,0.027548
+Multiscale/Hilbert,bottom_left_Hilbert_10,curve,2,0.031765
+Multiscale/Hilbert,bottom_left_Hilbert_11,curve,2,0.024783
+Multiscale/Hilbert,bottom_left_Hilbert_12,curve,2,0.026980
+Multiscale/Hilbert,bottom_left_Hilbert_13,curve,2,0.026210
+Multiscale/Hilbert,bottom_left_Hilbert_14,curve,2,0.033381
+Multiscale/Hilbert,bottom_left_Hilbert_15,curve,2,0.033078
+Multiscale/Hilbert,bottom_left_Hilbert_16,curve,0,0.041688
+Multiscale/Hilbert,bottom_left_Hilbert_17,curve,2,0.028533
+Multiscale/Hilbert,bottom_left_Hilbert_18,curve,1,0.025983
+Multiscale/Hilbert,bottom_left_Hilbert_19,curve,1,0.024670
+Multiscale/Hilbert,bottom_left_Hilbert_20,curve,1,0.024228
+Multiscale/Hilbert,bottom_left_Hilbert_21,curve,1,0.026866
+Multiscale/Hilbert,bottom_left_Hilbert_22,curve,1,0.024960
+Multiscale/Hilbert,bottom_left_Hilbert_23,curve,1,0.025503
+Multiscale/Hilbert,bottom_left_Hilbert_24,curve,1,0.026298
+Multiscale/Hilbert,bottom_left_Hilbert_25,curve,1,0.025137
+Multiscale/Hilbert,bottom_left_Hilbert_26,curve,0,0.037333
+Multiscale/Hilbert,bottom_left_Hilbert_27,curve,0,0.040931
+Multiscale/Hilbert,bottom_left_Hilbert_28,curve,0,0.040388
+Multiscale/Hilbert,bottom_left_Hilbert_29,curve,0,0.044882
+Multiscale/Hilbert,bottom_left_Hilbert_30,curve,0,0.041814
+Multiscale/Hilbert,bottom_left_Hilbert_31,curve,0,0.039138
+Multiscale/Hilbert,bottom_left_Hilbert_32,curve,0,0.039264
+Multiscale/Hilbert,bottom_left_Hilbert_33,curve,0,0.037598
+Multiscale/Hilbert,bottom_left_Hilbert_34,curve,1,0.026500
+Multiscale/Hilbert,bottom_left_Hilbert_35,curve,0,0.052672
+Multiscale/Hilbert,bottom_left_Hilbert_36,curve,0,0.023786
+Multiscale/Hilbert,bottom_left_Hilbert_37,curve,0,0.024707
+Multiscale/Hilbert,bottom_left_Hilbert_38,curve,0,0.026374
+Multiscale/Hilbert,bottom_left_Hilbert_39,curve,0,0.039643
+Multiscale/Hilbert,bottom_left_Hilbert_40,curve,0,0.039277
+Multiscale/Hilbert,bottom_left_Hilbert_41,curve,0,0.023634
+Multiscale/Hilbert,bottom_left_Hilbert_42,curve,0,0.022321
+Multiscale/Hilbert,bottom_left_Hilbert_43,curve,0,0.023836
+Multiscale/Hilbert,bottom_left_Hilbert_44,curve,0,0.034820
+Multiscale/Hilbert,bottom_left_Hilbert_45,curve,0,0.037067
+Multiscale/Hilbert,bottom_left_Hilbert_46,curve,0,0.034580
+Multiscale/Hilbert,bottom_left_Hilbert_47,curve,0,0.039592
+Multiscale/Hilbert,bottom_left_Hilbert_48,curve,0,0.037913
+Multiscale/Hilbert,bottom_left_Hilbert_49,curve,0,0.034757
+Multiscale/Hilbert,bottom_left_Hilbert_50,curve,0,0.036057
+Multiscale/Hilbert,bottom_left_Hilbert_51,curve,0,0.037976
+Multiscale/Hilbert,bottom_left_Hilbert_52,curve,0,0.024998
+Multiscale/Hilbert,bottom_left_Hilbert_53,curve,0,0.042231
+Multiscale/Hilbert,bottom_left_Hilbert_54,curve,2,0.048859
+Multiscale/Hilbert,bottom_left_Hilbert_55,curve,0,0.056068
+Multiscale/Hilbert,bottom_left_Hilbert_56,curve,2,0.023584
+Multiscale/Hilbert,bottom_right_Hilbert_0,curve,0,0.035540
+Multiscale/Hilbert,bottom_right_Hilbert_1,curve,0,0.035552
+Multiscale/Hilbert,bottom_right_Hilbert_2,curve,0,0.036676
+Multiscale/Hilbert,bottom_right_Hilbert_3,curve,0,0.042155
+Multiscale/Hilbert,bottom_right_Hilbert_4,curve,0,0.044213
+Multiscale/Hilbert,bottom_right_Hilbert_5,curve,2,0.046928
+Multiscale/Hilbert,bottom_right_Hilbert_6,curve,2,0.047572
+Multiscale/Hilbert,bottom_right_Hilbert_7,curve,2,0.041878
+Multiscale/Hilbert,bottom_right_Hilbert_8,curve,2,0.032876
+Multiscale/Hilbert,bottom_right_Hilbert_9,curve,2,0.032396
+Multiscale/Hilbert,bottom_right_Hilbert_10,curve,2,0.026513
+Multiscale/Hilbert,bottom_right_Hilbert_11,curve,2,0.027258
+Multiscale/Hilbert,bottom_right_Hilbert_12,curve,2,0.024064
+Multiscale/Hilbert,bottom_right_Hilbert_13,curve,2,0.024796
+Multiscale/Hilbert,bottom_right_Hilbert_14,curve,2,0.026879
+Multiscale/Hilbert,bottom_right_Hilbert_15,curve,2,0.026349
+Multiscale/Hilbert,bottom_right_Hilbert_16,curve,0,0.040363
+Multiscale/Hilbert,bottom_right_Hilbert_17,curve,2,0.027636
+Multiscale/Hilbert,bottom_right_Hilbert_18,curve,1,0.024985
+Multiscale/Hilbert,bottom_right_Hilbert_19,curve,1,0.026159
+Multiscale/Hilbert,bottom_right_Hilbert_20,curve,1,0.025377
+Multiscale/Hilbert,bottom_right_Hilbert_21,curve,1,0.025111
+Multiscale/Hilbert,bottom_right_Hilbert_22,curve,1,0.026298
+Multiscale/Hilbert,bottom_right_Hilbert_23,curve,1,0.023887
+Multiscale/Hilbert,bottom_right_Hilbert_24,curve,1,0.026046
+Multiscale/Hilbert,bottom_right_Hilbert_25,curve,1,0.025175
+Multiscale/Hilbert,bottom_right_Hilbert_26,curve,0,0.038229
+Multiscale/Hilbert,bottom_right_Hilbert_27,curve,0,0.041373
+Multiscale/Hilbert,bottom_right_Hilbert_28,curve,0,0.039327
+Multiscale/Hilbert,bottom_right_Hilbert_29,curve,0,0.041701
+Multiscale/Hilbert,bottom_right_Hilbert_30,curve,0,0.042029
+Multiscale/Hilbert,bottom_right_Hilbert_31,curve,0,0.041600
+Multiscale/Hilbert,bottom_right_Hilbert_32,curve,0,0.042420
+Multiscale/Hilbert,bottom_right_Hilbert_33,curve,0,0.037951
+Multiscale/Hilbert,bottom_right_Hilbert_34,curve,1,0.026286
+Multiscale/Hilbert,bottom_right_Hilbert_35,curve,0,0.040779
+Multiscale/Hilbert,bottom_right_Hilbert_36,curve,0,0.023369
+Multiscale/Hilbert,bottom_right_Hilbert_37,curve,0,0.023432
+Multiscale/Hilbert,bottom_right_Hilbert_38,curve,0,0.022725
+Multiscale/Hilbert,bottom_right_Hilbert_39,curve,0,0.024935
+Multiscale/Hilbert,bottom_right_Hilbert_40,curve,0,0.027750
+Multiscale/Hilbert,bottom_right_Hilbert_41,curve,0,0.029492
+Multiscale/Hilbert,bottom_right_Hilbert_42,curve,0,0.022953
+Multiscale/Hilbert,bottom_right_Hilbert_43,curve,0,0.024493
+Multiscale/Hilbert,bottom_right_Hilbert_44,curve,0,0.039353
+Multiscale/Hilbert,bottom_right_Hilbert_45,curve,0,0.036360
+Multiscale/Hilbert,bottom_right_Hilbert_46,curve,0,0.032548
+Multiscale/Hilbert,bottom_right_Hilbert_47,curve,0,0.037863
+Multiscale/Hilbert,bottom_right_Hilbert_48,curve,0,0.041120
+Multiscale/Hilbert,bottom_right_Hilbert_49,curve,0,0.038292
+Multiscale/Hilbert,bottom_right_Hilbert_50,curve,0,0.039959
+Multiscale/Hilbert,bottom_right_Hilbert_51,curve,0,0.037396
+Multiscale/Hilbert,bottom_right_Hilbert_52,curve,0,0.024632
+Multiscale/Hilbert,bottom_right_Hilbert_53,curve,0,0.040325
+Multiscale/Hilbert,bottom_right_Hilbert_54,curve,2,0.049970
+Multiscale/Hilbert,bottom_right_Hilbert_55,curve,0,0.056043
+Multiscale/Hilbert,bottom_right_Hilbert_56,curve,2,0.024682

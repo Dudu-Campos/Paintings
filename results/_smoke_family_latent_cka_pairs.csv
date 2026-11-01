@@ -1,0 +1,25 @@
+fold,scope,class_centered,family_a,family_b,seed_a,seed_b,relation,n_samples,cka
+1,all,False,Image statistics,Image statistics,42,43,within,16565,0.9751397371292114
+1,all,False,Image statistics,Spectral,42,42,between,16565,0.16764573752880096
+1,all,False,Image statistics,Spectral,42,43,between,16565,0.19120505452156067
+1,all,False,Image statistics,Spectral,43,42,between,16565,0.15771213173866272
+1,all,False,Image statistics,Spectral,43,43,between,16565,0.1817711442708969
+1,all,False,Spectral,Spectral,42,43,within,16565,0.9233894944190979
+1,all,True,Image statistics,Image statistics,42,43,within,16565,0.9738755822181702
+1,all,True,Image statistics,Spectral,42,42,between,16565,0.08741699904203415
+1,all,True,Image statistics,Spectral,42,43,between,16565,0.10996198654174805
+1,all,True,Image statistics,Spectral,43,42,between,16565,0.08792930841445923
+1,all,True,Image statistics,Spectral,43,43,between,16565,0.11039401590824127
+1,all,True,Spectral,Spectral,42,43,within,16565,0.8880751729011536
+1,contested,False,Image statistics,Image statistics,42,43,within,16112,0.97563236951828
+1,contested,False,Image statistics,Spectral,42,42,between,16112,0.14214083552360535
+1,contested,False,Image statistics,Spectral,42,43,between,16112,0.16853347420692444
+1,contested,False,Image statistics,Spectral,43,42,between,16112,0.13695228099822998
+1,contested,False,Image statistics,Spectral,43,43,between,16112,0.16371558606624603
+1,contested,False,Spectral,Spectral,42,43,within,16112,0.9019346833229065
+1,contested,True,Image statistics,Image statistics,42,43,within,16112,0.9751526713371277
+1,contested,True,Image statistics,Spectral,42,42,between,16112,0.08964177221059799
+1,contested,True,Image statistics,Spectral,42,43,between,16112,0.11169286072254181
+1,contested,True,Image statistics,Spectral,43,42,between,16112,0.09137935191392899
+1,contested,True,Image statistics,Spectral,43,43,between,16112,0.11326351761817932
+1,contested,True,Spectral,Spectral,42,43,within,16112,0.8797418475151062

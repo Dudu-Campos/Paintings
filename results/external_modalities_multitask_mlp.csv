@@ -1,0 +1,11 @@
+dataset,condition,fold,n_images,n_classes,bacc,accuracy,macro_f1,dimensions,k
+multitask,ResNet50,1,99816,125,0.343490,0.175416,0.190148,2048,0
+multitask,ResNet50,2,99816,125,0.346162,0.197966,0.206724,2048,0
+multitask,ResNet50,3,99816,125,0.352198,0.180384,0.201279,2048,0
+multitask,ResNet50,4,99816,125,0.348887,0.176727,0.183596,2048,0
+multitask,ResNet50,5,99816,125,0.340570,0.190252,0.202154,2048,0
+multitask,todas hand-designed (7),1,99816,125,0.332361,0.123623,0.128670,568,0
+multitask,todas hand-designed (7),2,99816,125,0.384416,0.154836,0.171062,568,0
+multitask,todas hand-designed (7),3,99816,125,0.316356,0.124981,0.120594,568,0
+multitask,todas hand-designed (7),4,99816,125,0.365291,0.145068,0.147669,568,0
+multitask,todas hand-designed (7),5,99816,125,0.376076,0.170065,0.193068,568,0

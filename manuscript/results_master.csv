@@ -1,0 +1,43 @@
+paper_role,status,experiment_id,classifier,condition,n_images,n_styles,n_features,bacc_mean,bacc_sd_sample,bacc_oof,pretraining,text_lineage,cohort,source,interpretation
+main,confirmed,chance,none,Chance,79207,27,0,0.037037,0.000000,,none,none,canonical_79207,derived,Uniform chance
+main,confirmed,haralick_hog,MLP,Haralick + HOG,79207,27,,0.226822,0.007001,,none,none,canonical_79207,outputs/haralick_hog_mlp/fold_results.csv,Classical image baseline
+main,confirmed,visual_knn,kNN,Visual 258,79207,27,258,0.280886,0.005358,,none,none,canonical_79207,outputs/visual_knn/fold_results.csv,Classical classifier control
+main,confirmed,visual_rf,RandomForest,Visual 258,79207,27,258,0.286713,0.005568,,none,none,canonical_79207,outputs/visual_random_forest/fold_results.csv,Classical classifier control
+main,confirmed,cnn_scratch,ResNet-50,Pixels,79936,27,,0.423435,0.024830,,none,none,wikiart_meta_79936,outputs/cnn_scratch/fold_metrics.csv,Different cohort; end-to-end training from random initialization
+main,confirmed,visual_svm,SVM-RBF,Visual 258,79207,27,258,0.431775,0.005017,,none,none,canonical_79207,outputs/visual_rbf_svm/fold_results.csv,Strong classical control
+main,confirmed,visual_base_branch,BranchFusionMLP,Visual 258,79207,27,258,0.452248,0.010998,,none,none,canonical_79207,outputs/final_tfidf_visual_mlp/fold_results.csv,Canonical single-view visual result
+main,confirmed,visual_multiscale_branch,BranchFusionMLP,Visual 258 global + four fixed quadrants,79207,27,1290,0.483285,0.012775,,none,none,canonical_79207,outputs/final_tfidf_visual_mlp_multiscale/fold_results.csv,Best confirmed visual-only result; extraction cost not yet standardized
+module,confirmed,line_lda_1,LDA,SLIC 71,79207,27,71,0.305692,0.007151,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired line-graph baseline
+module,confirmed,line_lda_2,LDA,SLIC 71 + line graph,79207,27,134,0.338007,0.004867,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +3.2315 pp; paired p=0.000585
+module,confirmed,line_lda_3,LDA,Visual 258,79207,27,258,0.373357,0.006409,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired line-graph baseline
+module,confirmed,line_lda_4,LDA,Visual 258 + line graph,79207,27,321,0.389207,0.007710,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +1.5849 pp; paired p=0.00236
+module,confirmed,line_xgb_1,XGBoost,SLIC 71,79207,27,71,0.347863,0.012387,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired line-graph baseline
+module,confirmed,line_xgb_2,XGBoost,SLIC 71 + line graph,79207,27,134,0.368010,0.002936,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +2.0147 pp; paired p=0.01027
+module,confirmed,line_xgb_3,XGBoost,Visual 258,79207,27,258,0.396534,0.005655,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired line-graph baseline
+module,confirmed,line_xgb_4,XGBoost,Visual 258 + line graph,79207,27,321,0.403498,0.008476,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +0.6964 pp; paired p=0.04795
+module,confirmed,line_mlp_0,MLP,Line graph 63,79207,27,63,0.349782,0.007088,,none,none,canonical_79207,results/line_graph_full_results.csv,Standalone second-order representation
+module,confirmed,line_mlp_1,MLP,SLIC 71,79207,27,71,0.384903,0.005938,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired line-graph baseline
+module,confirmed,line_mlp_2,MLP,SLIC 71 + line graph,79207,27,134,0.420280,0.004778,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +3.5377 pp; paired p=0.000220
+module,confirmed,line_mlp_3,MLP,Visual 258,79207,27,258,0.453601,0.012367,,none,none,canonical_79207,results/line_graph_full_results.csv,Paired flat-MLP baseline; not the 0.452248 branch result
+module,confirmed,line_mlp_4,MLP,Visual 258 + line graph,79207,27,321,0.466022,0.003920,,none,none,canonical_79207,results/line_graph_full_results.csv,Gain +1.2421 pp; p=0.0975 vs baseline and p=0.00329 vs shuffled placebo
+module,confirmed,felz_lda_0,LDA,Felzenszwalb 71,79207,27,71,0.317331,0.004495,,none,none,canonical_79207,results/felzenszwalb_full_cpu_results.csv,Standalone alternative segmentation
+module,confirmed,felz_lda_1,LDA,Visual 258 + Felzenszwalb,79207,27,329,0.400262,0.007473,,none,none,canonical_79207,results/felzenszwalb_full_cpu_results.csv,Gain +2.6904 pp over paired Visual 258
+module,confirmed,felz_lda_2,LDA,Visual 258 + line + Felzenszwalb,79207,27,392,0.409439,0.007321,,none,none,canonical_79207,results/felzenszwalb_full_cpu_results.csv,Residual gain +2.0233 pp over visual+line; p=0.000258
+module,confirmed,felz_xgb_0,XGBoost,Felzenszwalb 71,79207,27,71,0.348385,0.006888,,none,none,canonical_79207,results/felzenszwalb_full_xgb_results.csv,Standalone alternative segmentation
+module,confirmed,felz_xgb_1,XGBoost,Visual 258 + Felzenszwalb,79207,27,329,0.405203,0.009485,,none,none,canonical_79207,results/felzenszwalb_full_xgb_results.csv,Gain +0.8668 pp over paired Visual 258; p=0.03068
+module,confirmed,felz_xgb_2,XGBoost,Visual 258 + line + Felzenszwalb,79207,27,392,0.412579,0.010129,,none,none,canonical_79207,results/felzenszwalb_full_xgb_results.csv,Residual gain +0.9081 pp over visual+line; p=0.02522
+module,pending,felz_mlp_final,MLP,Visual 258 + line + Felzenszwalb,79207,27,392,,,,none,none,canonical_79207,results/felzenszwalb_full_mlp_results.csv,Running on another machine; do not impute
+related_work,confirmed,gnn_full,GNN+MLP,SLIC RAG + multigraph 71,79902,27,,0.421484,0.022706,,none,none,unique_stems_79902,outputs/slic_gnn_full/fusion_5fold/fold_results.csv,Deep structured control; 11.43 h and below Visual 258
+related_work,confirmed,vgg_conv5,MLP,VGG-19 conv5 GAP,79207,27,,0.458274,0.013514,,ImageNet,none,canonical_79207,outputs/vgg_pool_mlp/fold_results.csv,Frozen pretrained encoder
+related_work,confirmed,vgg_final,MLP,VGG-19 final GAP,79207,27,,0.491821,0.008787,,ImageNet,none,canonical_79207,outputs/vgg_pool_mlp/fold_results.csv,Frozen pretrained encoder
+related_work,confirmed,gatys_gram,MLP,Compact VGG-19 Gram,79207,27,2640,0.514800,0.008753,,ImageNet,none,canonical_79207,outputs/gatys_compact_gram_mlp/fold_results.csv,Frozen pretrained texture baseline
+related_work,confirmed,resnet_frozen_linear,LinearHead,ResNet-50 frozen embedding,79936,27,2048,0.554630,0.015332,,ImageNet,none,wikiart_meta_79936,outputs/cnn_frozen_cached/fold_metrics.csv,Different cohort; pretrained upper bound
+related_work,confirmed,resnet_finetuned,ResNet-50,Pixels,79936,27,,0.627182,0.012913,,ImageNet,none,wikiart_meta_79936,outputs/cnn_transfer/fold_metrics.csv,Different cohort; pretrained upper bound
+secondary,confirmed,catr_only,LinearSVM,CATR text only,79207,27,27,,,0.197215,MS_COCO,CATR_COCO,canonical_79207,results/catr_full_3clf_results.csv,Clean caption generator; OOF metric
+secondary,confirmed,catr_numeric_base,BranchFusionMLP,Numeric 274,79207,27,274,0.458236,0.015674,0.458106,legacy_Qwen_ArtEmis,legacy_sentiment,canonical_79207,results/catr_full_3clf_results.csv,Contains 16 legacy sentiment features
+secondary,confirmed,catr_numeric_fusion,BranchFusionMLP,Numeric 274 + CATR,79207,27,301,0.466196,0.012226,0.466034,MS_COCO+legacy_Qwen_ArtEmis,legacy_sentiment+CATR_COCO,canonical_79207,results/catr_full_3clf_results.csv,CATR incremental gain is clean but absolute pipeline retains legacy sentiment
+appendix,confirmed,artemis_tfidf,BranchFusionMLP,Visual 258 + TF-IDF,79207,27,285,0.488440,0.011076,,Qwen+ArtEmis,legacy_artemis,canonical_79207,outputs/final_tfidf_visual_mlp/fold_results.csv,Exploratory; domain exposure and Qwen lineage prevent headline use
+appendix,confirmed,artemis_tfidf_multiscale,BranchFusionMLP,Visual multiscale + TF-IDF,79207,27,1317,0.509042,0.007816,,Qwen+ArtEmis,legacy_artemis,canonical_79207,outputs/final_tfidf_visual_mlp_multiscale/fold_results.csv,Exploratory multimodal upper result
+appendix,confirmed,super_resolution_3k,XGBoost,Real-ESRGAN x2,3000,27,258,0.346436,0.006843,,RealESRGAN,none,pilot_3000_27,results/super_resolution_3k_results.csv,Only +0.8579 pp vs original; p=0.116
+appendix,confirmed,big_lama_15k,MLP,Original + Big-LaMa,15000,15,516,0.472200,0.006100,,Big_LaMa,none,outpaint_15000_15,results/big_lama_visual_pilot_large_results.csv,Gain beyond blank-canvas control below 1 pp
+appendix,confirmed,square_graph_3k,XGBoost,Visual 258 + line + square graph,3000,27,385,0.345317,0.012094,,none,none,pilot_3000_27,results/square_graph_3k_cpu_results.csv,Worse than visual+line 0.350780 in same pilot

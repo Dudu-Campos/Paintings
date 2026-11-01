@@ -1,0 +1,46 @@
+condition,fold,dimensions,bacc
+Hilbert full,1,57,11.561902
+Hilbert full,2,57,11.463397
+Hilbert full,3,57,11.469536
+Hilbert full,4,57,12.103922
+Hilbert full,5,57,9.978052
+Hilbert no correlations,1,54,11.275926
+Hilbert no correlations,2,54,10.829462
+Hilbert no correlations,3,54,11.041933
+Hilbert no correlations,4,54,11.213480
+Hilbert no correlations,5,54,9.012038
+Hilbert mean/global,1,30,8.535008
+Hilbert mean/global,2,30,8.314789
+Hilbert mean/global,3,30,8.954687
+Hilbert mean/global,4,30,7.810424
+Hilbert mean/global,5,30,7.693391
+Hilbert means only,1,27,6.855974
+Hilbert means only,2,27,6.718245
+Hilbert means only,3,27,7.514622
+Hilbert means only,4,27,5.718168
+Hilbert means only,5,27,6.338466
+Prefix without Hilbert,1,426,33.466954
+Prefix without Hilbert,2,426,34.152915
+Prefix without Hilbert,3,426,34.074838
+Prefix without Hilbert,4,426,31.857385
+Prefix without Hilbert,5,426,33.664077
+Prefix + Hilbert full,1,483,34.195905
+Prefix + Hilbert full,2,483,34.413941
+Prefix + Hilbert full,3,483,34.137007
+Prefix + Hilbert full,4,483,32.610703
+Prefix + Hilbert full,5,483,33.079430
+Prefix + Hilbert no correlations,1,480,33.894488
+Prefix + Hilbert no correlations,2,480,34.167108
+Prefix + Hilbert no correlations,3,480,34.055916
+Prefix + Hilbert no correlations,4,480,32.581891
+Prefix + Hilbert no correlations,5,480,33.035195
+Prefix + Hilbert mean/global,1,456,33.318167
+Prefix + Hilbert mean/global,2,456,33.776946
+Prefix + Hilbert mean/global,3,456,33.874092
+Prefix + Hilbert mean/global,4,456,32.977568
+Prefix + Hilbert mean/global,5,456,33.302145
+Prefix + Hilbert means only,1,453,33.040963
+Prefix + Hilbert means only,2,453,33.283552
+Prefix + Hilbert means only,3,453,33.959450
+Prefix + Hilbert means only,4,453,32.583108
+Prefix + Hilbert means only,5,453,33.571744

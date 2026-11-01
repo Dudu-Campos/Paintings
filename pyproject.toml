@@ -17,6 +17,9 @@ dependencies = [
     "imagehash",
     "transformers>=5.12.1",
     "vllm>=0.23.0",
+    "pycatch22>=0.5.0",
+    "pyarrow>=25.0.0",
+    "pywavelets>=1.9.0",
 ]
 
 [project.optional-dependencies]
@@ -43,17 +46,5 @@ slm = [
     "qwen-vl-utils",
     "kagglehub",
 ]
-caption = [
-    "torch",
-    "torchvision",
-    "transformers>=4.49.0",
-    "datasets",
-    "evaluate",
-    "rouge-score",
-    "nltk",
-    "accelerate",
-    "pillow",
-]
-
 [tool.uv]
 package = false

@@ -1,0 +1,9 @@
+step,side,ms_per_image,median_segments
+Line graph,128,26.1086,1778.0
+L(G_felz),128,2.0815,65.5
+Line graph,256,26.5593,1705.5
+L(G_felz),256,4.9482,201.0
+Line graph,1024,28.3268,1754.0
+L(G_felz),1024,51.8218,2171.0
+Line graph,512,32.1017,1950.5
+L(G_felz),512,15.1024,671.0

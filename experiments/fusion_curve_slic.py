@@ -19,11 +19,14 @@ from sklearn.preprocessing import StandardScaler
 
 
 ROOT = Path(__file__).parent.parent
+import sys; sys.path.insert(0, str(ROOT / "src" / "pipeline"))
 BASELINE_DIR = ROOT / "outputs/wikiart_features"
 SLIC_DIR = ROOT / "outputs/wikiart_slic_features"
 OUTPUT_CSV = ROOT / "paper/fusion_curve_slic_results.csv"
 OUTPUT_PNG = ROOT / "paper/fusion_curve_slic.png"
-SEED = 42
+# SEED mora em src/pipeline/protocol.py desde 06/set; re-exportado porque
+# este arquivo era a raiz da cadeia que 62 scripts seguiam para achá-lo.
+from protocol import SEED  # noqa: E402,F401
 N_FOLDS = 5
 
 NRC_CATEGORIES = [

@@ -1,0 +1,181 @@
+step,removed,fold,n_blocks,remaining,dimensions,bacc
+0,-,1,10,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,753,47.14139923000077
+0,-,2,10,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,753,46.56236442044273
+0,-,3,10,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,753,46.81257025619937
+0,Descriptors,1,9,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,623,46.475288722153856
+0,Descriptors,2,9,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,623,44.7508674906004
+0,Descriptors,3,9,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,623,44.2583506132075
+0,Felzenszwalb,1,9,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,47.09286832107293
+0,Felzenszwalb,2,9,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,45.94940029467337
+0,Felzenszwalb,3,9,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,46.81251141538888
+0,SLIC,1,9,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,47.010660508322296
+0,SLIC,2,9,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,46.638001081963864
+0,SLIC,3,9,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,682,45.96515429728176
+0,Line graph,1,9,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,690,46.56674614555696
+0,Line graph,2,9,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,690,45.66807946842433
+0,Line graph,3,9,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk+HVG,690,46.4819983664304
+0,L(G_felz),1,9,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk+HVG,690,46.58793010692462
+0,L(G_felz),2,9,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk+HVG,690,45.78835141375967
+0,L(G_felz),3,9,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk+HVG,690,45.87329459849018
+0,Hilbert,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk+HVG,696,47.30813059161425
+0,Hilbert,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk+HVG,696,46.37722262120305
+0,Hilbert,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk+HVG,696,45.50865196622718
+0,Fourier,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk+HVG,601,47.569647695232476
+0,Fourier,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk+HVG,601,47.15442949826157
+0,Fourier,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk+HVG,601,45.897736373613476
+0,Gabor,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk+HVG,721,47.40442496643078
+0,Gabor,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk+HVG,721,45.914639928158905
+0,Gabor,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk+HVG,721,45.95537268550444
+0,Random walk,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+HVG,696,47.53014831213329
+0,Random walk,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+HVG,696,47.002807733138916
+0,Random walk,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+HVG,696,46.30475464811407
+0,HVG,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,48.39709875844276
+0,HVG,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,47.43250619351324
+0,HVG,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,46.80848817619469
+1,-,1,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,48.39709875844276
+1,-,2,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,47.43250619351324
+1,-,3,9,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,696,46.80848817619469
+1,Descriptors,1,8,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,566,46.28060335571553
+1,Descriptors,2,8,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,566,46.37492373597242
+1,Descriptors,3,8,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,566,45.98083958556972
+1,Felzenszwalb,1,8,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,47.62475461519312
+1,Felzenszwalb,2,8,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,46.98769319087998
+1,Felzenszwalb,3,8,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,47.43525739168741
+1,SLIC,1,8,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,48.23517655111831
+1,SLIC,2,8,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,47.39659301287198
+1,SLIC,3,8,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,625,47.51144907769314
+1,Line graph,1,8,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,633,47.85471790349652
+1,Line graph,2,8,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,633,47.32974408237944
+1,Line graph,3,8,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Fourier+Gabor+Random walk,633,46.70953538950295
+1,L(G_felz),1,8,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk,633,46.58407254553744
+1,L(G_felz),2,8,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk,633,47.04717558176023
+1,L(G_felz),3,8,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Fourier+Gabor+Random walk,633,46.931233785513655
+1,Hilbert,1,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk,639,48.45404780905345
+1,Hilbert,2,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk,639,46.18579235178797
+1,Hilbert,3,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Fourier+Gabor+Random walk,639,47.020356754795976
+1,Fourier,1,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.70262636042974
+1,Fourier,2,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.30131254426992
+1,Fourier,3,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.10898133609025
+1,Gabor,1,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk,664,46.25841222973826
+1,Gabor,2,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk,664,45.95180561795566
+1,Gabor,3,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Random walk,664,47.36424888231027
+1,Random walk,1,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor,639,47.30039680429323
+1,Random walk,2,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor,639,47.54552418415437
+1,Random walk,3,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Fourier+Gabor,639,46.87001855737209
+2,-,1,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.70262636042974
+2,-,2,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.30131254426992
+2,-,3,8,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,544,48.10898133609025
+2,Descriptors,1,7,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,414,48.055948486742025
+2,Descriptors,2,7,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,414,44.25866524151453
+2,Descriptors,3,7,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,414,46.825574100234064
+2,Felzenszwalb,1,7,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,49.12286312759602
+2,Felzenszwalb,2,7,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,47.95065227822249
+2,Felzenszwalb,3,7,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,47.30151442007479
+2,SLIC,1,7,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,48.100606066658464
+2,SLIC,2,7,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,47.10849921566532
+2,SLIC,3,7,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor+Random walk,473,48.22472297085592
+2,Line graph,1,7,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor+Random walk,481,48.009821269585174
+2,Line graph,2,7,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor+Random walk,481,47.22142214895
+2,Line graph,3,7,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor+Random walk,481,46.629916711203016
+2,L(G_felz),1,7,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor+Random walk,481,47.998449280808366
+2,L(G_felz),2,7,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor+Random walk,481,46.19754184947276
+2,L(G_felz),3,7,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor+Random walk,481,47.066425984022864
+2,Hilbert,1,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor+Random walk,487,48.93869198173127
+2,Hilbert,2,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor+Random walk,487,48.303354294126905
+2,Hilbert,3,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor+Random walk,487,47.34915453092983
+2,Gabor,1,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Random walk,512,48.365216610652325
+2,Gabor,2,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Random walk,512,45.83344320765931
+2,Gabor,3,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Random walk,512,46.29142053055891
+2,Random walk,1,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,48.574704304557265
+2,Random walk,2,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,48.3465774779632
+2,Random walk,3,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,47.913918193685824
+3,-,1,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,48.574704304557265
+3,-,2,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,48.3465774779632
+3,-,3,7,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,487,47.913918193685824
+3,Descriptors,1,6,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,357,47.702157790540795
+3,Descriptors,2,6,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,357,47.38151934676443
+3,Descriptors,3,6,Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,357,46.33818695744524
+3,Felzenszwalb,1,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.52178425311423
+3,Felzenszwalb,2,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.11080630774155
+3,Felzenszwalb,3,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.2474761320185
+3,SLIC,1,6,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor,416,49.0137764232732
+3,SLIC,2,6,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor,416,47.587664246398944
+3,SLIC,3,6,Descriptors+Felzenszwalb+Line graph+L(G_felz)+Hilbert+Gabor,416,48.01565015735907
+3,Line graph,1,6,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor,424,48.641715011246795
+3,Line graph,2,6,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor,424,46.81915364238849
+3,Line graph,3,6,Descriptors+Felzenszwalb+SLIC+L(G_felz)+Hilbert+Gabor,424,47.67509264853172
+3,L(G_felz),1,6,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor,424,47.56754506003731
+3,L(G_felz),2,6,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor,424,47.831975092634146
+3,L(G_felz),3,6,Descriptors+Felzenszwalb+SLIC+Line graph+Hilbert+Gabor,424,45.17589260622224
+3,Hilbert,1,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor,430,47.72976750915502
+3,Hilbert,2,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor,430,47.18472310080746
+3,Hilbert,3,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Gabor,430,48.402848334602425
+3,Gabor,1,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert,455,47.42105626309747
+3,Gabor,2,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert,455,47.48582746065064
+3,Gabor,3,6,Descriptors+Felzenszwalb+SLIC+Line graph+L(G_felz)+Hilbert,455,46.13746337248299
+4,-,1,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.52178425311423
+4,-,2,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.11080630774155
+4,-,3,6,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert+Gabor,416,48.2474761320185
+4,Descriptors,1,5,SLIC+Line graph+L(G_felz)+Hilbert+Gabor,286,47.497192906980814
+4,Descriptors,2,5,SLIC+Line graph+L(G_felz)+Hilbert+Gabor,286,47.04796052374863
+4,Descriptors,3,5,SLIC+Line graph+L(G_felz)+Hilbert+Gabor,286,47.42563100830823
+4,SLIC,1,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,49.007989661083435
+4,SLIC,2,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,47.522284267627356
+4,SLIC,3,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,46.980703836820894
+4,Line graph,1,5,Descriptors+SLIC+L(G_felz)+Hilbert+Gabor,353,47.06622095372484
+4,Line graph,2,5,Descriptors+SLIC+L(G_felz)+Hilbert+Gabor,353,46.445419194531105
+4,Line graph,3,5,Descriptors+SLIC+L(G_felz)+Hilbert+Gabor,353,47.835818821142276
+4,L(G_felz),1,5,Descriptors+SLIC+Line graph+Hilbert+Gabor,353,46.378668687883696
+4,L(G_felz),2,5,Descriptors+SLIC+Line graph+Hilbert+Gabor,353,46.068337103324176
+4,L(G_felz),3,5,Descriptors+SLIC+Line graph+Hilbert+Gabor,353,46.41112887301927
+4,Hilbert,1,5,Descriptors+SLIC+Line graph+L(G_felz)+Gabor,359,47.518218414220506
+4,Hilbert,2,5,Descriptors+SLIC+Line graph+L(G_felz)+Gabor,359,47.28873092256788
+4,Hilbert,3,5,Descriptors+SLIC+Line graph+L(G_felz)+Gabor,359,47.07680617923662
+4,Gabor,1,5,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert,384,48.163295474946565
+4,Gabor,2,5,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert,384,45.4563610646984
+4,Gabor,3,5,Descriptors+SLIC+Line graph+L(G_felz)+Hilbert,384,46.356346129092024
+5,-,1,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,49.007989661083435
+5,-,2,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,47.522284267627356
+5,-,3,5,Descriptors+Line graph+L(G_felz)+Hilbert+Gabor,345,46.980703836820894
+5,Descriptors,1,4,Line graph+L(G_felz)+Hilbert+Gabor,215,46.75347995450049
+5,Descriptors,2,4,Line graph+L(G_felz)+Hilbert+Gabor,215,46.241989270667894
+5,Descriptors,3,4,Line graph+L(G_felz)+Hilbert+Gabor,215,45.29970187880043
+5,Line graph,1,4,Descriptors+L(G_felz)+Hilbert+Gabor,282,46.04022818559298
+5,Line graph,2,4,Descriptors+L(G_felz)+Hilbert+Gabor,282,45.678397592353384
+5,Line graph,3,4,Descriptors+L(G_felz)+Hilbert+Gabor,282,46.65707688703591
+5,L(G_felz),1,4,Descriptors+Line graph+Hilbert+Gabor,282,45.09083590417501
+5,L(G_felz),2,4,Descriptors+Line graph+Hilbert+Gabor,282,45.04718883962401
+5,L(G_felz),3,4,Descriptors+Line graph+Hilbert+Gabor,282,43.34342363335111
+5,Hilbert,1,4,Descriptors+Line graph+L(G_felz)+Gabor,288,46.867931559062626
+5,Hilbert,2,4,Descriptors+Line graph+L(G_felz)+Gabor,288,45.74527379822074
+5,Hilbert,3,4,Descriptors+Line graph+L(G_felz)+Gabor,288,46.397618385430164
+5,Gabor,1,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,47.18559265364133
+5,Gabor,2,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,45.80047987856588
+5,Gabor,3,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,46.02747445897162
+6,-,1,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,47.18559265364133
+6,-,2,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,45.80047987856588
+6,-,3,4,Descriptors+Line graph+L(G_felz)+Hilbert,313,46.02747445897162
+6,Descriptors,1,3,Line graph+L(G_felz)+Hilbert,183,42.65724746521172
+6,Descriptors,2,3,Line graph+L(G_felz)+Hilbert,183,43.92896094993212
+6,Descriptors,3,3,Line graph+L(G_felz)+Hilbert,183,42.558972889790276
+6,Line graph,1,3,Descriptors+L(G_felz)+Hilbert,250,45.72470291846722
+6,Line graph,2,3,Descriptors+L(G_felz)+Hilbert,250,44.897379450089225
+6,Line graph,3,3,Descriptors+L(G_felz)+Hilbert,250,44.199291329832555
+6,L(G_felz),1,3,Descriptors+Line graph+Hilbert,250,43.90736516748579
+6,L(G_felz),2,3,Descriptors+Line graph+Hilbert,250,42.40550744757865
+6,L(G_felz),3,3,Descriptors+Line graph+Hilbert,250,42.80569540739482
+6,Hilbert,1,3,Descriptors+Line graph+L(G_felz),256,46.36887968686905
+6,Hilbert,2,3,Descriptors+Line graph+L(G_felz),256,46.174047604647654
+6,Hilbert,3,3,Descriptors+Line graph+L(G_felz),256,45.027900151043575
+7,-,1,3,Descriptors+Line graph+L(G_felz),256,46.36887968686905
+7,-,2,3,Descriptors+Line graph+L(G_felz),256,46.174047604647654
+7,-,3,3,Descriptors+Line graph+L(G_felz),256,45.027900151043575
+7,Descriptors,1,2,Line graph+L(G_felz),126,39.6892473686878
+7,Descriptors,2,2,Line graph+L(G_felz),126,35.82552248043198
+7,Descriptors,3,2,Line graph+L(G_felz),126,38.66933829218248
+7,Line graph,1,2,Descriptors+L(G_felz),193,44.08089037930766
+7,Line graph,2,2,Descriptors+L(G_felz),193,43.469800745843095
+7,Line graph,3,2,Descriptors+L(G_felz),193,43.4551793650952
+7,L(G_felz),1,2,Descriptors+Line graph,193,42.64258678975557
+7,L(G_felz),2,2,Descriptors+Line graph,193,39.54787613482653
+7,L(G_felz),3,2,Descriptors+Line graph,193,42.85579764664384

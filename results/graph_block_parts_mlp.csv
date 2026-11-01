@@ -1,0 +1,271 @@
+dataset,condicao,fold,seed,dims,bacc,accuracy,macro_f1
+food101,+ difundido (log-lift),1,42,718,35.9446,35.9446,34.6995
+food101,+ difundido (log-lift),1,43,718,35.5723,35.5723,34.3531
+food101,+ difundido (log-lift),1,44,718,35.8099,35.8099,34.5243
+food101,+ difundido (log-lift),1,45,718,36.4079,36.4079,35.3332
+food101,+ difundido (log-lift),1,46,718,36.2020,36.2020,35.0646
+food101,+ grafo completo,1,42,851,35.3584,35.3584,34.1732
+food101,+ grafo completo,1,43,851,36.0079,36.0079,35.0115
+food101,+ grafo completo,1,44,851,35.7743,35.7743,34.7110
+food101,+ grafo completo,1,45,851,35.7465,35.7465,34.6525
+food101,+ grafo completo,1,46,851,35.6119,35.6119,34.5682
+food101,hand-8,1,42,617,36.6851,36.6851,35.4018
+food101,hand-8,1,43,617,36.6733,36.6733,35.4626
+food101,hand-8,1,44,617,36.7881,36.7881,35.5481
+food101,hand-8,1,45,617,36.5386,36.5386,35.1772
+food101,hand-8,1,46,617,37.0574,37.0574,35.8602
+minc2500,+ difundido (log-lift),1,42,640,54.6783,54.6783,54.1672
+minc2500,+ difundido (log-lift),1,43,640,54.9391,54.9391,54.4884
+minc2500,+ difundido (log-lift),1,44,640,54.5391,54.5391,54.0174
+minc2500,+ difundido (log-lift),1,45,640,55.0435,55.0435,54.5994
+minc2500,+ difundido (log-lift),1,46,640,55.1304,55.1304,54.7370
+minc2500,+ grafo completo,1,42,695,54.5391,54.5391,54.0618
+minc2500,+ grafo completo,1,43,695,54.0348,54.0348,53.4757
+minc2500,+ grafo completo,1,44,695,55.0087,55.0087,54.6345
+minc2500,+ grafo completo,1,45,695,54.8174,54.8174,54.3150
+minc2500,+ grafo completo,1,46,695,54.7652,54.7652,54.4301
+minc2500,hand-8,1,42,617,54.9565,54.9565,54.4005
+minc2500,hand-8,1,43,617,54.8870,54.8870,54.4033
+minc2500,hand-8,1,44,617,55.6870,55.6870,55.2000
+minc2500,hand-8,1,45,617,54.9043,54.9043,54.3418
+minc2500,hand-8,1,46,617,55.0957,55.0957,54.7420
+multitask,+ difundido (log-lift),1,42,742,38.6139,14.7866,16.9230
+multitask,+ difundido (log-lift),1,43,742,39.8934,15.9237,18.4431
+multitask,+ difundido (log-lift),1,44,742,38.0514,13.4843,15.8324
+multitask,+ difundido (log-lift),1,45,742,38.5116,14.8768,16.6774
+multitask,+ difundido (log-lift),1,46,742,39.5016,15.4528,18.8339
+multitask,+ difundido (log-lift),2,42,742,38.0281,14.0710,16.5210
+multitask,+ difundido (log-lift),2,43,742,38.2497,13.1093,15.3942
+multitask,+ difundido (log-lift),2,44,742,39.9572,13.2044,15.1018
+multitask,+ difundido (log-lift),2,45,742,37.8877,13.1894,14.6222
+multitask,+ difundido (log-lift),2,46,742,39.7642,14.0410,16.1160
+multitask,+ difundido (log-lift),3,42,742,37.1466,12.4480,14.2507
+multitask,+ difundido (log-lift),3,43,742,37.1792,12.4230,14.2128
+multitask,+ difundido (log-lift),3,44,742,38.5107,14.0259,16.6671
+multitask,+ difundido (log-lift),3,45,742,38.0727,14.1211,16.2587
+multitask,+ difundido (log-lift),3,46,742,38.8452,14.9777,17.8061
+multitask,+ difundido (log-lift),4,42,742,37.0335,13.0792,15.7823
+multitask,+ difundido (log-lift),4,43,742,36.7565,12.0373,13.7524
+multitask,+ difundido (log-lift),4,44,742,37.3409,14.9477,17.9404
+multitask,+ difundido (log-lift),4,45,742,38.4726,13.1543,16.1908
+multitask,+ difundido (log-lift),4,46,742,38.9449,14.8625,18.4470
+multitask,+ difundido (log-lift),5,42,742,38.2599,14.4718,17.0752
+multitask,+ difundido (log-lift),5,43,742,38.6424,13.5200,15.7031
+multitask,+ difundido (log-lift),5,44,742,39.7415,14.3816,17.3144
+multitask,+ difundido (log-lift),5,45,742,39.6204,13.7805,16.8215
+multitask,+ difundido (log-lift),5,46,742,38.0884,13.3647,15.7819
+multitask,+ grafo completo,1,42,899,37.5731,14.8668,17.4104
+multitask,+ grafo completo,1,43,899,39.8124,17.4414,20.4403
+multitask,+ grafo completo,1,44,899,38.3320,14.8317,17.0756
+multitask,+ grafo completo,1,45,899,38.1557,15.6131,17.1178
+multitask,+ grafo completo,1,46,899,39.4812,16.1891,18.6664
+multitask,+ grafo completo,2,42,899,38.7869,14.8074,16.5051
+multitask,+ grafo completo,2,43,899,39.5234,14.7823,17.6228
+multitask,+ grafo completo,2,44,899,38.6099,14.8324,16.3559
+multitask,+ grafo completo,2,45,899,38.5006,14.9727,16.6844
+multitask,+ grafo completo,2,46,899,38.6917,15.2632,17.3723
+multitask,+ grafo completo,3,42,899,38.8626,15.2432,18.1350
+multitask,+ grafo completo,3,43,899,38.1123,14.7172,17.4749
+multitask,+ grafo completo,3,44,899,39.7963,16.0797,19.0007
+multitask,+ grafo completo,3,45,899,40.5959,16.0948,18.6569
+multitask,+ grafo completo,3,46,899,40.2209,16.7660,19.6409
+multitask,+ grafo completo,4,42,899,38.0896,15.5337,17.9882
+multitask,+ grafo completo,4,43,899,36.2080,13.0942,15.8895
+multitask,+ grafo completo,4,44,899,37.5280,16.3502,19.2404
+multitask,+ grafo completo,4,45,899,36.1739,15.1180,17.9142
+multitask,+ grafo completo,4,46,899,37.1971,15.9595,19.0649
+multitask,+ grafo completo,5,42,899,38.3555,14.4718,17.6210
+multitask,+ grafo completo,5,43,899,39.8071,16.2300,19.3753
+multitask,+ grafo completo,5,44,899,40.1123,16.4204,19.1106
+multitask,+ grafo completo,5,45,899,38.8170,15.4586,19.2736
+multitask,+ grafo completo,5,46,899,38.2326,14.3716,17.3974
+multitask,hand-8,1,42,617,37.1413,12.5426,14.1284
+multitask,hand-8,1,43,617,39.5325,14.1304,16.3015
+multitask,hand-8,1,44,617,39.2657,14.0904,16.1811
+multitask,hand-8,1,45,617,38.7951,14.6814,16.8712
+multitask,hand-8,1,46,617,38.9563,14.5412,17.1385
+multitask,hand-8,2,42,617,38.8001,13.8857,15.5919
+multitask,hand-8,2,43,617,40.0026,14.1011,16.7827
+multitask,hand-8,2,44,617,40.1698,13.4298,15.6550
+multitask,hand-8,2,45,617,39.5175,14.4367,17.0019
+multitask,hand-8,2,46,617,39.8570,14.5169,16.7882
+multitask,hand-8,3,42,617,39.7540,14.7573,17.3136
+multitask,hand-8,3,43,617,37.5767,12.8939,15.3322
+multitask,hand-8,3,44,617,40.0196,13.9308,16.3545
+multitask,hand-8,3,45,617,38.6218,13.8907,16.3938
+multitask,hand-8,3,46,617,40.0940,14.2814,17.6260
+multitask,hand-8,4,42,617,38.4895,13.9809,16.3622
+multitask,hand-8,4,43,617,38.9753,13.7605,16.1790
+multitask,hand-8,4,44,617,40.0317,14.5419,17.6194
+multitask,hand-8,4,45,617,38.7949,14.6371,17.4605
+multitask,hand-8,4,46,617,37.5826,13.4649,15.9645
+multitask,hand-8,5,42,617,38.4454,13.8556,16.0683
+multitask,hand-8,5,43,617,36.2147,13.0842,14.5600
+multitask,hand-8,5,44,617,39.0407,14.0109,16.1465
+multitask,hand-8,5,45,617,36.8457,12.1625,13.8952
+multitask,hand-8,5,46,617,40.0122,13.8406,16.3819
+oilpainting,+ difundido (log-lift),1,42,634,43.5620,43.5068,38.3075
+oilpainting,+ difundido (log-lift),1,43,634,43.8792,43.2794,38.0500
+oilpainting,+ difundido (log-lift),1,44,634,43.4440,44.7196,39.1948
+oilpainting,+ difundido (log-lift),1,45,634,44.2989,44.0879,39.1511
+oilpainting,+ difundido (log-lift),1,46,634,42.9928,44.3406,38.4290
+oilpainting,+ difundido (log-lift),2,42,634,42.7286,43.7089,37.3422
+oilpainting,+ difundido (log-lift),2,43,634,41.9373,43.0268,36.7919
+oilpainting,+ difundido (log-lift),2,44,634,43.7980,46.5387,39.6585
+oilpainting,+ difundido (log-lift),2,45,634,43.0594,45.6796,39.2265
+oilpainting,+ difundido (log-lift),2,46,634,43.0535,44.6690,38.4541
+oilpainting,+ difundido (log-lift),3,42,634,44.3837,45.5143,39.8347
+oilpainting,+ difundido (log-lift),3,43,634,45.8498,44.8067,39.7200
+oilpainting,+ difundido (log-lift),3,44,634,43.3681,41.0412,36.8713
+oilpainting,+ difundido (log-lift),3,45,634,44.1476,42.5069,37.3193
+oilpainting,+ difundido (log-lift),3,46,634,45.1233,45.0088,39.6848
+oilpainting,+ difundido (log-lift),4,42,634,44.1244,43.2651,38.1778
+oilpainting,+ difundido (log-lift),4,43,634,44.0041,44.9078,39.3723
+oilpainting,+ difundido (log-lift),4,44,634,43.1426,45.2363,38.6970
+oilpainting,+ difundido (log-lift),4,45,634,43.9535,43.9222,38.3985
+oilpainting,+ difundido (log-lift),4,46,634,43.9152,43.0377,37.5724
+oilpainting,+ difundido (log-lift),5,42,634,42.6836,44.6298,38.3602
+oilpainting,+ difundido (log-lift),5,43,634,42.5749,44.7814,38.6577
+oilpainting,+ difundido (log-lift),5,44,634,43.5582,43.4167,37.7349
+oilpainting,+ difundido (log-lift),5,45,634,42.9037,43.8463,37.6439
+oilpainting,+ difundido (log-lift),5,46,634,43.5867,44.5792,38.4154
+oilpainting,+ grafo completo,1,42,683,44.2526,44.7448,39.2255
+oilpainting,+ grafo completo,1,43,683,44.9806,43.0268,38.3966
+oilpainting,+ grafo completo,1,44,683,43.5287,41.1572,36.2438
+oilpainting,+ grafo completo,1,45,683,44.0406,44.3658,38.7391
+oilpainting,+ grafo completo,1,46,683,43.8301,43.8605,38.6080
+oilpainting,+ grafo completo,2,42,683,43.7352,46.1344,39.4520
+oilpainting,+ grafo completo,2,43,683,41.7528,42.2941,36.3075
+oilpainting,+ grafo completo,2,44,683,43.7399,45.0733,38.5973
+oilpainting,+ grafo completo,2,45,683,42.3496,44.1132,37.7130
+oilpainting,+ grafo completo,2,46,683,42.8926,45.0733,38.9512
+oilpainting,+ grafo completo,3,42,683,45.6425,46.8789,41.0280
+oilpainting,+ grafo completo,3,43,683,45.2362,44.9078,39.5018
+oilpainting,+ grafo completo,3,44,683,45.0776,43.9474,38.9422
+oilpainting,+ grafo completo,3,45,683,44.6981,42.7849,37.7259
+oilpainting,+ grafo completo,3,46,683,45.8015,43.9727,39.0988
+oilpainting,+ grafo completo,4,42,683,43.4820,43.4673,37.8471
+oilpainting,+ grafo completo,4,43,683,43.7233,44.0738,38.4995
+oilpainting,+ grafo completo,4,44,683,45.2721,46.1966,40.5112
+oilpainting,+ grafo completo,4,45,683,44.6778,44.9583,39.5623
+oilpainting,+ grafo completo,4,46,683,44.8521,45.1857,39.5210
+oilpainting,+ grafo completo,5,42,683,43.6685,45.6912,39.1321
+oilpainting,+ grafo completo,5,43,683,43.0293,45.4132,38.9205
+oilpainting,+ grafo completo,5,44,683,42.3595,41.5214,36.1574
+oilpainting,+ grafo completo,5,45,683,43.6033,44.5792,38.6932
+oilpainting,+ grafo completo,5,46,683,44.5091,45.5648,39.7938
+oilpainting,hand-8,1,42,617,43.7173,42.6225,37.7228
+oilpainting,hand-8,1,43,617,43.0128,39.2875,34.9382
+oilpainting,hand-8,1,44,617,42.3564,41.3845,36.3115
+oilpainting,hand-8,1,45,617,44.6826,44.0374,39.2905
+oilpainting,hand-8,1,46,617,43.9220,44.2142,38.9310
+oilpainting,hand-8,2,42,617,41.2030,39.8434,34.6079
+oilpainting,hand-8,2,43,617,40.8628,40.3234,34.6228
+oilpainting,hand-8,2,44,617,43.3514,42.2688,36.9044
+oilpainting,hand-8,2,45,617,39.8277,38.6054,33.0526
+oilpainting,hand-8,2,46,617,41.6300,41.0308,35.6006
+oilpainting,hand-8,3,42,617,45.1294,43.9222,39.1890
+oilpainting,hand-8,3,43,617,46.5714,46.3988,41.2588
+oilpainting,hand-8,3,44,617,42.3685,39.9545,35.1674
+oilpainting,hand-8,3,45,617,46.0005,44.0485,39.4372
+oilpainting,hand-8,3,46,617,46.3741,45.9944,40.9288
+oilpainting,hand-8,4,42,617,43.7811,43.4420,38.1605
+oilpainting,hand-8,4,43,617,44.7982,44.3771,39.2601
+oilpainting,hand-8,4,44,617,44.5193,45.8428,39.8363
+oilpainting,hand-8,4,45,617,44.5468,44.7561,39.4417
+oilpainting,hand-8,4,46,617,43.9453,44.1749,38.6794
+oilpainting,hand-8,5,42,617,43.9021,45.8175,39.4777
+oilpainting,hand-8,5,43,617,40.1047,38.8678,33.8272
+oilpainting,hand-8,5,44,617,40.1565,39.3480,33.9370
+oilpainting,hand-8,5,45,617,43.0371,43.1893,37.4803
+oilpainting,hand-8,5,46,617,43.3201,44.9330,38.7013
+places_lt,+ difundido (log-lift),1,42,982,10.6575,10.6575,8.5915
+places_lt,+ difundido (log-lift),1,43,982,10.8110,10.8110,8.6100
+places_lt,+ difundido (log-lift),1,44,982,10.1452,10.1452,8.0669
+places_lt,+ difundido (log-lift),1,45,982,9.0164,9.0164,6.8558
+places_lt,+ difundido (log-lift),1,46,982,10.4301,10.4301,8.3661
+places_lt,+ grafo completo,1,42,1379,9.1616,9.1616,7.1983
+places_lt,+ grafo completo,1,43,1379,10.0164,10.0164,7.9400
+places_lt,+ grafo completo,1,44,1379,9.3425,9.3425,7.3570
+places_lt,+ grafo completo,1,45,1379,9.4822,9.4822,7.3262
+places_lt,+ grafo completo,1,46,1379,9.7260,9.7260,7.5483
+places_lt,hand-8,1,42,617,11.5397,11.5397,9.5632
+places_lt,hand-8,1,43,617,11.6301,11.6301,9.5116
+places_lt,hand-8,1,44,617,11.4438,11.4438,9.4374
+places_lt,hand-8,1,45,617,11.5507,11.5507,9.4943
+places_lt,hand-8,1,46,617,11.4685,11.4685,9.3821
+rijksdraw,+ difundido (log-lift),1,42,628,56.6710,53.6598,52.8552
+rijksdraw,+ difundido (log-lift),1,43,628,55.8300,52.1068,52.1154
+rijksdraw,+ difundido (log-lift),1,44,628,55.6309,50.8645,50.2923
+rijksdraw,+ difundido (log-lift),1,45,628,55.7642,53.0697,52.3509
+rijksdraw,+ difundido (log-lift),1,46,628,56.3740,53.6391,53.0623
+rijksdraw,+ difundido (log-lift),2,42,628,55.8227,51.2165,50.4272
+rijksdraw,+ difundido (log-lift),2,43,628,56.7941,52.2518,52.1243
+rijksdraw,+ difundido (log-lift),2,44,628,56.9865,53.4527,53.4488
+rijksdraw,+ difundido (log-lift),2,45,628,55.9350,51.2372,50.5407
+rijksdraw,+ difundido (log-lift),2,46,628,56.1629,51.3407,50.8167
+rijksdraw,+ difundido (log-lift),3,42,628,55.0392,49.6946,48.9277
+rijksdraw,+ difundido (log-lift),3,43,628,55.8997,52.2207,51.7710
+rijksdraw,+ difundido (log-lift),3,44,628,55.4234,50.8334,50.1352
+rijksdraw,+ difundido (log-lift),3,45,628,55.5599,51.7134,50.7649
+rijksdraw,+ difundido (log-lift),3,46,628,55.0361,50.7402,49.8359
+rijksdraw,+ difundido (log-lift),4,42,628,56.1794,51.7238,51.2790
+rijksdraw,+ difundido (log-lift),4,43,628,57.0023,53.9497,54.0667
+rijksdraw,+ difundido (log-lift),4,44,628,56.6883,53.7116,53.4411
+rijksdraw,+ difundido (log-lift),4,45,628,55.0117,48.4522,47.6354
+rijksdraw,+ difundido (log-lift),4,46,628,57.1151,53.9290,54.0019
+rijksdraw,+ difundido (log-lift),5,42,628,56.4731,52.4278,51.4836
+rijksdraw,+ difundido (log-lift),5,43,628,56.0487,51.7548,50.1629
+rijksdraw,+ difundido (log-lift),5,44,628,55.7787,50.5332,49.4890
+rijksdraw,+ difundido (log-lift),5,45,628,56.5725,51.7341,50.3038
+rijksdraw,+ difundido (log-lift),5,46,628,56.6049,51.8584,50.7398
+rijksdraw,+ grafo completo,1,42,671,57.5066,54.4259,53.6102
+rijksdraw,+ grafo completo,1,43,671,56.3825,50.5849,49.3893
+rijksdraw,+ grafo completo,1,44,671,54.9041,49.2494,47.3955
+rijksdraw,+ grafo completo,1,45,671,56.0590,50.1605,48.7613
+rijksdraw,+ grafo completo,1,46,671,57.3703,53.0283,52.5343
+rijksdraw,+ grafo completo,2,42,671,57.5776,55.3577,54.5165
+rijksdraw,+ grafo completo,2,43,671,57.0286,52.4899,51.4957
+rijksdraw,+ grafo completo,2,44,671,57.4629,54.7469,53.5708
+rijksdraw,+ grafo completo,2,45,671,56.6737,51.0819,49.8737
+rijksdraw,+ grafo completo,2,46,671,57.5479,53.8254,52.7362
+rijksdraw,+ grafo completo,3,42,671,55.6470,50.3365,48.8577
+rijksdraw,+ grafo completo,3,43,671,57.1555,53.5459,52.4622
+rijksdraw,+ grafo completo,3,44,671,56.2543,52.2414,51.2533
+rijksdraw,+ grafo completo,3,45,671,56.2710,51.9515,50.5937
+rijksdraw,+ grafo completo,3,46,671,56.5188,52.6348,51.1833
+rijksdraw,+ grafo completo,4,42,671,56.8795,54.5709,54.0951
+rijksdraw,+ grafo completo,4,43,671,57.8372,54.5916,53.9915
+rijksdraw,+ grafo completo,4,44,671,57.1693,52.8005,51.6544
+rijksdraw,+ grafo completo,4,45,671,57.2587,52.7798,52.6565
+rijksdraw,+ grafo completo,4,46,671,57.5256,54.1878,53.5227
+rijksdraw,+ grafo completo,5,42,671,58.2444,55.5648,54.1640
+rijksdraw,+ grafo completo,5,43,671,59.0685,55.2645,54.0423
+rijksdraw,+ grafo completo,5,44,671,57.2185,53.1939,51.1792
+rijksdraw,+ grafo completo,5,45,671,58.1175,55.3163,53.7699
+rijksdraw,+ grafo completo,5,46,671,58.0622,55.5026,54.3956
+rijksdraw,hand-8,1,42,617,56.0387,52.7694,52.6012
+rijksdraw,hand-8,1,43,617,56.3966,53.0490,53.6720
+rijksdraw,hand-8,1,44,617,55.8670,52.2414,52.2239
+rijksdraw,hand-8,1,45,617,55.6953,52.9040,52.8773
+rijksdraw,hand-8,1,46,617,55.7779,52.9040,52.4637
+rijksdraw,hand-8,2,42,617,56.1068,51.2268,51.8799
+rijksdraw,hand-8,2,43,617,55.7883,50.1708,50.4533
+rijksdraw,hand-8,2,44,617,55.6055,51.5478,51.3466
+rijksdraw,hand-8,2,45,617,55.2790,50.8541,51.3691
+rijksdraw,hand-8,2,46,617,53.8269,47.7586,47.6720
+rijksdraw,hand-8,3,42,617,55.5640,53.3492,53.1327
+rijksdraw,hand-8,3,43,617,55.7653,52.8833,52.8011
+rijksdraw,hand-8,3,44,617,54.9693,50.7713,50.3697
+rijksdraw,hand-8,3,45,617,55.7512,51.2475,51.7874
+rijksdraw,hand-8,3,46,617,54.6648,50.3986,50.2189
+rijksdraw,hand-8,4,42,617,55.8360,51.5374,51.6100
+rijksdraw,hand-8,4,43,617,56.7211,53.3078,53.3585
+rijksdraw,hand-8,4,44,617,56.7971,51.6927,52.3680
+rijksdraw,hand-8,4,45,617,56.7805,53.4010,53.5566
+rijksdraw,hand-8,4,46,617,56.1321,52.5624,52.7074
+rijksdraw,hand-8,5,42,617,55.9741,51.6513,51.4931
+rijksdraw,hand-8,5,43,617,56.7533,51.5892,51.8423
+rijksdraw,hand-8,5,44,617,56.6986,52.2104,52.5300
+rijksdraw,hand-8,5,45,617,56.0723,52.8730,51.8809
+rijksdraw,hand-8,5,46,617,55.2382,50.3986,50.2108

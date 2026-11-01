@@ -1,0 +1,7 @@
+method,max_side,granularity,axis,is_star,dimensions,median_segments,cka_vs_star,extract_seconds,lda_bacc,lda_std
+felzenszwalb,1024,50,theta*,True,71,1438.0000,1.0000,9761.5852,27.6623,0.1712
+felzenszwalb,1024,25,granularidade,False,71,2104.0000,0.8985,9800.7666,27.5890,0.2109
+felzenszwalb,1024,100,granularidade,False,71,897.0000,0.9056,9796.6138,27.6082,0.0977
+felzenszwalb,1024,200,granularidade,False,71,514.0000,0.7500,9899.9103,26.9645,0.3331
+felzenszwalb,512,50,resolucao,False,71,540.0000,0.5273,2399.1461,26.6855,0.0806
+felzenszwalb,256,50,resolucao,False,71,167.0000,0.3973,914.2671,25.8294,0.6526

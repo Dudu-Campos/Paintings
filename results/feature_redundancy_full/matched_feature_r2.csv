@@ -1,0 +1,16 @@
+familia,par,n_features,r2_mediano,r2_medio,frac_ge_0.8
+SLIC,global x top_left,71,0.555234,0.495619,0.098592
+SLIC,global x top_right,71,0.555624,0.496449,0.112676
+SLIC,global x bottom_left,71,0.583014,0.487760,0.126761
+SLIC,global x bottom_right,71,0.575604,0.478670,0.112676
+SLIC,quadrante x quadrante,426,0.542344,0.506826,0.068075
+Descriptors,global x top_left,130,0.557801,0.516960,0.053846
+Descriptors,global x top_right,130,0.553228,0.527215,0.084615
+Descriptors,global x bottom_left,130,0.591720,0.561898,0.076923
+Descriptors,global x bottom_right,130,0.603812,0.568237,0.069231
+Descriptors,quadrante x quadrante,780,0.460564,0.423641,0.010256
+Hilbert,global x top_left,57,0.457939,0.507206,0.105263
+Hilbert,global x top_right,57,0.462205,0.512197,0.122807
+Hilbert,global x bottom_left,57,0.490024,0.504400,0.140351
+Hilbert,global x bottom_right,57,0.495524,0.504093,0.122807
+Hilbert,quadrante x quadrante,342,0.310390,0.334185,0.000000

@@ -1,0 +1,8 @@
+{
+  "n_images": 99816,
+  "n_styles": 125,
+  "bacc_oof": 0.149891695741997,
+  "bacc_fold_mean": 0.1510052855075123,
+  "bacc_fold_std": 0.007346298024329999,
+  "dataset": "multitask"
+}

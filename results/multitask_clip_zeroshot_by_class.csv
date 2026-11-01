@@ -1,0 +1,126 @@
+style,n,prompt,zero_shot_recall
+Safavid_Period,39,safavid period,76.92307692307693
+Transautomatism,73,transautomatism,76.71232876712328
+Synthetism,49,synthetism,69.38775510204081
+Analytical_Cubism,87,analytical cubism,65.51724137931035
+Tonalism,192,tonalism,63.020833333333336
+Byzantine,77,byzantine,57.14285714285714
+Photorealism,58,photorealism,51.724137931034484
+Pointillism,498,pointillism,50.0
+Muralism,146,muralism,45.20547945205479
+Romanesque,53,romanesque,43.39622641509434
+Orientalism,386,orientalism,43.005181347150256
+Suprematism,80,suprematism,42.5
+Classicism,222,classicism,42.34234234234234
+Shin-hanga,377,shin hanga,40.318302387267906
+Orphism,244,orphism,40.16393442622951
+Joseon_Dynasty,10,joseon dynasty,40.0
+Ottoman_Period,41,ottoman period,39.02439024390244
+Op_Art,474,op art,34.177215189873415
+Rococo,2711,rococo,32.82921431206197
+Lyrical_Abstraction,657,lyrical abstraction,26.17960426179604
+Academicism,968,academicism,25.516528925619834
+Timurid_Period,16,timurid period,25.0
+Minimalism,393,minimalism,24.681933842239186
+Early_Renaissance,1339,early renaissance,24.271844660194176
+Impressionism,10524,impressionism,23.821740782972253
+Precisionism,267,precisionism,23.595505617977526
+Art_Brut,190,art brut,21.578947368421055
+Sōsaku_hanga,340,sosaku hanga,21.176470588235293
+Socialist_Realism,90,socialist realism,21.11111111111111
+Dada,171,dada,20.46783625730994
+Constructivism,238,constructivism,20.168067226890756
+Art_Deco,643,art deco,20.06220839813375
+Biedermeier,131,biedermeier,19.84732824427481
+Fauvism,724,fauvism,19.751381215469614
+Native_Art,21,native art,19.047619047619047
+Purism,156,purism,18.58974358974359
+Pop_Art,742,pop art,17.52021563342318
+Contemporary_Realism,235,contemporary realism,17.4468085106383
+Figurative_Expressionism,19,figurative expressionism,15.789473684210526
+Northern_Renaissance,2351,northern renaissance,14.547001276052743
+Costumbrismo,14,costumbrismo,14.285714285714285
+Conceptual_Art,71,conceptual art,14.084507042253522
+Japonism,118,japonism,12.711864406779661
+Neo-Concretism,32,neo concretism,9.375
+Street_art,22,street art,9.090909090909092
+Nihonga,11,nihonga,9.090909090909092
+Tenebrism,218,tenebrism,8.715596330275229
+Abstract_Expressionism,1980,abstract expressionism,8.434343434343434
+Art_Nouveau_(Modern),4781,art nouveau modern,8.303702154361012
+Futurism,282,futurism,7.801418439716312
+Naïve_Art_(Primitivism),2251,naive art primitivism,7.685473123056418
+Mannerism_(Late_Renaissance),1309,mannerism late renaissance,7.563025210084033
+Romanticism,9180,romanticism,7.483660130718954
+Poster_Art_Realism,43,poster art realism,6.976744186046512
+Kitsch,47,kitsch,6.382978723404255
+Baroque,4373,baroque,5.785501943745713
+Feminist_Art,18,feminist art,5.555555555555555
+Gongbi,38,gongbi,5.263157894736842
+Ink_and_wash_painting,494,ink and wash painting,4.251012145748987
+Surrealism,4006,surrealism,4.2186719920119815
+Concretism,535,concretism,4.112149532710281
+Social_Realism,294,social realism,4.081632653061225
+Cubism,1658,cubism,3.9203860072376355
+Proto_Renaissance,272,proto renaissance,3.6764705882352944
+Post-Impressionism,5731,post impressionism,3.6468330134357005
+Color_Field_Painting,900,color field painting,2.0
+Symbolism,3452,symbolism,1.9119351100811124
+Magic_Realism,946,magic realism,1.9027484143763214
+Neo-Expressionism,372,neo expressionism,1.881720430107527
+American_Realism,270,american realism,1.4814814814814816
+Post-Painterly_Abstraction,144,post painterly abstraction,1.3888888888888888
+Synthetic_Cubism,187,synthetic cubism,1.06951871657754
+Naturalism,421,naturalism,0.9501187648456058
+Neoclassicism,2026,neoclassicism,0.9378084896347483
+Hard_Edge_Painting,356,hard edge painting,0.8426966292134831
+Neo-Romanticism,534,neo romanticism,0.37453183520599254
+Ukiyo-e,1368,ukiyo e,0.36549707602339176
+Art_Informel,1220,art informel,0.32786885245901637
+Tachisme,431,tachisme,0.23201856148491878
+Abstract_Art,937,abstract art,0.10672358591248667
+High_Renaissance,1304,high renaissance,0.07668711656441718
+Expressionism,6871,expressionism,0.043661766846165045
+Realism,10471,realism,0.009550186228631458
+Cubo-Expressionism,13,cubo expressionism,0.0
+Analytical Realism,89,analytical realism,0.0
+Cloisonnism,172,cloisonnism,0.0
+Automatic_Painting,37,automatic painting,0.0
+Action_painting,92,action painting,0.0
+Fantastic_Realism,31,fantastic realism,0.0
+Indian_Space_painting,25,indian space painting,0.0
+International_Gothic,196,international gothic,0.0
+Cubo-Futurism,135,cubo futurism,0.0
+Divisionism,335,divisionism,0.0
+Mosan_art,38,mosan art,0.0
+Modernismo,43,modernismo,0.0
+Mechanistic_Cubism,69,mechanistic cubism,0.0
+Metaphysical_art,189,metaphysical art,0.0
+Intimism,109,intimism,0.0
+Lettrism,32,lettrism,0.0
+Light_and_Space,11,light and space,0.0
+Luminism,385,luminism,0.0
+Hyper-Realism,48,hyper realism,0.0
+Gothic,12,gothic,0.0
+Existential_Art,17,existential art,0.0
+Neo-Dada,96,neo dada,0.0
+New_European_Painting,25,new european painting,0.0
+Neo-Byzantine,18,neo byzantine,0.0
+Neo-Rococo,97,neo rococo,0.0
+Neo-Figurative_Art,18,neo figurative art,0.0
+Post-Minimalism,11,post minimalism,0.0
+Outsider_art,67,outsider art,0.0
+Nouveau_Réalisme,130,nouveau realisme,0.0
+New_Realism,329,new realism,0.0
+Neo-baroque,105,neo baroque,0.0
+Neoplasticism,154,neoplasticism,0.0
+New_Casualism,20,new casualism,0.0
+Nanga_(Bunjinga),58,nanga bunjinga,0.0
+Spatialism,78,spatialism,0.0
+Regionalism,317,regionalism,0.0
+Primitivism,27,primitivism,0.0
+Synchromism,10,synchromism,0.0
+Tubism,21,tubism,0.0
+Verism,84,verism,0.0
+Yamato-e,12,yamato e,0.0
+Zen,41,zen,0.0

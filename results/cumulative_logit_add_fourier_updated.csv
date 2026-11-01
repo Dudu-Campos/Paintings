@@ -1,0 +1,26 @@
+k,classifier,fold,added,blocks,dimensions,bacc,lam,seconds
+8,BranchMLP+logit-add,1,Similarity graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,39.9147,0.1449,44.6000
+9,BranchMLP+logit-add,1,Text,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text,608,41.8729,0.1334,33.4000
+10,BranchMLP+logit-add,1,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier,689,41.4988,0.1199,31.7000
+11,BranchMLP+logit-add,1,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk,746,40.4740,0.0997,20.9000
+12,BranchMLP+logit-add,1,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk|HVG,803,40.7234,0.1310,36.2000
+8,BranchMLP+logit-add,2,Similarity graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,39.5077,0.1237,28.2000
+9,BranchMLP+logit-add,2,Text,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text,608,41.8449,0.1145,25.2000
+10,BranchMLP+logit-add,2,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier,689,42.8112,0.1225,28.9000
+11,BranchMLP+logit-add,2,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk,746,42.3560,0.1079,24.6000
+12,BranchMLP+logit-add,2,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk|HVG,803,42.9437,0.1329,43.1000
+8,BranchMLP+logit-add,3,Similarity graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,40.0062,0.1452,44.6000
+9,BranchMLP+logit-add,3,Text,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text,608,39.2263,0.0982,21.3000
+10,BranchMLP+logit-add,3,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier,689,40.5758,0.1131,24.5000
+11,BranchMLP+logit-add,3,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk,746,41.6764,0.1251,31.4000
+12,BranchMLP+logit-add,3,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk|HVG,803,39.2671,0.1013,22.0000
+8,BranchMLP+logit-add,4,Similarity graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,37.3847,0.1289,29.4000
+9,BranchMLP+logit-add,4,Text,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text,608,41.8116,0.1385,41.2000
+10,BranchMLP+logit-add,4,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier,689,39.5998,0.1119,25.5000
+11,BranchMLP+logit-add,4,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk,746,38.8928,0.1275,31.9000
+12,BranchMLP+logit-add,4,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk|HVG,803,40.0036,0.1355,41.0000
+8,BranchMLP+logit-add,5,Similarity graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,40.1978,0.1487,54.3000
+9,BranchMLP+logit-add,5,Text,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text,608,41.4721,0.1311,32.4000
+10,BranchMLP+logit-add,5,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier,689,43.0516,0.1363,41.7000
+11,BranchMLP+logit-add,5,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk,746,41.9470,0.1241,29.5000
+12,BranchMLP+logit-add,5,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Text|Fourier|Random walk|HVG,803,42.3657,0.1263,33.2000

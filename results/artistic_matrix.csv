@@ -1,0 +1,15 @@
+condicao,rijksdraw_BAcc,rijksdraw_Acc,rijksdraw_F1,rijksdraw_sd_BAcc,rijksdraw_sd_Acc,rijksdraw_sd_F1,rijksdraw_dims,rijksdraw_sd
+Haralick,32.97,23.55,21.63,0.99,0.61,0.90,13.00,0.99
+HOG,30.63,23.46,22.64,0.16,1.51,1.37,1764.00,0.16
+hand-8 (sem grafo),55.47,50.86,50.74,0.97,1.97,2.01,617.00,0.97
+NOS = hand-8 + grafo,56.59,52.96,52.31,0.83,1.38,1.24,671.00,0.83
+  variante: outra codificacao,56.17,52.04,51.80,0.58,1.59,1.52,,0.58
+ResNet50 congelada,48.02,44.84,44.69,0.85,0.75,0.99,2048.00,0.85
+ViT congelado,47.97,42.79,42.58,0.53,1.43,1.54,768.00,0.53
+NOS + texto (CLIP),56.26,52.13,51.94,0.66,1.19,1.26,628.00,0.66
+nos + ResNet50 congelada,56.09,53.41,52.70,0.85,1.12,1.44,2719.00,0.85
+nos + ViT congelado,57.35,55.23,54.11,0.23,1.64,0.98,1439.00,0.23
+ResNet50 fine-tuned,,,,,,,,
+ViT fine-tuned,,,,,,,,
+nos + ResNet50 ft (decisao),,,,,,,,
+nos + ViT ft (decisao),,,,,,,,

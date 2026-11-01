@@ -1,0 +1,16 @@
+{
+  "dataset": "multitask",
+  "n_images": 99816,
+  "n_styles": 125,
+  "template": "a painting in the style of {}",
+  "clip_model": "openai/clip-vit-base-patch32",
+  "zero_shot_bacc": 0.1273570047854455,
+  "zero_shot_x_chance": 15.919625598180689,
+  "zero_shot_acc": 0.09348200689268253,
+  "zero_shot_macro_f1": 0.06053939702241057,
+  "probe_acc": NaN,
+  "probe_macro_f1": NaN,
+  "probe_bacc_oof": NaN,
+  "probe_bacc_fold_mean": NaN,
+  "probe_bacc_fold_std": NaN
+}

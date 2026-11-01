@@ -1,55 +1,83 @@
-# Paintings
+# PRISM — Decomposing images in a PRISM
 
-Experimentos para classificação de 27 estilos de pintura do WikiArt. O projeto
-compara representações visuais estruturadas e interpretáveis (segmentação,
-descritores e série de Hilbert) com baselines clássicos, CNNs e representações
-pré-treinadas.
+Code and supplementary material for:
 
-## Estrutura
+> **Decomposing images in a PRISM: Single-Source Multi-View Framework for
+> Image Representation**
+> Eduardo Campos, Willam Cardoso, Diego Furtado, Solange Oliveira, Alneu Lopes
+> Institute of Mathematical and Computer Sciences, University of São Paulo,
+> São Carlos, Brazil
 
-- `src/`: extração de dados/features, baselines e visualizações;
-- `experiments/`: scripts de avaliação, comparação e geração de figuras;
-- `results/`: tabelas agregadas e figuras versionadas;
-- `paper/`: atalho de compatibilidade para `results/`; não adicionar código
-  novo ali;
-- `meta/`: metadados pequenos mantidos no repositório;
-- `data/`, `wikiart/`, `raw/` e `outputs/`: dados, caches, modelos e artefatos
-  de execução locais — não são versionados;
-- `conversa.md`: estado compartilhado entre as conversas de pesquisa;
+## Appendix
 
-## Ambiente e dados
+The appendix referenced in the paper is in this repository:
 
-Python 3.11+ é o alvo. Crie/ative um ambiente virtual apropriado à máquina e
-instale as dependências:
+**[`appendix/prism_appendix.pdf`](appendix/prism_appendix.pdf)** — *Appendix A,
+Encoding Maps detail* (18 pages): the formal definition of each encoding map,
+the per-view feature lists, and the supplementary tables.
+
+## What PRISM is
+
+A single image is decomposed into eight hand-designed views — global colour and
+texture descriptors, two region-adjacency multigraphs (Felzenszwalb and SLIC),
+their two line graphs, a space-filling-curve descriptor, a Fourier descriptor
+and a Gabor descriptor — plus a parameter-free similarity-graph operator over
+the resulting space. No labels from outside the target corpus are used by the
+visual bank; the optional text channel is reported as a separate, clearly
+marked condition because it does carry external supervision.
+
+Seven corpora are evaluated: MultitaskPainting100k (25 and 125 styles),
+OilPainting, Rijksmuseum drawings, Food-101, Places-LT, MINC-2500 and
+NCT-CRC-HE-100K.
+
+## Layout
+
+| path | contents |
+|---|---|
+| `appendix/` | the paper's appendix (PDF) |
+| `src/pipeline/` | the library: feature registry, models, protocol, corpora |
+| `src/extractors/` | the 25 image-to-feature modules (8 production + dormant) |
+| `src/baselines/` | backbones (ResNet, ViT, VGG, Gatys) and the fine-tuning trainer |
+| `experiments/` | evaluation, ablation and figure scripts |
+| `results/` | aggregated tables and the figures used in the paper |
+| `attic/` | retired scripts, kept so that reported negative results stay verifiable |
+| `configs/`, `Makefile` | benchmark declarations and extraction targets |
+
+`src/pipeline/registry.py` is the single source of truth for which
+representations exist, how the cohort is defined as an explicit intersection,
+and which columns are dropped as degenerate.
+
+Datasets, image caches, model checkpoints and intermediate graph exports are
+**not** versioned (see `.gitignore`). All seven corpora are public and are
+obtained from their original distributors; the official train/test splits are
+used wherever the dataset publishes one.
+
+## Environment
+
+Python 3.11+.
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-As imagens devem estar em `wikiart/<estilo>/`. Os metadados oficiais usados
-pelos fluxos atuais ficam em `data/artemis/wikiart_meta.csv`, baixados
-localmente pelo fluxo de dados. Datasets, embeddings, imagens transformadas e
-checkpoints não entram no Git.
+## Protocol
 
-## Pipeline principal
+Unless a script states otherwise:
 
-Com o ambiente ativo e os dados locais disponíveis:
+- `SEED = 42`, five-fold `StratifiedKFold(shuffle=True)` for corpora without a
+  published split; the published split is used for those that have one.
+- **Balanced accuracy** is the primary metric. Accuracy and macro-F1 are
+  emitted alongside it in every CSV, because training uses
+  `class_weight="balanced"` and therefore trades simple accuracy for macro
+  recall — tables state which of those quantities they report.
+- Results from different cohorts or different classifier heads are not mixed in
+  a single table.
 
-```bash
-make slic_features
-```
+`experiments/README.md` indexes which script produces which table and figure.
 
-Isso extrai as quatro famílias de features a partir de uma única segmentação
-SLIC. Outros alvos úteis são `make cnn_scratch`, `make cnn_frozen`,
-`make cnn_transfer`, `make gatys_gram` e `make vgg_pool`. Veja `make -n <alvo>`
-antes de executar uma extração longa.
+## Reproducing a table or figure
 
-## Resultados
-
-`results/metodos_final.csv` é a tabela compacta de métodos consolidados.
-Resultados e figuras adicionais ficam em `results/`; os scripts que os geram e
-o índice de reprodução ficam em `experiments/README.md`.
-
-O protocolo principal usa validação cruzada estratificada de cinco folds, com
-balanced accuracy como métrica primária. Não compare resultados de coortes
-distintas sem registrar a diferença de dados e de pré-treinamento.
+Each script carries its command and its guards in its own docstring. Scripts
+that aggregate previously computed posteriors re-check them against the values
+recorded in the paper and abort on divergence, so running them is also a
+regression test.

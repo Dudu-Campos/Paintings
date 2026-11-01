@@ -1,0 +1,8 @@
+{
+  "n_images": 101000,
+  "n_styles": 101,
+  "bacc_oof": 0.38353465346534654,
+  "bacc_fold_mean": 0.3835346534653465,
+  "bacc_fold_std": 0.0013541572250003306,
+  "dataset": "food101"
+}

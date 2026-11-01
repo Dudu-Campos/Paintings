@@ -1,0 +1,81 @@
+version,k,fold,added,blocks,dimensions,bacc
+Fourier v1,1,1,Felzenszwalb,Felzenszwalb,69,24.994638
+Fourier v1,2,1,SLIC,Felzenszwalb|SLIC,138,29.777463
+Fourier v1,3,1,Descriptors,Felzenszwalb|SLIC|Descriptors,268,31.074986
+Fourier v1,4,1,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,31.682813
+Fourier v1,5,1,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.640785
+Fourier v1,6,1,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,33.466954
+Fourier v1,7,1,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.195905
+Fourier v1,8,1,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier,617,33.331104
+Fourier v1,1,2,Felzenszwalb,Felzenszwalb,69,25.600142
+Fourier v1,2,2,SLIC,Felzenszwalb|SLIC,138,28.198988
+Fourier v1,3,2,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.666858
+Fourier v1,4,2,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,31.639608
+Fourier v1,5,2,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.970803
+Fourier v1,6,2,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,34.152915
+Fourier v1,7,2,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.413941
+Fourier v1,8,2,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier,617,34.377232
+Fourier v1,1,3,Felzenszwalb,Felzenszwalb,69,25.459337
+Fourier v1,2,3,SLIC,Felzenszwalb|SLIC,138,28.308511
+Fourier v1,3,3,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.728845
+Fourier v1,4,3,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,32.128269
+Fourier v1,5,3,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.829777
+Fourier v1,6,3,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,34.074838
+Fourier v1,7,3,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.137007
+Fourier v1,8,3,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier,617,33.523506
+Fourier v1,1,4,Felzenszwalb,Felzenszwalb,69,23.704210
+Fourier v1,2,4,SLIC,Felzenszwalb|SLIC,138,27.810085
+Fourier v1,3,4,Descriptors,Felzenszwalb|SLIC|Descriptors,268,28.553329
+Fourier v1,4,4,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,30.264618
+Fourier v1,5,4,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.051985
+Fourier v1,6,4,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,31.857385
+Fourier v1,7,4,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,32.610703
+Fourier v1,8,4,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier,617,32.230123
+Fourier v1,1,5,Felzenszwalb,Felzenszwalb,69,23.344044
+Fourier v1,2,5,SLIC,Felzenszwalb|SLIC,138,27.371190
+Fourier v1,3,5,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.498571
+Fourier v1,4,5,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,32.285533
+Fourier v1,5,5,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,33.288556
+Fourier v1,6,5,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,33.664077
+Fourier v1,7,5,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,33.079430
+Fourier v1,8,5,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier,617,33.850721
+Fourier v2,1,1,Felzenszwalb,Felzenszwalb,69,24.994638
+Fourier v2,2,1,SLIC,Felzenszwalb|SLIC,138,29.777463
+Fourier v2,3,1,Descriptors,Felzenszwalb|SLIC|Descriptors,268,31.074986
+Fourier v2,4,1,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,31.682813
+Fourier v2,5,1,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.640785
+Fourier v2,6,1,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,33.466954
+Fourier v2,7,1,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.195905
+Fourier v2,8,1,Fourier v2,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier v2,564,34.584659
+Fourier v2,1,2,Felzenszwalb,Felzenszwalb,69,25.600142
+Fourier v2,2,2,SLIC,Felzenszwalb|SLIC,138,28.198988
+Fourier v2,3,2,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.666858
+Fourier v2,4,2,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,31.639608
+Fourier v2,5,2,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.970803
+Fourier v2,6,2,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,34.152915
+Fourier v2,7,2,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.413941
+Fourier v2,8,2,Fourier v2,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier v2,564,35.530712
+Fourier v2,1,3,Felzenszwalb,Felzenszwalb,69,25.459337
+Fourier v2,2,3,SLIC,Felzenszwalb|SLIC,138,28.308511
+Fourier v2,3,3,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.728845
+Fourier v2,4,3,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,32.128269
+Fourier v2,5,3,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.829777
+Fourier v2,6,3,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,34.074838
+Fourier v2,7,3,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,34.137007
+Fourier v2,8,3,Fourier v2,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier v2,564,34.628649
+Fourier v2,1,4,Felzenszwalb,Felzenszwalb,69,23.704210
+Fourier v2,2,4,SLIC,Felzenszwalb|SLIC,138,27.810085
+Fourier v2,3,4,Descriptors,Felzenszwalb|SLIC|Descriptors,268,28.553329
+Fourier v2,4,4,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,30.264618
+Fourier v2,5,4,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,32.051985
+Fourier v2,6,4,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,31.857385
+Fourier v2,7,4,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,32.610703
+Fourier v2,8,4,Fourier v2,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier v2,564,32.207040
+Fourier v2,1,5,Felzenszwalb,Felzenszwalb,69,23.344044
+Fourier v2,2,5,SLIC,Felzenszwalb|SLIC,138,27.371190
+Fourier v2,3,5,Descriptors,Felzenszwalb|SLIC|Descriptors,268,30.498571
+Fourier v2,4,5,L(G_felz),Felzenszwalb|SLIC|Descriptors|L(G_felz),331,32.285533
+Fourier v2,5,5,Line graph,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph,394,33.288556
+Fourier v2,6,5,Gabor,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor,426,33.664077
+Fourier v2,7,5,Hilbert,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert,483,33.079430
+Fourier v2,8,5,Fourier v2,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Fourier v2,564,34.315647

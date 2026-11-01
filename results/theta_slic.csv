@@ -1,0 +1,7 @@
+method,max_side,granularity,axis,is_star,dimensions,median_segments,cka_vs_star,extract_seconds,lda_bacc,lda_std
+slic,1024,2048,theta*,True,71,1756.0000,1.0000,3746.2397,26.0173,0.6546
+slic,1024,512,granularidade,False,71,404.0000,0.8267,4127.7445,24.9679,0.3531
+slic,1024,1024,granularidade,False,71,844.0000,0.8813,3812.9180,25.6853,0.8381
+slic,1024,4096,granularidade,False,71,3620.0000,0.7746,3816.9501,26.6208,0.5351
+slic,512,2048,resolucao,False,71,1809.0000,0.5475,1402.8106,26.0793,0.6427
+slic,256,2048,resolucao,False,71,1811.0000,0.1114,929.5752,26.2916,0.5508

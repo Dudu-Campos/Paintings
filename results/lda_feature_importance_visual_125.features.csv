@@ -1,0 +1,618 @@
+index,feature,display_name,block,family,importance_share_mean,importance_share_std,importance_percent,rank
+120,Descriptors_90,90,Descriptors,Image statistics,0.09195350,0.00552363,9.19535008,1
+126,Descriptors_96,96,Descriptors,Image statistics,0.07395999,0.00903222,7.39599924,2
+161,Felzenszwalb_del_n_edges,del_n_edges,Felzenszwalb,Region graphs,0.03712661,0.00375850,3.71266124,3
+193,Felzenszwalb_n_nodes,n_nodes,Felzenszwalb,Region graphs,0.03626864,0.00367916,3.62686395,4
+123,Descriptors_93,93,Descriptors,Image statistics,0.03560382,0.00157050,3.56038243,5
+611,SLIC_n_nodes,n_nodes,SLIC,Region graphs,0.01968812,0.00254841,1.96881188,6
+579,SLIC_del_n_edges,del_n_edges,SLIC,Region graphs,0.01851692,0.00156855,1.85169220,7
+373,Hilbert_16,16,Hilbert,Space-filling curve,0.01598465,0.00072974,1.59846489,8
+419,Hilbert_7,7,Hilbert,Space-filling curve,0.01468173,0.00066394,1.46817292,9
+365,Hilbert_0,0,Hilbert,Space-filling curve,0.01467668,0.00066419,1.46766770,10
+130,Felzenszwalb_L_mean_w,L_mean_w,Felzenszwalb,Region graphs,0.01467216,0.00114799,1.46721609,11
+548,SLIC_L_mean_w,L_mean_w,SLIC,Region graphs,0.01467105,0.00114828,1.46710464,12
+410,Hilbert_5,5,Hilbert,Space-filling curve,0.01382078,0.00064204,1.38207797,13
+377,Hilbert_2,2,Hilbert,Space-filling curve,0.01371254,0.00062214,1.37125351,14
+418,Hilbert_6,6,Hilbert,Space-filling curve,0.01248098,0.00057011,1.24809792,15
+127,Descriptors_97,97,Descriptors,Image statistics,0.01243035,0.00128758,1.24303522,16
+366,Hilbert_1,1,Hilbert,Space-filling curve,0.01242411,0.00056456,1.24241082,17
+399,Hilbert_4,4,Hilbert,Space-filling curve,0.01232891,0.00056237,1.23289102,18
+394,Hilbert_35,35,Hilbert,Space-filling curve,0.01224102,0.00029961,1.22410246,19
+388,Hilbert_3,3,Hilbert,Space-filling curve,0.01222809,0.00055539,1.22280936,20
+574,SLIC_del_degree_max,del_degree_max,SLIC,Region graphs,0.01209921,0.00137735,1.20992070,21
+578,SLIC_del_hub_degree_ratio,del_hub_degree_ratio,SLIC,Region graphs,0.01208954,0.00137712,1.20895436,22
+414,Hilbert_53,53,Hilbert,Space-filling curve,0.01175964,0.00167889,1.17596384,23
+413,Hilbert_52,52,Hilbert,Space-filling curve,0.01143134,0.00140822,1.14313350,24
+124,Descriptors_94,94,Descriptors,Image statistics,0.01087481,0.00047206,1.08748104,25
+395,Hilbert_36,36,Hilbert,Space-filling curve,0.01040002,0.00128075,1.04000167,26
+403,Hilbert_43,43,Hilbert,Space-filling curve,0.01038428,0.00127774,1.03842830,27
+396,Hilbert_37,37,Hilbert,Space-filling curve,0.00970557,0.00119446,0.97055743,28
+402,Hilbert_42,42,Hilbert,Space-filling curve,0.00966563,0.00119501,0.96656281,29
+398,Hilbert_39,39,Hilbert,Space-filling curve,0.00955206,0.00119253,0.95520591,30
+400,Hilbert_40,40,Hilbert,Space-filling curve,0.00954688,0.00118580,0.95468776,31
+401,Hilbert_41,41,Hilbert,Space-filling curve,0.00950433,0.00117929,0.95043274,32
+397,Hilbert_38,38,Hilbert,Space-filling curve,0.00949586,0.00117706,0.94958592,33
+556,SLIC_area_mean,area_mean,SLIC,Region graphs,0.00818282,0.00129554,0.81828190,34
+577,SLIC_del_density,del_density,SLIC,Region graphs,0.00811705,0.00156524,0.81170516,35
+138,Felzenszwalb_area_mean,area_mean,Felzenszwalb,Region graphs,0.00720629,0.00103871,0.72062889,36
+156,Felzenszwalb_del_degree_max,del_degree_max,Felzenszwalb,Region graphs,0.00658087,0.00084003,0.65808652,37
+160,Felzenszwalb_del_hub_degree_ratio,del_hub_degree_ratio,Felzenszwalb,Region graphs,0.00647193,0.00082843,0.64719271,38
+143,Felzenszwalb_chroma_mean_w,chroma_mean_w,Felzenszwalb,Region graphs,0.00636532,0.00033090,0.63653156,39
+561,SLIC_chroma_mean_w,chroma_mean_w,SLIC,Region graphs,0.00634493,0.00032920,0.63449324,40
+159,Felzenszwalb_del_density,del_density,Felzenszwalb,Region graphs,0.00586721,0.00115972,0.58672064,41
+393,Hilbert_34,34,Hilbert,Space-filling curve,0.00547841,0.00019687,0.54784123,42
+187,Felzenszwalb_mst_n_edges,mst_n_edges,Felzenszwalb,Region graphs,0.00500358,0.00049210,0.50035802,43
+142,Felzenszwalb_b_std_w,b_std_w,Felzenszwalb,Region graphs,0.00496442,0.00029118,0.49644236,44
+379,Hilbert_21,21,Hilbert,Space-filling curve,0.00486232,0.00016843,0.48623172,45
+380,Hilbert_22,22,Hilbert,Space-filling curve,0.00483372,0.00017815,0.48337189,46
+374,Hilbert_17,17,Hilbert,Space-filling curve,0.00478469,0.00025000,0.47846933,47
+381,Hilbert_23,23,Hilbert,Space-filling curve,0.00470575,0.00017268,0.47057509,48
+378,Hilbert_20,20,Hilbert,Space-filling curve,0.00470364,0.00016806,0.47036395,49
+376,Hilbert_19,19,Hilbert,Space-filling curve,0.00468483,0.00016862,0.46848291,50
+383,Hilbert_25,25,Hilbert,Space-filling curve,0.00468057,0.00016703,0.46805658,51
+382,Hilbert_24,24,Hilbert,Space-filling curve,0.00466360,0.00016750,0.46636019,52
+375,Hilbert_18,18,Hilbert,Space-filling curve,0.00464739,0.00017218,0.46473919,53
+170,Felzenszwalb_knn_degree_max,knn_degree_max,Felzenszwalb,Region graphs,0.00449430,0.00024170,0.44942954,54
+559,SLIC_b_mean_w,b_mean_w,SLIC,Region graphs,0.00433637,0.00013387,0.43363693,55
+141,Felzenszwalb_b_mean_w,b_mean_w,Felzenszwalb,Region graphs,0.00433597,0.00013373,0.43359700,56
+603,SLIC_mst_density,mst_density,SLIC,Region graphs,0.00416892,0.00171008,0.41689237,57
+560,SLIC_b_std_w,b_std_w,SLIC,Region graphs,0.00410755,0.00017863,0.41075510,58
+121,Descriptors_91,91,Descriptors,Image statistics,0.00408851,0.00015037,0.40885141,59
+174,Felzenszwalb_knn_hub_degree_ratio,knn_hub_degree_ratio,Felzenszwalb,Region graphs,0.00407554,0.00021961,0.40755402,60
+519,Line graph_lg_n_nodes,lg_n_nodes,Line graph,Region graphs,0.00391438,0.00044540,0.39143822,61
+609,SLIC_n_edges,n_edges,SLIC,Region graphs,0.00391426,0.00044568,0.39142556,62
+518,Line graph_lg_n_edges,lg_n_edges,Line graph,Region graphs,0.00351217,0.00052140,0.35121711,63
+144,Felzenszwalb_chroma_std_w,chroma_std_w,Felzenszwalb,Region graphs,0.00325573,0.00017527,0.32557288,64
+562,SLIC_chroma_std_w,chroma_std_w,SLIC,Region graphs,0.00323086,0.00017566,0.32308632,65
+546,Line graph_lg_wedge_load_gini,lg_wedge_load_gini,Line graph,Region graphs,0.00317222,0.00010510,0.31722235,66
+551,SLIC_a_std_w,a_std_w,SLIC,Region graphs,0.00315886,0.00033753,0.31588556,67
+593,SLIC_knn_n_edges,knn_n_edges,SLIC,Region graphs,0.00299140,0.00024483,0.29913965,68
+591,SLIC_knn_density,knn_density,SLIC,Region graphs,0.00280900,0.00070172,0.28089959,69
+132,Felzenszwalb_a_mean_w,a_mean_w,Felzenszwalb,Region graphs,0.00279816,0.00027827,0.27981605,70
+550,SLIC_a_mean_w,a_mean_w,SLIC,Region graphs,0.00279804,0.00027811,0.27980364,71
+175,Felzenszwalb_knn_n_edges,knn_n_edges,Felzenszwalb,Region graphs,0.00275729,0.00022611,0.27572918,72
+588,SLIC_knn_degree_max,knn_degree_max,SLIC,Region graphs,0.00247919,0.00033087,0.24791901,73
+173,Felzenszwalb_knn_density,knn_density,Felzenszwalb,Region graphs,0.00242001,0.00020443,0.24200140,74
+592,SLIC_knn_hub_degree_ratio,knn_hub_degree_ratio,SLIC,Region graphs,0.00219740,0.00029396,0.21974039,75
+506,Line graph_lg_endpoint_log_area_ratio_mean,lg_endpoint_log_area_ratio_mean,Line graph,Region graphs,0.00219461,0.00017505,0.21946107,76
+133,Felzenszwalb_a_std_w,a_std_w,Felzenszwalb,Region graphs,0.00219109,0.00004966,0.21910912,77
+601,SLIC_mst_degree_mean,mst_degree_mean,SLIC,Region graphs,0.00213998,0.00030998,0.21399833,78
+131,Felzenszwalb_L_std_w,L_std_w,Felzenszwalb,Region graphs,0.00213747,0.00021530,0.21374687,79
+472,L(G_felz)_lg_spatial_delta_mean,lg_spatial_delta_mean,L(G_felz),Region graphs,0.00210681,0.00012552,0.21068130,80
+456,L(G_felz)_lg_n_nodes,lg_n_nodes,L(G_felz),Region graphs,0.00203924,0.00017621,0.20392393,81
+191,Felzenszwalb_n_edges,n_edges,Felzenszwalb,Region graphs,0.00203889,0.00017597,0.20388945,82
+566,SLIC_degree_gini,degree_gini,SLIC,Region graphs,0.00196423,0.00010577,0.19642262,83
+526,Line graph_lg_outer_spatial_distance_mean,lg_outer_spatial_distance_mean,Line graph,Region graphs,0.00184416,0.00021446,0.18441616,84
+535,Line graph_lg_spatial_delta_mean,lg_spatial_delta_mean,Line graph,Region graphs,0.00183750,0.00008236,0.18375017,85
+567,SLIC_degree_max,degree_max,SLIC,Region graphs,0.00180398,0.00028314,0.18039802,86
+583,SLIC_hub_degree_ratio,hub_degree_ratio,SLIC,Region graphs,0.00177121,0.00028366,0.17712051,87
+568,SLIC_degree_mean,degree_mean,SLIC,Region graphs,0.00173066,0.00015545,0.17306552,88
+502,Line graph_lg_degree_mean,lg_degree_mean,Line graph,Region graphs,0.00172527,0.00016509,0.17252715,89
+605,SLIC_mst_n_edges,mst_n_edges,SLIC,Region graphs,0.00152741,0.00016258,0.15274051,90
+549,SLIC_L_std_w,L_std_w,SLIC,Region graphs,0.00150342,0.00007360,0.15034210,91
+582,SLIC_density,density,SLIC,Region graphs,0.00149415,0.00031784,0.14941528,92
+23,Descriptors_119,119,Descriptors,Image statistics,0.00148348,0.00011897,0.14834774,93
+151,Felzenszwalb_degree_std,degree_std,Felzenszwalb,Region graphs,0.00147914,0.00017116,0.14791393,94
+500,Line graph_lg_degree_gini,lg_degree_gini,Line graph,Region graphs,0.00138310,0.00008686,0.13830982,95
+505,Line graph_lg_density,lg_density,Line graph,Region graphs,0.00136642,0.00037355,0.13664197,96
+463,L(G_felz)_lg_outer_spatial_distance_mean,lg_outer_spatial_distance_mean,L(G_felz),Region graphs,0.00132818,0.00013629,0.13281751,97
+329,Fourier_radial_centroid,radial_centroid,Fourier,Spectral,0.00128792,0.00018500,0.12879192,98
+569,SLIC_degree_std,degree_std,SLIC,Region graphs,0.00126786,0.00004614,0.12678631,99
+135,Felzenszwalb_area_entropy,area_entropy,Felzenszwalb,Region graphs,0.00126714,0.00010749,0.12671424,100
+165,Felzenszwalb_hub_degree_ratio,hub_degree_ratio,Felzenszwalb,Region graphs,0.00125880,0.00011062,0.12588048,101
+451,L(G_felz)_lg_junction_angle_std,lg_junction_angle_std,L(G_felz),Region graphs,0.00122256,0.00012873,0.12225628,102
+171,Felzenszwalb_knn_degree_mean,knn_degree_mean,Felzenszwalb,Region graphs,0.00119400,0.00004450,0.11940012,103
+507,Line graph_lg_endpoint_log_area_ratio_q50,lg_endpoint_log_area_ratio_q50,Line graph,Region graphs,0.00112998,0.00010645,0.11299825,104
+599,SLIC_mst_degree_gini,mst_degree_gini,SLIC,Region graphs,0.00112069,0.00017460,0.11206856,105
+483,L(G_felz)_lg_wedge_load_gini,lg_wedge_load_gini,L(G_felz),Region graphs,0.00109177,0.00007797,0.10917729,106
+540,Line graph_lg_spatial_mean,lg_spatial_mean,Line graph,Region graphs,0.00108472,0.00010996,0.10847197,107
+614,SLIC_spatial_dist_mean,spatial_dist_mean,SLIC,Region graphs,0.00108458,0.00010999,0.10845788,108
+30,Descriptors_125,125,Descriptors,Image statistics,0.00107754,0.00009089,0.10775356,109
+149,Felzenszwalb_degree_max,degree_max,Felzenszwalb,Region graphs,0.00107736,0.00006818,0.10773642,110
+473,L(G_felz)_lg_spatial_delta_q50,lg_spatial_delta_q50,L(G_felz),Region graphs,0.00103755,0.00007958,0.10375514,111
+162,Felzenszwalb_del_spatial_dist_mean,del_spatial_dist_mean,Felzenszwalb,Region graphs,0.00098615,0.00008793,0.09861482,112
+354,Gabor_28,28,Gabor,Spectral,0.00098533,0.00007386,0.09853256,113
+495,Line graph_lg_contrast_delta_mean,lg_contrast_delta_mean,Line graph,Region graphs,0.00096678,0.00007370,0.09667803,114
+498,Line graph_lg_contrast_delta_std,lg_contrast_delta_std,Line graph,Region graphs,0.00095489,0.00008663,0.09548949,115
+357,Gabor_30,30,Gabor,Spectral,0.00095444,0.00007256,0.09544444,116
+199,Fourier_high_frequency_fraction,high_frequency_fraction,Fourier,Spectral,0.00093274,0.00013460,0.09327411,117
+182,Felzenszwalb_mst_degree_max,mst_degree_max,Felzenszwalb,Region graphs,0.00093066,0.00011322,0.09306646,118
+186,Felzenszwalb_mst_hub_degree_ratio,mst_hub_degree_ratio,Felzenszwalb,Region graphs,0.00092469,0.00011084,0.09246867,119
+553,SLIC_area_entropy,area_entropy,SLIC,Region graphs,0.00090833,0.00006672,0.09083283,120
+185,Felzenszwalb_mst_density,mst_density,Felzenszwalb,Region graphs,0.00090722,0.00009183,0.09072203,121
+443,L(G_felz)_lg_endpoint_log_area_ratio_mean,lg_endpoint_log_area_ratio_mean,L(G_felz),Region graphs,0.00090531,0.00007047,0.09053111,122
+446,L(G_felz)_lg_endpoint_log_area_ratio_std,lg_endpoint_log_area_ratio_std,L(G_felz),Region graphs,0.00090332,0.00005900,0.09033192,123
+164,Felzenszwalb_density,density,Felzenszwalb,Region graphs,0.00089057,0.00005767,0.08905672,124
+136,Felzenszwalb_area_gini,area_gini,Felzenszwalb,Region graphs,0.00085743,0.00007192,0.08574258,125
+337,Gabor_12,12,Gabor,Spectral,0.00085519,0.00007667,0.08551934,126
+571,SLIC_del_color_dist_mean,del_color_dist_mean,SLIC,Region graphs,0.00085328,0.00009102,0.08532844,127
+554,SLIC_area_gini,area_gini,SLIC,Region graphs,0.00085242,0.00009857,0.08524191,128
+580,SLIC_del_spatial_dist_mean,del_spatial_dist_mean,SLIC,Region graphs,0.00085179,0.00007034,0.08517880,129
+514,Line graph_lg_junction_angle_std,lg_junction_angle_std,Line graph,Region graphs,0.00083529,0.00009533,0.08352880,130
+525,Line graph_lg_outer_lab_distance_std,lg_outer_lab_distance_std,Line graph,Region graphs,0.00082798,0.00006841,0.08279789,131
+474,L(G_felz)_lg_spatial_delta_q90,lg_spatial_delta_q90,L(G_felz),Region graphs,0.00082621,0.00005969,0.08262104,132
+510,Line graph_lg_junction_angle_mean,lg_junction_angle_mean,Line graph,Region graphs,0.00082401,0.00004619,0.08240094,133
+476,L(G_felz)_lg_spatial_gini,lg_spatial_gini,L(G_felz),Region graphs,0.00082111,0.00007469,0.08211057,134
+508,Line graph_lg_endpoint_log_area_ratio_q90,lg_endpoint_log_area_ratio_q90,Line graph,Region graphs,0.00081740,0.00010570,0.08173983,135
+539,Line graph_lg_spatial_gini,lg_spatial_gini,Line graph,Region graphs,0.00081288,0.00009836,0.08128795,136
+572,SLIC_del_color_dist_std,del_color_dist_std,SLIC,Region graphs,0.00081286,0.00006555,0.08128615,137
+339,Gabor_14,14,Gabor,Spectral,0.00081041,0.00006129,0.08104067,138
+522,Line graph_lg_outer_lab_distance_mean,lg_outer_lab_distance_mean,Line graph,Region graphs,0.00080704,0.00005498,0.08070354,139
+589,SLIC_knn_degree_mean,knn_degree_mean,SLIC,Region graphs,0.00080036,0.00009333,0.08003640,140
+441,L(G_felz)_lg_degree_std,lg_degree_std,L(G_felz),Region graphs,0.00078928,0.00006203,0.07892783,141
+148,Felzenszwalb_degree_gini,degree_gini,Felzenszwalb,Region graphs,0.00078321,0.00006744,0.07832079,142
+450,L(G_felz)_lg_junction_angle_q90,lg_junction_angle_q90,L(G_felz),Region graphs,0.00076824,0.00007208,0.07682359,143
+558,SLIC_area_std,area_std,SLIC,Region graphs,0.00076821,0.00016881,0.07682083,144
+422,L(G_felz)_lg_acute_junction_frac,lg_acute_junction_frac,L(G_felz),Region graphs,0.00074328,0.00004589,0.07432846,145
+538,Line graph_lg_spatial_delta_std,lg_spatial_delta_std,Line graph,Region graphs,0.00073705,0.00004370,0.07370548,146
+477,L(G_felz)_lg_spatial_mean,lg_spatial_mean,L(G_felz),Region graphs,0.00072993,0.00012429,0.07299299,147
+196,Felzenszwalb_spatial_dist_mean,spatial_dist_mean,Felzenszwalb,Region graphs,0.00072955,0.00012379,0.07295459,148
+542,Line graph_lg_spatial_q50,lg_spatial_q50,Line graph,Region graphs,0.00072248,0.00003796,0.07224838,149
+437,L(G_felz)_lg_degree_gini,lg_degree_gini,L(G_felz),Region graphs,0.00070207,0.00005351,0.07020729,150
+432,L(G_felz)_lg_contrast_delta_mean,lg_contrast_delta_mean,L(G_felz),Region graphs,0.00069934,0.00016119,0.06993422,151
+140,Felzenszwalb_area_std,area_std,Felzenszwalb,Region graphs,0.00069621,0.00005824,0.06962057,152
+537,Line graph_lg_spatial_delta_q90,lg_spatial_delta_q90,Line graph,Region graphs,0.00069546,0.00003274,0.06954618,153
+466,L(G_felz)_lg_outer_spatial_distance_std,lg_outer_spatial_distance_std,L(G_felz),Region graphs,0.00069393,0.00008230,0.06939339,154
+21,Descriptors_117,117,Descriptors,Image statistics,0.00068739,0.00006633,0.06873891,155
+529,Line graph_lg_outer_spatial_distance_std,lg_outer_spatial_distance_std,Line graph,Region graphs,0.00067070,0.00005761,0.06706958,156
+509,Line graph_lg_endpoint_log_area_ratio_std,lg_endpoint_log_area_ratio_std,Line graph,Region graphs,0.00063868,0.00002601,0.06386823,157
+338,Gabor_13,13,Gabor,Spectral,0.00063549,0.00003809,0.06354883,158
+590,SLIC_knn_degree_std,knn_degree_std,SLIC,Region graphs,0.00063248,0.00010831,0.06324776,159
+475,L(G_felz)_lg_spatial_delta_std,lg_spatial_delta_std,L(G_felz),Region graphs,0.00062997,0.00003012,0.06299671,160
+346,Gabor_20,20,Gabor,Spectral,0.00062626,0.00012374,0.06262608,161
+536,Line graph_lg_spatial_delta_q50,lg_spatial_delta_q50,Line graph,Region graphs,0.00062447,0.00002300,0.06244655,162
+31,Descriptors_126,126,Descriptors,Image statistics,0.00062397,0.00005654,0.06239687,163
+482,L(G_felz)_lg_straight_junction_frac,lg_straight_junction_frac,L(G_felz),Region graphs,0.00061570,0.00005239,0.06156999,164
+481,L(G_felz)_lg_spatial_std,lg_spatial_std,L(G_felz),Region graphs,0.00061516,0.00007057,0.06151577,165
+197,Felzenszwalb_spatial_dist_std,spatial_dist_std,Felzenszwalb,Region graphs,0.00061486,0.00007057,0.06148572,166
+340,Gabor_15,15,Gabor,Spectral,0.00061424,0.00003377,0.06142408,167
+587,SLIC_knn_degree_gini,knn_degree_gini,SLIC,Region graphs,0.00060760,0.00010508,0.06075963,168
+153,Felzenszwalb_del_color_dist_mean,del_color_dist_mean,Felzenszwalb,Region graphs,0.00060356,0.00006300,0.06035586,169
+435,L(G_felz)_lg_contrast_delta_std,lg_contrast_delta_std,L(G_felz),Region graphs,0.00060192,0.00008395,0.06019224,170
+527,Line graph_lg_outer_spatial_distance_q50,lg_outer_spatial_distance_q50,Line graph,Region graphs,0.00060159,0.00002258,0.06015908,171
+327,Fourier_orientation_entropy,orientation_entropy,Fourier,Spectral,0.00059747,0.00007106,0.05974714,172
+615,SLIC_spatial_dist_std,spatial_dist_std,SLIC,Region graphs,0.00058824,0.00004417,0.05882388,173
+544,Line graph_lg_spatial_std,lg_spatial_std,Line graph,Region graphs,0.00058804,0.00004457,0.05880445,174
+150,Felzenszwalb_degree_mean,degree_mean,Felzenszwalb,Region graphs,0.00058544,0.00008372,0.05854379,175
+504,Line graph_lg_degree_std,lg_degree_std,Line graph,Region graphs,0.00057528,0.00008963,0.05752817,176
+355,Gabor_29,29,Gabor,Spectral,0.00057431,0.00007725,0.05743130,177
+455,L(G_felz)_lg_n_edges,lg_n_edges,L(G_felz),Region graphs,0.00056810,0.00003121,0.05680954,178
+183,Felzenszwalb_mst_degree_mean,mst_degree_mean,Felzenszwalb,Region graphs,0.00056182,0.00009910,0.05618218,179
+25,Descriptors_120,120,Descriptors,Image statistics,0.00055301,0.00008442,0.05530055,180
+479,L(G_felz)_lg_spatial_q50,lg_spatial_q50,L(G_felz),Region graphs,0.00055151,0.00005623,0.05515053,181
+493,Line graph_lg_color_std,lg_color_std,Line graph,Region graphs,0.00054189,0.00005196,0.05418905,182
+565,SLIC_color_dist_std,color_dist_std,SLIC,Region graphs,0.00054184,0.00005174,0.05418382,183
+462,L(G_felz)_lg_outer_lab_distance_std,lg_outer_lab_distance_std,L(G_felz),Region graphs,0.00053965,0.00004166,0.05396483,184
+172,Felzenszwalb_knn_degree_std,knn_degree_std,Felzenszwalb,Region graphs,0.00053112,0.00004918,0.05311153,185
+361,Gabor_6,6,Gabor,Spectral,0.00053070,0.00005447,0.05307001,186
+22,Descriptors_118,118,Descriptors,Image statistics,0.00052554,0.00007926,0.05255429,187
+459,L(G_felz)_lg_outer_lab_distance_mean,lg_outer_lab_distance_mean,L(G_felz),Region graphs,0.00051543,0.00004921,0.05154275,188
+189,Felzenszwalb_mst_spatial_dist_mean,mst_spatial_dist_mean,Felzenszwalb,Region graphs,0.00051491,0.00011482,0.05149061,189
+464,L(G_felz)_lg_outer_spatial_distance_q50,lg_outer_spatial_distance_q50,L(G_felz),Region graphs,0.00051420,0.00008031,0.05142003,190
+176,Felzenszwalb_knn_spatial_dist_mean,knn_spatial_dist_mean,Felzenszwalb,Region graphs,0.00051061,0.00004651,0.05106143,191
+528,Line graph_lg_outer_spatial_distance_q90,lg_outer_spatial_distance_q90,Line graph,Region graphs,0.00050942,0.00005332,0.05094196,192
+26,Descriptors_121,121,Descriptors,Image statistics,0.00050602,0.00001915,0.05060234,193
+34,Descriptors_129,129,Descriptors,Image statistics,0.00050563,0.00005119,0.05056308,194
+169,Felzenszwalb_knn_degree_gini,knn_degree_gini,Felzenszwalb,Region graphs,0.00050466,0.00005297,0.05046647,195
+359,Gabor_4,4,Gabor,Spectral,0.00050434,0.00005015,0.05043407,196
+358,Gabor_31,31,Gabor,Spectral,0.00050223,0.00003869,0.05022273,197
+439,L(G_felz)_lg_degree_mean,lg_degree_mean,L(G_felz),Region graphs,0.00048655,0.00006526,0.04865544,198
+530,Line graph_lg_shared_area_mean,lg_shared_area_mean,Line graph,Region graphs,0.00048142,0.00011141,0.04814231,199
+448,L(G_felz)_lg_junction_angle_q10,lg_junction_angle_q10,L(G_felz),Region graphs,0.00047741,0.00003784,0.04774098,200
+137,Felzenszwalb_area_max_frac,area_max_frac,Felzenszwalb,Region graphs,0.00047482,0.00002813,0.04748222,201
+533,Line graph_lg_shared_area_std,lg_shared_area_std,Line graph,Region graphs,0.00047111,0.00007998,0.04711104,202
+447,L(G_felz)_lg_junction_angle_mean,lg_junction_angle_mean,L(G_felz),Region graphs,0.00046595,0.00004331,0.04659474,203
+348,Gabor_22,22,Gabor,Spectral,0.00046430,0.00006708,0.04642966,204
+488,Line graph_lg_color_mean,lg_color_mean,Line graph,Region graphs,0.00046351,0.00004295,0.04635093,205
+564,SLIC_color_dist_mean,color_dist_mean,SLIC,Region graphs,0.00046337,0.00004304,0.04633716,206
+585,SLIC_knn_color_dist_mean,knn_color_dist_mean,SLIC,Region graphs,0.00046187,0.00002063,0.04618707,207
+543,Line graph_lg_spatial_q90,lg_spatial_q90,Line graph,Region graphs,0.00046017,0.00010940,0.04601673,208
+335,Gabor_10,10,Gabor,Spectral,0.00045920,0.00004905,0.04592033,209
+352,Gabor_26,26,Gabor,Spectral,0.00045208,0.00002897,0.04520806,210
+154,Felzenszwalb_del_color_dist_std,del_color_dist_std,Felzenszwalb,Region graphs,0.00044834,0.00005387,0.04483401,211
+146,Felzenszwalb_color_dist_mean,color_dist_mean,Felzenszwalb,Region graphs,0.00044756,0.00005120,0.04475608,212
+425,L(G_felz)_lg_color_mean,lg_color_mean,L(G_felz),Region graphs,0.00044747,0.00005100,0.04474678,213
+465,L(G_felz)_lg_outer_spatial_distance_q90,lg_outer_spatial_distance_q90,L(G_felz),Region graphs,0.00044687,0.00004285,0.04468717,214
+330,Fourier_radial_spread,radial_spread,Fourier,Spectral,0.00043969,0.00003551,0.04396919,215
+594,SLIC_knn_spatial_dist_mean,knn_spatial_dist_mean,SLIC,Region graphs,0.00043358,0.00004047,0.04335841,216
+513,Line graph_lg_junction_angle_q90,lg_junction_angle_q90,Line graph,Region graphs,0.00043318,0.00001991,0.04331750,217
+181,Felzenszwalb_mst_degree_gini,mst_degree_gini,Felzenszwalb,Region graphs,0.00043288,0.00003176,0.04328771,218
+332,Fourier_spectral_slope,spectral_slope,Fourier,Spectral,0.00043239,0.00002803,0.04323877,219
+478,L(G_felz)_lg_spatial_q10,lg_spatial_q10,L(G_felz),Region graphs,0.00043150,0.00002613,0.04314984,220
+28,Descriptors_123,123,Descriptors,Image statistics,0.00042470,0.00001335,0.04246955,221
+445,L(G_felz)_lg_endpoint_log_area_ratio_q90,lg_endpoint_log_area_ratio_q90,L(G_felz),Region graphs,0.00042179,0.00004248,0.04217866,222
+347,Gabor_21,21,Gabor,Spectral,0.00041973,0.00003267,0.04197278,223
+547,Line graph_lg_wedge_load_max_frac,lg_wedge_load_max_frac,Line graph,Region graphs,0.00041940,0.00009246,0.04193977,224
+326,Fourier_low_frequency_fraction,low_frequency_fraction,Fourier,Spectral,0.00041810,0.00004246,0.04181030,225
+607,SLIC_mst_spatial_dist_mean,mst_spatial_dist_mean,SLIC,Region graphs,0.00041792,0.00004657,0.04179173,226
+2,Descriptors_10,10,Descriptors,Image statistics,0.00039662,0.00017932,0.03966213,227
+616,SLIC_warm_frac,warm_frac,SLIC,Region graphs,0.00039533,0.00003706,0.03953279,228
+575,SLIC_del_degree_mean,del_degree_mean,SLIC,Region graphs,0.00038821,0.00003907,0.03882078,229
+484,L(G_felz)_lg_wedge_load_max_frac,lg_wedge_load_max_frac,L(G_felz),Region graphs,0.00038765,0.00001875,0.03876501,230
+552,SLIC_area_cv,area_cv,SLIC,Region graphs,0.00038608,0.00004879,0.03860795,231
+461,L(G_felz)_lg_outer_lab_distance_q90,lg_outer_lab_distance_q90,L(G_felz),Region graphs,0.00038348,0.00002003,0.03834789,232
+453,L(G_felz)_lg_midpoint_grid_cv,lg_midpoint_grid_cv,L(G_felz),Region graphs,0.00038339,0.00003232,0.03833930,233
+134,Felzenszwalb_area_cv,area_cv,Felzenszwalb,Region graphs,0.00037904,0.00002960,0.03790355,234
+198,Felzenszwalb_warm_frac,warm_frac,Felzenszwalb,Region graphs,0.00037840,0.00004338,0.03784004,235
+360,Gabor_5,5,Gabor,Spectral,0.00037371,0.00003565,0.03737149,236
+434,L(G_felz)_lg_contrast_delta_q90,lg_contrast_delta_q90,L(G_felz),Region graphs,0.00037070,0.00005074,0.03707041,237
+179,Felzenszwalb_mst_color_dist_mean,mst_color_dist_mean,Felzenszwalb,Region graphs,0.00037034,0.00006774,0.03703417,238
+444,L(G_felz)_lg_endpoint_log_area_ratio_q50,lg_endpoint_log_area_ratio_q50,L(G_felz),Region graphs,0.00036952,0.00002426,0.03695216,239
+147,Felzenszwalb_color_dist_std,color_dist_std,Felzenszwalb,Region graphs,0.00036453,0.00000951,0.03645271,240
+430,L(G_felz)_lg_color_std,lg_color_std,L(G_felz),Region graphs,0.00036448,0.00000964,0.03644771,241
+343,Gabor_18,18,Gabor,Spectral,0.00035771,0.00002086,0.03577107,242
+331,Fourier_spectral_entropy,spectral_entropy,Fourier,Spectral,0.00035020,0.00002153,0.03501955,243
+167,Felzenszwalb_knn_color_dist_mean,knn_color_dist_mean,Felzenszwalb,Region graphs,0.00034467,0.00000533,0.03446700,244
+523,Line graph_lg_outer_lab_distance_q50,lg_outer_lab_distance_q50,Line graph,Region graphs,0.00034431,0.00002358,0.03443064,245
+490,Line graph_lg_color_q50,lg_color_q50,Line graph,Region graphs,0.00034043,0.00004285,0.03404270,246
+192,Felzenszwalb_n_leaf_frac,n_leaf_frac,Felzenszwalb,Region graphs,0.00034006,0.00003018,0.03400553,247
+467,L(G_felz)_lg_shared_area_mean,lg_shared_area_mean,L(G_felz),Region graphs,0.00033890,0.00002974,0.03388982,248
+428,L(G_felz)_lg_color_q90,lg_color_q90,L(G_felz),Region graphs,0.00033881,0.00006170,0.03388127,249
+157,Felzenszwalb_del_degree_mean,del_degree_mean,Felzenszwalb,Region graphs,0.00032840,0.00002725,0.03283986,250
+555,SLIC_area_max_frac,area_max_frac,SLIC,Region graphs,0.00032737,0.00000896,0.03273727,251
+449,L(G_felz)_lg_junction_angle_q50,lg_junction_angle_q50,L(G_felz),Region graphs,0.00032706,0.00004000,0.03270551,252
+194,Felzenszwalb_spatial_density_cv,spatial_density_cv,Felzenszwalb,Region graphs,0.00032503,0.00002929,0.03250265,253
+345,Gabor_2,2,Gabor,Spectral,0.00032477,0.00002462,0.03247730,254
+541,Line graph_lg_spatial_q10,lg_spatial_q10,Line graph,Region graphs,0.00032403,0.00003380,0.03240312,255
+480,L(G_felz)_lg_spatial_q90,lg_spatial_q90,L(G_felz),Region graphs,0.00032348,0.00003416,0.03234827,256
+184,Felzenszwalb_mst_degree_std,mst_degree_std,Felzenszwalb,Region graphs,0.00032194,0.00003929,0.03219377,257
+487,Line graph_lg_color_gini,lg_color_gini,Line graph,Region graphs,0.00031831,0.00003370,0.03183134,258
+511,Line graph_lg_junction_angle_q10,lg_junction_angle_q10,Line graph,Region graphs,0.00031322,0.00001596,0.03132213,259
+362,Gabor_7,7,Gabor,Spectral,0.00031289,0.00002859,0.03128855,260
+512,Line graph_lg_junction_angle_q50,lg_junction_angle_q50,Line graph,Region graphs,0.00031260,0.00001944,0.03125960,261
+119,Descriptors_9,9,Descriptors,Image statistics,0.00031028,0.00013853,0.03102849,262
+349,Gabor_23,23,Gabor,Spectral,0.00030965,0.00002975,0.03096480,263
+524,Line graph_lg_outer_lab_distance_q90,lg_outer_lab_distance_q90,Line graph,Region graphs,0.00030203,0.00002777,0.03020348,264
+485,Line graph_lg_acute_junction_frac,lg_acute_junction_frac,Line graph,Region graphs,0.00030191,0.00001748,0.03019069,265
+427,L(G_felz)_lg_color_q50,lg_color_q50,L(G_felz),Region graphs,0.00029660,0.00002807,0.02965987,266
+520,Line graph_lg_one_strong_frac,lg_one_strong_frac,Line graph,Region graphs,0.00029301,0.00003902,0.02930117,267
+341,Gabor_16,16,Gabor,Spectral,0.00029172,0.00000947,0.02917213,268
+190,Felzenszwalb_mst_spatial_dist_std,mst_spatial_dist_std,Felzenszwalb,Region graphs,0.00029037,0.00002644,0.02903678,269
+85,Descriptors_59,59,Descriptors,Image statistics,0.00028986,0.00006705,0.02898627,270
+87,Descriptors_60,60,Descriptors,Image statistics,0.00028328,0.00006891,0.02832779,271
+545,Line graph_lg_straight_junction_frac,lg_straight_junction_frac,Line graph,Region graphs,0.00027953,0.00002098,0.02795270,272
+470,L(G_felz)_lg_shared_area_std,lg_shared_area_std,L(G_felz),Region graphs,0.00027939,0.00001309,0.02793933,273
+336,Gabor_11,11,Gabor,Spectral,0.00027855,0.00002951,0.02785497,274
+424,L(G_felz)_lg_color_gini,lg_color_gini,L(G_felz),Region graphs,0.00027831,0.00003103,0.02783118,275
+457,L(G_felz)_lg_one_strong_frac,lg_one_strong_frac,L(G_felz),Region graphs,0.00027521,0.00002203,0.02752081,276
+433,L(G_felz)_lg_contrast_delta_q50,lg_contrast_delta_q50,L(G_felz),Region graphs,0.00027380,0.00008253,0.02737974,277
+356,Gabor_3,3,Gabor,Spectral,0.00027311,0.00001148,0.02731119,278
+155,Felzenszwalb_del_degree_gini,del_degree_gini,Felzenszwalb,Region graphs,0.00027284,0.00005770,0.02728401,279
+353,Gabor_27,27,Gabor,Spectral,0.00026739,0.00002746,0.02673860,280
+454,L(G_felz)_lg_midpoint_grid_max_frac,lg_midpoint_grid_max_frac,L(G_felz),Region graphs,0.00026595,0.00003461,0.02659463,281
+442,L(G_felz)_lg_density,lg_density,L(G_felz),Region graphs,0.00026408,0.00004068,0.02640810,282
+423,L(G_felz)_lg_both_strong_frac,lg_both_strong_frac,L(G_felz),Region graphs,0.00026394,0.00010741,0.02639392,283
+54,Descriptors_30,30,Descriptors,Image statistics,0.00026234,0.00004298,0.02623415,284
+344,Gabor_19,19,Gabor,Spectral,0.00026134,0.00000788,0.02613422,285
+333,Gabor_0,0,Gabor,Spectral,0.00025441,0.00001518,0.02544097,286
+129,Descriptors_99,99,Descriptors,Image statistics,0.00025110,0.00002211,0.02511030,287
+608,SLIC_mst_spatial_dist_std,mst_spatial_dist_std,SLIC,Region graphs,0.00025067,0.00001869,0.02506654,288
+314,Fourier_log_power_r11_a00,log_power_r11_a00,Fourier,Spectral,0.00025034,0.00002038,0.02503361,289
+188,Felzenszwalb_mst_n_leaf_frac,mst_n_leaf_frac,Felzenszwalb,Region graphs,0.00024991,0.00001415,0.02499076,290
+497,Line graph_lg_contrast_delta_q90,lg_contrast_delta_q90,Line graph,Region graphs,0.00024831,0.00002152,0.02483072,291
+118,Descriptors_89,89,Descriptors,Image statistics,0.00024783,0.00005959,0.02478274,292
+576,SLIC_del_degree_std,del_degree_std,SLIC,Region graphs,0.00024782,0.00001690,0.02478186,293
+602,SLIC_mst_degree_std,mst_degree_std,SLIC,Region graphs,0.00024647,0.00001887,0.02464730,294
+598,SLIC_mst_color_dist_std,mst_color_dist_std,SLIC,Region graphs,0.00024611,0.00001735,0.02461092,295
+486,Line graph_lg_both_strong_frac,lg_both_strong_frac,Line graph,Region graphs,0.00024541,0.00003287,0.02454055,296
+13,Descriptors_11,11,Descriptors,Image statistics,0.00024342,0.00009718,0.02434171,297
+597,SLIC_mst_color_dist_mean,mst_color_dist_mean,SLIC,Region graphs,0.00024326,0.00001660,0.02432557,298
+195,Felzenszwalb_spatial_density_max_block_frac,spatial_density_max_block_frac,Felzenszwalb,Region graphs,0.00023845,0.00003258,0.02384473,299
+586,SLIC_knn_color_dist_std,knn_color_dist_std,SLIC,Region graphs,0.00023676,0.00001835,0.02367604,300
+612,SLIC_spatial_density_cv,spatial_density_cv,SLIC,Region graphs,0.00023659,0.00001020,0.02365916,301
+158,Felzenszwalb_del_degree_std,del_degree_std,Felzenszwalb,Region graphs,0.00023593,0.00005397,0.02359320,302
+177,Felzenszwalb_knn_spatial_dist_std,knn_spatial_dist_std,Felzenszwalb,Region graphs,0.00023460,0.00001981,0.02345961,303
+328,Fourier_orientation_peak_fraction,orientation_peak_fraction,Fourier,Spectral,0.00023373,0.00002296,0.02337281,304
+350,Gabor_24,24,Gabor,Spectral,0.00023281,0.00001187,0.02328074,305
+320,Fourier_log_power_r11_a06,log_power_r11_a06,Fourier,Spectral,0.00022668,0.00002543,0.02266814,306
+499,Line graph_lg_degree_assortativity,lg_degree_assortativity,Line graph,Region graphs,0.00022362,0.00002726,0.02236167,307
+309,Fourier_log_power_r10_a07,log_power_r10_a07,Fourier,Spectral,0.00022250,0.00000549,0.02224978,308
+516,Line graph_lg_midpoint_grid_cv,lg_midpoint_grid_cv,Line graph,Region graphs,0.00021955,0.00001089,0.02195483,309
+322,Fourier_log_power_r11_a08,log_power_r11_a08,Fourier,Spectral,0.00021677,0.00001065,0.02167693,310
+325,Fourier_log_power_r11_a11,log_power_r11_a11,Fourier,Spectral,0.00021625,0.00001625,0.02162456,311
+29,Descriptors_124,124,Descriptors,Image statistics,0.00021443,0.00002029,0.02144341,312
+168,Felzenszwalb_knn_color_dist_std,knn_color_dist_std,Felzenszwalb,Region graphs,0.00021354,0.00000768,0.02135365,313
+323,Fourier_log_power_r11_a09,log_power_r11_a09,Fourier,Spectral,0.00020932,0.00000931,0.02093214,314
+573,SLIC_del_degree_gini,del_degree_gini,SLIC,Region graphs,0.00020742,0.00000474,0.02074188,315
+324,Fourier_log_power_r11_a10,log_power_r11_a10,Fourier,Spectral,0.00020729,0.00002370,0.02072918,316
+10,Descriptors_107,107,Descriptors,Image statistics,0.00020641,0.00003518,0.02064061,317
+318,Fourier_log_power_r11_a04,log_power_r11_a04,Fourier,Spectral,0.00020400,0.00001695,0.02039969,318
+319,Fourier_log_power_r11_a05,log_power_r11_a05,Fourier,Spectral,0.00020038,0.00002623,0.02003771,319
+460,L(G_felz)_lg_outer_lab_distance_q50,lg_outer_lab_distance_q50,L(G_felz),Region graphs,0.00019624,0.00003140,0.01962418,320
+315,Fourier_log_power_r11_a01,log_power_r11_a01,Fourier,Spectral,0.00019538,0.00001368,0.01953784,321
+363,Gabor_8,8,Gabor,Spectral,0.00019424,0.00001306,0.01942362,322
+321,Fourier_log_power_r11_a07,log_power_r11_a07,Fourier,Spectral,0.00019305,0.00001364,0.01930526,323
+491,Line graph_lg_color_q90,lg_color_q90,Line graph,Region graphs,0.00019234,0.00001798,0.01923416,324
+342,Gabor_17,17,Gabor,Spectral,0.00019131,0.00002369,0.01913146,325
+521,Line graph_lg_orientation_coherence,lg_orientation_coherence,Line graph,Region graphs,0.00019049,0.00002185,0.01904862,326
+310,Fourier_log_power_r10_a08,log_power_r10_a08,Fourier,Spectral,0.00018964,0.00002475,0.01896449,327
+32,Descriptors_127,127,Descriptors,Image statistics,0.00018962,0.00000595,0.01896166,328
+316,Fourier_log_power_r11_a02,log_power_r11_a02,Fourier,Spectral,0.00018863,0.00001626,0.01886338,329
+317,Fourier_log_power_r11_a03,log_power_r11_a03,Fourier,Spectral,0.00018857,0.00001637,0.01885741,330
+27,Descriptors_122,122,Descriptors,Image statistics,0.00018700,0.00001636,0.01869951,331
+92,Descriptors_65,65,Descriptors,Image statistics,0.00018610,0.00002727,0.01860995,332
+290,Fourier_log_power_r09_a00,log_power_r09_a00,Fourier,Spectral,0.00018465,0.00001956,0.01846497,333
+311,Fourier_log_power_r10_a09,log_power_r10_a09,Fourier,Spectral,0.00018441,0.00001030,0.01844054,334
+334,Gabor_1,1,Gabor,Spectral,0.00018358,0.00001254,0.01835773,335
+595,SLIC_knn_spatial_dist_std,knn_spatial_dist_std,SLIC,Region graphs,0.00018214,0.00000856,0.01821412,336
+33,Descriptors_128,128,Descriptors,Image statistics,0.00018203,0.00002260,0.01820330,337
+64,Descriptors_4,4,Descriptors,Image statistics,0.00018116,0.00005751,0.01811627,338
+308,Fourier_log_power_r10_a06,log_power_r10_a06,Fourier,Spectral,0.00017577,0.00002129,0.01757745,339
+59,Descriptors_35,35,Descriptors,Image statistics,0.00017373,0.00002711,0.01737307,340
+304,Fourier_log_power_r10_a02,log_power_r10_a02,Fourier,Spectral,0.00017314,0.00001357,0.01731351,341
+163,Felzenszwalb_del_spatial_dist_std,del_spatial_dist_std,Felzenszwalb,Region graphs,0.00017218,0.00000931,0.01721811,342
+312,Fourier_log_power_r10_a10,log_power_r10_a10,Fourier,Spectral,0.00017155,0.00001143,0.01715497,343
+306,Fourier_log_power_r10_a04,log_power_r10_a04,Fourier,Spectral,0.00016567,0.00000985,0.01656655,344
+469,L(G_felz)_lg_shared_area_q90,lg_shared_area_q90,L(G_felz),Region graphs,0.00016359,0.00000579,0.01635870,345
+11,Descriptors_108,108,Descriptors,Image statistics,0.00016213,0.00002482,0.01621349,346
+606,SLIC_mst_n_leaf_frac,mst_n_leaf_frac,SLIC,Region graphs,0.00016211,0.00001174,0.01621148,347
+429,L(G_felz)_lg_color_spatial_corr,lg_color_spatial_corr,L(G_felz),Region graphs,0.00016065,0.00001084,0.01606509,348
+557,SLIC_area_second_max_frac,area_second_max_frac,SLIC,Region graphs,0.00015870,0.00002520,0.01587042,349
+81,Descriptors_55,55,Descriptors,Image statistics,0.00015786,0.00002242,0.01578598,350
+69,Descriptors_44,44,Descriptors,Image statistics,0.00015775,0.00004992,0.01577521,351
+296,Fourier_log_power_r09_a06,log_power_r09_a06,Fourier,Spectral,0.00015766,0.00003065,0.01576557,352
+303,Fourier_log_power_r10_a01,log_power_r10_a01,Fourier,Spectral,0.00015694,0.00001003,0.01569382,353
+613,SLIC_spatial_density_max_block_frac,spatial_density_max_block_frac,SLIC,Region graphs,0.00015668,0.00000792,0.01566832,354
+313,Fourier_log_power_r10_a11,log_power_r10_a11,Fourier,Spectral,0.00015515,0.00000891,0.01551456,355
+307,Fourier_log_power_r10_a05,log_power_r10_a05,Fourier,Spectral,0.00015383,0.00001088,0.01538287,356
+426,L(G_felz)_lg_color_q10,lg_color_q10,L(G_felz),Region graphs,0.00015344,0.00000875,0.01534421,357
+604,SLIC_mst_hub_degree_ratio,mst_hub_degree_ratio,SLIC,Region graphs,0.00015326,0.00001864,0.01532578,358
+471,L(G_felz)_lg_spatial_assortativity,lg_spatial_assortativity,L(G_felz),Region graphs,0.00015248,0.00001217,0.01524775,359
+115,Descriptors_86,86,Descriptors,Image statistics,0.00015223,0.00001100,0.01522321,360
+305,Fourier_log_power_r10_a03,log_power_r10_a03,Fourier,Spectral,0.00015203,0.00000529,0.01520278,361
+295,Fourier_log_power_r09_a05,log_power_r09_a05,Fourier,Spectral,0.00015164,0.00001834,0.01516383,362
+581,SLIC_del_spatial_dist_std,del_spatial_dist_std,SLIC,Region graphs,0.00015158,0.00000641,0.01515782,363
+9,Descriptors_106,106,Descriptors,Image statistics,0.00015120,0.00001107,0.01511977,364
+570,SLIC_del_color_dist_max,del_color_dist_max,SLIC,Region graphs,0.00015012,0.00001640,0.01501184,365
+44,Descriptors_21,21,Descriptors,Image statistics,0.00014941,0.00004677,0.01494121,366
+298,Fourier_log_power_r09_a08,log_power_r09_a08,Fourier,Spectral,0.00014897,0.00001188,0.01489691,367
+80,Descriptors_54,54,Descriptors,Image statistics,0.00014879,0.00002446,0.01487885,368
+94,Descriptors_67,67,Descriptors,Image statistics,0.00014815,0.00001255,0.01481478,369
+534,Line graph_lg_spatial_assortativity,lg_spatial_assortativity,Line graph,Region graphs,0.00014777,0.00001834,0.01477672,370
+436,L(G_felz)_lg_degree_assortativity,lg_degree_assortativity,L(G_felz),Region graphs,0.00014756,0.00000569,0.01475581,371
+517,Line graph_lg_midpoint_grid_max_frac,lg_midpoint_grid_max_frac,Line graph,Region graphs,0.00014656,0.00001507,0.01465624,372
+302,Fourier_log_power_r10_a00,log_power_r10_a00,Fourier,Spectral,0.00014563,0.00001566,0.01456281,373
+117,Descriptors_88,88,Descriptors,Image statistics,0.00014553,0.00002291,0.01455289,374
+294,Fourier_log_power_r09_a04,log_power_r09_a04,Fourier,Spectral,0.00014524,0.00000804,0.01452366,375
+91,Descriptors_64,64,Descriptors,Image statistics,0.00014493,0.00002090,0.01449298,376
+468,L(G_felz)_lg_shared_area_q50,lg_shared_area_q50,L(G_felz),Region graphs,0.00014486,0.00001409,0.01448598,377
+19,Descriptors_115,115,Descriptors,Image statistics,0.00014474,0.00001370,0.01447412,378
+78,Descriptors_52,52,Descriptors,Image statistics,0.00014460,0.00001510,0.01446015,379
+109,Descriptors_80,80,Descriptors,Image statistics,0.00014441,0.00001293,0.01444131,380
+93,Descriptors_66,66,Descriptors,Image statistics,0.00014397,0.00001631,0.01439668,381
+55,Descriptors_31,31,Descriptors,Image statistics,0.00014358,0.00002837,0.01435811,382
+300,Fourier_log_power_r09_a10,log_power_r09_a10,Fourier,Spectral,0.00014279,0.00000846,0.01427877,383
+36,Descriptors_14,14,Descriptors,Image statistics,0.00014149,0.00004970,0.01414938,384
+116,Descriptors_87,87,Descriptors,Image statistics,0.00014126,0.00003055,0.01412637,385
+291,Fourier_log_power_r09_a01,log_power_r09_a01,Fourier,Spectral,0.00014110,0.00000938,0.01410977,386
+301,Fourier_log_power_r09_a11,log_power_r09_a11,Fourier,Spectral,0.00014088,0.00001241,0.01408836,387
+113,Descriptors_84,84,Descriptors,Image statistics,0.00014075,0.00001386,0.01407500,388
+278,Fourier_log_power_r08_a00,log_power_r08_a00,Fourier,Spectral,0.00014050,0.00001789,0.01404996,389
+20,Descriptors_116,116,Descriptors,Image statistics,0.00013971,0.00000574,0.01397090,390
+496,Line graph_lg_contrast_delta_q50,lg_contrast_delta_q50,Line graph,Region graphs,0.00013943,0.00001807,0.01394336,391
+351,Gabor_25,25,Gabor,Spectral,0.00013901,0.00000422,0.01390071,392
+532,Line graph_lg_shared_area_q90,lg_shared_area_q90,Line graph,Region graphs,0.00013830,0.00002725,0.01383033,393
+293,Fourier_log_power_r09_a03,log_power_r09_a03,Fourier,Spectral,0.00013813,0.00000789,0.01381301,394
+82,Descriptors_56,56,Descriptors,Image statistics,0.00013811,0.00001983,0.01381069,395
+292,Fourier_log_power_r09_a02,log_power_r09_a02,Fourier,Spectral,0.00013803,0.00001222,0.01380288,396
+79,Descriptors_53,53,Descriptors,Image statistics,0.00013783,0.00001380,0.01378292,397
+77,Descriptors_51,51,Descriptors,Image statistics,0.00013732,0.00001726,0.01373166,398
+56,Descriptors_32,32,Descriptors,Image statistics,0.00013721,0.00003187,0.01372104,399
+18,Descriptors_114,114,Descriptors,Image statistics,0.00013708,0.00001104,0.01370792,400
+37,Descriptors_15,15,Descriptors,Image statistics,0.00013664,0.00004778,0.01366425,401
+90,Descriptors_63,63,Descriptors,Image statistics,0.00013650,0.00002020,0.01364992,402
+489,Line graph_lg_color_q10,lg_color_q10,Line graph,Region graphs,0.00013552,0.00001112,0.01355157,403
+286,Fourier_log_power_r08_a08,log_power_r08_a08,Fourier,Spectral,0.00013518,0.00000676,0.01351846,404
+58,Descriptors_34,34,Descriptors,Image statistics,0.00013412,0.00001819,0.01341159,405
+95,Descriptors_68,68,Descriptors,Image statistics,0.00013267,0.00001332,0.01326698,406
+12,Descriptors_109,109,Descriptors,Image statistics,0.00013251,0.00001500,0.01325127,407
+297,Fourier_log_power_r09_a07,log_power_r09_a07,Fourier,Spectral,0.00013108,0.00001025,0.01310775,408
+3,Descriptors_100,100,Descriptors,Image statistics,0.00013053,0.00000958,0.01305342,409
+299,Fourier_log_power_r09_a09,log_power_r09_a09,Fourier,Spectral,0.00013039,0.00000439,0.01303863,410
+8,Descriptors_105,105,Descriptors,Image statistics,0.00012945,0.00001603,0.01294530,411
+108,Descriptors_8,8,Descriptors,Image statistics,0.00012871,0.00004039,0.01287085,412
+364,Gabor_9,9,Gabor,Spectral,0.00012823,0.00000837,0.01282331,413
+531,Line graph_lg_shared_area_q50,lg_shared_area_q50,Line graph,Region graphs,0.00012786,0.00004006,0.01278624,414
+96,Descriptors_69,69,Descriptors,Image statistics,0.00012774,0.00001566,0.01277419,415
+57,Descriptors_33,33,Descriptors,Image statistics,0.00012585,0.00002182,0.01258480,416
+114,Descriptors_85,85,Descriptors,Image statistics,0.00012564,0.00002426,0.01256405,417
+438,L(G_felz)_lg_degree_max,lg_degree_max,L(G_felz),Region graphs,0.00012296,0.00001394,0.01229613,418
+76,Descriptors_50,50,Descriptors,Image statistics,0.00012120,0.00001523,0.01211970,419
+89,Descriptors_62,62,Descriptors,Image statistics,0.00012092,0.00001552,0.01209236,420
+6,Descriptors_103,103,Descriptors,Image statistics,0.00012087,0.00000856,0.01208713,421
+122,Descriptors_92,92,Descriptors,Image statistics,0.00012031,0.00000483,0.01203071,422
+288,Fourier_log_power_r08_a10,log_power_r08_a10,Fourier,Spectral,0.00011969,0.00000617,0.01196888,423
+431,L(G_felz)_lg_contrast_assortativity,lg_contrast_assortativity,L(G_felz),Region graphs,0.00011936,0.00000909,0.01193564,424
+515,Line graph_lg_luminance_reversal_frac,lg_luminance_reversal_frac,Line graph,Region graphs,0.00011797,0.00000572,0.01179735,425
+83,Descriptors_57,57,Descriptors,Image statistics,0.00011740,0.00001385,0.01173969,426
+289,Fourier_log_power_r08_a11,log_power_r08_a11,Fourier,Spectral,0.00011692,0.00001783,0.01169179,427
+281,Fourier_log_power_r08_a03,log_power_r08_a03,Fourier,Spectral,0.00011690,0.00000457,0.01168977,428
+600,SLIC_mst_degree_max,mst_degree_max,SLIC,Region graphs,0.00011637,0.00000878,0.01163749,429
+60,Descriptors_36,36,Descriptors,Image statistics,0.00011500,0.00001198,0.01149997,430
+98,Descriptors_70,70,Descriptors,Image statistics,0.00011459,0.00001149,0.01145893,431
+7,Descriptors_104,104,Descriptors,Image statistics,0.00011431,0.00000951,0.01143093,432
+4,Descriptors_101,101,Descriptors,Image statistics,0.00011430,0.00001020,0.01142987,433
+279,Fourier_log_power_r08_a01,log_power_r08_a01,Fourier,Spectral,0.00011407,0.00001353,0.01140694,434
+105,Descriptors_77,77,Descriptors,Image statistics,0.00011389,0.00003124,0.01138939,435
+84,Descriptors_58,58,Descriptors,Image statistics,0.00011386,0.00001594,0.01138625,436
+46,Descriptors_23,23,Descriptors,Image statistics,0.00011170,0.00002275,0.01117050,437
+75,Descriptors_5,5,Descriptors,Image statistics,0.00011050,0.00002761,0.01105026,438
+277,Fourier_log_power_r07_a11,log_power_r07_a11,Fourier,Spectral,0.00011035,0.00001036,0.01103523,439
+145,Felzenszwalb_color_dist_max,color_dist_max,Felzenszwalb,Region graphs,0.00010846,0.00000893,0.01084619,440
+88,Descriptors_61,61,Descriptors,Image statistics,0.00010806,0.00001247,0.01080580,441
+104,Descriptors_76,76,Descriptors,Image statistics,0.00010802,0.00001598,0.01080217,442
+610,SLIC_n_leaf_frac,n_leaf_frac,SLIC,Region graphs,0.00010660,0.00001072,0.01066021,443
+280,Fourier_log_power_r08_a02,log_power_r08_a02,Fourier,Spectral,0.00010645,0.00000293,0.01064470,444
+501,Line graph_lg_degree_max,lg_degree_max,Line graph,Region graphs,0.00010582,0.00001245,0.01058184,445
+282,Fourier_log_power_r08_a04,log_power_r08_a04,Fourier,Spectral,0.00010496,0.00000313,0.01049644,446
+266,Fourier_log_power_r07_a00,log_power_r07_a00,Fourier,Spectral,0.00010420,0.00000741,0.01042016,447
+53,Descriptors_3,3,Descriptors,Image statistics,0.00010299,0.00003227,0.01029871,448
+52,Descriptors_29,29,Descriptors,Image statistics,0.00010247,0.00001704,0.01024724,449
+1,Descriptors_1,1,Descriptors,Image statistics,0.00010229,0.00002230,0.01022851,450
+74,Descriptors_49,49,Descriptors,Image statistics,0.00010186,0.00000582,0.01018607,451
+283,Fourier_log_power_r08_a05,log_power_r08_a05,Fourier,Spectral,0.00010183,0.00000662,0.01018325,452
+254,Fourier_log_power_r06_a00,log_power_r06_a00,Fourier,Spectral,0.00010124,0.00000674,0.01012370,453
+503,Line graph_lg_degree_q90,lg_degree_q90,Line graph,Region graphs,0.00010106,0.00000962,0.01010589,454
+100,Descriptors_72,72,Descriptors,Image statistics,0.00010067,0.00001008,0.01006685,455
+284,Fourier_log_power_r08_a06,log_power_r08_a06,Fourier,Spectral,0.00010058,0.00000823,0.01005797,456
+139,Felzenszwalb_area_second_max_frac,area_second_max_frac,Felzenszwalb,Region graphs,0.00010040,0.00000966,0.01003997,457
+99,Descriptors_71,71,Descriptors,Image statistics,0.00010010,0.00000610,0.01000962,458
+110,Descriptors_81,81,Descriptors,Image statistics,0.00009995,0.00001518,0.00999488,459
+42,Descriptors_2,2,Descriptors,Image statistics,0.00009982,0.00002429,0.00998190,460
+180,Felzenszwalb_mst_color_dist_std,mst_color_dist_std,Felzenszwalb,Region graphs,0.00009907,0.00000864,0.00990734,461
+5,Descriptors_102,102,Descriptors,Image statistics,0.00009888,0.00000583,0.00988837,462
+112,Descriptors_83,83,Descriptors,Image statistics,0.00009833,0.00001247,0.00983323,463
+287,Fourier_log_power_r08_a09,log_power_r08_a09,Fourier,Spectral,0.00009800,0.00000703,0.00979980,464
+73,Descriptors_48,48,Descriptors,Image statistics,0.00009750,0.00001138,0.00974956,465
+494,Line graph_lg_contrast_assortativity,lg_contrast_assortativity,Line graph,Region graphs,0.00009711,0.00000309,0.00971088,466
+285,Fourier_log_power_r08_a07,log_power_r08_a07,Fourier,Spectral,0.00009654,0.00000615,0.00965363,467
+35,Descriptors_13,13,Descriptors,Image statistics,0.00009642,0.00001611,0.00964250,468
+62,Descriptors_38,38,Descriptors,Image statistics,0.00009610,0.00001538,0.00960985,469
+391,Hilbert_32,32,Hilbert,Space-filling curve,0.00009535,0.00000783,0.00953451,470
+14,Descriptors_110,110,Descriptors,Image statistics,0.00009399,0.00001205,0.00939882,471
+103,Descriptors_75,75,Descriptors,Image statistics,0.00009398,0.00001470,0.00939789,472
+24,Descriptors_12,12,Descriptors,Image statistics,0.00009266,0.00001047,0.00926550,473
+458,L(G_felz)_lg_orientation_coherence,lg_orientation_coherence,L(G_felz),Region graphs,0.00009244,0.00000705,0.00924419,474
+45,Descriptors_22,22,Descriptors,Image statistics,0.00009220,0.00002199,0.00922037,475
+440,L(G_felz)_lg_degree_q90,lg_degree_q90,L(G_felz),Region graphs,0.00009171,0.00000820,0.00917098,476
+152,Felzenszwalb_del_color_dist_max,del_color_dist_max,Felzenszwalb,Region graphs,0.00009167,0.00000918,0.00916664,477
+67,Descriptors_42,42,Descriptors,Image statistics,0.00009108,0.00002154,0.00910811,478
+70,Descriptors_45,45,Descriptors,Image statistics,0.00009097,0.00001044,0.00909691,479
+71,Descriptors_46,46,Descriptors,Image statistics,0.00009094,0.00000768,0.00909419,480
+47,Descriptors_24,24,Descriptors,Image statistics,0.00009015,0.00002415,0.00901497,481
+101,Descriptors_73,73,Descriptors,Image statistics,0.00008966,0.00000862,0.00896613,482
+269,Fourier_log_power_r07_a03,log_power_r07_a03,Fourier,Spectral,0.00008964,0.00000311,0.00896350,483
+61,Descriptors_37,37,Descriptors,Image statistics,0.00008919,0.00001463,0.00891856,484
+596,SLIC_mst_color_dist_max,mst_color_dist_max,SLIC,Region graphs,0.00008911,0.00001305,0.00891139,485
+68,Descriptors_43,43,Descriptors,Image statistics,0.00008908,0.00001716,0.00890822,486
+111,Descriptors_82,82,Descriptors,Image statistics,0.00008718,0.00001401,0.00871752,487
+106,Descriptors_78,78,Descriptors,Image statistics,0.00008666,0.00001441,0.00866573,488
+51,Descriptors_28,28,Descriptors,Image statistics,0.00008597,0.00000932,0.00859686,489
+48,Descriptors_25,25,Descriptors,Image statistics,0.00008588,0.00001674,0.00858771,490
+275,Fourier_log_power_r07_a09,log_power_r07_a09,Fourier,Spectral,0.00008521,0.00000916,0.00852114,491
+270,Fourier_log_power_r07_a04,log_power_r07_a04,Fourier,Spectral,0.00008484,0.00000764,0.00848418,492
+405,Hilbert_45,45,Hilbert,Space-filling curve,0.00008309,0.00000609,0.00830942,493
+387,Hilbert_29,29,Hilbert,Space-filling curve,0.00008305,0.00000625,0.00830503,494
+97,Descriptors_7,7,Descriptors,Image statistics,0.00008289,0.00002174,0.00828912,495
+492,Line graph_lg_color_spatial_corr,lg_color_spatial_corr,Line graph,Region graphs,0.00008212,0.00000564,0.00821249,496
+257,Fourier_log_power_r06_a03,log_power_r06_a03,Fourier,Spectral,0.00008199,0.00000092,0.00819947,497
+272,Fourier_log_power_r07_a06,log_power_r07_a06,Fourier,Spectral,0.00008191,0.00000678,0.00819085,498
+385,Hilbert_27,27,Hilbert,Space-filling curve,0.00008111,0.00000556,0.00811125,499
+72,Descriptors_47,47,Descriptors,Image statistics,0.00008066,0.00000746,0.00806571,500
+102,Descriptors_74,74,Descriptors,Image statistics,0.00007993,0.00000715,0.00799273,501
+65,Descriptors_40,40,Descriptors,Image statistics,0.00007923,0.00001585,0.00792287,502
+265,Fourier_log_power_r06_a11,log_power_r06_a11,Fourier,Spectral,0.00007916,0.00001311,0.00791622,503
+389,Hilbert_30,30,Hilbert,Space-filling curve,0.00007903,0.00000460,0.00790264,504
+563,SLIC_color_dist_max,color_dist_max,SLIC,Region graphs,0.00007880,0.00000579,0.00788047,505
+392,Hilbert_33,33,Hilbert,Space-filling curve,0.00007871,0.00000345,0.00787150,506
+63,Descriptors_39,39,Descriptors,Image statistics,0.00007802,0.00001768,0.00780247,507
+267,Fourier_log_power_r07_a01,log_power_r07_a01,Fourier,Spectral,0.00007798,0.00000584,0.00779781,508
+0,Descriptors_0,0,Descriptors,Image statistics,0.00007775,0.00000430,0.00777454,509
+271,Fourier_log_power_r07_a05,log_power_r07_a05,Fourier,Spectral,0.00007750,0.00000880,0.00775025,510
+66,Descriptors_41,41,Descriptors,Image statistics,0.00007706,0.00001983,0.00770551,511
+411,Hilbert_50,50,Hilbert,Space-filling curve,0.00007705,0.00000422,0.00770498,512
+38,Descriptors_16,16,Descriptors,Image statistics,0.00007703,0.00001789,0.00770281,513
+15,Descriptors_111,111,Descriptors,Image statistics,0.00007528,0.00000566,0.00752783,514
+261,Fourier_log_power_r06_a07,log_power_r06_a07,Fourier,Spectral,0.00007516,0.00000491,0.00751630,515
+412,Hilbert_51,51,Hilbert,Space-filling curve,0.00007498,0.00000869,0.00749843,516
+417,Hilbert_56,56,Hilbert,Space-filling curve,0.00007481,0.00000175,0.00748069,517
+408,Hilbert_48,48,Hilbert,Space-filling curve,0.00007454,0.00000337,0.00745413,518
+40,Descriptors_18,18,Descriptors,Image statistics,0.00007444,0.00001064,0.00744373,519
+86,Descriptors_6,6,Descriptors,Image statistics,0.00007409,0.00000496,0.00740945,520
+256,Fourier_log_power_r06_a02,log_power_r06_a02,Fourier,Spectral,0.00007358,0.00000589,0.00735781,521
+273,Fourier_log_power_r07_a07,log_power_r07_a07,Fourier,Spectral,0.00007318,0.00000544,0.00731838,522
+274,Fourier_log_power_r07_a08,log_power_r07_a08,Fourier,Spectral,0.00007257,0.00000592,0.00725724,523
+262,Fourier_log_power_r06_a08,log_power_r06_a08,Fourier,Spectral,0.00007114,0.00000386,0.00711353,524
+386,Hilbert_28,28,Hilbert,Space-filling curve,0.00007096,0.00000558,0.00709606,525
+41,Descriptors_19,19,Descriptors,Image statistics,0.00007061,0.00001825,0.00706078,526
+107,Descriptors_79,79,Descriptors,Image statistics,0.00007042,0.00001711,0.00704217,527
+39,Descriptors_17,17,Descriptors,Image statistics,0.00006941,0.00001751,0.00694065,528
+416,Hilbert_55,55,Hilbert,Space-filling curve,0.00006894,0.00000387,0.00689408,529
+260,Fourier_log_power_r06_a06,log_power_r06_a06,Fourier,Spectral,0.00006891,0.00000606,0.00689145,530
+268,Fourier_log_power_r07_a02,log_power_r07_a02,Fourier,Spectral,0.00006820,0.00000413,0.00682034,531
+409,Hilbert_49,49,Hilbert,Space-filling curve,0.00006731,0.00000680,0.00673135,532
+17,Descriptors_113,113,Descriptors,Image statistics,0.00006730,0.00000438,0.00673004,533
+50,Descriptors_27,27,Descriptors,Image statistics,0.00006703,0.00000563,0.00670273,534
+263,Fourier_log_power_r06_a09,log_power_r06_a09,Fourier,Spectral,0.00006645,0.00000566,0.00664464,535
+276,Fourier_log_power_r07_a10,log_power_r07_a10,Fourier,Spectral,0.00006625,0.00000718,0.00662482,536
+49,Descriptors_26,26,Descriptors,Image statistics,0.00006500,0.00000129,0.00650034,537
+245,Fourier_log_power_r05_a03,log_power_r05_a03,Fourier,Spectral,0.00006495,0.00000372,0.00649476,538
+241,Fourier_log_power_r04_a11,log_power_r04_a11,Fourier,Spectral,0.00006489,0.00000697,0.00648880,539
+166,Felzenszwalb_knn_color_dist_max,knn_color_dist_max,Felzenszwalb,Region graphs,0.00006463,0.00000495,0.00646310,540
+452,L(G_felz)_lg_luminance_reversal_frac,lg_luminance_reversal_frac,L(G_felz),Region graphs,0.00006422,0.00000381,0.00642210,541
+242,Fourier_log_power_r05_a00,log_power_r05_a00,Fourier,Spectral,0.00006412,0.00000516,0.00641219,542
+255,Fourier_log_power_r06_a01,log_power_r06_a01,Fourier,Spectral,0.00006403,0.00000506,0.00640338,543
+584,SLIC_knn_color_dist_max,knn_color_dist_max,SLIC,Region graphs,0.00006398,0.00000642,0.00639821,544
+253,Fourier_log_power_r05_a11,log_power_r05_a11,Fourier,Spectral,0.00006394,0.00000184,0.00639356,545
+230,Fourier_log_power_r04_a00,log_power_r04_a00,Fourier,Spectral,0.00006215,0.00000634,0.00621538,546
+264,Fourier_log_power_r06_a10,log_power_r06_a10,Fourier,Spectral,0.00006202,0.00000558,0.00620209,547
+384,Hilbert_26,26,Hilbert,Space-filling curve,0.00006088,0.00000703,0.00608815,548
+407,Hilbert_47,47,Hilbert,Space-filling curve,0.00006072,0.00000212,0.00607229,549
+390,Hilbert_31,31,Hilbert,Space-filling curve,0.00006071,0.00000414,0.00607073,550
+406,Hilbert_46,46,Hilbert,Space-filling curve,0.00006050,0.00000405,0.00605031,551
+43,Descriptors_20,20,Descriptors,Image statistics,0.00006020,0.00000854,0.00602002,552
+125,Descriptors_95,95,Descriptors,Image statistics,0.00006005,0.00000521,0.00600497,553
+218,Fourier_log_power_r03_a00,log_power_r03_a00,Fourier,Spectral,0.00006002,0.00000672,0.00600229,554
+248,Fourier_log_power_r05_a06,log_power_r05_a06,Fourier,Spectral,0.00005974,0.00000320,0.00597375,555
+404,Hilbert_44,44,Hilbert,Space-filling curve,0.00005919,0.00000279,0.00591915,556
+246,Fourier_log_power_r05_a04,log_power_r05_a04,Fourier,Spectral,0.00005919,0.00000108,0.00591888,557
+16,Descriptors_112,112,Descriptors,Image statistics,0.00005900,0.00000386,0.00589983,558
+259,Fourier_log_power_r06_a05,log_power_r06_a05,Fourier,Spectral,0.00005828,0.00000535,0.00582784,559
+421,Hilbert_9,9,Hilbert,Space-filling curve,0.00005717,0.00000530,0.00571662,560
+243,Fourier_log_power_r05_a01,log_power_r05_a01,Fourier,Spectral,0.00005692,0.00000448,0.00569170,561
+221,Fourier_log_power_r03_a03,log_power_r03_a03,Fourier,Spectral,0.00005650,0.00000678,0.00565050,562
+258,Fourier_log_power_r06_a04,log_power_r06_a04,Fourier,Spectral,0.00005619,0.00000343,0.00561905,563
+207,Fourier_log_power_r01_a06,log_power_r01_a06,Fourier,Spectral,0.00005616,0.00000334,0.00561565,564
+236,Fourier_log_power_r04_a06,log_power_r04_a06,Fourier,Spectral,0.00005597,0.00000235,0.00559748,565
+252,Fourier_log_power_r05_a10,log_power_r05_a10,Fourier,Spectral,0.00005592,0.00000352,0.00559245,566
+251,Fourier_log_power_r05_a09,log_power_r05_a09,Fourier,Spectral,0.00005563,0.00000609,0.00556257,567
+202,Fourier_log_power_r00_a06,log_power_r00_a06,Fourier,Spectral,0.00005500,0.00000529,0.00549982,568
+415,Hilbert_54,54,Hilbert,Space-filling curve,0.00005490,0.00000286,0.00548974,569
+235,Fourier_log_power_r04_a05,log_power_r04_a05,Fourier,Spectral,0.00005462,0.00000770,0.00546227,570
+232,Fourier_log_power_r04_a02,log_power_r04_a02,Fourier,Spectral,0.00005416,0.00000709,0.00541621,571
+368,Hilbert_11,11,Hilbert,Space-filling curve,0.00005313,0.00000431,0.00531335,572
+234,Fourier_log_power_r04_a04,log_power_r04_a04,Fourier,Spectral,0.00005306,0.00000238,0.00530593,573
+178,Felzenszwalb_mst_color_dist_max,mst_color_dist_max,Felzenszwalb,Region graphs,0.00005281,0.00000243,0.00528115,574
+244,Fourier_log_power_r05_a02,log_power_r05_a02,Fourier,Spectral,0.00005208,0.00000374,0.00520836,575
+227,Fourier_log_power_r03_a09,log_power_r03_a09,Fourier,Spectral,0.00005147,0.00000434,0.00514734,576
+367,Hilbert_10,10,Hilbert,Space-filling curve,0.00005137,0.00000261,0.00513681,577
+209,Fourier_log_power_r01_a10,log_power_r01_a10,Fourier,Spectral,0.00005126,0.00000571,0.00512573,578
+238,Fourier_log_power_r04_a08,log_power_r04_a08,Fourier,Spectral,0.00005096,0.00000570,0.00509625,579
+371,Hilbert_14,14,Hilbert,Space-filling curve,0.00005042,0.00000447,0.00504161,580
+247,Fourier_log_power_r05_a05,log_power_r05_a05,Fourier,Spectral,0.00005010,0.00000323,0.00500983,581
+231,Fourier_log_power_r04_a01,log_power_r04_a01,Fourier,Spectral,0.00005002,0.00000402,0.00500233,582
+240,Fourier_log_power_r04_a10,log_power_r04_a10,Fourier,Spectral,0.00004975,0.00000233,0.00497500,583
+239,Fourier_log_power_r04_a09,log_power_r04_a09,Fourier,Spectral,0.00004941,0.00000725,0.00494148,584
+220,Fourier_log_power_r03_a02,log_power_r03_a02,Fourier,Spectral,0.00004939,0.00000424,0.00493934,585
+249,Fourier_log_power_r05_a07,log_power_r05_a07,Fourier,Spectral,0.00004885,0.00000461,0.00488476,586
+224,Fourier_log_power_r03_a06,log_power_r03_a06,Fourier,Spectral,0.00004865,0.00000572,0.00486503,587
+229,Fourier_log_power_r03_a11,log_power_r03_a11,Fourier,Spectral,0.00004781,0.00000571,0.00478140,588
+250,Fourier_log_power_r05_a08,log_power_r05_a08,Fourier,Spectral,0.00004774,0.00000182,0.00477427,589
+208,Fourier_log_power_r01_a07,log_power_r01_a07,Fourier,Spectral,0.00004721,0.00000523,0.00472135,590
+128,Descriptors_98,98,Descriptors,Image statistics,0.00004700,0.00000347,0.00469992,591
+237,Fourier_log_power_r04_a07,log_power_r04_a07,Fourier,Spectral,0.00004686,0.00000269,0.00468605,592
+233,Fourier_log_power_r04_a03,log_power_r04_a03,Fourier,Spectral,0.00004678,0.00000442,0.00467799,593
+369,Hilbert_12,12,Hilbert,Space-filling curve,0.00004645,0.00000313,0.00464503,594
+205,Fourier_log_power_r01_a01,log_power_r01_a01,Fourier,Spectral,0.00004643,0.00000736,0.00464301,595
+370,Hilbert_13,13,Hilbert,Space-filling curve,0.00004618,0.00000341,0.00461815,596
+420,Hilbert_8,8,Hilbert,Space-filling curve,0.00004557,0.00000375,0.00455685,597
+214,Fourier_log_power_r02_a06,log_power_r02_a06,Fourier,Spectral,0.00004490,0.00000485,0.00449048,598
+372,Hilbert_15,15,Hilbert,Space-filling curve,0.00004448,0.00000593,0.00444821,599
+210,Fourier_log_power_r02_a00,log_power_r02_a00,Fourier,Spectral,0.00004440,0.00000450,0.00443999,600
+226,Fourier_log_power_r03_a08,log_power_r03_a08,Fourier,Spectral,0.00004433,0.00000641,0.00443334,601
+206,Fourier_log_power_r01_a04,log_power_r01_a04,Fourier,Spectral,0.00004365,0.00000613,0.00436541,602
+219,Fourier_log_power_r03_a01,log_power_r03_a01,Fourier,Spectral,0.00004334,0.00000386,0.00433421,603
+201,Fourier_log_power_r00_a03,log_power_r00_a03,Fourier,Spectral,0.00004247,0.00000419,0.00424668,604
+200,Fourier_log_power_r00_a00,log_power_r00_a00,Fourier,Spectral,0.00004223,0.00000553,0.00422284,605
+215,Fourier_log_power_r02_a07,log_power_r02_a07,Fourier,Spectral,0.00004063,0.00000345,0.00406306,606
+203,Fourier_log_power_r00_a09,log_power_r00_a09,Fourier,Spectral,0.00004059,0.00000319,0.00405905,607
+204,Fourier_log_power_r01_a00,log_power_r01_a00,Fourier,Spectral,0.00004044,0.00000305,0.00404360,608
+211,Fourier_log_power_r02_a01,log_power_r02_a01,Fourier,Spectral,0.00004042,0.00000379,0.00404180,609
+212,Fourier_log_power_r02_a03,log_power_r02_a03,Fourier,Spectral,0.00003930,0.00000395,0.00393048,610
+216,Fourier_log_power_r02_a09,log_power_r02_a09,Fourier,Spectral,0.00003838,0.00000338,0.00383828,611
+222,Fourier_log_power_r03_a04,log_power_r03_a04,Fourier,Spectral,0.00003822,0.00000253,0.00382174,612
+213,Fourier_log_power_r02_a04,log_power_r02_a04,Fourier,Spectral,0.00003755,0.00000640,0.00375547,613
+228,Fourier_log_power_r03_a10,log_power_r03_a10,Fourier,Spectral,0.00003708,0.00000555,0.00370762,614
+217,Fourier_log_power_r02_a10,log_power_r02_a10,Fourier,Spectral,0.00003614,0.00000496,0.00361411,615
+223,Fourier_log_power_r03_a05,log_power_r03_a05,Fourier,Spectral,0.00003467,0.00000403,0.00346705,616
+225,Fourier_log_power_r03_a07,log_power_r03_a07,Fourier,Spectral,0.00003318,0.00000375,0.00331833,617

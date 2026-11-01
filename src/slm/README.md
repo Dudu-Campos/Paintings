@@ -1,13 +1,11 @@
-# SLM image description (COCO 2017 / ArtEmis)
+# Qwen image descriptions for paintings
 
-Pipeline autônomo para gerar descrições de imagens com um SLM multimodal via vLLM.
-Cada servidor baixa sua própria cópia do dataset localmente (sem transacionar dados
-entre hosts) e processa as imagens em batch.
+Pipeline autônomo para gerar descrições de pinturas com um SLM multimodal via
+vLLM. As descrições do Qwen são um controle textual/importado para a discussão
+do artigo; elas não fazem parte do método visual principal.
 
 ## Componentes
 
-- `download_coco.py` — baixa e configura o COCO 2017 em `--data_dir`, extrai os
-  zips e escreve `manifest.csv` (`image_id, file_name, split, path`).
 - `download_artemis.py` — baixa ArtEmis (labels) **+** WikiArt (imagens) do Kaggle
   via `kagglehub` e gera um `manifest.csv` mergeado. O ArtEmis só tem anotações; as
   imagens vêm do WikiArt. O merge é pelo `stem` do filename (id do ArtEmis ==
@@ -26,46 +24,22 @@ entre hosts) e processa as imagens em batch.
 pip install -r src/slm/requirements.txt
 ```
 
-## Uso
-
-```bash
-# 1. Baixar e configurar o COCO 2017 (val2017 por padrão)
-python src/slm/download_coco.py --data_dir data/coco --splits val2017
-
-# 2. Gerar descrições com o SLM (unsloth/Qwen2.5-VL-7B-Instruct por padrão)
-python src/slm/generate_descriptions.py \
-    --manifest data/coco/manifest.csv \
-    --split val2017 \
-    --batch_size 8
-
-# Variante 4-bit da Unsloth (menos VRAM)
-python src/slm/generate_descriptions.py \
-    --manifest data/coco/manifest.csv --split val2017 \
-    --model unsloth/Qwen2.5-VL-7B-Instruct-unsloth-bnb-4bit \
-    --quantization bitsandbytes
-
-# Teste rápido em poucas imagens
-python src/slm/generate_descriptions.py \
-    --manifest data/coco/manifest.csv --split val2017 --limit 16
-```
-
-### ArtEmis + WikiArt (Kaggle)
+## Uso com ArtEmis + WikiArt
 
 ```bash
 # 1. Baixar ArtEmis (labels) + WikiArt (imagens) e gerar o manifest mergeado
 #    (requer credenciais Kaggle em ~/.kaggle/kaggle.json)
 python src/slm/download_artemis.py --data_dir data/artemis
 
-# 2. Gerar descrições com output próprio e rastreável (distinto do COCO)
+# 2. Gerar descrições Qwen, retomáveis e rastreáveis
 python src/slm/generate_descriptions.py \
     --manifest data/artemis/manifest.csv \
     --output outputs/slm_descriptions/artemis_descriptions.jsonl
 ```
 
-Saída COCO:    `outputs/slm_descriptions/coco_descriptions.jsonl`
-Saída ArtEmis: `outputs/slm_descriptions/artemis_descriptions.jsonl`
+Saída: `outputs/slm_descriptions/artemis_descriptions.jsonl`
 (`{"image_id", "file_name", "split", "description", "model"}`).
 
-Modelo trocável via `--model` (qualquer VLM suportado pelo vLLM, ex.:
+O modelo é trocável via `--model` (qualquer VLM suportado pelo vLLM, ex.:
 `HuggingFaceTB/SmolVLM-Instruct`, `Qwen/Qwen2-VL-2B-Instruct`). Para os repos
 quantizados `-bnb-4bit` da Unsloth, passe `--quantization bitsandbytes`.

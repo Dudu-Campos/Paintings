@@ -18,6 +18,7 @@ artefatos que documentam seus resultados ficam em `../results/`.
 
 | Tema | Scripts principais | Resultado de referência |
 |---|---|---|
+| Matriz configurável (arte e textura) | `benchmark.py`, `evaluate_benchmark_blocks.py` | `../results/benchmarks/` |
 | Método visual e ablações | `final_tfidf_visual_mlp.py`, `ablation_wikiart.py` | `../results/metodos_final.csv` |
 | Comparação CNN/transfer | `../src/baselines/train_resnet_wikiart.py` | `../results/metodos_final.csv` |
 | Controles clássicos | `evaluate_visual_rf_svm.py`, `evaluate_visual_knn.py` | `../results/metodos_final.csv` |
@@ -28,4 +29,4 @@ artefatos que documentam seus resultados ficam em `../results/`.
 
 Os scripts ainda aceitam os caminhos históricos `paper/...`, pois `paper` é um
 atalho para `results`. Código novo deve usar `results/...` explicitamente.
-O estado narrativo e as decisões de pesquisa ficam em `../conversa.md`.
+O estado narrativo e as decisões de pesquisa ficam em `../CLAUDE.md`.

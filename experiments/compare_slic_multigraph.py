@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+import sys as _sys  # noqa: E402
+from pathlib import Path as _Path  # noqa: E402
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[1] / "src" / "pipeline"))
+
 import argparse
 from pathlib import Path
 
@@ -15,27 +19,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-RAG_FEATURES = [
-    "n_nodes", "n_edges", "density", "area_gini", "area_entropy",
-    "area_max_frac", "area_mean", "area_std", "color_dist_mean",
-    "color_dist_std", "color_dist_max", "spatial_dist_mean",
-    "spatial_dist_std", "degree_mean", "degree_std", "degree_max",
-    "hub_degree_ratio", "n_leaf_frac", "degree_gini",
-    "area_second_max_frac", "area_cv", "spatial_density_cv",
-    "spatial_density_max_block_frac", "L_mean_w", "L_std_w", "a_mean_w",
-    "a_std_w", "b_mean_w", "b_std_w", "chroma_mean_w", "chroma_std_w",
-    "warm_frac",
-]
-KNN_FEATURES = RAG_FEATURES[:21]
-
-# These depend on the edge set.  The remaining features describe the shared
-# SLIC nodes and would otherwise be repeated once for every graph family.
-EDGE_FEATURES = [
-    "n_edges", "density", "color_dist_mean", "color_dist_std",
-    "color_dist_max", "spatial_dist_mean", "spatial_dist_std",
-    "degree_mean", "degree_std", "degree_max", "hub_degree_ratio",
-    "n_leaf_frac", "degree_gini",
-]
+# O esquema do bloco de multigrafo mora em src/pipeline/corpora.py desde
+# 06/set. Nasceu aqui e era alcancado por uma cadeia de tres imports.
+from corpora import (  # noqa: E402,F401
+    RAG_FEATURES, KNN_FEATURES, EDGE_FEATURES,
+)
 
 
 def load(path: Path, columns: list[str]) -> pd.DataFrame:

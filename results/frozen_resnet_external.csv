@@ -1,0 +1,6 @@
+dataset,classifier,fold,n_images,n_classes,bacc,accuracy,macro_f1
+pandora,lda,1,18038,18,0.556138,0.555155,0.557245
+pandora,lda,2,18038,18,0.556413,0.549889,0.555207
+pandora,lda,3,18038,18,0.547386,0.540188,0.545990
+pandora,lda,4,18038,18,0.556507,0.552537,0.554801
+pandora,lda,5,18038,18,0.551863,0.545606,0.549284

@@ -1,0 +1,6 @@
+head,condition,fold,seed,seconds,bacc,accuracy,macro_f1,dimensions
+narrow,CLIP ViT-B/32,1,42,11.5860,64.4622,64.1233,60.1299,512
+narrow,CLIP ViT-B/32,2,42,5.8615,63.7503,63.3148,59.2907,512
+narrow,CLIP ViT-B/32,3,42,6.8252,66.3284,64.4680,61.3426,512
+narrow,CLIP ViT-B/32,4,42,6.1490,67.4130,65.7063,62.4019,512
+narrow,CLIP ViT-B/32,5,42,10.3678,67.4784,66.2370,63.1432,512

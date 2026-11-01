@@ -1,0 +1,9 @@
+dataset,banco,variante,seed,fold,dims,seconds,dims_vivas,bacc,accuracy,macro_f1
+places_lt,hand-8,svd,42,1,617,5.7648,617,12.2603,12.2603,10.5888
+places_lt,hand-8,shrinkage,42,1,617,6.7445,617,12.6411,12.6411,11.1515
+places_lt,Haralick,svd,42,1,13,0.1593,13,0.5479,0.5479,0.2074
+places_lt,Haralick,shrinkage,42,1,13,0.4618,13,0.5890,0.5890,0.1643
+places_lt,HOG,svd,42,1,1764,18.2086,1764,0.3616,0.3616,0.2625
+places_lt,HOG,shrinkage,42,1,1764,27.7197,1764,0.6959,0.6959,0.4529
+places_lt,WND-CHARM,svd,42,1,2895,38.8777,2893,7.1205,7.1205,5.1387
+places_lt,WND-CHARM,shrinkage,42,1,2895,67.2772,2893,8.1918,8.1918,6.3794

@@ -1,0 +1,9 @@
+dataset,banco,variante,seed,fold,dims,seconds,dims_vivas,bacc,accuracy,macro_f1
+food101,hand-8,svd,42,1,617,6.9628,617,33.3941,33.3941,32.5450
+food101,hand-8,shrinkage,42,1,617,6.3225,617,31.1723,31.1723,29.9977
+food101,Haralick,svd,42,1,13,0.1292,13,5.0020,5.0020,3.2128
+food101,Haralick,shrinkage,42,1,13,0.2076,13,4.6139,4.6139,2.8546
+food101,HOG,svd,42,1,1764,22.3394,1764,6.2416,6.2416,5.9938
+food101,HOG,shrinkage,42,1,1764,23.0182,1764,7.7584,7.7584,7.1364
+food101,WND-CHARM,svd,42,1,2895,39.0337,2893,23.5525,23.5525,23.0388
+food101,WND-CHARM,shrinkage,42,1,2895,47.3939,2893,21.5802,21.5802,20.5927

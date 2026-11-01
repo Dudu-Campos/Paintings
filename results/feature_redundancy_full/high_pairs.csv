@@ -1,0 +1,146 @@
+feature_a,feature_b,modality_a,modality_b,r2
+1,1280,SLIC,Line graph,1.000000
+25,1368,SLIC,Felzenszwalb,1.000000
+27,1370,SLIC,Felzenszwalb,1.000000
+23,1366,SLIC,Felzenszwalb,1.000000
+9,1305,SLIC,Line graph,1.000000
+12,1310,SLIC,Line graph,1.000000
+8,1304,SLIC,Line graph,1.000000
+11,1309,SLIC,Line graph,1.000000
+415,471,Descriptors (top_left),Hilbert (top_left),1.000000
+671,727,Descriptors (top_right),Hilbert (top_right),1.000000
+421,507,Descriptors (top_left),Hilbert (top_left),0.999999
+1183,1239,Descriptors (bottom_right),Hilbert (bottom_right),0.999999
+927,983,Descriptors (bottom_left),Hilbert (bottom_left),0.999999
+933,1019,Descriptors (bottom_left),Hilbert (bottom_left),0.999999
+159,215,Descriptors,Hilbert,0.999999
+677,763,Descriptors (top_right),Hilbert (top_right),0.999999
+1189,1275,Descriptors (bottom_right),Hilbert (bottom_right),0.999999
+165,251,Descriptors,Hilbert,0.999999
+674,745,Descriptors (top_right),Hilbert (top_right),0.999998
+1186,1257,Descriptors (bottom_right),Hilbert (bottom_right),0.999998
+418,489,Descriptors (top_left),Hilbert (top_left),0.999997
+930,1001,Descriptors (bottom_left),Hilbert (bottom_left),0.999997
+1343,1387,Felzenszwalb,Felzenszwalb,0.999996
+162,233,Descriptors,Hilbert,0.999994
+539,763,SLIC (top_right),Hilbert (top_right),0.999977
+283,507,SLIC (top_left),Hilbert (top_left),0.999976
+539,677,SLIC (top_right),Descriptors (top_right),0.999972
+283,421,SLIC (top_left),Descriptors (top_left),0.999972
+1051,1275,SLIC (bottom_right),Hilbert (bottom_right),0.999967
+795,1019,SLIC (bottom_left),Hilbert (bottom_left),0.999965
+251,1370,Hilbert,Felzenszwalb,0.999962
+27,251,SLIC,Hilbert,0.999962
+1051,1189,SLIC (bottom_right),Descriptors (bottom_right),0.999960
+795,933,SLIC (bottom_left),Descriptors (bottom_left),0.999959
+535,727,SLIC (top_right),Hilbert (top_right),0.999958
+279,471,SLIC (top_left),Hilbert (top_left),0.999957
+23,215,SLIC,Hilbert,0.999957
+215,1366,Hilbert,Felzenszwalb,0.999957
+535,671,SLIC (top_right),Descriptors (top_right),0.999953
+279,415,SLIC (top_left),Descriptors (top_left),0.999952
+1047,1239,SLIC (bottom_right),Hilbert (bottom_right),0.999952
+165,1370,Descriptors,Felzenszwalb,0.999952
+27,165,SLIC,Descriptors,0.999952
+791,983,SLIC (bottom_left),Hilbert (bottom_left),0.999951
+23,159,SLIC,Descriptors,0.999949
+159,1366,Descriptors,Felzenszwalb,0.999949
+537,745,SLIC (top_right),Hilbert (top_right),0.999949
+1047,1183,SLIC (bottom_right),Descriptors (bottom_right),0.999946
+821,822,SLIC (bottom_left),SLIC (bottom_left),0.999946
+1049,1257,SLIC (bottom_right),Hilbert (bottom_right),0.999946
+281,489,SLIC (top_left),Hilbert (top_left),0.999946
+791,927,SLIC (bottom_left),Descriptors (bottom_left),0.999945
+1077,1078,SLIC (bottom_right),SLIC (bottom_right),0.999945
+793,1001,SLIC (bottom_left),Hilbert (bottom_left),0.999943
+565,566,SLIC (top_right),SLIC (top_right),0.999940
+53,54,SLIC,SLIC,0.999938
+309,310,SLIC (top_left),SLIC (top_left),0.999937
+537,674,SLIC (top_right),Descriptors (top_right),0.999934
+281,418,SLIC (top_left),Descriptors (top_left),0.999930
+1049,1186,SLIC (bottom_right),Descriptors (bottom_right),0.999930
+793,930,SLIC (bottom_left),Descriptors (bottom_left),0.999927
+1024,1068,SLIC (bottom_right),SLIC (bottom_right),0.999905
+768,812,SLIC (bottom_left),SLIC (bottom_left),0.999880
+512,556,SLIC (top_right),SLIC (top_right),0.999865
+0,44,SLIC,SLIC,0.999864
+25,233,SLIC,Hilbert,0.999863
+233,1368,Hilbert,Felzenszwalb,0.999863
+419,490,Descriptors (top_left),Hilbert (top_left),0.999857
+931,1002,Descriptors (bottom_left),Hilbert (bottom_left),0.999855
+422,508,Descriptors (top_left),Hilbert (top_left),0.999854
+678,764,Descriptors (top_right),Hilbert (top_right),0.999853
+1187,1258,Descriptors (bottom_right),Hilbert (bottom_right),0.999835
+675,746,Descriptors (top_right),Hilbert (top_right),0.999833
+1190,1276,Descriptors (bottom_right),Hilbert (bottom_right),0.999823
+25,162,SLIC,Descriptors,0.999821
+162,1368,Descriptors,Felzenszwalb,0.999821
+256,300,SLIC (top_left),SLIC (top_left),0.999817
+934,1020,Descriptors (bottom_left),Hilbert (bottom_left),0.999816
+1349,1388,Felzenszwalb,Felzenszwalb,0.999800
+163,234,Descriptors,Hilbert,0.999758
+166,252,Descriptors,Hilbert,0.999700
+29,1372,SLIC,Felzenszwalb,0.999454
+672,728,Descriptors (top_right),Hilbert (top_right),0.999382
+416,472,Descriptors (top_left),Hilbert (top_left),0.999381
+1396,1397,Felzenszwalb,Felzenszwalb,0.999349
+1184,1240,Descriptors (bottom_right),Hilbert (bottom_right),0.999201
+928,984,Descriptors (bottom_left),Hilbert (bottom_left),0.999196
+160,216,Descriptors,Hilbert,0.999027
+282,419,SLIC (top_left),Descriptors (top_left),0.999012
+794,931,SLIC (bottom_left),Descriptors (bottom_left),0.998992
+538,675,SLIC (top_right),Descriptors (top_right),0.998987
+1050,1187,SLIC (bottom_right),Descriptors (bottom_right),0.998978
+282,490,SLIC (top_left),Hilbert (top_left),0.998968
+538,746,SLIC (top_right),Hilbert (top_right),0.998954
+794,1002,SLIC (bottom_left),Hilbert (bottom_left),0.998928
+1050,1258,SLIC (bottom_right),Hilbert (bottom_right),0.998921
+284,422,SLIC (top_left),Descriptors (top_left),0.998905
+540,678,SLIC (top_right),Descriptors (top_right),0.998876
+284,508,SLIC (top_left),Hilbert (top_left),0.998855
+540,764,SLIC (top_right),Hilbert (top_right),0.998827
+26,163,SLIC,Descriptors,0.998806
+26,234,SLIC,Hilbert,0.998800
+28,252,SLIC,Hilbert,0.998693
+796,934,SLIC (bottom_left),Descriptors (bottom_left),0.998681
+28,166,SLIC,Descriptors,0.998672
+1052,1190,SLIC (bottom_right),Descriptors (bottom_right),0.998656
+796,1020,SLIC (bottom_left),Hilbert (bottom_left),0.998603
+1052,1276,SLIC (bottom_right),Hilbert (bottom_right),0.998576
+1343,1375,Felzenszwalb,Felzenszwalb,0.998393
+1375,1387,Felzenszwalb,Felzenszwalb,0.998388
+1349,1376,Felzenszwalb,Felzenszwalb,0.998321
+234,1369,Hilbert,Felzenszwalb,0.998060
+1376,1388,Felzenszwalb,Felzenszwalb,0.997975
+545,557,SLIC (top_right),SLIC (top_right),0.997608
+163,1369,Descriptors,Felzenszwalb,0.997549
+252,1371,Hilbert,Felzenszwalb,0.997468
+6,45,SLIC,SLIC,0.997437
+1343,1399,Felzenszwalb,Felzenszwalb,0.997119
+1387,1399,Felzenszwalb,Felzenszwalb,0.997113
+26,1369,SLIC,Felzenszwalb,0.997061
+166,1371,Descriptors,Felzenszwalb,0.996780
+1343,1344,Felzenszwalb,Felzenszwalb,0.996725
+1344,1387,Felzenszwalb,Felzenszwalb,0.996722
+1344,1399,Felzenszwalb,Felzenszwalb,0.996640
+28,1371,SLIC,Felzenszwalb,0.996187
+30,1373,SLIC,Felzenszwalb,0.995933
+536,728,SLIC (top_right),Hilbert (top_right),0.995875
+280,472,SLIC (top_left),Hilbert (top_left),0.995843
+1048,1240,SLIC (bottom_right),Hilbert (bottom_right),0.995412
+6,33,SLIC,SLIC,0.995377
+1344,1375,Felzenszwalb,Felzenszwalb,0.995309
+792,984,SLIC (bottom_left),Hilbert (bottom_left),0.995301
+280,416,SLIC (top_left),Descriptors (top_left),0.995159
+536,672,SLIC (top_right),Descriptors (top_right),0.995152
+1375,1399,Felzenszwalb,Felzenszwalb,0.995108
+24,216,SLIC,Hilbert,0.994888
+1048,1184,SLIC (bottom_right),Descriptors (bottom_right),0.994536
+792,928,SLIC (bottom_left),Descriptors (bottom_left),0.994429
+24,160,SLIC,Descriptors,0.994135
+128,129,Descriptors,Descriptors,0.993978
+33,45,SLIC,SLIC,0.993208
+1030,1081,SLIC (bottom_right),SLIC (bottom_right),0.992770
+770,801,SLIC (bottom_left),SLIC (bottom_left),0.991677
+31,1374,SLIC,Felzenszwalb,0.991314
+896,897,Descriptors (bottom_left),Descriptors (bottom_left),0.990786

@@ -1,0 +1,8 @@
+dataset,class_column,counted_on,min_per_class,n_images,n_classes,classes_dropped_below_min,min_class_size,mean_class_size,median_class_size,max_class_size,imbalance_ratio_max_min
+Multitask (125cl),style,full corpus,5,99816,125,0,10,798.5,156.0,10524,1052.4
+OilPainting,style,full corpus,50,19787,17,0,263,1163.9,607.0,4557,17.33
+Rijksmuseum (drawings),period,full corpus,50,48295,11,0,344,4390.5,3879.0,10299,29.94
+Food-101,style,train split,5,75750,101,0,750,750.0,750.0,750,1.0
+Places-LT,style,train split,5,62500,365,0,5,171.2,72.0,4980,996.0
+NCT-CRC,style,train split,5,100000,9,0,8763,11111.1,10566.0,14317,1.63
+MINC-2500,style,train split,5,48875,23,0,2125,2125.0,2125.0,2125,1.0

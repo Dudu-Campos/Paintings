@@ -31,7 +31,7 @@ from torchvision.transforms import Compose, Normalize, ToTensor
 
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / "src" / "pipeline"))
+sys.path.insert(0, str(ROOT / "src" / "extractors"))
 from slic_graph_features import resolve_wikiart_records  # noqa: E402
 sys.path.insert(0, str(ROOT / "src" / "baselines"))
 from train_resnet_wikiart import Letterbox  # noqa: E402

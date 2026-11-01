@@ -1,10 +1,12 @@
 SHELL := /bin/bash
 
 # WikiArt and feature paths
-WIKIART_DIR       ?= wikiart
+WIKIART_DIR       ?= data/wikiart
 WIKIART_META      ?= data/artemis/wikiart_meta.csv
 OUT_SLIC_FEATURES ?= outputs/wikiart_slic_features
 OUT_FEATURES      ?= outputs/wikiart_features
+OUT_RICH_FEATURES ?= outputs/wikiart_rich_features
+OUT_RICH_FOURIER  ?= results/fourier_rich_features.parquet
 OUT_QUADRANT_FEATURES ?= outputs/wikiart_quadrant_features
 ROBUSTNESS_DIR    ?= data/wikiart_robustness
 ROBUSTNESS_PER_STYLE ?= 100
@@ -21,7 +23,7 @@ QUADRANT_WORKERS ?= 16
 # with e.g. make PYTHON=.venv-rtx3090-py312/bin/python.
 PYTHON ?= python3
 
-.PHONY: all setup slic_features features quadrant_features gatys_gram vgg_pool classify baselines robustness_dataset robustness_graph_features coco_download slm_descriptions slm caption_finetune caption_predict_artemis cnn_scratch cnn_frozen cnn_frozen_cached cnn_transfer
+.PHONY: all setup slic_features features rich_features quadrant_features gatys_gram vgg_pool classify baselines robustness_dataset robustness_graph_features slm_artemis affect_captions affect_finetune affect_features affect cnn_scratch cnn_frozen cnn_frozen_cached cnn_transfer benchmark_list benchmark_dry_run benchmark_run benchmark_summary
 
 all: slic_features
 
@@ -41,6 +43,24 @@ slic_features:
 
 # Alias for the primary feature target.
 features: slic_features
+
+## Extended but nested measurement ladders for the within-representation
+## saturation experiment.  The graph family is already expanded by
+## `slic_features`: RAG + kNN + Delaunay + MST = 71d in one SLIC pass.
+rich_features:
+	mkdir -p $(OUT_RICH_FEATURES)/descriptors $(OUT_RICH_FEATURES)/hilbert
+	$(PYTHON) src/baselines/extract_descriptors_full.py \
+		--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+		--output $(OUT_RICH_FEATURES)/descriptors --feature-profile rich \
+		--workers $(SLIC_WORKERS)
+	$(PYTHON) src/baselines/extract_hilbert_features.py \
+		--image_dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+		--output $(OUT_RICH_FEATURES)/hilbert --feature-profile rich \
+		--workers $(SLIC_WORKERS)
+	$(PYTHON) experiments/PRISM/extract_fourier_full_features.py \
+		--image-dir $(WIKIART_DIR) --meta $(WIKIART_META) \
+		--output $(OUT_RICH_FOURIER) --feature-profile rich \
+		--workers $(SLIC_WORKERS)
 
 ## Global image remains the existing feature table; extract only its four fixed quadrants.
 quadrant_features:
@@ -116,51 +136,37 @@ affect_features:
 
 affect: affect_captions affect_finetune affect_features
 
-## 8. SLM image description (COCO 2017 → descrições via vLLM)
-COCO_DIR        := data/coco
-COCO_SPLITS     := val2017
-SLM_MODEL       := Qwen/Qwen2.5-VL-3B-Instruct
-SLM_OUT         := outputs/slm_descriptions/coco_descriptions.jsonl
+## 8. Imported Qwen descriptions of ArtEmis/WikiArt paintings.
+ARTEMIS_MANIFEST := data/artemis/manifest.csv
+SLM_ARTEMIS_OUT  := outputs/slm_descriptions/artemis_descriptions.jsonl
 
-coco_download:
-	$(PYTHON) src/slm/download_coco.py --data_dir $(COCO_DIR) --splits $(COCO_SPLITS)
-
-slm_descriptions:
+slm_artemis:
 	$(PYTHON) src/slm/generate_descriptions.py \
-		--manifest $(COCO_DIR)/manifest.csv \
-		--split $(COCO_SPLITS) \
-		--model $(SLM_MODEL) \
-		--output $(SLM_OUT) \
+		--manifest $(ARTEMIS_MANIFEST) \
+		--output $(SLM_ARTEMIS_OUT) \
 		--batch_size 8
 
-slm: coco_download slm_descriptions
-
-## 9. Image captioning fine-tune (ViT+GPT2) usando as descrições do SLM como alvo
-# Requer imagens COCO baixadas (make coco_download) e o extra: uv sync --extra caption
-CAPTION_OUT := outputs/caption_model
-
-caption_finetune:
-	$(PYTHON) src/slm/finetune_caption.py \
-		--descriptions $(SLM_OUT) \
-		--coco_dir $(COCO_DIR) \
-		--output_dir $(CAPTION_OUT) \
-		--train_split train2017 \
-		--val_split val2017
-
-## Inferência do modelo fine-tuned no ArtEmis/WikiArt (gera legendas em JSONL)
-ARTEMIS_MANIFEST := data/artemis/manifest.csv
-CAPTION_PRED     := outputs/caption_predictions/artemis_captions.jsonl
-
-caption_predict_artemis:
-	$(PYTHON) src/slm/caption_inference.py \
-		--model_dir $(CAPTION_OUT) \
-		--manifest $(ARTEMIS_MANIFEST) \
-		--output $(CAPTION_PRED) \
-		--batch_size 32 --fp16
-
-## 10. End-to-end WikiArt ResNet-50 controls for transfer learning.
+## 9. End-to-end WikiArt ResNet-50 controls for transfer learning.
 ## Both targets use the same folds and hyperparameters; only initialization changes.
 CNN_TRAIN_ARGS   ?= --batch-size 128 --workers 16 --epochs 75 --patience 12 --lr 0.03
+
+# Configuration-driven matrix.  Changing DATASETS/MODELS is enough to extend
+# the comparison to a new art or texture benchmark.
+DATASETS ?= wikiart pandora rijksmuseum
+MODELS ?= engineered_mlp resnet50_scratch resnet50_frozen
+BENCHMARK_WORKERS ?= 16
+
+benchmark_list:
+	$(PYTHON) experiments/benchmark.py list
+
+benchmark_dry_run:
+	$(PYTHON) experiments/benchmark.py run --datasets $(DATASETS) --models $(MODELS) --workers $(BENCHMARK_WORKERS) --dry-run
+
+benchmark_run:
+	$(PYTHON) experiments/benchmark.py run --datasets $(DATASETS) --models $(MODELS) --workers $(BENCHMARK_WORKERS)
+
+benchmark_summary:
+	$(PYTHON) experiments/benchmark.py summarize
 
 cnn_scratch:
 	$(PYTHON) src/baselines/train_resnet_wikiart.py \

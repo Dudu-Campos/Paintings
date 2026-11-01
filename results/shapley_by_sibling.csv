@@ -1,0 +1,19 @@
+fold,view,family,shapley,com_irma,sem_irma,cobertura
+1,Felzenszwalb,Region graphs,4.2977,1.7084,4.8779,3.1695
+1,SLIC,Region graphs,4.0673,1.5665,4.5707,3.0042
+1,Line graph,Region graphs,3.2893,1.0849,3.8296,2.7446
+1,L(G_felz),Region graphs,3.4171,1.1660,4.0342,2.8682
+1,Hilbert,Space-filling curve,1.6013,0.9508,1.5556,0.6048
+1,Fourier,Spectral,1.1710,0.3953,1.2354,0.8402
+1,Gabor,Spectral,1.8936,1.0577,1.8978,0.8402
+1,Random walk,Space-filling curve,0.6847,0.1696,0.7548,0.5851
+1,HVG,Space-filling curve,-0.1343,-0.2386,-0.0911,0.1475
+2,Felzenszwalb,Region graphs,4.5711,1.8958,4.9076,3.0117
+2,SLIC,Region graphs,3.9443,1.4090,4.4569,3.0479
+2,Line graph,Region graphs,3.2192,0.9699,3.6931,2.7233
+2,L(G_felz),Region graphs,3.7480,1.4422,4.1253,2.6831
+2,Hilbert,Space-filling curve,1.4992,0.8834,1.4287,0.5454
+2,Fourier,Spectral,1.1662,0.0645,1.2629,1.1984
+2,Gabor,Spectral,2.1604,0.9758,2.1743,1.1984
+2,Random walk,Space-filling curve,0.8414,0.3116,0.8549,0.5433
+2,HVG,Space-filling curve,-0.5203,-0.5610,-0.4670,0.0940

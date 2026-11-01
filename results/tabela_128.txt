@@ -1,0 +1,61 @@
+============================================================================================
+TABELA PRINCIPAL -- todos os bancos com encoder 128 e cabeca 512-256-128
+hand-8: BranchMLP (8 ramos x 128)   baselines: 1 bloco x 128
+Fisher vector: EXCECAO declarada, sonda linear (o protocolo publicado dele)
+ordem das metricas: BAcc  ·  Acc  ·  macro-F1
+============================================================================================
+
+oilpainting  (17 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   19.63 +-1.06   20.99 +-0.76   15.69 +-0.84
+    HOG                            1764d   19.83 +-1.08   21.87 +-1.07   15.76 +-0.95
+    WND-CHARM                      2895d   33.45 +-1.06   33.28 +-1.58   27.92 +-1.36
+    hand-8 (PRISM)                  617d   43.37 +-1.38   42.93 +-2.08   37.69 +-1.87
+      sensibilidade, cabeca 2048-1024-1024: HOG +1.01  Haralick +1.40  WND-CHARM +1.51
+
+rijksdraw  (11 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   33.35 +-0.81   23.95 +-0.49   22.12 +-0.64
+    HOG                            1764d   30.58 +-0.69   23.29 +-1.21   23.03 +-1.12
+    WND-CHARM                      2895d   47.08 +-1.01   42.93 +-1.43   42.67 +-1.62
+    hand-8 (PRISM)                  617d   55.83 +-0.76   51.90 +-1.39   51.94 +-1.43
+    Fisher vector [linear]        41984d   54.89 +-0.80   51.01 +-0.69   48.35 +-0.96   (25u, 5 folds)
+    Fisher vector IND [linear]    41984d   54.37 +-0.34   50.22 +-1.07   47.41 +-1.28   (5u, 1 fold)
+      sensibilidade, cabeca 2048-1024-1024: HOG +0.87  Haralick +2.75  WND-CHARM +1.92
+
+multitask  (125 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   12.37 +-1.20    1.91 +-0.22    2.79 +-0.38
+    HOG                            1764d    9.94 +-1.09    1.95 +-0.30    2.53 +-0.50
+    WND-CHARM                      2895d   25.11 +-0.94    7.03 +-0.39    9.03 +-0.91
+    hand-8 (PRISM)                  617d   38.75 +-1.09   13.81 +-0.87   15.98 +-1.22
+      sensibilidade, cabeca 2048-1024-1024: HOG +3.39  Haralick +3.94  WND-CHARM +7.04
+
+nct_crc  (9 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d   58.29 +-0.41   60.45 +-0.36   56.63 +-0.44
+    HOG                            1764d   58.80 +-0.43   60.44 +-0.30   55.78 +-0.33
+    WND-CHARM                      2895d   79.92 +-1.15   80.74 +-1.33   78.94 +-1.14
+    hand-8 (PRISM)                  617d   87.16 +-0.39   86.51 +-0.32   85.92 +-0.35
+
+minc2500  (23 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d   22.59 +-0.40   22.59 +-0.40   20.91 +-0.43
+    HOG                            1764d   35.19 +-0.20   35.19 +-0.20   33.49 +-0.10
+    WND-CHARM                      2895d   41.37 +-0.24   41.37 +-0.24   40.55 +-0.42
+    hand-8 (PRISM)                  617d   55.56 +-0.26   55.56 +-0.26   55.11 +-0.24
+
+food101  (101 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d    6.18 +-0.10    6.18 +-0.10    4.15 +-0.12
+    HOG                            1764d    8.50 +-0.24    8.50 +-0.24    7.46 +-0.30
+    WND-CHARM                      2895d   20.01 +-0.21   20.01 +-0.21   18.66 +-0.51
+    hand-8 (PRISM)                  617d   36.74 +-0.25   36.74 +-0.25   35.46 +-0.27
+    Fisher vector [linear]        41984d   34.85 +-0.17   34.85 +-0.17   34.67 +-0.20   (5u, 1 fold)
+
+places_lt  (365 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d    0.39 +-0.11    0.39 +-0.11    0.08 +-0.02
+    HOG                            1764d    0.33 +-0.05    0.33 +-0.05    0.11 +-0.02
+    WND-CHARM                      2895d    5.62 +-0.45    5.62 +-0.45    4.13 +-0.50
+    hand-8 (PRISM)                  617d   14.21 +-0.20   14.21 +-0.20   12.30 +-0.21
+      sensibilidade, cabeca 2048-1024-1024: WND-CHARM +2.73
+
+============================================================================================
+A cabeca larga AJUDA os baselines e o vao encolhe ~20% onde foi medida,
+sem trocar a ordem entre o melhor baseline e o PRISM. A tabela acima e
+portanto a configuracao SIMETRICA, nao a mais favoravel a nos.
+============================================================================================

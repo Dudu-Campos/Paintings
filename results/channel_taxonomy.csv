@@ -1,0 +1,20 @@
+representation,dims,bacc,nearest_canonical,excess_double_fault,subsumed_by_nearest
+SLIC,71,30.4322,Felzenszwalb,9.7876,10.8523
+Felzenszwalb,71,31.7776,SLIC,9.7876,12.2266
+Square graph,64,27.1068,Line graph,9.3215,8.5142
+L(G_felz),63,29.0951,Felzenszwalb,8.5794,11.3832
+Line graph,63,26.8886,L(G_felz),8.3397,9.7269
+Hilbert wavelet,276,29.8881,Felzenszwalb,7.7960,14.5754
+Descriptors,130,30.4268,Felzenszwalb,7.6097,12.4568
+Hilbert catch22,66,24.2480,Felzenszwalb,5.5835,9.4450
+Triangles SLIC,13,17.8382,Line graph,5.2845,5.7831
+Random walk,57,16.9575,Hilbert,5.0526,5.7273
+Hybrid walk,57,17.0920,Hilbert,4.9848,5.9198
+Triangles Felz,13,17.9578,L(G_felz),4.9476,6.5315
+Haralick,13,18.2369,L(G_felz),4.6585,6.9226
+Hilbert,57,19.6591,Felzenszwalb,4.0891,8.6360
+Tourist walk,45,14.4110,L(G_felz),3.5640,6.9144
+Hilbert spectrum1d,108,18.9566,Felzenszwalb,3.3403,7.9703
+HOG,1764,19.9357,L(G_felz),3.2143,11.3533
+Fourier,152,18.0282,Felzenszwalb,2.3876,7.0366
+Hilbert visibility,57,12.7669,Hilbert,1.9157,5.3804

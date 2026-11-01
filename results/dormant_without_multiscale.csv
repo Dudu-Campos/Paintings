@@ -1,0 +1,101 @@
+classifier,condition,fold,with_multiscale,dimensions,bacc,accuracy,macro_f1
+lda,base,1,False,585,0.424995,0.375458,0.342943
+lda,base,2,False,585,0.437332,0.374195,0.347265
+lda,base,3,False,585,0.440514,0.378953,0.351353
+lda,base,4,False,585,0.426081,0.378448,0.341187
+lda,base,5,False,585,0.428622,0.375671,0.347692
+lda,+ Hilbert-derivadas,1,False,1092,0.440647,0.400454,0.373662
+lda,+ Hilbert-derivadas,2,False,1092,0.447408,0.399255,0.377884
+lda,+ Hilbert-derivadas,3,False,1092,0.449286,0.404520,0.380659
+lda,+ Hilbert-derivadas,4,False,1092,0.433432,0.397513,0.366872
+lda,+ Hilbert-derivadas,5,False,1092,0.429680,0.399848,0.370319
+lda,+ caminhadas,1,False,699,0.426126,0.380381,0.347199
+lda,+ caminhadas,2,False,699,0.426115,0.375079,0.345965
+lda,+ caminhadas,3,False,699,0.434216,0.381983,0.352837
+lda,+ caminhadas,4,False,699,0.423129,0.381289,0.344387
+lda,+ caminhadas,5,False,699,0.424672,0.378196,0.351312
+lda,+ square graph,1,False,649,0.426152,0.381139,0.349328
+lda,+ square graph,2,False,649,0.438533,0.382212,0.354061
+lda,+ square graph,3,False,649,0.446916,0.387854,0.361911
+lda,+ square graph,4,False,649,0.428103,0.384824,0.347292
+lda,+ square graph,5,False,649,0.428214,0.381037,0.352856
+lda,+ todas,1,False,1270,0.444588,0.412259,0.384616
+lda,+ todas,2,False,1270,0.444914,0.404747,0.384168
+lda,+ todas,3,False,1270,0.450700,0.412095,0.388728
+lda,+ todas,4,False,1270,0.437881,0.407550,0.376659
+lda,+ todas,5,False,1270,0.436591,0.407929,0.380707
+mlp,base,1,False,585,0.503501,0.423999,0.411208
+mlp,base,2,False,585,0.509648,0.418634,0.419729
+mlp,base,3,False,585,0.518224,0.441197,0.448963
+mlp,base,4,False,585,0.486506,0.409759,0.399960
+mlp,base,5,False,585,0.510492,0.441323,0.431957
+mlp,+ Hilbert-derivadas,1,False,1092,0.480500,0.417182,0.396567
+mlp,+ Hilbert-derivadas,2,False,1092,0.494619,0.417498,0.415945
+mlp,+ Hilbert-derivadas,3,False,1092,0.504315,0.451550,0.459083
+mlp,+ Hilbert-derivadas,4,False,1092,0.475072,0.412979,0.397775
+mlp,+ Hilbert-derivadas,5,False,1092,0.501881,0.449088,0.446733
+mlp,+ caminhadas,1,False,699,0.503057,0.416614,0.400549
+mlp,+ caminhadas,2,False,699,0.497818,0.388145,0.376631
+mlp,+ caminhadas,3,False,699,0.518587,0.442712,0.442852
+mlp,+ caminhadas,4,False,699,0.493131,0.413421,0.403455
+mlp,+ caminhadas,5,False,699,0.502978,0.428445,0.414131
+mlp,+ square graph,1,False,649,0.504181,0.439717,0.431621
+mlp,+ square graph,2,False,649,0.501527,0.393069,0.376576
+mlp,+ square graph,3,False,649,0.518589,0.432927,0.430206
+mlp,+ square graph,4,False,649,0.502505,0.431854,0.434754
+mlp,+ square graph,5,False,649,0.510857,0.424658,0.410209
+mlp,+ todas,1,False,1270,0.497485,0.432774,0.423572
+mlp,+ todas,2,False,1270,0.488192,0.405946,0.390632
+mlp,+ todas,3,False,1270,0.518526,0.458557,0.465149
+mlp,+ todas,4,False,1270,0.479286,0.416262,0.404161
+mlp,+ todas,5,False,1270,0.496590,0.459693,0.452331
+lda,base,1,True,1609,0.430622,0.404747,0.373898
+lda,base,2,True,1609,0.445862,0.411312,0.383888
+lda,base,3,True,1609,0.450817,0.413547,0.387301
+lda,base,4,True,1609,0.430639,0.408623,0.372400
+lda,base,5,True,1609,0.426646,0.407234,0.377305
+lda,+ Hilbert-derivadas,1,True,2116,0.446952,0.422863,0.400294
+lda,+ Hilbert-derivadas,2,True,2116,0.449265,0.422926,0.398328
+lda,+ Hilbert-derivadas,3,True,2116,0.456124,0.432233,0.410879
+lda,+ Hilbert-derivadas,4,True,2116,0.435684,0.424153,0.391185
+lda,+ Hilbert-derivadas,5,True,2116,0.430899,0.419797,0.394605
+lda,+ caminhadas,1,True,1723,0.432424,0.407209,0.379295
+lda,+ caminhadas,2,True,1723,0.439581,0.408913,0.381623
+lda,+ caminhadas,3,True,1723,0.452365,0.416388,0.391532
+lda,+ caminhadas,4,True,1723,0.430742,0.410391,0.374952
+lda,+ caminhadas,5,True,1723,0.425774,0.407613,0.377828
+lda,+ square graph,1,True,1673,0.432788,0.409986,0.378314
+lda,+ square graph,2,True,1673,0.443872,0.414152,0.386640
+lda,+ square graph,3,True,1673,0.457855,0.419860,0.394367
+lda,+ square graph,4,True,1673,0.433886,0.416009,0.379305
+lda,+ square graph,5,True,1673,0.430017,0.413042,0.383312
+lda,+ todas,1,True,2294,0.444737,0.428734,0.403501
+lda,+ todas,2,True,2294,0.446220,0.426019,0.402628
+lda,+ todas,3,True,2294,0.448822,0.431854,0.408472
+lda,+ todas,4,True,2294,0.436882,0.428382,0.397114
+lda,+ todas,5,True,2294,0.433838,0.426993,0.400643
+mlp,base,1,True,1609,0.497840,0.434857,0.413156
+mlp,base,2,True,1609,0.502819,0.431448,0.430891
+mlp,base,3,True,1609,0.511954,0.430276,0.426860
+mlp,base,4,True,1609,0.496070,0.445805,0.438113
+mlp,base,5,True,1609,0.512908,0.453822,0.442458
+mlp,+ Hilbert-derivadas,1,True,2116,0.489281,0.436372,0.417979
+mlp,+ Hilbert-derivadas,2,True,2116,0.500045,0.421916,0.423481
+mlp,+ Hilbert-derivadas,3,True,2116,0.508037,0.428130,0.420573
+mlp,+ Hilbert-derivadas,4,True,2116,0.473748,0.435579,0.419243
+mlp,+ Hilbert-derivadas,5,True,2116,0.493247,0.428761,0.408155
+mlp,+ caminhadas,1,True,1723,0.502750,0.448302,0.434652
+mlp,+ caminhadas,2,True,1723,0.508011,0.414279,0.403298
+mlp,+ caminhadas,3,True,1723,0.521814,0.452244,0.450145
+mlp,+ caminhadas,4,True,1723,0.494963,0.442333,0.432881
+mlp,+ caminhadas,5,True,1723,0.514635,0.457168,0.453854
+mlp,+ square graph,1,True,1673,0.495721,0.435172,0.417840
+mlp,+ square graph,2,True,1673,0.512958,0.433594,0.422580
+mlp,+ square graph,3,True,1673,0.526954,0.443596,0.443818
+mlp,+ square graph,4,True,1673,0.490150,0.443596,0.433328
+mlp,+ square graph,5,True,1673,0.510536,0.456221,0.451744
+mlp,+ todas,1,True,2294,0.491329,0.443757,0.426059
+mlp,+ todas,2,True,2294,0.508434,0.458023,0.460263
+mlp,+ todas,3,True,2294,0.521591,0.425857,0.419636
+mlp,+ todas,4,True,2294,0.488085,0.431412,0.416099
+mlp,+ todas,5,True,2294,0.505011,0.471119,0.463927

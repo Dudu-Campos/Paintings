@@ -1,0 +1,6 @@
+n_views,display_label,left_data_budget,data_beta,data_bacc_fulltrain,right_beta_budget_max,dim_beta,dim_bacc_k128
+1,1 view (Image descriptors),128,0.045568,21.238080,64,0.078926,21.238080
+2,2 views (+Felzenszwalb),128,0.062602,26.930153,128,0.085506,26.930153
+4,4 views (+Line Felz),128,0.069416,28.777307,128,0.089280,28.777307
+8,8 views (+Fourier v2),128,0.072476,29.361133,128,0.089009,29.361133
+10,10 views (+Text),128,0.077946,31.543260,128,0.096839,31.543260

@@ -1,0 +1,7 @@
+dataset,fold,braco,linhas,n,seconds,bacc
+oilpainting,1,producao,treino (OOF aninhado),15829,10.1995,19.6543
+oilpainting,1,producao,teste,3958,10.1995,20.5634
+oilpainting,1,SEM cross-fit,treino (auto-consulta),15829,3.0338,23.6137
+oilpainting,2,producao,treino (OOF aninhado),15829,9.9998,19.4752
+oilpainting,2,producao,teste,3958,9.9998,19.8719
+oilpainting,2,SEM cross-fit,treino (auto-consulta),15829,3.0511,22.4445

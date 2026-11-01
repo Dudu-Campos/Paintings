@@ -1,0 +1,5 @@
+train_dataset,test_dataset,condition,n_train_fit,n_train_val,n_test,n_classes,dimensions,seconds,bacc,accuracy,macro_f1,best_val_bacc,epochs_run
+nct_crc,nct_crc_val,descriptors,90000,10000,7180,9,130,95.885374,0.842856,0.833844,0.830781,0.991346,131
+nct_crc,nct_crc_val,hand-8,90000,10000,7180,9,617,33.706716,0.876435,0.863928,0.859302,0.992632,56
+nct_crc,nct_crc_val,resnet,90000,10000,7180,9,2048,38.395402,0.879760,0.905571,0.871081,0.982609,59
+nct_crc,nct_crc_val,fusion,90000,10000,7180,9,2665,27.509953,0.900234,0.901950,0.888798,0.992993,37

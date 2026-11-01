@@ -1,0 +1,41 @@
+step,added,modalities,cost_hours,fold,seconds,bacc,accuracy,macro_f1,dimensions
+1,Hilbert,Hilbert,0.0533,1,52.3817,15.4724,3.5063,4.1965,57
+1,Hilbert,Hilbert,0.0533,2,36.0019,15.0409,3.2109,3.8108,57
+1,Hilbert,Hilbert,0.0533,3,26.0688,12.3716,2.4345,2.9186,57
+1,Hilbert,Hilbert,0.0533,4,35.7106,14.9401,3.3462,3.6895,57
+1,Hilbert,Hilbert,0.0533,5,17.3600,11.7299,1.9937,2.9129,57
+2,Gabor,Hilbert+Gabor,0.1133,1,46.1253,24.3090,6.3815,7.6433,89
+2,Gabor,Hilbert+Gabor,0.1133,2,24.9187,24.9460,5.6955,6.8329,89
+2,Gabor,Hilbert+Gabor,0.1133,3,40.2030,23.8511,6.1915,7.5817,89
+2,Gabor,Hilbert+Gabor,0.1133,4,36.4408,24.9022,6.3518,7.5782,89
+2,Gabor,Hilbert+Gabor,0.1133,5,36.3487,25.2378,6.1814,7.6075,89
+3,Fourier,Hilbert+Gabor+Fourier,0.2300,1,30.3077,25.8317,6.8223,8.3525,223
+3,Fourier,Hilbert+Gabor+Fourier,0.2300,2,35.5153,26.0874,7.2484,8.4958,223
+3,Fourier,Hilbert+Gabor+Fourier,0.2300,3,50.4707,27.7529,7.4488,9.1000,223
+3,Fourier,Hilbert+Gabor+Fourier,0.2300,4,22.6506,23.2493,5.9710,7.2130,223
+3,Fourier,Hilbert+Gabor+Fourier,0.2300,5,45.5084,27.9021,7.5189,8.9724,223
+4,Desc,Hilbert+Gabor+Fourier+Descriptors,1.0333,1,49.2657,31.7812,9.8327,11.7873,353
+4,Desc,Hilbert+Gabor+Fourier+Descriptors,1.0333,2,34.4928,31.2679,9.0668,10.3598,353
+4,Desc,Hilbert+Gabor+Fourier+Descriptors,1.0333,3,36.3127,30.2404,9.0167,10.6802,353
+4,Desc,Hilbert+Gabor+Fourier+Descriptors,1.0333,4,44.0425,29.8576,9.3673,10.7204,353
+4,Desc,Hilbert+Gabor+Fourier+Descriptors,1.0333,5,33.6578,32.8635,9.2722,11.0459,353
+5,SLIC,Hilbert+Gabor+Fourier+Descriptors+SLIC,2.3933,1,34.9048,35.2771,11.4606,13.2550,422
+5,SLIC,Hilbert+Gabor+Fourier+Descriptors+SLIC,2.3933,2,50.7531,35.9723,11.9872,14.1331,422
+5,SLIC,Hilbert+Gabor+Fourier+Descriptors+SLIC,2.3933,3,43.4652,33.9019,11.9421,13.4628,422
+5,SLIC,Hilbert+Gabor+Fourier+Descriptors+SLIC,2.3933,4,23.2284,31.2678,9.6679,10.7831,422
+5,SLIC,Hilbert+Gabor+Fourier+Descriptors+SLIC,2.3933,5,47.2575,34.2869,11.8920,13.9724,422
+6,L(G_slic),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph,3.9767,1,55.4019,37.2598,12.7479,15.3234,485
+6,L(G_slic),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph,3.9767,2,33.7628,36.2933,11.5864,13.4942,485
+6,L(G_slic),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph,3.9767,3,32.8932,34.5283,11.4762,13.5056,485
+6,L(G_slic),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph,3.9767,4,35.7941,34.8002,11.3059,13.9123,485
+6,L(G_slic),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph,3.9767,5,51.4995,36.2976,12.2677,15.2145,485
+7,Felz,Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb,7.1975,1,38.2748,37.9568,13.5344,15.8767,554
+7,Felz,Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb,7.1975,2,26.9055,36.7728,11.4211,13.0685,554
+7,Felz,Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb,7.1975,3,39.6098,36.8914,13.0141,15.2294,554
+7,Felz,Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb,7.1975,4,58.4189,37.4830,13.5952,16.2839,554
+7,Felz,Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb,7.1975,5,40.1087,37.8989,13.1443,15.6898,554
+8,L(G_felz),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb+L(G_felz),10.4392,1,43.1181,39.2435,14.0904,16.6745,617
+8,L(G_felz),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb+L(G_felz),10.4392,2,34.2333,38.2496,13.1093,15.1663,617
+8,L(G_felz),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb+L(G_felz),10.4392,3,37.0714,38.4765,13.9358,16.1615,617
+8,L(G_felz),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb+L(G_felz),10.4392,4,40.4368,37.7987,13.6002,16.1880,617
+8,L(G_felz),Hilbert+Gabor+Fourier+Descriptors+SLIC+Line graph+Felzenszwalb+L(G_felz),10.4392,5,55.4086,39.8066,14.8374,17.7513,617

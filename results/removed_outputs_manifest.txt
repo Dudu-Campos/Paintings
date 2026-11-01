@@ -1,0 +1,23 @@
+# Manifesto de remocao -- 08/set/2026
+# outputs/ estava em 475G de 665G do projeto. Estes 18 diretorios sao
+# intermediarios ja consumidos ou linhas encerradas. NAO ha copia.
+
+diretorio                                 tamanho  por que sai / como recomputar
+outputs/multitask224_slic_full                34G  §9.5 fechado; parquets line_graph_*multitask224* ficam. Recomputar = refazer o experimento
+outputs/multitask224g_felz_full               25G  §9.5 fechado; parquets line_graph_*multitask224* ficam. Recomputar = refazer o experimento
+outputs/multitask224_felz_full               3,0G  §9.5 fechado; parquets line_graph_*multitask224* ficam. Recomputar = refazer o experimento
+outputs/felzenszwalb_gnn_full                 28G  WikiArt: as imagens nao existem mais (§4.1b). Irrecuperavel E irreutilizavel
+outputs/slic_gnn_full                         26G  WikiArt: as imagens nao existem mais (§4.1b). Irrecuperavel E irreutilizavel
+outputs/pandora_slic_full                    5,9G  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_felz_full                    2,6G  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_quadrant_features            279M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_slic_features                 27M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_felz_features                 27M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_descriptors                   18M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_hilbert                       13M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/pandora_gabor                         11M  §9.1 declara 'sem Pandora'; 0 mencoes no CLAUDE.md
+outputs/caption_model_artemis                6,3G  captioner CONTAMINADO, descartado no §7.2 e substituido pelo estudante (§5.18)
+outputs/catr_artemis_full_clean              1,9G  captioner CONTAMINADO, descartado no §7.2 e substituido pelo estudante (§5.18)
+outputs/catr_artemis_full_smoke              1,2G  captioner CONTAMINADO, descartado no §7.2 e substituido pelo estudante (§5.18)
+outputs/multitask_hilbert_sequences          9,2G  sequencias intermediarias; as 4 features derivadas estao em outputs/hilbert_*_full/
+outputs/hilbert_transformer_full             7,4G  sequencias intermediarias; as 4 features derivadas estao em outputs/hilbert_*_full/

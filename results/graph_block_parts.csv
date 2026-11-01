@@ -1,0 +1,91 @@
+dataset,condicao,fold,dims,bacc
+rijksdraw,hand-8,1,617,44.0458
+rijksdraw,+ difundido (log-lift),1,628,49.5929
+rijksdraw,+ voto kNN (SEM difusao),1,628,51.7340
+rijksdraw,"+ os dois, sem stats",1,639,52.1395
+rijksdraw,+ grafo completo,1,671,52.5465
+rijksdraw,hand-8,2,617,45.9947
+rijksdraw,+ difundido (log-lift),2,628,50.7725
+rijksdraw,+ voto kNN (SEM difusao),2,628,52.6022
+rijksdraw,"+ os dois, sem stats",2,639,53.2534
+rijksdraw,+ grafo completo,2,671,53.6622
+rijksdraw,hand-8,3,617,45.5400
+rijksdraw,+ difundido (log-lift),3,628,50.5332
+rijksdraw,+ voto kNN (SEM difusao),3,628,51.9558
+rijksdraw,"+ os dois, sem stats",3,639,52.0895
+rijksdraw,+ grafo completo,3,671,52.4231
+rijksdraw,hand-8,4,617,45.5030
+rijksdraw,+ difundido (log-lift),4,628,50.6122
+rijksdraw,+ voto kNN (SEM difusao),4,628,51.7180
+rijksdraw,"+ os dois, sem stats",4,639,52.1951
+rijksdraw,+ grafo completo,4,671,52.1717
+rijksdraw,hand-8,5,617,46.7164
+rijksdraw,+ difundido (log-lift),5,628,51.7486
+rijksdraw,+ voto kNN (SEM difusao),5,628,52.7804
+rijksdraw,"+ os dois, sem stats",5,639,53.1196
+rijksdraw,+ grafo completo,5,671,53.4407
+oilpainting,hand-8,1,617,40.6061
+oilpainting,+ difundido (log-lift),1,634,41.0765
+oilpainting,+ voto kNN (SEM difusao),1,634,41.5264
+oilpainting,"+ os dois, sem stats",1,651,41.6452
+oilpainting,+ grafo completo,1,683,41.6318
+oilpainting,hand-8,2,617,37.7323
+oilpainting,+ difundido (log-lift),2,634,38.8627
+oilpainting,+ voto kNN (SEM difusao),2,634,39.7513
+oilpainting,"+ os dois, sem stats",2,651,39.3326
+oilpainting,+ grafo completo,2,683,39.3951
+oilpainting,hand-8,3,617,40.6778
+oilpainting,+ difundido (log-lift),3,634,41.5730
+oilpainting,+ voto kNN (SEM difusao),3,634,40.8708
+oilpainting,"+ os dois, sem stats",3,651,41.4916
+oilpainting,+ grafo completo,3,683,41.8460
+oilpainting,hand-8,4,617,40.0883
+oilpainting,+ difundido (log-lift),4,634,41.3556
+oilpainting,+ voto kNN (SEM difusao),4,634,40.8036
+oilpainting,"+ os dois, sem stats",4,651,40.9773
+oilpainting,+ grafo completo,4,683,40.8667
+oilpainting,hand-8,5,617,37.7710
+oilpainting,+ difundido (log-lift),5,634,38.4273
+oilpainting,+ voto kNN (SEM difusao),5,634,39.9599
+oilpainting,"+ os dois, sem stats",5,651,39.6735
+oilpainting,+ grafo completo,5,683,39.3500
+multitask,hand-8,1,617,33.5888
+multitask,+ difundido (log-lift),1,742,34.3872
+multitask,+ voto kNN (SEM difusao),1,742,34.5422
+multitask,"+ os dois, sem stats",1,867,34.5900
+multitask,+ grafo completo,1,899,34.9369
+multitask,hand-8,2,617,33.6452
+multitask,+ difundido (log-lift),2,742,35.1037
+multitask,+ voto kNN (SEM difusao),2,742,34.5456
+multitask,"+ os dois, sem stats",2,867,35.1627
+multitask,+ grafo completo,2,899,35.3111
+multitask,hand-8,3,617,33.4489
+multitask,+ difundido (log-lift),3,742,34.5996
+multitask,+ voto kNN (SEM difusao),3,742,33.6813
+multitask,"+ os dois, sem stats",3,867,34.2097
+multitask,+ grafo completo,3,899,33.9226
+multitask,hand-8,4,617,32.1192
+multitask,+ difundido (log-lift),4,742,33.4237
+multitask,+ voto kNN (SEM difusao),4,742,31.4023
+multitask,"+ os dois, sem stats",4,867,32.0379
+multitask,+ grafo completo,4,899,31.8688
+multitask,hand-8,5,617,32.7064
+multitask,+ difundido (log-lift),5,742,34.0737
+multitask,+ voto kNN (SEM difusao),5,742,34.2228
+multitask,"+ os dois, sem stats",5,867,34.9321
+multitask,+ grafo completo,5,899,35.0142
+minc2500,hand-8,1,617,46.9043
+minc2500,+ difundido (log-lift),1,640,46.9217
+minc2500,+ voto kNN (SEM difusao),1,640,44.7826
+minc2500,"+ os dois, sem stats",1,663,44.5739
+minc2500,+ grafo completo,1,695,44.3652
+places_lt,hand-8,1,617,12.6411
+places_lt,+ difundido (log-lift),1,982,11.1507
+places_lt,+ voto kNN (SEM difusao),1,982,10.0219
+places_lt,"+ os dois, sem stats",1,1347,9.9041
+places_lt,+ grafo completo,1,1379,9.9452
+food101,hand-8,1,617,31.1723
+food101,+ difundido (log-lift),1,718,30.3366
+food101,+ voto kNN (SEM difusao),1,718,25.4297
+food101,"+ os dois, sem stats",1,819,24.4594
+food101,+ grafo completo,1,851,24.5149

@@ -1,0 +1,8 @@
+source,block,dims,mse,r2
+random,Hilbert,57,0.464091,0.527413
+random,Felzenszwalb,71,0.634878,0.318913
+random,Line graph,63,0.574404,0.301589
+random,SLIC,71,0.605554,0.299524
+random,L(G_felz),63,0.694875,0.282875
+random,Fourier,152,0.674883,0.176983
+random,Descriptors,130,0.804013,0.154795

@@ -1,0 +1,6 @@
+n_views,display_label,data_budget_for_beta,data_beta,data_bacc_fulltrain,dim_beta,dim_bacc_k128
+1,"1 view (Image descriptors, 64 features)",64,0.018307,10.913227,0.061899,20.925867
+2,2 views (+Felzenszwalb),128,0.062602,26.930153,0.085506,26.930153
+4,4 views (+Line Felz),128,0.069416,28.777307,0.089280,28.777307
+8,8 views (+Fourier v2),128,0.072476,29.361133,0.089009,29.361133
+10,10 views (+Text),128,0.077946,31.543260,0.096839,31.543260

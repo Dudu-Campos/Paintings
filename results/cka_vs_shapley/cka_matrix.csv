@@ -1,0 +1,73 @@
+variant,a,b,cka
+bruto,SLIC,SLIC,1.000000
+bruto,SLIC,Descriptors,0.237959
+bruto,SLIC,Hilbert,0.274067
+bruto,SLIC,Line graph,0.855423
+bruto,SLIC,Felzenszwalb,0.525980
+bruto,SLIC,Fourier,0.215604
+bruto,SLIC,Text,0.079226
+bruto,SLIC,Multiscale,0.584115
+bruto,Descriptors,Descriptors,1.000000
+bruto,Descriptors,Hilbert,0.191419
+bruto,Descriptors,Line graph,0.205746
+bruto,Descriptors,Felzenszwalb,0.235774
+bruto,Descriptors,Fourier,0.166380
+bruto,Descriptors,Text,0.050364
+bruto,Descriptors,Multiscale,0.732215
+bruto,Hilbert,Hilbert,1.000000
+bruto,Hilbert,Line graph,0.106191
+bruto,Hilbert,Felzenszwalb,0.246175
+bruto,Hilbert,Fourier,0.035828
+bruto,Hilbert,Text,0.116120
+bruto,Hilbert,Multiscale,0.559097
+bruto,Line graph,Line graph,1.000000
+bruto,Line graph,Felzenszwalb,0.508573
+bruto,Line graph,Fourier,0.206465
+bruto,Line graph,Text,0.059521
+bruto,Line graph,Multiscale,0.457571
+bruto,Felzenszwalb,Felzenszwalb,1.000000
+bruto,Felzenszwalb,Fourier,0.283873
+bruto,Felzenszwalb,Text,0.074557
+bruto,Felzenszwalb,Multiscale,0.445969
+bruto,Fourier,Fourier,1.000000
+bruto,Fourier,Text,0.069351
+bruto,Fourier,Multiscale,0.175042
+bruto,Text,Text,1.000000
+bruto,Text,Multiscale,0.107932
+bruto,Multiscale,Multiscale,1.000000
+branqueado,SLIC,SLIC,1.000000
+branqueado,SLIC,Descriptors,0.143808
+branqueado,SLIC,Hilbert,0.123134
+branqueado,SLIC,Line graph,0.370693
+branqueado,SLIC,Felzenszwalb,0.309707
+branqueado,SLIC,Fourier,0.038328
+branqueado,SLIC,Text,0.041931
+branqueado,SLIC,Multiscale,0.143236
+branqueado,Descriptors,Descriptors,1.000000
+branqueado,Descriptors,Hilbert,0.088420
+branqueado,Descriptors,Line graph,0.090611
+branqueado,Descriptors,Felzenszwalb,0.148875
+branqueado,Descriptors,Fourier,0.033524
+branqueado,Descriptors,Text,0.031246
+branqueado,Descriptors,Multiscale,0.271019
+branqueado,Hilbert,Hilbert,1.000000
+branqueado,Hilbert,Line graph,0.043817
+branqueado,Hilbert,Felzenszwalb,0.123081
+branqueado,Hilbert,Fourier,0.019459
+branqueado,Hilbert,Text,0.034262
+branqueado,Hilbert,Multiscale,0.201644
+branqueado,Line graph,Line graph,1.000000
+branqueado,Line graph,Felzenszwalb,0.177612
+branqueado,Line graph,Fourier,0.037532
+branqueado,Line graph,Text,0.031799
+branqueado,Line graph,Multiscale,0.098350
+branqueado,Felzenszwalb,Felzenszwalb,1.000000
+branqueado,Felzenszwalb,Fourier,0.037655
+branqueado,Felzenszwalb,Text,0.045069
+branqueado,Felzenszwalb,Multiscale,0.116435
+branqueado,Fourier,Fourier,1.000000
+branqueado,Fourier,Text,0.019993
+branqueado,Fourier,Multiscale,0.035289
+branqueado,Text,Text,1.000000
+branqueado,Text,Multiscale,0.023875
+branqueado,Multiscale,Multiscale,1.000000

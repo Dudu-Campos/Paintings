@@ -1,0 +1,61 @@
+dataset,fold,rep,dims,sonda,bacc,seconds
+oilpainting,1,hand-8,617,LDA svd (producao),40.9323,0.5973
+oilpainting,1,hand-8,617,LDA lsqr + shrinkage,40.6061,0.3589
+oilpainting,1,hand-8,617,logistica multinomial,37.6485,5.1539
+oilpainting,1,ResNet50 congelada,2048,LDA svd (producao),47.7190,3.5835
+oilpainting,1,ResNet50 congelada,2048,LDA lsqr + shrinkage,49.6976,4.4182
+oilpainting,1,ResNet50 congelada,2048,logistica multinomial,40.4655,4.3104
+oilpainting,2,hand-8,617,LDA svd (producao),39.2134,0.5831
+oilpainting,2,hand-8,617,LDA lsqr + shrinkage,37.7323,0.3845
+oilpainting,2,hand-8,617,logistica multinomial,36.8515,5.0692
+oilpainting,2,ResNet50 congelada,2048,LDA svd (producao),46.8389,3.6207
+oilpainting,2,ResNet50 congelada,2048,LDA lsqr + shrinkage,49.0420,4.3593
+oilpainting,2,ResNet50 congelada,2048,logistica multinomial,40.1097,3.6985
+oilpainting,3,hand-8,617,LDA svd (producao),42.7826,0.5756
+oilpainting,3,hand-8,617,LDA lsqr + shrinkage,40.6778,0.3655
+oilpainting,3,hand-8,617,logistica multinomial,38.3438,4.8459
+oilpainting,3,ResNet50 congelada,2048,LDA svd (producao),48.6006,3.5805
+oilpainting,3,ResNet50 congelada,2048,LDA lsqr + shrinkage,50.2245,4.3692
+oilpainting,3,ResNet50 congelada,2048,logistica multinomial,40.7853,3.5386
+oilpainting,4,hand-8,617,LDA svd (producao),41.2153,0.5720
+oilpainting,4,hand-8,617,LDA lsqr + shrinkage,40.0883,0.3695
+oilpainting,4,hand-8,617,logistica multinomial,37.7419,4.9627
+oilpainting,4,ResNet50 congelada,2048,LDA svd (producao),49.2121,3.6410
+oilpainting,4,ResNet50 congelada,2048,LDA lsqr + shrinkage,51.4808,4.3365
+oilpainting,4,ResNet50 congelada,2048,logistica multinomial,42.0481,3.6941
+oilpainting,5,hand-8,617,LDA svd (producao),39.6044,0.5905
+oilpainting,5,hand-8,617,LDA lsqr + shrinkage,37.7710,0.3778
+oilpainting,5,hand-8,617,logistica multinomial,36.1476,4.8057
+oilpainting,5,ResNet50 congelada,2048,LDA svd (producao),49.6756,3.6137
+oilpainting,5,ResNet50 congelada,2048,LDA lsqr + shrinkage,51.6453,4.3143
+oilpainting,5,ResNet50 congelada,2048,logistica multinomial,42.3533,3.7257
+rijksdraw,1,hand-8,617,LDA svd (producao),45.3810,1.1113
+rijksdraw,1,hand-8,617,LDA lsqr + shrinkage,44.0458,0.7305
+rijksdraw,1,hand-8,617,logistica multinomial,46.2308,17.0234
+rijksdraw,1,ResNet50 congelada,2048,LDA svd (producao),46.6526,6.1204
+rijksdraw,1,ResNet50 congelada,2048,LDA lsqr + shrinkage,48.2390,8.1767
+rijksdraw,1,ResNet50 congelada,2048,logistica multinomial,42.9525,22.9492
+rijksdraw,2,hand-8,617,LDA svd (producao),47.1218,1.1471
+rijksdraw,2,hand-8,617,LDA lsqr + shrinkage,45.9947,0.7362
+rijksdraw,2,hand-8,617,logistica multinomial,46.7129,16.5789
+rijksdraw,2,ResNet50 congelada,2048,LDA svd (producao),48.1978,6.1197
+rijksdraw,2,ResNet50 congelada,2048,LDA lsqr + shrinkage,49.3712,8.2445
+rijksdraw,2,ResNet50 congelada,2048,logistica multinomial,42.8341,24.3944
+rijksdraw,3,hand-8,617,LDA svd (producao),46.4362,1.1102
+rijksdraw,3,hand-8,617,LDA lsqr + shrinkage,45.5400,0.7455
+rijksdraw,3,hand-8,617,logistica multinomial,46.7848,16.9707
+rijksdraw,3,ResNet50 congelada,2048,LDA svd (producao),48.6217,6.1844
+rijksdraw,3,ResNet50 congelada,2048,LDA lsqr + shrinkage,49.8245,8.2205
+rijksdraw,3,ResNet50 congelada,2048,logistica multinomial,44.3551,22.7488
+rijksdraw,4,hand-8,617,LDA svd (producao),46.5342,1.0762
+rijksdraw,4,hand-8,617,LDA lsqr + shrinkage,45.5030,0.7377
+rijksdraw,4,hand-8,617,logistica multinomial,47.3812,17.5482
+rijksdraw,4,ResNet50 congelada,2048,LDA svd (producao),47.2023,6.1674
+rijksdraw,4,ResNet50 congelada,2048,LDA lsqr + shrinkage,48.1876,8.2383
+rijksdraw,4,ResNet50 congelada,2048,logistica multinomial,42.5021,24.0214
+rijksdraw,5,hand-8,617,LDA svd (producao),47.2596,1.1097
+rijksdraw,5,hand-8,617,LDA lsqr + shrinkage,46.7164,0.7329
+rijksdraw,5,hand-8,617,logistica multinomial,46.9555,16.0917
+rijksdraw,5,ResNet50 congelada,2048,LDA svd (producao),46.8427,6.1594
+rijksdraw,5,ResNet50 congelada,2048,LDA lsqr + shrinkage,48.5982,8.2824
+rijksdraw,5,ResNet50 congelada,2048,logistica multinomial,43.0609,23.8945

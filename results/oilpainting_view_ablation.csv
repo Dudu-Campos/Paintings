@@ -1,0 +1,426 @@
+dataset,classifier,seed,fold,condition,view,kind,n_train,n_val,n_test,n_classes,dimensions,seconds,bacc,accuracy,macro_f1,best_val_bacc,epochs_run
+oilpainting,lda,42,1,hand-8,all,full,15829,1583,3958,17,617,1.067541,0.406061,0.402476,0.357895,,0
+oilpainting,lda,42,1,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.205366,0.251958,0.263517,0.219748,,0
+oilpainting,lda,42,1,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.097453,0.294789,0.292067,0.249044,,0
+oilpainting,lda,42,1,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.096387,0.281787,0.280950,0.238737,,0
+oilpainting,lda,42,1,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.090537,0.225492,0.241283,0.194397,,0
+oilpainting,lda,42,1,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.090985,0.253723,0.266801,0.213037,,0
+oilpainting,lda,42,1,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.083188,0.229250,0.231430,0.190798,,0
+oilpainting,lda,42,1,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.182112,0.156029,0.171046,0.129049,,0
+oilpainting,lda,42,1,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.053012,0.216276,0.223345,0.175602,,0
+oilpainting,lda,42,1,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.853378,0.382017,0.379737,0.336068,,0
+oilpainting,lda,42,1,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.931169,0.399614,0.396918,0.352582,,0
+oilpainting,lda,42,1,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.928845,0.392387,0.388075,0.343744,,0
+oilpainting,lda,42,1,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,1.027507,0.394328,0.395149,0.346760,,0
+oilpainting,lda,42,1,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,1.023581,0.394057,0.393380,0.348512,,0
+oilpainting,lda,42,1,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,1.000326,0.382695,0.383274,0.338238,,0
+oilpainting,lda,42,1,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.936788,0.395067,0.392117,0.348770,,0
+oilpainting,lda,42,1,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.017289,0.392855,0.390349,0.346080,,0
+oilpainting,lda,42,2,hand-8,all,full,15829,1583,3958,17,617,1.136643,0.377323,0.390601,0.338090,,0
+oilpainting,lda,42,2,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.204794,0.264516,0.288530,0.232044,,0
+oilpainting,lda,42,2,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.103561,0.274505,0.285498,0.235157,,0
+oilpainting,lda,42,2,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.102966,0.264151,0.280697,0.227644,,0
+oilpainting,lda,42,2,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.093168,0.230111,0.253663,0.200439,,0
+oilpainting,lda,42,2,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.097910,0.242347,0.265791,0.205627,,0
+oilpainting,lda,42,2,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.088646,0.222313,0.235472,0.187442,,0
+oilpainting,lda,42,2,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.197768,0.153379,0.171804,0.128530,,0
+oilpainting,lda,42,2,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.064446,0.206683,0.224103,0.168363,,0
+oilpainting,lda,42,2,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.922331,0.355956,0.378727,0.320445,,0
+oilpainting,lda,42,2,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.954020,0.366822,0.385801,0.329849,,0
+oilpainting,lda,42,2,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,1.006875,0.373177,0.387064,0.332826,,0
+oilpainting,lda,42,2,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,1.040739,0.367521,0.384032,0.329136,,0
+oilpainting,lda,42,2,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.990432,0.378208,0.386559,0.335709,,0
+oilpainting,lda,42,2,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,1.057396,0.358269,0.378979,0.323238,,0
+oilpainting,lda,42,2,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.867538,0.380095,0.386812,0.336529,,0
+oilpainting,lda,42,2,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.020477,0.374436,0.386306,0.333306,,0
+oilpainting,lda,42,3,hand-8,all,full,15830,1583,3957,17,617,1.083478,0.406778,0.400051,0.357545,,0
+oilpainting,lda,42,3,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.217581,0.253952,0.266111,0.216440,,0
+oilpainting,lda,42,3,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.100387,0.287127,0.291130,0.242205,,0
+oilpainting,lda,42,3,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.099774,0.276575,0.272176,0.233226,,0
+oilpainting,lda,42,3,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.092713,0.242313,0.251959,0.205906,,0
+oilpainting,lda,42,3,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.088977,0.272154,0.278494,0.225446,,0
+oilpainting,lda,42,3,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.083540,0.238340,0.233005,0.193372,,0
+oilpainting,lda,42,3,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.190787,0.156885,0.173616,0.128965,,0
+oilpainting,lda,42,3,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.057037,0.216762,0.222643,0.176339,,0
+oilpainting,lda,42,3,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.925575,0.389632,0.384129,0.339397,,0
+oilpainting,lda,42,3,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.958484,0.397879,0.390447,0.349473,,0
+oilpainting,lda,42,3,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.034967,0.396292,0.392722,0.347910,,0
+oilpainting,lda,42,3,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.057965,0.388046,0.389184,0.340501,,0
+oilpainting,lda,42,3,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.054183,0.391764,0.390953,0.345790,,0
+oilpainting,lda,42,3,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.024836,0.383622,0.386909,0.339546,,0
+oilpainting,lda,42,3,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.960479,0.395091,0.390195,0.345545,,0
+oilpainting,lda,42,3,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.049733,0.397858,0.393733,0.348516,,0
+oilpainting,lda,42,4,hand-8,all,full,15830,1583,3957,17,617,1.080910,0.400883,0.411676,0.359870,,0
+oilpainting,lda,42,4,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.223420,0.275041,0.285570,0.237386,,0
+oilpainting,lda,42,4,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.098474,0.286260,0.290119,0.242875,,0
+oilpainting,lda,42,4,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.104629,0.277729,0.280010,0.236337,,0
+oilpainting,lda,42,4,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.089242,0.231388,0.248168,0.196837,,0
+oilpainting,lda,42,4,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.090444,0.249347,0.265100,0.206347,,0
+oilpainting,lda,42,4,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.082597,0.247650,0.243872,0.203361,,0
+oilpainting,lda,42,4,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.192826,0.157373,0.163760,0.126079,,0
+oilpainting,lda,42,4,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.054625,0.219774,0.229972,0.177849,,0
+oilpainting,lda,42,4,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.867204,0.386778,0.391205,0.344771,,0
+oilpainting,lda,42,4,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.918581,0.400689,0.405105,0.357166,,0
+oilpainting,lda,42,4,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.933091,0.393897,0.404599,0.353281,,0
+oilpainting,lda,42,4,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,0.999166,0.393997,0.404852,0.353856,,0
+oilpainting,lda,42,4,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.993193,0.390810,0.400051,0.350834,,0
+oilpainting,lda,42,4,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.049269,0.386994,0.390953,0.344657,,0
+oilpainting,lda,42,4,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.872779,0.394800,0.395754,0.349157,,0
+oilpainting,lda,42,4,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.050000,0.393593,0.400809,0.350647,,0
+oilpainting,lda,42,5,hand-8,all,full,15830,1583,3957,17,617,1.126023,0.377710,0.387920,0.339494,,0
+oilpainting,lda,42,5,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.223193,0.246975,0.260551,0.210334,,0
+oilpainting,lda,42,5,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.095004,0.282927,0.285823,0.239182,,0
+oilpainting,lda,42,5,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.096824,0.272408,0.272176,0.231953,,0
+oilpainting,lda,42,5,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.093441,0.240368,0.242608,0.204275,,0
+oilpainting,lda,42,5,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.096226,0.247303,0.264342,0.207376,,0
+oilpainting,lda,42,5,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.083361,0.222428,0.227192,0.185026,,0
+oilpainting,lda,42,5,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.183661,0.155361,0.169067,0.128191,,0
+oilpainting,lda,42,5,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.053822,0.198415,0.211271,0.162348,,0
+oilpainting,lda,42,5,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.857309,0.370555,0.374526,0.328693,,0
+oilpainting,lda,42,5,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.908166,0.372666,0.379833,0.333794,,0
+oilpainting,lda,42,5,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.935077,0.378426,0.384635,0.336714,,0
+oilpainting,lda,42,5,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,0.949243,0.373991,0.384129,0.335063,,0
+oilpainting,lda,42,5,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.975616,0.382303,0.387162,0.340544,,0
+oilpainting,lda,42,5,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.028272,0.364953,0.374021,0.326959,,0
+oilpainting,lda,42,5,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.932569,0.375979,0.383877,0.336902,,0
+oilpainting,lda,42,5,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.020791,0.379060,0.384888,0.336727,,0
+oilpainting,lda,43,1,hand-8,all,full,15829,1583,3958,17,617,1.168470,0.379451,0.397170,0.342230,,0
+oilpainting,lda,43,1,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.207402,0.250695,0.267812,0.218486,,0
+oilpainting,lda,43,1,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.097579,0.273902,0.285245,0.233394,,0
+oilpainting,lda,43,1,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.098053,0.256215,0.259727,0.216823,,0
+oilpainting,lda,43,1,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.092316,0.224341,0.241031,0.193963,,0
+oilpainting,lda,43,1,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.091145,0.247817,0.270086,0.208403,,0
+oilpainting,lda,43,1,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.083594,0.217404,0.229661,0.183455,,0
+oilpainting,lda,43,1,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.186593,0.150785,0.163466,0.124220,,0
+oilpainting,lda,43,1,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.056646,0.200718,0.216523,0.165627,,0
+oilpainting,lda,43,1,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.864017,0.363365,0.370894,0.322891,,0
+oilpainting,lda,43,1,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.977622,0.372200,0.388580,0.335341,,0
+oilpainting,lda,43,1,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.939832,0.369549,0.387317,0.332622,,0
+oilpainting,lda,43,1,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,0.942508,0.370624,0.386054,0.331022,,0
+oilpainting,lda,43,1,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.951643,0.370248,0.390349,0.334367,,0
+oilpainting,lda,43,1,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,0.948714,0.365780,0.378979,0.328570,,0
+oilpainting,lda,43,1,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.879943,0.370791,0.382516,0.330245,,0
+oilpainting,lda,43,1,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.105054,0.375890,0.390096,0.336291,,0
+oilpainting,lda,43,2,hand-8,all,full,15829,1583,3958,17,617,1.160026,0.398409,0.395149,0.351841,,0
+oilpainting,lda,43,2,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.200142,0.251901,0.269075,0.215972,,0
+oilpainting,lda,43,2,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.095807,0.300774,0.295351,0.252266,,0
+oilpainting,lda,43,2,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.097273,0.285450,0.287266,0.238484,,0
+oilpainting,lda,43,2,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.091672,0.235561,0.250379,0.200199,,0
+oilpainting,lda,43,2,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.091285,0.266876,0.270591,0.219230,,0
+oilpainting,lda,43,2,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.083333,0.221288,0.226377,0.182166,,0
+oilpainting,lda,43,2,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.184997,0.155590,0.170288,0.128151,,0
+oilpainting,lda,43,2,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.065608,0.214493,0.221071,0.172308,,0
+oilpainting,lda,43,2,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.941841,0.389067,0.384538,0.339445,,0
+oilpainting,lda,43,2,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,1.005815,0.386172,0.386812,0.340560,,0
+oilpainting,lda,43,2,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.954987,0.386894,0.387569,0.341879,,0
+oilpainting,lda,43,2,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,0.980021,0.392938,0.393380,0.345059,,0
+oilpainting,lda,43,2,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.937678,0.391082,0.388580,0.344628,,0
+oilpainting,lda,43,2,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,0.969277,0.384715,0.383274,0.339622,,0
+oilpainting,lda,43,2,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.920262,0.396479,0.390854,0.344319,,0
+oilpainting,lda,43,2,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.099979,0.388445,0.388833,0.341223,,0
+oilpainting,lda,43,3,hand-8,all,full,15830,1583,3957,17,617,1.186851,0.387509,0.398534,0.345995,,0
+oilpainting,lda,43,3,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.198163,0.248184,0.267880,0.218606,,0
+oilpainting,lda,43,3,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.095307,0.289828,0.294415,0.247125,,0
+oilpainting,lda,43,3,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.097674,0.270454,0.279252,0.233038,,0
+oilpainting,lda,43,3,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.090591,0.238004,0.248926,0.203674,,0
+oilpainting,lda,43,3,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.096071,0.239604,0.261815,0.204109,,0
+oilpainting,lda,43,3,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.085097,0.225237,0.224665,0.184789,,0
+oilpainting,lda,43,3,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.193847,0.150775,0.171342,0.126082,,0
+oilpainting,lda,43,3,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056994,0.193821,0.213546,0.160456,,0
+oilpainting,lda,43,3,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.896530,0.369141,0.377053,0.326872,,0
+oilpainting,lda,43,3,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.978008,0.376594,0.388931,0.336038,,0
+oilpainting,lda,43,3,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.050810,0.386727,0.396007,0.343924,,0
+oilpainting,lda,43,3,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.011141,0.380478,0.394238,0.339810,,0
+oilpainting,lda,43,3,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.058243,0.373774,0.389942,0.334443,,0
+oilpainting,lda,43,3,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.977287,0.368175,0.385898,0.329656,,0
+oilpainting,lda,43,3,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.944010,0.381888,0.392469,0.338742,,0
+oilpainting,lda,43,3,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.075190,0.385883,0.392722,0.341107,,0
+oilpainting,lda,43,4,hand-8,all,full,15830,1583,3957,17,617,1.180664,0.409316,0.406368,0.364001,,0
+oilpainting,lda,43,4,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.218146,0.265938,0.279505,0.231651,,0
+oilpainting,lda,43,4,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.094134,0.298674,0.296689,0.251300,,0
+oilpainting,lda,43,4,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.108283,0.290108,0.286075,0.245481,,0
+oilpainting,lda,43,4,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.094185,0.243464,0.252969,0.207250,,0
+oilpainting,lda,43,4,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.097115,0.266417,0.272176,0.219360,,0
+oilpainting,lda,43,4,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.083961,0.238545,0.241850,0.199674,,0
+oilpainting,lda,43,4,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.189232,0.150775,0.169573,0.126001,,0
+oilpainting,lda,43,4,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.062380,0.217112,0.223654,0.174286,,0
+oilpainting,lda,43,4,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.902871,0.398758,0.390953,0.352640,,0
+oilpainting,lda,43,4,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,1.056873,0.407618,0.400809,0.361020,,0
+oilpainting,lda,43,4,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.993862,0.410290,0.401820,0.362119,,0
+oilpainting,lda,43,4,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.001436,0.401169,0.394491,0.354541,,0
+oilpainting,lda,43,4,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.004218,0.403787,0.399040,0.358778,,0
+oilpainting,lda,43,4,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.947785,0.395698,0.390447,0.351960,,0
+oilpainting,lda,43,4,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.919986,0.417729,0.402830,0.368099,,0
+oilpainting,lda,43,4,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.098777,0.403200,0.398787,0.356954,,0
+oilpainting,lda,43,5,hand-8,all,full,15830,1583,3957,17,617,1.085752,0.382178,0.390447,0.342065,,0
+oilpainting,lda,43,5,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.215051,0.262424,0.268385,0.223427,,0
+oilpainting,lda,43,5,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.097679,0.280947,0.287086,0.238832,,0
+oilpainting,lda,43,5,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.097244,0.262289,0.268132,0.223694,,0
+oilpainting,lda,43,5,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.093392,0.230573,0.243113,0.198400,,0
+oilpainting,lda,43,5,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.090032,0.252754,0.271670,0.214539,,0
+oilpainting,lda,43,5,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.082239,0.238076,0.235027,0.194441,,0
+oilpainting,lda,43,5,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.184957,0.152001,0.173364,0.126134,,0
+oilpainting,lda,43,5,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056767,0.223185,0.229719,0.180705,,0
+oilpainting,lda,43,5,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.901212,0.375076,0.380086,0.333050,,0
+oilpainting,lda,43,5,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,1.026664,0.380329,0.388931,0.341517,,0
+oilpainting,lda,43,5,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.991874,0.379872,0.386657,0.337943,,0
+oilpainting,lda,43,5,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.012506,0.379240,0.389689,0.337399,,0
+oilpainting,lda,43,5,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.047378,0.375828,0.384888,0.334741,,0
+oilpainting,lda,43,5,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.993460,0.369870,0.381097,0.329060,,0
+oilpainting,lda,43,5,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.856948,0.381304,0.387162,0.341938,,0
+oilpainting,lda,43,5,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.105631,0.381982,0.387415,0.338931,,0
+oilpainting,lda,44,1,hand-8,all,full,15829,1583,3958,17,617,1.185734,0.390162,0.392623,0.342398,,0
+oilpainting,lda,44,1,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.211700,0.254012,0.267054,0.216753,,0
+oilpainting,lda,44,1,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.096871,0.304468,0.304194,0.254776,,0
+oilpainting,lda,44,1,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.094329,0.268400,0.279687,0.227009,,0
+oilpainting,lda,44,1,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.088336,0.232112,0.245831,0.197995,,0
+oilpainting,lda,44,1,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.088807,0.261802,0.274886,0.217421,,0
+oilpainting,lda,44,1,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.083329,0.219593,0.221324,0.180263,,0
+oilpainting,lda,44,1,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.194908,0.148357,0.167509,0.123567,,0
+oilpainting,lda,44,1,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.057618,0.209248,0.220566,0.170956,,0
+oilpainting,lda,44,1,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.930372,0.368573,0.380495,0.326659,,0
+oilpainting,lda,44,1,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.919295,0.379956,0.388833,0.335041,,0
+oilpainting,lda,44,1,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,1.000759,0.380648,0.391612,0.335961,,0
+oilpainting,lda,44,1,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,1.008761,0.381572,0.390854,0.336877,,0
+oilpainting,lda,44,1,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,1.013017,0.383464,0.389591,0.338706,,0
+oilpainting,lda,44,1,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,1.002392,0.372144,0.382769,0.328999,,0
+oilpainting,lda,44,1,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.939745,0.391062,0.391865,0.344833,,0
+oilpainting,lda,44,1,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.089986,0.373782,0.383274,0.327893,,0
+oilpainting,lda,44,2,hand-8,all,full,15829,1583,3958,17,617,1.094783,0.396453,0.397170,0.351577,,0
+oilpainting,lda,44,2,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.217317,0.264514,0.273623,0.225428,,0
+oilpainting,lda,44,2,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.104106,0.288418,0.298130,0.248484,,0
+oilpainting,lda,44,2,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.104004,0.275861,0.279434,0.233572,,0
+oilpainting,lda,44,2,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.103338,0.242704,0.252148,0.207292,,0
+oilpainting,lda,44,2,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.092909,0.246162,0.262506,0.205104,,0
+oilpainting,lda,44,2,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.085138,0.246832,0.245579,0.203603,,0
+oilpainting,lda,44,2,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.177974,0.157150,0.178626,0.131559,,0
+oilpainting,lda,44,2,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.054030,0.215139,0.221324,0.175087,,0
+oilpainting,lda,44,2,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.880285,0.384751,0.377463,0.337200,,0
+oilpainting,lda,44,2,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,1.005429,0.395384,0.395402,0.349872,,0
+oilpainting,lda,44,2,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.925425,0.397349,0.397170,0.350412,,0
+oilpainting,lda,44,2,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,0.954932,0.392212,0.392875,0.345797,,0
+oilpainting,lda,44,2,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,1.059451,0.394203,0.394644,0.348179,,0
+oilpainting,lda,44,2,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,0.945718,0.395395,0.392370,0.348244,,0
+oilpainting,lda,44,2,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.883544,0.401994,0.392623,0.351901,,0
+oilpainting,lda,44,2,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.096031,0.392707,0.391612,0.345254,,0
+oilpainting,lda,44,3,hand-8,all,full,15830,1583,3957,17,617,1.245409,0.379581,0.388931,0.340991,,0
+oilpainting,lda,44,3,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.197323,0.262390,0.275714,0.226004,,0
+oilpainting,lda,44,3,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.115919,0.286607,0.286328,0.241105,,0
+oilpainting,lda,44,3,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.100709,0.274849,0.283043,0.236245,,0
+oilpainting,lda,44,3,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.093392,0.226708,0.245641,0.194913,,0
+oilpainting,lda,44,3,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.092993,0.242180,0.261056,0.201486,,0
+oilpainting,lda,44,3,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.093580,0.231012,0.236796,0.189851,,0
+oilpainting,lda,44,3,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.189038,0.147727,0.161991,0.121068,,0
+oilpainting,lda,44,3,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.054221,0.206480,0.228456,0.170219,,0
+oilpainting,lda,44,3,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.866477,0.368572,0.381350,0.330650,,0
+oilpainting,lda,44,3,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.912025,0.370130,0.381855,0.331642,,0
+oilpainting,lda,44,3,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.007341,0.381634,0.387667,0.341607,,0
+oilpainting,lda,44,3,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.016254,0.381841,0.391458,0.341689,,0
+oilpainting,lda,44,3,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.991862,0.376824,0.385898,0.336717,,0
+oilpainting,lda,44,3,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.954314,0.362347,0.375537,0.326094,,0
+oilpainting,lda,44,3,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.879756,0.379140,0.383624,0.338206,,0
+oilpainting,lda,44,3,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.020869,0.377436,0.384635,0.335980,,0
+oilpainting,lda,44,4,hand-8,all,full,15830,1583,3957,17,617,1.098193,0.397353,0.404094,0.357001,,0
+oilpainting,lda,44,4,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.219898,0.261805,0.274450,0.227261,,0
+oilpainting,lda,44,4,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.103952,0.283685,0.292899,0.242321,,0
+oilpainting,lda,44,4,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.101316,0.273235,0.276725,0.235172,,0
+oilpainting,lda,44,4,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.091677,0.239565,0.252717,0.206886,,0
+oilpainting,lda,44,4,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.095378,0.256374,0.272429,0.215720,,0
+oilpainting,lda,44,4,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.084084,0.230554,0.238565,0.193172,,0
+oilpainting,lda,44,4,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.190871,0.160086,0.177660,0.134223,,0
+oilpainting,lda,44,4,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056151,0.210893,0.224412,0.172888,,0
+oilpainting,lda,44,4,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.926534,0.393507,0.396765,0.351230,,0
+oilpainting,lda,44,4,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,1.016209,0.399922,0.405358,0.359292,,0
+oilpainting,lda,44,4,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.979107,0.388258,0.401820,0.349447,,0
+oilpainting,lda,44,4,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.006239,0.386774,0.401061,0.349752,,0
+oilpainting,lda,44,4,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.042506,0.390247,0.401820,0.351302,,0
+oilpainting,lda,44,4,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.000693,0.384127,0.391458,0.344684,,0
+oilpainting,lda,44,4,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.963097,0.396675,0.398534,0.352840,,0
+oilpainting,lda,44,4,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.130602,0.391220,0.402325,0.351542,,0
+oilpainting,lda,44,5,hand-8,all,full,15830,1583,3957,17,617,1.131719,0.387575,0.389436,0.346400,,0
+oilpainting,lda,44,5,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.231602,0.242090,0.265605,0.212183,,0
+oilpainting,lda,44,5,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.111644,0.270043,0.270407,0.228376,,0
+oilpainting,lda,44,5,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.099232,0.256755,0.265353,0.221081,,0
+oilpainting,lda,44,5,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.090846,0.219576,0.234774,0.187162,,0
+oilpainting,lda,44,5,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.091214,0.251498,0.263584,0.210624,,0
+oilpainting,lda,44,5,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.086610,0.222507,0.221380,0.180879,,0
+oilpainting,lda,44,5,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.187703,0.148890,0.162244,0.122024,,0
+oilpainting,lda,44,5,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056988,0.208029,0.211524,0.167229,,0
+oilpainting,lda,44,5,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.932219,0.382318,0.376295,0.335884,,0
+oilpainting,lda,44,5,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.982915,0.376681,0.379833,0.335764,,0
+oilpainting,lda,44,5,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.912454,0.378051,0.382108,0.336293,,0
+oilpainting,lda,44,5,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,0.930889,0.379409,0.384635,0.337226,,0
+oilpainting,lda,44,5,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.948146,0.369737,0.375790,0.330718,,0
+oilpainting,lda,44,5,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.022434,0.369534,0.375032,0.329494,,0
+oilpainting,lda,44,5,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.943412,0.375368,0.379075,0.333605,,0
+oilpainting,lda,44,5,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.085362,0.377837,0.383371,0.337213,,0
+oilpainting,lda,45,1,hand-8,all,full,15829,1583,3958,17,617,1.192096,0.407397,0.406518,0.362009,,0
+oilpainting,lda,45,1,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.219943,0.257339,0.276150,0.225912,,0
+oilpainting,lda,45,1,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.096588,0.290584,0.296109,0.248414,,0
+oilpainting,lda,45,1,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.096322,0.282071,0.277160,0.236593,,0
+oilpainting,lda,45,1,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.090255,0.238397,0.246589,0.202910,,0
+oilpainting,lda,45,1,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.092650,0.259402,0.274128,0.216936,,0
+oilpainting,lda,45,1,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.083629,0.237081,0.237241,0.196427,,0
+oilpainting,lda,45,1,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.186864,0.157436,0.170541,0.129899,,0
+oilpainting,lda,45,1,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.055857,0.222931,0.226124,0.180090,,0
+oilpainting,lda,45,1,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.864374,0.400850,0.395907,0.353022,,0
+oilpainting,lda,45,1,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,1.018730,0.400219,0.399949,0.354458,,0
+oilpainting,lda,45,1,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.979099,0.402583,0.401465,0.356884,,0
+oilpainting,lda,45,1,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,1.027641,0.404652,0.401718,0.356178,,0
+oilpainting,lda,45,1,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.945124,0.393546,0.395149,0.348254,,0
+oilpainting,lda,45,1,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,1.013188,0.382081,0.389338,0.340652,,0
+oilpainting,lda,45,1,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.876609,0.392870,0.394644,0.347539,,0
+oilpainting,lda,45,1,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.003149,0.396139,0.399697,0.351164,,0
+oilpainting,lda,45,2,hand-8,all,full,15829,1583,3958,17,617,1.190256,0.384128,0.394644,0.346786,,0
+oilpainting,lda,45,2,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.210725,0.249286,0.263517,0.215845,,0
+oilpainting,lda,45,2,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.108028,0.275162,0.284740,0.233977,,0
+oilpainting,lda,45,2,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.096509,0.263985,0.274886,0.227572,,0
+oilpainting,lda,45,2,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.090264,0.228318,0.245073,0.197337,,0
+oilpainting,lda,45,2,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.094103,0.254197,0.266801,0.210578,,0
+oilpainting,lda,45,2,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.081729,0.210675,0.218039,0.175646,,0
+oilpainting,lda,45,2,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.181667,0.155076,0.164477,0.123887,,0
+oilpainting,lda,45,2,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.058580,0.206109,0.218292,0.167406,,0
+oilpainting,lda,45,2,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.896519,0.360801,0.371400,0.324034,,0
+oilpainting,lda,45,2,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.958613,0.374060,0.390096,0.337646,,0
+oilpainting,lda,45,2,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.957287,0.376375,0.388075,0.338290,,0
+oilpainting,lda,45,2,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,0.945690,0.368570,0.387064,0.334934,,0
+oilpainting,lda,45,2,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.936036,0.374759,0.388327,0.338262,,0
+oilpainting,lda,45,2,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,0.945656,0.368154,0.382264,0.330832,,0
+oilpainting,lda,45,2,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.857268,0.382809,0.394138,0.343411,,0
+oilpainting,lda,45,2,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.018522,0.369443,0.383780,0.332515,,0
+oilpainting,lda,45,3,hand-8,all,full,15830,1583,3957,17,617,1.069886,0.386693,0.389689,0.342721,,0
+oilpainting,lda,45,3,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.189748,0.236334,0.257013,0.207897,,0
+oilpainting,lda,45,3,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.095917,0.297134,0.295679,0.251206,,0
+oilpainting,lda,45,3,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.096397,0.268629,0.276978,0.231220,,0
+oilpainting,lda,45,3,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.090534,0.232637,0.245641,0.198177,,0
+oilpainting,lda,45,3,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.090626,0.248633,0.267627,0.209871,,0
+oilpainting,lda,45,3,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.083518,0.226002,0.229972,0.188167,,0
+oilpainting,lda,45,3,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.182945,0.155589,0.166793,0.126238,,0
+oilpainting,lda,45,3,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056852,0.210359,0.222138,0.174403,,0
+oilpainting,lda,45,3,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.856342,0.370192,0.374526,0.326267,,0
+oilpainting,lda,45,3,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.937258,0.386447,0.386151,0.342729,,0
+oilpainting,lda,45,3,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.942846,0.378051,0.381602,0.334223,,0
+oilpainting,lda,45,3,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,0.946872,0.373740,0.380339,0.331303,,0
+oilpainting,lda,45,3,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.933756,0.380094,0.384888,0.335680,,0
+oilpainting,lda,45,3,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.967796,0.374697,0.382360,0.332526,,0
+oilpainting,lda,45,3,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.874753,0.379664,0.380086,0.332835,,0
+oilpainting,lda,45,3,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,0.997217,0.379009,0.384129,0.336229,,0
+oilpainting,lda,45,4,hand-8,all,full,15830,1583,3957,17,617,1.083947,0.408450,0.399292,0.357808,,0
+oilpainting,lda,45,4,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.212057,0.267991,0.279505,0.230215,,0
+oilpainting,lda,45,4,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.099197,0.303077,0.295426,0.254451,,0
+oilpainting,lda,45,4,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.101918,0.276541,0.274198,0.232005,,0
+oilpainting,lda,45,4,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.091871,0.241321,0.248421,0.207455,,0
+oilpainting,lda,45,4,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.106697,0.259217,0.273439,0.217608,,0
+oilpainting,lda,45,4,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.089147,0.236735,0.232247,0.191997,,0
+oilpainting,lda,45,4,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.188526,0.156970,0.170584,0.127763,,0
+oilpainting,lda,45,4,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.060820,0.208888,0.218095,0.167457,,0
+oilpainting,lda,45,4,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.895479,0.385885,0.377306,0.335631,,0
+oilpainting,lda,45,4,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.975011,0.403395,0.395502,0.353089,,0
+oilpainting,lda,45,4,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.011119,0.411160,0.394743,0.356087,,0
+oilpainting,lda,45,4,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.013926,0.406556,0.403589,0.355395,,0
+oilpainting,lda,45,4,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,1.006581,0.401258,0.393227,0.350342,,0
+oilpainting,lda,45,4,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.013388,0.390017,0.385646,0.342462,,0
+oilpainting,lda,45,4,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.917660,0.399253,0.387920,0.348200,,0
+oilpainting,lda,45,4,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,0.995706,0.408112,0.396513,0.354397,,0
+oilpainting,lda,45,5,hand-8,all,full,15830,1583,3957,17,617,1.182040,0.368655,0.388931,0.333392,,0
+oilpainting,lda,45,5,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.209257,0.255396,0.273945,0.218711,,0
+oilpainting,lda,45,5,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.102053,0.270474,0.286075,0.232381,,0
+oilpainting,lda,45,5,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.099191,0.262544,0.277736,0.226823,,0
+oilpainting,lda,45,5,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.089273,0.229620,0.248673,0.197936,,0
+oilpainting,lda,45,5,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.101865,0.241401,0.260804,0.201454,,0
+oilpainting,lda,45,5,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.087594,0.230455,0.237554,0.192584,,0
+oilpainting,lda,45,5,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.191816,0.139867,0.169067,0.119332,,0
+oilpainting,lda,45,5,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.061711,0.212818,0.223402,0.170746,,0
+oilpainting,lda,45,5,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.892956,0.357871,0.379075,0.321920,,0
+oilpainting,lda,45,5,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.958400,0.369674,0.383877,0.330673,,0
+oilpainting,lda,45,5,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.986289,0.363682,0.384635,0.327666,,0
+oilpainting,lda,45,5,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.005766,0.364962,0.384382,0.326884,,0
+oilpainting,lda,45,5,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.948932,0.361469,0.384888,0.326515,,0
+oilpainting,lda,45,5,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,0.994657,0.359010,0.381350,0.323726,,0
+oilpainting,lda,45,5,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.926216,0.383620,0.390953,0.340839,,0
+oilpainting,lda,45,5,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.068675,0.359509,0.379580,0.322762,,0
+oilpainting,lda,46,1,hand-8,all,full,15829,1583,3958,17,617,1.114299,0.394741,0.399697,0.349553,,0
+oilpainting,lda,46,1,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.220749,0.247432,0.268317,0.215036,,0
+oilpainting,lda,46,1,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.098130,0.280973,0.284992,0.236215,,0
+oilpainting,lda,46,1,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.107283,0.269177,0.274634,0.228330,,0
+oilpainting,lda,46,1,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.092869,0.231578,0.243810,0.198329,,0
+oilpainting,lda,46,1,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.095303,0.251179,0.267054,0.211338,,0
+oilpainting,lda,46,1,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.084450,0.226474,0.225114,0.183986,,0
+oilpainting,lda,46,1,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.184172,0.156755,0.173067,0.129745,,0
+oilpainting,lda,46,1,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.056446,0.206645,0.226630,0.171106,,0
+oilpainting,lda,46,1,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.917248,0.384183,0.383022,0.335291,,0
+oilpainting,lda,46,1,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.982372,0.395224,0.396160,0.349411,,0
+oilpainting,lda,46,1,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.988821,0.385549,0.392117,0.340192,,0
+oilpainting,lda,46,1,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,0.949972,0.386140,0.390349,0.340180,,0
+oilpainting,lda,46,1,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.946857,0.386628,0.392623,0.341686,,0
+oilpainting,lda,46,1,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,0.969913,0.374706,0.384538,0.333740,,0
+oilpainting,lda,46,1,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.910535,0.382077,0.383022,0.336741,,0
+oilpainting,lda,46,1,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.124474,0.385011,0.388833,0.338290,,0
+oilpainting,lda,46,2,hand-8,all,full,15829,1583,3958,17,617,1.209000,0.392034,0.396160,0.346383,,0
+oilpainting,lda,46,2,single/Descriptors,Descriptors,single,15829,1583,3958,17,130,0.201829,0.275223,0.275897,0.234253,,0
+oilpainting,lda,46,2,single/Felzenszwalb,Felzenszwalb,single,15829,1583,3958,17,69,0.096758,0.288880,0.292067,0.244773,,0
+oilpainting,lda,46,2,single/SLIC,SLIC,single,15829,1583,3958,17,69,0.095647,0.271717,0.277160,0.230123,,0
+oilpainting,lda,46,2,single/Line graph,Line graph,single,15829,1583,3958,17,63,0.095283,0.240875,0.248863,0.202532,,0
+oilpainting,lda,46,2,single/L(G_felz),L(G_felz),single,15829,1583,3958,17,63,0.093633,0.257623,0.267559,0.211622,,0
+oilpainting,lda,46,2,single/Hilbert,Hilbert,single,15829,1583,3958,17,57,0.090294,0.232779,0.231683,0.191537,,0
+oilpainting,lda,46,2,single/Fourier,Fourier,single,15829,1583,3958,17,134,0.192550,0.143275,0.158161,0.118003,,0
+oilpainting,lda,46,2,single/Gabor,Gabor,single,15829,1583,3958,17,32,0.058622,0.222034,0.221071,0.179237,,0
+oilpainting,lda,46,2,drop/Descriptors,Descriptors,drop,15829,1583,3958,17,487,0.933779,0.374347,0.378221,0.329682,,0
+oilpainting,lda,46,2,drop/Felzenszwalb,Felzenszwalb,drop,15829,1583,3958,17,548,0.977491,0.383045,0.387317,0.338889,,0
+oilpainting,lda,46,2,drop/SLIC,SLIC,drop,15829,1583,3958,17,548,0.905312,0.378542,0.383780,0.334685,,0
+oilpainting,lda,46,2,drop/Line graph,Line graph,drop,15829,1583,3958,17,554,1.034916,0.383440,0.389843,0.339024,,0
+oilpainting,lda,46,2,drop/L(G_felz),L(G_felz),drop,15829,1583,3958,17,554,0.998517,0.380770,0.388833,0.336656,,0
+oilpainting,lda,46,2,drop/Hilbert,Hilbert,drop,15829,1583,3958,17,560,1.035554,0.371322,0.381506,0.328263,,0
+oilpainting,lda,46,2,drop/Fourier,Fourier,drop,15829,1583,3958,17,483,0.878818,0.396463,0.392623,0.349925,,0
+oilpainting,lda,46,2,drop/Gabor,Gabor,drop,15829,1583,3958,17,585,1.072326,0.383565,0.387822,0.338119,,0
+oilpainting,lda,46,3,hand-8,all,full,15830,1583,3957,17,617,1.098016,0.403968,0.402578,0.360340,,0
+oilpainting,lda,46,3,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.223237,0.245690,0.265858,0.213621,,0
+oilpainting,lda,46,3,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.095969,0.283428,0.290119,0.241658,,0
+oilpainting,lda,46,3,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.095374,0.281892,0.285823,0.238333,,0
+oilpainting,lda,46,3,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.090243,0.234023,0.250948,0.201630,,0
+oilpainting,lda,46,3,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.093692,0.261271,0.273945,0.215906,,0
+oilpainting,lda,46,3,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.085350,0.231937,0.237554,0.192155,,0
+oilpainting,lda,46,3,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.191233,0.154619,0.173364,0.128599,,0
+oilpainting,lda,46,3,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.059130,0.212286,0.216073,0.169415,,0
+oilpainting,lda,46,3,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.897976,0.389822,0.384635,0.343541,,0
+oilpainting,lda,46,3,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.954755,0.392869,0.392216,0.348880,,0
+oilpainting,lda,46,3,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.035517,0.397087,0.397523,0.353553,,0
+oilpainting,lda,46,3,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.003395,0.404756,0.399545,0.356123,,0
+oilpainting,lda,46,3,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.950382,0.386002,0.390447,0.343264,,0
+oilpainting,lda,46,3,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.005738,0.385122,0.387162,0.343533,,0
+oilpainting,lda,46,3,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.945033,0.403597,0.394491,0.354752,,0
+oilpainting,lda,46,3,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.044067,0.397041,0.398029,0.351415,,0
+oilpainting,lda,46,4,hand-8,all,full,15830,1583,3957,17,617,1.205145,0.387095,0.397523,0.348918,,0
+oilpainting,lda,46,4,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.221916,0.244986,0.275714,0.218133,,0
+oilpainting,lda,46,4,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.104195,0.294193,0.296184,0.249931,,0
+oilpainting,lda,46,4,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.098462,0.262099,0.274956,0.229820,,0
+oilpainting,lda,46,4,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.091346,0.228248,0.242355,0.195680,,0
+oilpainting,lda,46,4,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.093859,0.253362,0.268638,0.211975,,0
+oilpainting,lda,46,4,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.081233,0.234773,0.236796,0.194592,,0
+oilpainting,lda,46,4,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.182781,0.147603,0.166288,0.122734,,0
+oilpainting,lda,46,4,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.056082,0.210418,0.226687,0.173205,,0
+oilpainting,lda,46,4,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.869766,0.378115,0.385393,0.338785,,0
+oilpainting,lda,46,4,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.918402,0.385741,0.395502,0.346179,,0
+oilpainting,lda,46,4,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,0.925059,0.392003,0.397018,0.351608,,0
+oilpainting,lda,46,4,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,1.032133,0.384404,0.394491,0.345871,,0
+oilpainting,lda,46,4,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.986988,0.386785,0.394491,0.348132,,0
+oilpainting,lda,46,4,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.045928,0.369369,0.387920,0.336133,,0
+oilpainting,lda,46,4,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.934380,0.389991,0.400809,0.350828,,0
+oilpainting,lda,46,4,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.128322,0.379153,0.389689,0.340878,,0
+oilpainting,lda,46,5,hand-8,all,full,15830,1583,3957,17,617,1.230111,0.390785,0.389689,0.347091,,0
+oilpainting,lda,46,5,single/Descriptors,Descriptors,single,15830,1583,3957,17,130,0.205770,0.255897,0.265100,0.219738,,0
+oilpainting,lda,46,5,single/Felzenszwalb,Felzenszwalb,single,15830,1583,3957,17,69,0.098246,0.294237,0.293404,0.249860,,0
+oilpainting,lda,46,5,single/SLIC,SLIC,single,15830,1583,3957,17,69,0.098937,0.273335,0.278241,0.234699,,0
+oilpainting,lda,46,5,single/Line graph,Line graph,single,15830,1583,3957,17,63,0.092453,0.228826,0.244124,0.196437,,0
+oilpainting,lda,46,5,single/L(G_felz),L(G_felz),single,15830,1583,3957,17,63,0.093362,0.249200,0.263836,0.209630,,0
+oilpainting,lda,46,5,single/Hilbert,Hilbert,single,15830,1583,3957,17,57,0.083579,0.234006,0.237048,0.195220,,0
+oilpainting,lda,46,5,single/Fourier,Fourier,single,15830,1583,3957,17,134,0.186292,0.153003,0.170331,0.126810,,0
+oilpainting,lda,46,5,single/Gabor,Gabor,single,15830,1583,3957,17,32,0.070472,0.207146,0.224665,0.168464,,0
+oilpainting,lda,46,5,drop/Descriptors,Descriptors,drop,15830,1583,3957,17,487,0.866451,0.382200,0.382360,0.337180,,0
+oilpainting,lda,46,5,drop/Felzenszwalb,Felzenszwalb,drop,15830,1583,3957,17,548,0.941418,0.388539,0.385140,0.343973,,0
+oilpainting,lda,46,5,drop/SLIC,SLIC,drop,15830,1583,3957,17,548,1.043956,0.385087,0.383371,0.340902,,0
+oilpainting,lda,46,5,drop/Line graph,Line graph,drop,15830,1583,3957,17,554,0.998849,0.380440,0.384382,0.337962,,0
+oilpainting,lda,46,5,drop/L(G_felz),L(G_felz),drop,15830,1583,3957,17,554,0.982936,0.378909,0.379833,0.334447,,0
+oilpainting,lda,46,5,drop/Hilbert,Hilbert,drop,15830,1583,3957,17,560,1.083046,0.375058,0.376548,0.332587,,0
+oilpainting,lda,46,5,drop/Fourier,Fourier,drop,15830,1583,3957,17,483,0.927390,0.384377,0.381097,0.337577,,0
+oilpainting,lda,46,5,drop/Gabor,Gabor,drop,15830,1583,3957,17,585,1.096278,0.384375,0.386151,0.339842,,0

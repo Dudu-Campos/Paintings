@@ -33,7 +33,7 @@ from tfidf_caption_style import (
 )
 
 
-N_FOLDS = 5
+from protocol import N_FOLDS  # noqa: E402,F401
 SLIC_DIR = ROOT / "outputs/wikiart_slic_features"
 FEATURE_DIR = ROOT / "outputs/wikiart_features"
 

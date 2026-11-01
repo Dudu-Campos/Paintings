@@ -1,0 +1,3 @@
+weights,purity_k,purity_1,oracle_5,oracle_k,w_Descriptors,w_Felzenszwalb,w_SLIC,w_Line graph,w_L(G_felz),w_Hilbert,w_Fourier,w_Gabor
+peso igual,22.7228,33.9994,65.0770,91.9288,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+pesos aprendidos,23.1563,35.0558,65.7591,92.0314,1.0834,1.1540,1.5598,0.4217,0.9746,1.2421,0.5466,1.0179

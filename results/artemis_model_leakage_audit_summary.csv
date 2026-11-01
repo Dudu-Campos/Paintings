@@ -1,4 +1,0 @@
-source_split,n,true_style_mention_count,true_style_mention_pct,any_style_mention_count,any_style_mention_pct,full_artist_mention_count,full_artist_mention_pct,surname_mention_count,surname_mention_pct,exact_title_phrase_count,exact_title_phrase_pct
-finetune_seen,3736,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
-heldout,8474,0,0.0,1,0.01180080245456691,0,0.0,0,0.0,1,0.01180080245456691
-all,12210,0,0.0,1,0.00819000819000819,0,0.0,0,0.0,1,0.00819000819000819

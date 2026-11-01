@@ -1,0 +1,16 @@
+# Add a feature-block model when its representations are in registry.py.
+[models.example_texture_probe]
+runner = "blocks"
+classifier = "mlp"
+blocks = ["Descriptors"]
+epochs = 150
+patience = 15
+description = "Replace blocks/classifier with the desired registered method"
+
+# For a new method that has its own script, use runner="command".  The script
+# should write `<output>/summary.csv` with bacc_mean and bacc_sd_sample so
+# `python experiments/benchmark.py summarize` can collect it.
+[models.example_external_method]
+runner = "command"
+command = ["{python}", "{root}/experiments/evaluate_example.py", "--dataset", "{dataset}", "--image-dir", "{image_dir}", "--meta", "{metadata}", "--task", "{task}", "--folds", "{folds}", "--workers", "{workers}", "--output-dir", "{output}"]
+description = "Template for an arbitrary comparison method"

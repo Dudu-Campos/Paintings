@@ -1,0 +1,257 @@
+rank,feature,importance_mean,importance_std,importance_normalized_mean,importance_normalized_std,display_name,group,subgroup,max_r2,best_partner,best_partner_display,importance_pp,quadrant
+1,descriptor_121,0.35122293,0.00347696,0.00969558,0.00005132,homogeneity_mean,Descriptors,Haralick/GLCM,0.74185716,mst_degree_mean,mst_degree_mean,0.96955818,importante e pouco redundante
+2,mst_degree_gini,0.35035428,0.00334834,0.00967170,0.00006534,mst_degree_gini,SLIC multigraph,SLIC MST,0.98016094,mst_degree_mean,mst_degree_mean,0.96716971,"importante, mas redundante"
+3,mst_degree_mean,0.34365293,0.00314666,0.00948669,0.00005633,mst_degree_mean,SLIC multigraph,SLIC MST,0.98016094,mst_degree_gini,mst_degree_gini,0.94866924,"importante, mas redundante"
+4,descriptor_103,0.33109530,0.00361566,0.00913994,0.00006175,lbp_4,Descriptors,LBP,0.70812887,descriptor_102,lbp_3,0.91399416,importante e pouco redundante
+5,mst_hub_degree_ratio,0.32840769,0.00397744,0.00906555,0.00003949,mst_hub_degree_ratio,SLIC multigraph,SLIC MST,0.54779732,mst_degree_max,mst_degree_max,0.90655531,importante e pouco redundante
+6,descriptor_102,0.32040343,0.00322531,0.00884486,0.00006149,lbp_3,Descriptors,LBP,0.70812887,descriptor_103,lbp_4,0.88448641,importante e pouco redundante
+7,degree_mean,0.31772088,0.00320423,0.00877098,0.00008601,degree_mean,SLIC multigraph,SLIC RAG/global,0.80465401,mst_degree_mean,mst_degree_mean,0.87709782,"importante, mas redundante"
+8,descriptor_124,0.31575070,0.00336344,0.00871650,0.00007986,energy_std,Descriptors,Haralick/GLCM,0.59456513,descriptor_128,ASM_std,0.87165048,importante e pouco redundante
+9,descriptor_101,0.31136320,0.00360226,0.00859527,0.00007268,lbp_2,Descriptors,LBP,0.57998543,descriptor_121,homogeneity_mean,0.85952725,importante e pouco redundante
+10,knn_degree_gini,0.29468678,0.00350371,0.00813493,0.00007447,knn_degree_gini,SLIC multigraph,SLIC kNN,0.98904883,knn_degree_std,knn_degree_std,0.81349308,"importante, mas redundante"
+11,descriptor_122,0.29436764,0.00411216,0.00812581,0.00005247,homogeneity_std,Descriptors,Haralick/GLCM,0.39538727,descriptor_124,energy_std,0.81258081,importante e pouco redundante
+12,mst_n_edges,0.29324814,0.00229351,0.00809549,0.00007529,mst_n_edges,SLIC multigraph,SLIC MST,0.60343059,mst_degree_gini,mst_degree_gini,0.80954861,importante e pouco redundante
+13,knn_degree_std,0.28795648,0.00340337,0.00794915,0.00007400,knn_degree_std,SLIC multigraph,SLIC kNN,0.98904883,knn_degree_gini,knn_degree_gini,0.79491533,"importante, mas redundante"
+14,descriptor_99,0.27754399,0.00501789,0.00766122,0.00008095,lbp_0,Descriptors,LBP,0.64429350,descriptor_108,lbp_9,0.76612167,importante e pouco redundante
+15,mst_color_dist_mean,0.27358520,0.00193604,0.00755259,0.00005448,mst_color_dist_mean,SLIC multigraph,SLIC MST,0.75793606,mst_color_dist_std,mst_color_dist_std,0.75525945,importante e pouco redundante
+16,mst_color_dist_std,0.26966900,0.00247820,0.00744429,0.00003554,mst_color_dist_std,SLIC multigraph,SLIC MST,0.75793606,mst_color_dist_mean,mst_color_dist_mean,0.74442944,importante e pouco redundante
+17,knn_degree_mean,0.25427441,0.00333016,0.00701937,0.00007951,knn_degree_mean,SLIC multigraph,SLIC kNN,0.75835803,knn_degree_std,knn_degree_std,0.70193742,importante e pouco redundante
+18,knn_color_dist_mean,0.24551295,0.00383619,0.00677713,0.00005328,knn_color_dist_mean,SLIC multigraph,SLIC kNN,0.69947938,del_color_dist_mean,del_color_dist_mean,0.67771290,importante e pouco redundante
+19,del_color_dist_std,0.24328049,0.00529620,0.00671520,0.00008885,del_color_dist_std,SLIC multigraph,SLIC Delaunay,0.60429545,del_color_dist_max,del_color_dist_max,0.67151969,importante e pouco redundante
+20,descriptor_128,0.23730467,0.00383515,0.00655163,0.00014431,ASM_std,Descriptors,Haralick/GLCM,0.78786365,descriptor_123,energy_mean,0.65516348,importante e pouco redundante
+21,descriptor_123,0.23479361,0.00209382,0.00648189,0.00007922,energy_mean,Descriptors,Haralick/GLCM,0.79818599,descriptor_115,lbp_16,0.64818918,importante e pouco redundante
+22,mst_degree_std,0.23477838,0.00176689,0.00648119,0.00002667,mst_degree_std,SLIC multigraph,SLIC MST,0.42282781,mst_degree_max,mst_degree_max,0.64811852,importante e pouco redundante
+23,descriptor_104,0.23465334,0.00252120,0.00647766,0.00004411,lbp_5,Descriptors,LBP,0.79468254,descriptor_105,lbp_6,0.64776564,importante e pouco redundante
+24,mst_color_dist_max,0.23059083,0.00265912,0.00636542,0.00003404,mst_color_dist_max,SLIC multigraph,SLIC MST,0.65083351,mst_color_dist_std,mst_color_dist_std,0.63654205,importante e pouco redundante
+25,mst_degree_max,0.22812991,0.00287897,0.00629766,0.00006979,mst_degree_max,SLIC multigraph,SLIC MST,0.59259378,hub_degree_ratio,hub_degree_ratio,0.62976572,importante e pouco redundante
+26,mst_spatial_dist_mean,0.22750528,0.00415921,0.00628153,0.00017147,mst_spatial_dist_mean,SLIC multigraph,SLIC MST,0.74427579,spatial_dist_mean,spatial_dist_mean,0.62815322,importante e pouco redundante
+27,knn_spatial_dist_mean,0.22335819,0.00294403,0.00616652,0.00011908,knn_spatial_dist_mean,SLIC multigraph,SLIC kNN,0.67857471,knn_spatial_dist_std,knn_spatial_dist_std,0.61665182,importante e pouco redundante
+28,a_std_w,0.22202946,0.00487753,0.00612871,0.00009197,a_std_w,SLIC multigraph,SLIC RAG/global,0.99880558,descriptor_94,a_std,0.61287062,"importante, mas redundante"
+29,hilbert_35,0.22168607,0.00502612,0.00611919,0.00009483,hilbert_35,Hilbert,Hilbert,0.99975788,descriptor_94,a_std,0.61191873,"importante, mas redundante"
+30,descriptor_94,0.22140438,0.00500518,0.00611141,0.00009431,a_std,Descriptors,Lab statistics,0.99975788,hilbert_35,hilbert_35,0.61114142,"importante, mas redundante"
+31,mst_density,0.21940051,0.00752463,0.00605738,0.00022998,mst_density,SLIC multigraph,SLIC MST,0.84521540,density,density,0.60573776,"importante, mas redundante"
+32,descriptor_105,0.21711031,0.00259022,0.00599324,0.00002480,lbp_6,Descriptors,LBP,0.79468254,descriptor_104,lbp_5,0.59932440,importante e pouco redundante
+33,hilbert_33,0.21689933,0.00578219,0.00598692,0.00011697,hilbert_33,Hilbert,Hilbert,0.67227910,hilbert_26,hilbert_26,0.59869249,importante e pouco redundante
+34,mst_n_leaf_frac,0.21666349,0.00195109,0.00598111,0.00003768,mst_n_leaf_frac,SLIC multigraph,SLIC MST,0.43009215,mst_degree_mean,mst_degree_mean,0.59811093,importante e pouco redundante
+35,descriptor_108,0.21525093,0.00429950,0.00594171,0.00008109,lbp_9,Descriptors,LBP,0.64429350,descriptor_99,lbp_0,0.59417107,importante e pouco redundante
+36,descriptor_119,0.21516206,0.00353956,0.00593985,0.00010484,dissimilarity_mean,Descriptors,Haralick/GLCM,0.79980926,descriptor_117,contrast_mean,0.59398527,importante e pouco redundante
+37,descriptor_115,0.21401615,0.00081901,0.00590836,0.00006317,lbp_16,Descriptors,LBP,0.79818599,descriptor_123,energy_mean,0.59083634,importante e pouco redundante
+38,color_dist_std,0.21181382,0.00341336,0.00584692,0.00005349,color_dist_std,SLIC multigraph,SLIC RAG/global,0.59569247,color_dist_max,color_dist_max,0.58469187,importante e pouco redundante
+39,del_color_dist_mean,0.21031728,0.00399775,0.00580541,0.00005864,del_color_dist_mean,SLIC multigraph,SLIC Delaunay,0.69947938,knn_color_dist_mean,knn_color_dist_mean,0.58054137,importante e pouco redundante
+40,hilbert_5,0.21010179,0.00358328,0.00579952,0.00004303,hilbert_5,Hilbert,Hilbert,0.77433905,descriptor_90,L_mean,0.57995201,importante e pouco redundante
+41,descriptor_110,0.20944252,0.00370263,0.00578130,0.00004717,lbp_11,Descriptors,LBP,0.43925526,descriptor_114,lbp_15,0.57812980,importante e pouco redundante
+42,hilbert_26,0.20941531,0.00513568,0.00578047,0.00010409,hilbert_26,Hilbert,Hilbert,0.67227910,hilbert_33,hilbert_33,0.57804676,importante e pouco redundante
+43,L_mean_w,0.20444717,0.00437057,0.00564320,0.00006125,L_mean_w,SLIC multigraph,SLIC RAG/global,0.99995670,hilbert_16,hilbert_16,0.56432028,"importante, mas redundante"
+44,hilbert_16,0.20439079,0.00437240,0.00564165,0.00006127,hilbert_16,Hilbert,Hilbert,0.99999926,descriptor_90,L_mean,0.56416455,"importante, mas redundante"
+45,descriptor_90,0.20436011,0.00437212,0.00564080,0.00006127,L_mean,Descriptors,Lab statistics,0.99999926,hilbert_16,hilbert_16,0.56407987,"importante, mas redundante"
+46,area_gini,0.20392239,0.00294644,0.00562932,0.00006697,area_gini,SLIC multigraph,SLIC RAG/global,0.85803376,area_entropy,area_entropy,0.56293216,"importante, mas redundante"
+47,color_dist_mean,0.20372089,0.00393391,0.00562337,0.00006358,color_dist_mean,SLIC multigraph,SLIC RAG/global,0.62143771,descriptor_119,dissimilarity_mean,0.56233693,importante e pouco redundante
+48,hilbert_2,0.20280840,0.00397443,0.00559807,0.00005377,hilbert_2,Hilbert,Hilbert,0.77249519,descriptor_90,L_mean,0.55980718,importante e pouco redundante
+49,descriptor_129,0.20243079,0.00683547,0.00558866,0.00020200,correlation_max,Descriptors,Haralick/GLCM,0.85827437,descriptor_125,correlation_mean,0.55886575,"importante, mas redundante"
+50,hilbert_53,0.20216014,0.00358757,0.00558037,0.00005828,hilbert_53,Hilbert,Hilbert,0.99969983,descriptor_97,b_std,0.55803684,"importante, mas redundante"
+51,descriptor_97,0.20177025,0.00354652,0.00556962,0.00005768,b_std,Descriptors,Lab statistics,0.99969983,hilbert_53,hilbert_53,0.55696151,"importante, mas redundante"
+52,hilbert_32,0.20168095,0.00453662,0.00556695,0.00008178,hilbert_32,Hilbert,Hilbert,0.75540170,hilbert_35,hilbert_35,0.55669531,importante e pouco redundante
+53,b_std_w,0.20088683,0.00338172,0.00554527,0.00005573,b_std_w,SLIC multigraph,SLIC RAG/global,0.99869280,hilbert_53,hilbert_53,0.55452720,"importante, mas redundante"
+54,hilbert_27,0.20026859,0.00496340,0.00552790,0.00009459,hilbert_27,Hilbert,Hilbert,0.74943707,hilbert_35,hilbert_35,0.55278966,importante e pouco redundante
+55,descriptor_117,0.19770002,0.00453684,0.00545765,0.00012279,contrast_mean,Descriptors,Haralick/GLCM,0.93205735,descriptor_118,contrast_std,0.54576461,"importante, mas redundante"
+56,n_nodes,0.19693123,0.00211511,0.00543681,0.00008889,n_nodes,SLIC multigraph,SLIC RAG/global,0.99986351,del_n_edges,del_n_edges,0.54368111,"importante, mas redundante"
+57,del_n_edges,0.19677261,0.00211716,0.00543243,0.00008870,del_n_edges,SLIC multigraph,SLIC Delaunay,0.99986351,n_nodes,n_nodes,0.54324292,"importante, mas redundante"
+58,mst_spatial_dist_std,0.19471381,0.00163305,0.00537579,0.00009547,mst_spatial_dist_std,SLIC multigraph,SLIC MST,0.85990486,spatial_dist_std,spatial_dist_std,0.53757935,"importante, mas redundante"
+59,hilbert_30,0.19266551,0.00410654,0.00531818,0.00007536,hilbert_30,Hilbert,Hilbert,0.75635947,hilbert_35,hilbert_35,0.53181798,importante e pouco redundante
+60,del_hub_degree_ratio,0.19219851,0.00181111,0.00530611,0.00007861,del_hub_degree_ratio,SLIC multigraph,SLIC Delaunay,0.99993846,del_degree_max,del_degree_max,0.53061093,"importante, mas redundante"
+61,del_degree_max,0.19187746,0.00178961,0.00529724,0.00007810,del_degree_max,SLIC multigraph,SLIC Delaunay,0.99993846,del_hub_degree_ratio,del_hub_degree_ratio,0.52972450,"importante, mas redundante"
+62,hub_degree_ratio,0.19116297,0.00242050,0.00527710,0.00005109,hub_degree_ratio,SLIC multigraph,SLIC RAG/global,0.98238207,degree_max,degree_max,0.52771009,"importante, mas redundante"
+63,descriptor_125,0.19073239,0.00515575,0.00526550,0.00014941,correlation_mean,Descriptors,Haralick/GLCM,0.86030970,descriptor_126,correlation_std,0.52655016,"importante, mas redundante"
+64,hilbert_29,0.18934485,0.00434402,0.00522659,0.00009214,hilbert_29,Hilbert,Hilbert,0.75969352,hilbert_35,hilbert_35,0.52265942,importante e pouco redundante
+65,hilbert_31,0.18922336,0.00474812,0.00522295,0.00008568,hilbert_31,Hilbert,Hilbert,0.69739350,hilbert_35,hilbert_35,0.52229464,"pouco redundante, baixo sinal"
+66,n_edges,0.18907833,0.00277241,0.00522007,0.00010360,n_edges,SLIC multigraph,SLIC RAG/global,0.93370398,knn_n_edges,knn_n_edges,0.52200662,baixo sinal e redundante
+67,knn_spatial_dist_std,0.18713176,0.00247889,0.00516619,0.00008761,knn_spatial_dist_std,SLIC multigraph,SLIC kNN,0.67857471,knn_spatial_dist_mean,knn_spatial_dist_mean,0.51661926,"pouco redundante, baixo sinal"
+68,hilbert_28,0.18687517,0.00510917,0.00515809,0.00009928,hilbert_28,Hilbert,Hilbert,0.70416798,hilbert_35,hilbert_35,0.51580902,"pouco redundante, baixo sinal"
+69,knn_n_edges,0.18536012,0.00241406,0.00511746,0.00009847,knn_n_edges,SLIC multigraph,SLIC kNN,0.97434632,del_n_edges,del_n_edges,0.51174575,baixo sinal e redundante
+70,hilbert_50,0.18532769,0.00347463,0.00511562,0.00004875,hilbert_50,Hilbert,Hilbert,0.72981525,hilbert_53,hilbert_53,0.51156209,"pouco redundante, baixo sinal"
+71,hilbert_4,0.18520193,0.00362967,0.00511210,0.00005123,hilbert_4,Hilbert,Hilbert,0.77659798,hilbert_3,hilbert_3,0.51121032,"pouco redundante, baixo sinal"
+72,hilbert_49,0.18487246,0.00351251,0.00510313,0.00005983,hilbert_49,Hilbert,Hilbert,0.67714809,hilbert_53,hilbert_53,0.51031293,"pouco redundante, baixo sinal"
+73,hilbert_45,0.18428685,0.00395954,0.00508686,0.00006920,hilbert_45,Hilbert,Hilbert,0.72541336,hilbert_53,hilbert_53,0.50868559,"pouco redundante, baixo sinal"
+74,descriptor_126,0.18405057,0.00237274,0.00508076,0.00005107,correlation_std,Descriptors,Haralick/GLCM,0.86030970,descriptor_125,correlation_mean,0.50807646,baixo sinal e redundante
+75,hilbert_51,0.18338084,0.00441061,0.00506179,0.00008365,hilbert_51,Hilbert,Hilbert,0.66714990,hilbert_44,hilbert_44,0.50617895,"pouco redundante, baixo sinal"
+76,hilbert_46,0.18333216,0.00298625,0.00506068,0.00004345,hilbert_46,Hilbert,Hilbert,0.68538418,hilbert_53,hilbert_53,0.50606758,"pouco redundante, baixo sinal"
+77,hilbert_48,0.18303528,0.00276914,0.00505251,0.00003686,hilbert_48,Hilbert,Hilbert,0.75493012,hilbert_47,hilbert_47,0.50525130,"pouco redundante, baixo sinal"
+78,chroma_std_w,0.18292143,0.00350304,0.00504935,0.00006818,chroma_std_w,SLIC multigraph,SLIC RAG/global,0.75266880,b_std_w,b_std_w,0.50493496,"pouco redundante, baixo sinal"
+79,hilbert_47,0.18194643,0.00331305,0.00502246,0.00006346,hilbert_47,Hilbert,Hilbert,0.75493012,hilbert_48,hilbert_48,0.50224611,"pouco redundante, baixo sinal"
+80,descriptor_118,0.18181621,0.00375783,0.00501904,0.00009255,contrast_std,Descriptors,Haralick/GLCM,0.93205735,descriptor_117,contrast_mean,0.50190362,baixo sinal e redundante
+81,knn_color_dist_std,0.18045277,0.00414839,0.00498085,0.00006387,knn_color_dist_std,SLIC multigraph,SLIC kNN,0.53531747,del_color_dist_std,del_color_dist_std,0.49808525,"pouco redundante, baixo sinal"
+82,degree_std,0.17929990,0.00280871,0.00494949,0.00005333,degree_std,SLIC multigraph,SLIC RAG/global,0.89848930,degree_gini,degree_gini,0.49494945,baixo sinal e redundante
+83,hilbert_44,0.17918026,0.00420637,0.00494582,0.00007523,hilbert_44,Hilbert,Hilbert,0.66714990,hilbert_51,hilbert_51,0.49458161,"pouco redundante, baixo sinal"
+84,hilbert_3,0.17880577,0.00366610,0.00493551,0.00005300,hilbert_3,Hilbert,Hilbert,0.77659798,hilbert_4,hilbert_4,0.49355080,"pouco redundante, baixo sinal"
+85,degree_gini,0.17701008,0.00335118,0.00488622,0.00006832,degree_gini,SLIC multigraph,SLIC RAG/global,0.89848930,degree_std,degree_std,0.48862198,baixo sinal e redundante
+86,area_entropy,0.17660907,0.00366621,0.00487626,0.00014127,area_entropy,SLIC multigraph,SLIC RAG/global,0.90703432,n_nodes,n_nodes,0.48762595,baixo sinal e redundante
+87,knn_degree_max,0.17474047,0.00258186,0.00482382,0.00006579,knn_degree_max,SLIC multigraph,SLIC kNN,0.91147877,knn_hub_degree_ratio,knn_hub_degree_ratio,0.48238201,baixo sinal e redundante
+88,del_degree_std,0.17414738,0.00286263,0.00480776,0.00009572,del_degree_std,SLIC multigraph,SLIC Delaunay,0.60414092,del_degree_gini,del_degree_gini,0.48077552,"pouco redundante, baixo sinal"
+89,spatial_dist_mean,0.16927663,0.00590105,0.00467429,0.00020290,spatial_dist_mean,SLIC multigraph,SLIC RAG/global,0.83518064,area_entropy,area_entropy,0.46742888,baixo sinal e redundante
+90,descriptor_116,0.16662897,0.00404559,0.00459927,0.00006737,lbp_17,Descriptors,LBP,0.68240753,descriptor_100,lbp_1,0.45992722,"pouco redundante, baixo sinal"
+91,del_spatial_dist_mean,0.16620179,0.00591042,0.00458926,0.00019841,del_spatial_dist_mean,SLIC multigraph,SLIC Delaunay,0.86815196,area_entropy,area_entropy,0.45892637,baixo sinal e redundante
+92,hilbert_7,0.16506204,0.00361642,0.00455605,0.00005009,hilbert_7,Hilbert,Hilbert,0.78742246,hilbert_0,hilbert_0,0.45560509,"pouco redundante, baixo sinal"
+93,hilbert_6,0.16488821,0.00449965,0.00455105,0.00007482,hilbert_6,Hilbert,Hilbert,0.77252519,L_mean_w,L_mean_w,0.45510459,"pouco redundante, baixo sinal"
+94,hilbert_0,0.16407926,0.00368610,0.00452891,0.00005383,hilbert_0,Hilbert,Hilbert,0.78742246,hilbert_7,hilbert_7,0.45289142,"pouco redundante, baixo sinal"
+95,descriptor_111,0.16382168,0.00202653,0.00452227,0.00003169,lbp_12,Descriptors,LBP,0.56575946,descriptor_112,lbp_13,0.45222699,"pouco redundante, baixo sinal"
+96,del_color_dist_max,0.16381261,0.00438016,0.00452142,0.00007523,del_color_dist_max,SLIC multigraph,SLIC Delaunay,0.60429545,del_color_dist_std,del_color_dist_std,0.45214231,"pouco redundante, baixo sinal"
+97,descriptor_29,0.16374215,0.00275339,0.00452035,0.00008205,L_hist_29,Descriptors,Lab histogram L,0.41616690,descriptor_123,energy_mean,0.45203515,"pouco redundante, baixo sinal"
+98,descriptor_92,0.16332350,0.00361550,0.00450806,0.00005031,L_skew,Descriptors,Lab statistics,0.66689076,L_mean_w,L_mean_w,0.45080565,"pouco redundante, baixo sinal"
+99,hilbert_1,0.16204855,0.00417618,0.00447273,0.00006675,hilbert_1,Hilbert,Hilbert,0.76352283,L_mean_w,L_mean_w,0.44727254,"pouco redundante, baixo sinal"
+100,density,0.16185891,0.01170049,0.00447009,0.00035401,density,SLIC multigraph,SLIC RAG/global,0.94909181,del_density,del_density,0.44700853,baixo sinal e redundante
+101,degree_max,0.15919987,0.00167676,0.00439482,0.00004048,degree_max,SLIC multigraph,SLIC RAG/global,0.98238207,hub_degree_ratio,hub_degree_ratio,0.43948230,baixo sinal e redundante
+102,chroma_mean_w,0.15894920,0.00345829,0.00438742,0.00005704,chroma_mean_w,SLIC multigraph,SLIC RAG/global,0.47805328,b_mean_w,b_mean_w,0.43874156,"pouco redundante, baixo sinal"
+103,descriptor_120,0.15639552,0.00226537,0.00431733,0.00005139,dissimilarity_std,Descriptors,Haralick/GLCM,0.81320449,descriptor_118,contrast_std,0.43173336,baixo sinal e redundante
+104,warm_frac,0.15499459,0.00264853,0.00427845,0.00004311,warm_frac,SLIC multigraph,SLIC RAG/global,0.45059942,b_mean_w,b_mean_w,0.42784528,"pouco redundante, baixo sinal"
+105,del_spatial_dist_std,0.15468418,0.00183624,0.00427023,0.00005288,del_spatial_dist_std,SLIC multigraph,SLIC Delaunay,0.54278981,del_degree_std,del_degree_std,0.42702302,"pouco redundante, baixo sinal"
+106,descriptor_109,0.15335738,0.00293865,0.00423315,0.00004502,lbp_10,Descriptors,LBP,0.61517639,descriptor_114,lbp_15,0.42331544,"pouco redundante, baixo sinal"
+107,descriptor_2,0.15266438,0.00380396,0.00421382,0.00006564,L_hist_2,Descriptors,Lab histogram L,0.65477025,descriptor_3,L_hist_3,0.42138182,"pouco redundante, baixo sinal"
+108,color_dist_max,0.15117589,0.00177753,0.00417333,0.00004582,color_dist_max,SLIC multigraph,SLIC RAG/global,0.59569247,color_dist_std,color_dist_std,0.41733304,"pouco redundante, baixo sinal"
+109,descriptor_127,0.15081402,0.00253872,0.00416389,0.00010100,ASM_mean,Descriptors,Haralick/GLCM,0.74952322,descriptor_123,energy_mean,0.41638942,"pouco redundante, baixo sinal"
+110,descriptor_107,0.14923127,0.00406391,0.00411902,0.00007562,lbp_8,Descriptors,LBP,0.75713747,descriptor_106,lbp_7,0.41190166,"pouco redundante, baixo sinal"
+111,descriptor_3,0.14863408,0.00405353,0.00410257,0.00007802,L_hist_3,Descriptors,Lab histogram L,0.69498466,descriptor_4,L_hist_4,0.41025693,"pouco redundante, baixo sinal"
+112,descriptor_1,0.14841640,0.00380988,0.00409653,0.00006550,L_hist_1,Descriptors,Lab histogram L,0.58615553,descriptor_2,L_hist_2,0.40965313,"pouco redundante, baixo sinal"
+113,descriptor_100,0.14770672,0.00248784,0.00407723,0.00003147,lbp_1,Descriptors,LBP,0.68240753,descriptor_116,lbp_17,0.40772268,"pouco redundante, baixo sinal"
+114,area_cv,0.14687814,0.00254689,0.00405465,0.00006627,area_cv,SLIC multigraph,SLIC RAG/global,0.81183865,area_entropy,area_entropy,0.40546545,baixo sinal e redundante
+115,spatial_density_cv,0.14513897,0.00458265,0.00400619,0.00010490,spatial_density_cv,SLIC multigraph,SLIC RAG/global,0.89136404,spatial_density_max_block_frac,spatial_density_max_block_frac,0.40061875,baixo sinal e redundante
+116,descriptor_112,0.14388823,0.00277761,0.00397171,0.00003537,lbp_13,Descriptors,LBP,0.56575946,descriptor_111,lbp_12,0.39717120,"pouco redundante, baixo sinal"
+117,descriptor_114,0.14238714,0.00199875,0.00393046,0.00001834,lbp_15,Descriptors,LBP,0.65893145,descriptor_116,lbp_17,0.39304640,"pouco redundante, baixo sinal"
+118,knn_color_dist_max,0.14228756,0.00304126,0.00392751,0.00004764,knn_color_dist_max,SLIC multigraph,SLIC kNN,0.48213323,knn_color_dist_std,knn_color_dist_std,0.39275065,"pouco redundante, baixo sinal"
+119,spatial_dist_std,0.14192122,0.00257127,0.00391862,0.00011109,spatial_dist_std,SLIC multigraph,SLIC RAG/global,0.85990486,mst_spatial_dist_std,mst_spatial_dist_std,0.39186214,baixo sinal e redundante
+120,del_degree_gini,0.14158159,0.00336094,0.00390849,0.00009212,del_degree_gini,SLIC multigraph,SLIC Delaunay,0.60414092,del_degree_std,del_degree_std,0.39084858,"pouco redundante, baixo sinal"
+121,spatial_density_max_block_frac,0.14147533,0.00366789,0.00390539,0.00009332,spatial_density_max_block_frac,SLIC multigraph,SLIC RAG/global,0.89136404,spatial_density_cv,spatial_density_cv,0.39053914,baixo sinal e redundante
+122,descriptor_28,0.14141595,0.00340077,0.00390373,0.00008374,L_hist_28,Descriptors,Lab histogram L,0.39090850,descriptor_27,L_hist_27,0.39037330,"pouco redundante, baixo sinal"
+123,descriptor_106,0.14043848,0.00315301,0.00387649,0.00005655,lbp_7,Descriptors,LBP,0.75713747,descriptor_107,lbp_8,0.38764933,"pouco redundante, baixo sinal"
+124,descriptor_4,0.13789644,0.00380843,0.00380615,0.00007117,L_hist_4,Descriptors,Lab histogram L,0.69498466,descriptor_3,L_hist_3,0.38061465,"pouco redundante, baixo sinal"
+125,knn_density,0.13530330,0.02030204,0.00373787,0.00058506,knn_density,SLIC multigraph,SLIC kNN,0.99537690,area_mean,area_mean,0.37378687,baixo sinal e redundante
+126,del_density,0.13487485,0.01767618,0.00372580,0.00051298,del_density,SLIC multigraph,SLIC Delaunay,0.99743707,area_mean,area_mean,0.37258039,baixo sinal e redundante
+127,hilbert_56,0.13407905,0.00233001,0.00370103,0.00002791,hilbert_56,Hilbert,Hilbert,0.14429699,descriptor_93,a_mean,0.37010254,"pouco redundante, baixo sinal"
+128,descriptor_0,0.13139014,0.00381150,0.00362649,0.00007061,L_hist_0,Descriptors,Lab histogram L,0.28245221,descriptor_1,L_hist_1,0.36264939,"pouco redundante, baixo sinal"
+129,hilbert_15,0.13082016,0.00264778,0.00361127,0.00006347,hilbert_15,Hilbert,Hilbert,0.50572638,hilbert_8,hilbert_8,0.36112676,"pouco redundante, baixo sinal"
+130,area_mean,0.13003057,0.01964186,0.00359226,0.00056617,area_mean,SLIC multigraph,SLIC RAG/global,0.99743707,del_density,del_density,0.35922617,baixo sinal e redundante
+131,hilbert_8,0.12619130,0.00310380,0.00348308,0.00004934,hilbert_8,Hilbert,Hilbert,0.50572638,hilbert_15,hilbert_15,0.34830796,"pouco redundante, baixo sinal"
+132,hilbert_9,0.12357308,0.00358583,0.00341077,0.00006938,hilbert_9,Hilbert,Hilbert,0.49367330,L_std_w,L_std_w,0.34107731,"pouco redundante, baixo sinal"
+133,descriptor_27,0.12317986,0.00108482,0.00340048,0.00002646,L_hist_27,Descriptors,Lab histogram L,0.53180219,descriptor_26,L_hist_26,0.34004783,"pouco redundante, baixo sinal"
+134,hilbert_14,0.12214564,0.00194677,0.00337180,0.00003975,hilbert_14,Hilbert,Hilbert,0.50357333,L_std_w,L_std_w,0.33717987,"pouco redundante, baixo sinal"
+135,hilbert_12,0.12091022,0.00228462,0.00333761,0.00004525,hilbert_12,Hilbert,Hilbert,0.57886188,hilbert_11,hilbert_11,0.33376142,"pouco redundante, baixo sinal"
+136,hilbert_11,0.12008350,0.00273071,0.00331480,0.00006250,hilbert_11,Hilbert,Hilbert,0.57886188,hilbert_12,hilbert_12,0.33148018,"pouco redundante, baixo sinal"
+137,descriptor_5,0.11872625,0.00182875,0.00327743,0.00003942,L_hist_5,Descriptors,Lab histogram L,0.67167917,descriptor_6,L_hist_6,0.32774332,"pouco redundante, baixo sinal"
+138,knn_hub_degree_ratio,0.11821104,0.00150958,0.00326335,0.00004301,knn_hub_degree_ratio,SLIC multigraph,SLIC kNN,0.91147877,knn_degree_max,knn_degree_max,0.32633457,baixo sinal e redundante
+139,descriptor_18,0.11530674,0.00369026,0.00318252,0.00007261,L_hist_18,Descriptors,Lab histogram L,0.62319478,descriptor_19,L_hist_19,0.31825192,"pouco redundante, baixo sinal"
+140,hilbert_55,0.11343814,0.00261824,0.00313112,0.00004073,hilbert_55,Hilbert,Hilbert,0.25614029,descriptor_90,L_mean,0.31311167,"pouco redundante, baixo sinal"
+141,hilbert_34,0.11228525,0.00196043,0.00309975,0.00005527,hilbert_34,Hilbert,Hilbert,0.99999364,descriptor_93,a_mean,0.30997549,baixo sinal e redundante
+142,a_mean_w,0.11226540,0.00204363,0.00309920,0.00005721,a_mean_w,SLIC multigraph,SLIC RAG/global,0.99986343,hilbert_34,hilbert_34,0.30992018,baixo sinal e redundante
+143,descriptor_93,0.11220300,0.00195109,0.00309748,0.00005500,a_mean,Descriptors,Lab statistics,0.99999364,hilbert_34,hilbert_34,0.30974842,baixo sinal e redundante
+144,hilbert_17,0.11074853,0.00239909,0.00305700,0.00004376,hilbert_17,Hilbert,Hilbert,0.99902745,descriptor_91,L_std,0.30569969,baixo sinal e redundante
+145,area_second_max_frac,0.11029895,0.01105406,0.00304610,0.00032069,area_second_max_frac,SLIC multigraph,SLIC RAG/global,0.70517974,area_cv,area_cv,0.30461038,"pouco redundante, baixo sinal"
+146,del_degree_mean,0.10935721,0.00307302,0.00301958,0.00011041,del_degree_mean,SLIC multigraph,SLIC Delaunay,0.30175836,area_mean,area_mean,0.30195845,"pouco redundante, baixo sinal"
+147,descriptor_91,0.10833889,0.00253408,0.00299045,0.00004747,L_std,Descriptors,Lab statistics,0.99902745,hilbert_17,hilbert_17,0.29904463,baixo sinal e redundante
+148,descriptor_20,0.10828089,0.00335349,0.00298856,0.00006057,L_hist_20,Descriptors,Lab histogram L,0.70647160,descriptor_21,L_hist_21,0.29885574,"pouco redundante, baixo sinal"
+149,descriptor_26,0.10817036,0.00248466,0.00298578,0.00004431,L_hist_26,Descriptors,Lab histogram L,0.60788656,descriptor_25,L_hist_25,0.29857842,"pouco redundante, baixo sinal"
+150,descriptor_19,0.10713921,0.00276186,0.00295731,0.00005500,L_hist_19,Descriptors,Lab histogram L,0.66793270,descriptor_20,L_hist_20,0.29573079,"pouco redundante, baixo sinal"
+151,descriptor_23,0.10710768,0.00484775,0.00295586,0.00010296,L_hist_23,Descriptors,Lab histogram L,0.65013279,descriptor_24,L_hist_24,0.29558622,"pouco redundante, baixo sinal"
+152,L_std_w,0.10678620,0.00270317,0.00294748,0.00004689,L_std_w,SLIC multigraph,SLIC RAG/global,0.99488835,hilbert_17,hilbert_17,0.29474827,baixo sinal e redundante
+153,descriptor_25,0.10640229,0.00280210,0.00293680,0.00004456,L_hist_25,Descriptors,Lab histogram L,0.60788656,descriptor_26,L_hist_26,0.29368048,"pouco redundante, baixo sinal"
+154,descriptor_6,0.10624898,0.00217952,0.00293281,0.00003796,L_hist_6,Descriptors,Lab histogram L,0.72762160,descriptor_7,L_hist_7,0.29328130,"pouco redundante, baixo sinal"
+155,descriptor_24,0.10538933,0.00424757,0.00290850,0.00008471,L_hist_24,Descriptors,Lab histogram L,0.65013279,descriptor_23,L_hist_23,0.29084969,"pouco redundante, baixo sinal"
+156,descriptor_17,0.10497791,0.00422498,0.00289730,0.00009184,L_hist_17,Descriptors,Lab histogram L,0.61896353,descriptor_18,L_hist_18,0.28973015,"pouco redundante, baixo sinal"
+157,hilbert_21,0.10350376,0.00181479,0.00285718,0.00003822,hilbert_21,Hilbert,Hilbert,0.76763510,hilbert_34,hilbert_34,0.28571759,"pouco redundante, baixo sinal"
+158,descriptor_21,0.10309086,0.00322946,0.00284552,0.00007045,L_hist_21,Descriptors,Lab histogram L,0.70647160,descriptor_20,L_hist_20,0.28455227,"pouco redundante, baixo sinal"
+159,hilbert_22,0.10296772,0.00126463,0.00284252,0.00003433,hilbert_22,Hilbert,Hilbert,0.76687026,hilbert_21,hilbert_21,0.28425180,"pouco redundante, baixo sinal"
+160,descriptor_22,0.10253392,0.00329571,0.00282993,0.00006132,L_hist_22,Descriptors,Lab histogram L,0.63357491,descriptor_23,L_hist_23,0.28299269,"pouco redundante, baixo sinal"
+161,hilbert_24,0.10178196,0.00265742,0.00281003,0.00008455,hilbert_24,Hilbert,Hilbert,0.80153209,hilbert_34,hilbert_34,0.28100310,baixo sinal e redundante
+162,hilbert_25,0.10158393,0.00210550,0.00280453,0.00006985,hilbert_25,Hilbert,Hilbert,0.74966708,hilbert_18,hilbert_18,0.28045311,"pouco redundante, baixo sinal"
+163,hilbert_19,0.10061316,0.00230113,0.00277745,0.00005961,hilbert_19,Hilbert,Hilbert,0.79925404,descriptor_93,a_mean,0.27774479,"pouco redundante, baixo sinal"
+164,descriptor_82,0.10044007,0.00170409,0.00277249,0.00001956,b_hist_22,Descriptors,Lab histogram b,0.88251652,descriptor_37,a_hist_7,0.27724854,baixo sinal e redundante
+165,descriptor_81,0.10027946,0.00173986,0.00276806,0.00002389,b_hist_21,Descriptors,Lab histogram b,0.89560715,descriptor_80,b_hist_20,0.27680635,baixo sinal e redundante
+166,hilbert_18,0.10010745,0.00217461,0.00276338,0.00004834,hilbert_18,Hilbert,Hilbert,0.74966708,hilbert_25,hilbert_25,0.27633797,"pouco redundante, baixo sinal"
+167,descriptor_15,0.09952438,0.00339932,0.00274749,0.00009454,L_hist_15,Descriptors,Lab histogram L,0.52937055,descriptor_13,L_hist_13,0.27474886,"pouco redundante, baixo sinal"
+168,hilbert_13,0.09766922,0.00157754,0.00269610,0.00002884,hilbert_13,Hilbert,Hilbert,0.45229393,hilbert_17,hilbert_17,0.26960995,"pouco redundante, baixo sinal"
+169,descriptor_80,0.09751568,0.00178732,0.00269173,0.00002165,b_hist_20,Descriptors,Lab histogram b,0.90009616,descriptor_79,b_hist_19,0.26917257,baixo sinal e redundante
+170,descriptor_16,0.09732490,0.00803240,0.00268620,0.00021346,L_hist_16,Descriptors,Lab histogram L,0.62130455,descriptor_14,L_hist_14,0.26861957,"pouco redundante, baixo sinal"
+171,descriptor_79,0.09721863,0.00180267,0.00268353,0.00002330,b_hist_19,Descriptors,Lab histogram b,0.90316120,descriptor_40,a_hist_10,0.26835297,baixo sinal e redundante
+172,descriptor_84,0.09696697,0.00204406,0.00267654,0.00003029,b_hist_24,Descriptors,Lab histogram b,0.85603583,descriptor_85,b_hist_25,0.26765361,baixo sinal e redundante
+173,descriptor_83,0.09690373,0.00184008,0.00267492,0.00003477,b_hist_23,Descriptors,Lab histogram b,0.85913205,descriptor_36,a_hist_6,0.26749194,baixo sinal e redundante
+175,hilbert_10,0.09685624,0.00129768,0.00267389,0.00004262,hilbert_10,Hilbert,Hilbert,0.46164957,hilbert_17,hilbert_17,0.26738930,"pouco redundante, baixo sinal"
+174,descriptor_38,0.09686540,0.00218442,0.00267368,0.00003264,a_hist_8,Descriptors,Lab histogram a,0.86213702,descriptor_81,b_hist_21,0.26736820,baixo sinal e redundante
+176,descriptor_85,0.09608022,0.00189413,0.00265208,0.00002586,b_hist_25,Descriptors,Lab histogram b,0.85603583,descriptor_84,b_hist_24,0.26520821,baixo sinal e redundante
+177,descriptor_7,0.09561370,0.00194116,0.00263934,0.00004163,L_hist_7,Descriptors,Lab histogram L,0.72762160,descriptor_6,L_hist_6,0.26393409,"pouco redundante, baixo sinal"
+178,hilbert_20,0.09505052,0.00139497,0.00262386,0.00002889,hilbert_20,Hilbert,Hilbert,0.76346879,descriptor_93,a_mean,0.26238647,"pouco redundante, baixo sinal"
+179,descriptor_113,0.09495003,0.00210229,0.00262109,0.00005198,lbp_14,Descriptors,LBP,0.27590086,descriptor_112,lbp_13,0.26210866,"pouco redundante, baixo sinal"
+180,descriptor_12,0.09489035,0.00435808,0.00261899,0.00010395,L_hist_12,Descriptors,Lab histogram L,0.56307957,descriptor_13,L_hist_13,0.26189917,"pouco redundante, baixo sinal"
+181,descriptor_95,0.09444662,0.00194574,0.00260722,0.00004903,a_skew,Descriptors,Lab statistics,0.10502166,hilbert_56,hilbert_56,0.26072184,"pouco redundante, baixo sinal"
+182,descriptor_40,0.09392758,0.00225160,0.00259261,0.00003962,a_hist_10,Descriptors,Lab histogram a,0.90316120,descriptor_79,b_hist_19,0.25926078,baixo sinal e redundante
+183,descriptor_14,0.09392245,0.00690098,0.00259238,0.00018308,L_hist_14,Descriptors,Lab histogram L,0.62130455,descriptor_16,L_hist_16,0.25923804,"pouco redundante, baixo sinal"
+184,descriptor_96,0.09378234,0.00224677,0.00258874,0.00004925,b_mean,Descriptors,Lab statistics,0.99999852,hilbert_52,hilbert_52,0.25887365,baixo sinal e redundante
+185,hilbert_52,0.09375990,0.00224702,0.00258812,0.00004927,hilbert_52,Hilbert,Hilbert,0.99999852,descriptor_96,b_mean,0.25881172,baixo sinal e redundante
+186,hilbert_38,0.09370257,0.00236221,0.00258661,0.00005785,hilbert_38,Hilbert,Hilbert,0.75049179,descriptor_96,b_mean,0.25866075,"pouco redundante, baixo sinal"
+187,b_mean_w,0.09365561,0.00223928,0.00258524,0.00004910,b_mean_w,SLIC multigraph,SLIC RAG/global,0.99996205,hilbert_52,hilbert_52,0.25852394,baixo sinal e redundante
+188,descriptor_13,0.09355282,0.00328772,0.00258223,0.00007567,L_hist_13,Descriptors,Lab histogram L,0.56307957,descriptor_12,L_hist_12,0.25822338,"pouco redundante, baixo sinal"
+189,descriptor_39,0.09340883,0.00107839,0.00257855,0.00001722,a_hist_9,Descriptors,Lab histogram a,0.84631291,descriptor_80,b_hist_20,0.25785514,baixo sinal e redundante
+190,descriptor_37,0.09329943,0.00138997,0.00257549,0.00002446,a_hist_7,Descriptors,Lab histogram a,0.88251652,descriptor_82,b_hist_22,0.25754864,baixo sinal e redundante
+191,n_leaf_frac,0.09327538,0.00737006,0.00257535,0.00021102,n_leaf_frac,SLIC multigraph,SLIC RAG/global,0.25308229,area_mean,area_mean,0.25753542,"pouco redundante, baixo sinal"
+192,hilbert_23,0.09307118,0.00100878,0.00256935,0.00003149,hilbert_23,Hilbert,Hilbert,0.75479040,a_mean_w,a_mean_w,0.25693542,"pouco redundante, baixo sinal"
+193,descriptor_35,0.09279644,0.00166592,0.00256149,0.00002211,a_hist_5,Descriptors,Lab histogram a,0.84563501,descriptor_84,b_hist_24,0.25614872,baixo sinal e redundante
+194,descriptor_36,0.09273379,0.00302875,0.00255970,0.00007089,a_hist_6,Descriptors,Lab histogram a,0.85913205,descriptor_83,b_hist_23,0.25597015,baixo sinal e redundante
+195,hilbert_41,0.09223222,0.00243311,0.00254576,0.00004378,hilbert_41,Hilbert,Hilbert,0.74144749,descriptor_96,b_mean,0.25457627,"pouco redundante, baixo sinal"
+196,descriptor_78,0.09170932,0.00207231,0.00253138,0.00003245,b_hist_18,Descriptors,Lab histogram b,0.89664630,descriptor_79,b_hist_19,0.25313770,baixo sinal e redundante
+197,descriptor_77,0.09064742,0.00214247,0.00250204,0.00003399,b_hist_17,Descriptors,Lab histogram b,0.91509402,descriptor_76,b_hist_16,0.25020419,baixo sinal e redundante
+198,descriptor_86,0.09049937,0.00235048,0.00249809,0.00005239,b_hist_26,Descriptors,Lab histogram b,0.88916644,descriptor_33,a_hist_3,0.24980934,baixo sinal e redundante
+199,descriptor_34,0.09022180,0.00196700,0.00249045,0.00004005,a_hist_4,Descriptors,Lab histogram a,0.83159818,descriptor_85,b_hist_25,0.24904524,baixo sinal e redundante
+200,descriptor_42,0.08962099,0.00158997,0.00247385,0.00002263,a_hist_12,Descriptors,Lab histogram a,0.90585274,descriptor_77,b_hist_17,0.24738466,baixo sinal e redundante
+201,descriptor_33,0.08934903,0.00199801,0.00246628,0.00003510,a_hist_3,Descriptors,Lab histogram a,0.88916644,descriptor_86,b_hist_26,0.24662804,baixo sinal e redundante
+202,descriptor_41,0.08903324,0.00218229,0.00245755,0.00004195,a_hist_11,Descriptors,Lab histogram a,0.88203103,descriptor_78,b_hist_18,0.24575522,baixo sinal e redundante
+203,hilbert_54,0.08785535,0.00165699,0.00242520,0.00003565,hilbert_54,Hilbert,Hilbert,0.11905591,L_mean_w,L_mean_w,0.24251976,"pouco redundante, baixo sinal"
+204,descriptor_8,0.08771227,0.00281077,0.00242109,0.00006461,L_hist_8,Descriptors,Lab histogram L,0.74455462,descriptor_9,L_hist_9,0.24210857,"pouco redundante, baixo sinal"
+205,descriptor_76,0.08760963,0.00252218,0.00241806,0.00004283,b_hist_16,Descriptors,Lab histogram b,0.91509402,descriptor_77,b_hist_17,0.24180586,baixo sinal e redundante
+206,hilbert_37,0.08686844,0.00188432,0.00239799,0.00004574,hilbert_37,Hilbert,Hilbert,0.79746710,hilbert_52,hilbert_52,0.23979856,"pouco redundante, baixo sinal"
+207,hilbert_39,0.08680846,0.00182689,0.00239640,0.00004854,hilbert_39,Hilbert,Hilbert,0.79624370,hilbert_40,hilbert_40,0.23963977,"pouco redundante, baixo sinal"
+208,descriptor_87,0.08496565,0.00229575,0.00234537,0.00005411,b_hist_27,Descriptors,Lab histogram b,0.86235256,descriptor_32,a_hist_2,0.23453743,baixo sinal e redundante
+209,hilbert_40,0.08449147,0.00184543,0.00233227,0.00003787,hilbert_40,Hilbert,Hilbert,0.79624370,hilbert_39,hilbert_39,0.23322745,"pouco redundante, baixo sinal"
+210,descriptor_9,0.08440786,0.00408594,0.00232988,0.00010508,L_hist_9,Descriptors,Lab histogram L,0.74455462,descriptor_8,L_hist_8,0.23298788,"pouco redundante, baixo sinal"
+211,hilbert_42,0.08393930,0.00224749,0.00231690,0.00004361,hilbert_42,Hilbert,Hilbert,0.80568650,hilbert_52,hilbert_52,0.23168992,baixo sinal e redundante
+212,descriptor_10,0.08301458,0.00509081,0.00229117,0.00012889,L_hist_10,Descriptors,Lab histogram L,0.69003796,descriptor_9,L_hist_9,0.22911677,"pouco redundante, baixo sinal"
+213,descriptor_11,0.08269312,0.00472511,0.00228271,0.00012801,L_hist_11,Descriptors,Lab histogram L,0.52364187,descriptor_10,L_hist_10,0.22827121,"pouco redundante, baixo sinal"
+214,area_max_frac,0.08260328,0.00716034,0.00228126,0.00021036,area_max_frac,SLIC multigraph,SLIC RAG/global,0.74644117,area_std,area_std,0.22812559,"pouco redundante, baixo sinal"
+215,descriptor_43,0.08251364,0.00302028,0.00227726,0.00005816,a_hist_13,Descriptors,Lab histogram a,0.89441398,descriptor_76,b_hist_16,0.22772622,baixo sinal e redundante
+216,descriptor_75,0.08168187,0.00299327,0.00225429,0.00005737,b_hist_15,Descriptors,Lab histogram b,0.92211815,descriptor_74,b_hist_14,0.22542928,baixo sinal e redundante
+217,descriptor_44,0.07928622,0.00298323,0.00218823,0.00006101,a_hist_14,Descriptors,Lab histogram a,0.87352357,descriptor_75,b_hist_15,0.21882250,baixo sinal e redundante
+218,descriptor_32,0.07807166,0.00421654,0.00215471,0.00010278,a_hist_2,Descriptors,Lab histogram a,0.86235256,descriptor_87,b_hist_27,0.21547136,baixo sinal e redundante
+219,area_std,0.07749022,0.01468565,0.00214104,0.00041882,area_std,SLIC multigraph,SLIC RAG/global,0.82813732,area_mean,area_mean,0.21410433,baixo sinal e redundante
+220,hilbert_43,0.07728337,0.00106878,0.00213347,0.00002811,hilbert_43,Hilbert,Hilbert,0.76851286,hilbert_36,hilbert_36,0.21334671,"pouco redundante, baixo sinal"
+221,hilbert_36,0.07604275,0.00143350,0.00209936,0.00004726,hilbert_36,Hilbert,Hilbert,0.76851286,hilbert_43,hilbert_43,0.20993559,"pouco redundante, baixo sinal"
+222,descriptor_74,0.07555679,0.00260662,0.00208531,0.00004970,b_hist_14,Descriptors,Lab histogram b,0.92211815,descriptor_75,b_hist_15,0.20853080,baixo sinal e redundante
+223,descriptor_45,0.07397764,0.00269955,0.00204167,0.00005162,a_hist_15,Descriptors,Lab histogram a,0.90517966,descriptor_74,b_hist_14,0.20416691,baixo sinal e redundante
+224,descriptor_98,0.07270634,0.00178365,0.00200693,0.00003774,b_skew,Descriptors,Lab statistics,0.08686893,descriptor_1,L_hist_1,0.20069276,"pouco redundante, baixo sinal"
+225,descriptor_88,0.06989798,0.00364522,0.00192905,0.00008551,b_hist_28,Descriptors,Lab histogram b,0.84310146,descriptor_31,a_hist_1,0.19290516,baixo sinal e redundante
+226,descriptor_73,0.06923184,0.00298481,0.00191062,0.00006261,b_hist_13,Descriptors,Lab histogram b,0.92280980,descriptor_72,b_hist_12,0.19106234,baixo sinal e redundante
+227,descriptor_46,0.06922472,0.00330758,0.00191036,0.00007162,a_hist_16,Descriptors,Lab histogram a,0.91183744,descriptor_73,b_hist_13,0.19103621,baixo sinal e redundante
+228,descriptor_31,0.06594943,0.00150127,0.00182042,0.00002980,a_hist_1,Descriptors,Lab histogram a,0.84310146,descriptor_88,b_hist_28,0.18204208,baixo sinal e redundante
+229,descriptor_72,0.06270363,0.00282564,0.00173042,0.00005967,b_hist_12,Descriptors,Lab histogram b,0.92280980,descriptor_73,b_hist_13,0.17304233,baixo sinal e redundante
+230,descriptor_47,0.06016189,0.00306841,0.00166020,0.00006737,a_hist_17,Descriptors,Lab histogram a,0.88699539,descriptor_72,b_hist_12,0.16602037,baixo sinal e redundante
+231,descriptor_71,0.05807774,0.00287662,0.00160269,0.00006209,b_hist_11,Descriptors,Lab histogram b,0.92817020,descriptor_70,b_hist_10,0.16026939,baixo sinal e redundante
+232,descriptor_48,0.05393701,0.00271439,0.00148843,0.00005938,a_hist_18,Descriptors,Lab histogram a,0.91529613,descriptor_71,b_hist_11,0.14884307,baixo sinal e redundante
+233,descriptor_70,0.05151643,0.00263718,0.00142162,0.00005786,b_hist_10,Descriptors,Lab histogram b,0.93800836,descriptor_69,b_hist_9,0.14216240,baixo sinal e redundante
+234,descriptor_49,0.05123740,0.00248694,0.00141396,0.00005364,a_hist_19,Descriptors,Lab histogram a,0.87964608,descriptor_70,b_hist_10,0.14139559,baixo sinal e redundante
+235,descriptor_69,0.04632030,0.00195529,0.00127834,0.00004103,b_hist_9,Descriptors,Lab histogram b,0.93850533,descriptor_68,b_hist_8,0.12783400,baixo sinal e redundante
+236,descriptor_50,0.04455911,0.00242704,0.00122959,0.00005376,a_hist_20,Descriptors,Lab histogram a,0.91396662,descriptor_69,b_hist_9,0.12295939,baixo sinal e redundante
+237,descriptor_68,0.04041314,0.00147308,0.00111540,0.00003091,b_hist_8,Descriptors,Lab histogram b,0.93925640,descriptor_51,a_hist_21,0.11153972,baixo sinal e redundante
+238,descriptor_51,0.03953069,0.00154978,0.00109102,0.00003314,a_hist_21,Descriptors,Lab histogram a,0.93925640,descriptor_68,b_hist_8,0.10910171,baixo sinal e redundante
+239,descriptor_67,0.03682013,0.00099318,0.00101635,0.00002193,b_hist_7,Descriptors,Lab histogram b,0.91890580,descriptor_68,b_hist_8,0.10163497,baixo sinal e redundante
+240,descriptor_89,0.03584883,0.00291243,0.00098945,0.00007788,b_hist_29,Descriptors,Lab histogram b,0.96751230,descriptor_30,a_hist_0,0.09894470,baixo sinal e redundante
+241,descriptor_52,0.03507447,0.00092123,0.00096819,0.00002125,a_hist_22,Descriptors,Lab histogram a,0.91377360,descriptor_67,b_hist_7,0.09681850,baixo sinal e redundante
+242,descriptor_30,0.03387802,0.00260121,0.00093501,0.00006861,a_hist_0,Descriptors,Lab histogram a,0.96751230,descriptor_89,b_hist_29,0.09350085,baixo sinal e redundante
+243,descriptor_66,0.03344805,0.00076661,0.00092330,0.00001704,b_hist_6,Descriptors,Lab histogram b,0.91479874,descriptor_67,b_hist_7,0.09232987,baixo sinal e redundante
+244,descriptor_53,0.03295888,0.00066322,0.00090980,0.00001351,a_hist_23,Descriptors,Lab histogram a,0.91130076,descriptor_66,b_hist_6,0.09097958,baixo sinal e redundante
+245,descriptor_65,0.02940692,0.00089680,0.00081178,0.00002350,b_hist_5,Descriptors,Lab histogram b,0.94908648,descriptor_54,a_hist_24,0.08117758,baixo sinal e redundante
+246,descriptor_54,0.02817091,0.00080764,0.00077767,0.00002162,a_hist_24,Descriptors,Lab histogram a,0.94908648,descriptor_65,b_hist_5,0.07776696,baixo sinal e redundante
+247,descriptor_55,0.02670530,0.00068157,0.00073721,0.00001829,a_hist_25,Descriptors,Lab histogram a,0.96034498,descriptor_64,b_hist_4,0.07372149,baixo sinal e redundante
+248,descriptor_64,0.02621540,0.00073477,0.00072370,0.00002025,b_hist_4,Descriptors,Lab histogram b,0.96034498,descriptor_55,a_hist_25,0.07237003,baixo sinal e redundante
+249,descriptor_63,0.02196461,0.00030225,0.00060635,0.00000780,b_hist_3,Descriptors,Lab histogram b,0.96769245,descriptor_56,a_hist_26,0.06063489,baixo sinal e redundante
+250,descriptor_56,0.02182421,0.00039220,0.00060243,0.00000664,a_hist_26,Descriptors,Lab histogram a,0.96769245,descriptor_63,b_hist_3,0.06024303,baixo sinal e redundante
+251,descriptor_62,0.01931116,0.00082024,0.00053306,0.00002155,b_hist_2,Descriptors,Lab histogram b,0.95744132,descriptor_57,a_hist_27,0.05330631,baixo sinal e redundante
+252,descriptor_57,0.01918309,0.00081741,0.00052956,0.00002246,a_hist_27,Descriptors,Lab histogram a,0.95744132,descriptor_62,b_hist_2,0.05295603,baixo sinal e redundante
+253,descriptor_58,0.01789570,0.00090394,0.00049395,0.00002277,a_hist_28,Descriptors,Lab histogram a,0.96565977,descriptor_61,b_hist_1,0.04939476,baixo sinal e redundante
+254,descriptor_61,0.01723662,0.00106023,0.00047575,0.00002740,b_hist_1,Descriptors,Lab histogram b,0.96565977,descriptor_58,a_hist_28,0.04757470,baixo sinal e redundante
+255,descriptor_59,0.00755480,0.00102118,0.00020855,0.00002822,a_hist_29,Descriptors,Lab histogram a,0.99397797,descriptor_60,b_hist_0,0.02085538,baixo sinal e redundante
+256,descriptor_60,0.00749711,0.00105709,0.00020697,0.00002932,b_hist_0,Descriptors,Lab histogram b,0.99397797,descriptor_59,a_hist_29,0.02069742,baixo sinal e redundante

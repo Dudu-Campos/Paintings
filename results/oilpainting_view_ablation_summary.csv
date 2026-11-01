@@ -1,0 +1,18 @@
+classifier,condition,view,kind,unidades,dimensions,bacc,bacc_sd,accuracy,macro_f1,contribution_vs_drop_pp,contribution_sd_pp
+lda,hand-8,all,full,25,617,0.392028,0.011318,0.396695,0.349296,,
+lda,single/Descriptors,Descriptors,single,25,130,0.255679,0.009944,0.270976,0.221243,,
+lda,single/Felzenszwalb,Felzenszwalb,single,25,69,0.287244,0.009841,0.290807,0.243572,,
+lda,single/SLIC,SLIC,single,25,69,0.271930,0.008729,0.276899,0.231761,,
+lda,single/Line graph,Line graph,single,25,63,0.233445,0.006520,0.246788,0.199920,,
+lda,single/L(G_felz),L(G_felz),single,25,63,0.253274,0.008419,0.268206,0.211630,,
+lda,single/Hilbert,Hilbert,single,25,57,0.230078,0.008875,0.232618,0.190184,,
+lda,single/Fourier,Fourier,single,25,134,0.152854,0.004848,0.169121,0.126274,,
+lda,single/Gabor,Gabor,single,25,32,0.211066,0.007346,0.221812,0.171672,,
+lda,drop/Descriptors,Descriptors,drop,25,487,0.378493,0.012342,0.381442,0.334850,1.353424,0.603772
+lda,drop/Felzenszwalb,Felzenszwalb,drop,25,548,0.386475,0.012212,0.391014,0.343795,0.555276,0.467255
+lda,drop/SLIC,SLIC,drop,25,548,0.386543,0.011806,0.391247,0.343231,0.548472,0.531641
+lda,drop/Line graph,Line graph,drop,25,554,0.384872,0.011833,0.391671,0.341934,0.715552,0.487732
+lda,drop/L(G_felz),L(G_felz),drop,25,554,0.383862,0.010199,0.390054,0.341488,0.816528,0.552779
+lda,drop/Hilbert,Hilbert,drop,25,560,0.375754,0.010701,0.383585,0.334939,1.627336,0.503547
+lda,drop/Fourier,Fourier,drop,25,483,0.389127,0.010815,0.390004,0.344171,0.290020,0.724048
+lda,drop/Gabor,Gabor,drop,25,585,0.385102,0.011150,0.390135,0.341331,0.692588,0.453341

@@ -1,0 +1,114 @@
+====================================================================================================
+TABELA DE RESULTADOS -- cada banco no SEU melhor estimador
+  baselines hand-designed: denso-512 (enc 512, cabeca 2048-1024-1024)
+  hand-8 (PRISM):          BranchMLP, 8 ramos x 128, cabeca 512-256-128
+  Fisher vector:           sonda linear, o protocolo publicado dele
+  PRISM + FV:              fusao de DECISAO, peso fixo 0,5, zero parametro
+ordem das metricas: BAcc  ·  Acc  ·  macro-F1
+====================================================================================================
+
+oilpainting  (17 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   21.03 +-1.47   21.44 +-0.82   17.02 +-1.02
+    HOG                            1764d   20.84 +-0.81   26.35 +-1.17   19.16 +-1.02
+    WND-CHARM                      2895d   34.96 +-0.75   37.36 +-1.84   31.18 +-1.20
+    hand-8 (PRISM)                  617d   43.37 +-1.38   42.93 +-2.08   37.69 +-1.87   <- com branches
+    Fisher vector [INDUTIVO]      41984d   46.80 +-0.88   51.07 +-1.49   43.99 +-1.23   (25u)
+    PRISM + Fisher vector             --   52.28 +-0.90   54.59 +-1.19   48.65 +-1.14   (25u)
+      parcelas  PRISM | FV                 43.61| 46.80   43.52| 51.07   37.94| 43.99
+      delta sobre o PRISM                  +8.67         +11.07         +10.70        25/25 em BAcc, p=0.0000
+
+rijksdraw  (11 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   36.11 +-1.24   27.95 +-1.14   26.27 +-1.18
+    HOG                            1764d   31.45 +-0.77   25.35 +-1.37   24.90 +-1.18
+    WND-CHARM                      2884d   49.00 +-1.05   46.67 +-1.03   46.48 +-1.35
+    hand-8 (PRISM)                  617d   55.83 +-0.76   51.90 +-1.39   51.94 +-1.43   <- com branches
+    Fisher vector                 41984d   54.89 +-0.80   51.01 +-0.69   48.35 +-0.96   (25u)
+    Fisher vector [INDUTIVO]      41984d   54.37 +-0.34   50.22 +-1.07   47.41 +-1.28   (5u)
+    PRISM + Fisher vector             --   61.38 +-0.27   58.01 +-0.97   56.85 +-0.90   (5u)
+      parcelas  PRISM | FV                 56.83| 55.24   52.75| 51.19   52.21| 48.51
+      delta sobre o PRISM                  +4.55          +5.26          +4.64        5/5 em BAcc, p=0.0001
+
+multitask  (125 classes)   +- = sd entre 25 unidades (5 folds x 5 sementes)
+    Haralick                         13d   16.05 +-1.17    2.97 +-0.32    4.56 +-0.51
+    HOG                            1764d   13.23 +-0.72    3.55 +-0.32    4.46 +-0.58
+    WND-CHARM                      2894d   31.36 +-0.87   12.99 +-1.63   14.24 +-1.43
+    hand-8 (PRISM)                  617d   38.75 +-1.09   13.81 +-0.87   15.98 +-1.22   <- com branches
+    Fisher vector [INDUTIVO]      41984d   40.08 +-1.11   26.64 +-3.72   22.50 +-2.68   (25u)
+    PRISM + Fisher vector             --   47.80 +-0.99   28.40 +-2.50   25.15 +-1.55   (25u)
+      parcelas  PRISM | FV                 38.29| 40.08   14.19| 26.64   16.48| 22.50
+      delta sobre o PRISM                  +9.51         +14.21          +8.67        25/25 em BAcc, p=0.0000
+
+nct_crc  (9 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d   60.33 +-0.58   62.40 +-0.44   59.40 +-0.51
+    HOG                            1764d   58.94 +-0.60   59.40 +-0.68   54.89 +-0.63
+    WND-CHARM                      2890d   80.31 +-0.48   81.83 +-0.80   79.65 +-0.55
+    hand-8 (PRISM)                  617d   87.16 +-0.39   86.51 +-0.32   85.92 +-0.35   <- com branches
+    Fisher vector                 41984d   76.82 +-0.56   76.71 +-0.53   76.41 +-0.52   (5u)
+    PRISM + Fisher vector             --   89.43 +-0.34   88.12 +-0.49   88.15 +-0.39   (5u)
+      parcelas  PRISM | FV                 87.46| 76.82   86.64| 76.71   85.93| 76.41
+      delta sobre o PRISM                  +1.97          +1.47          +2.22        5/5 em BAcc, p=0.0006
+
+minc2500  (23 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d   22.88 +-0.18   22.88 +-0.18   21.62 +-0.22
+    HOG                            1764d   37.13 +-0.16   37.13 +-0.16   35.38 +-0.17
+    WND-CHARM                      2894d   42.78 +-0.14   42.78 +-0.14   42.03 +-0.27
+    hand-8 (PRISM)                  617d   55.56 +-0.26   55.56 +-0.26   55.11 +-0.24   <- com branches
+    Fisher vector                 41984d   51.04 +-0.59   51.04 +-0.59   50.63 +-0.54   (5u)
+    PRISM + Fisher vector             --   60.49 +-0.55   60.49 +-0.55   60.04 +-0.61   (5u)
+      parcelas  PRISM | FV                 54.34| 51.04   54.34| 51.04   53.95| 50.63
+      delta sobre o PRISM                  +6.15          +6.15          +6.10        5/5 em BAcc, p=0.0000
+
+food101  (101 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d    6.36 +-0.08    6.36 +-0.08    4.90 +-0.10
+    HOG                            1764d    9.95 +-0.18    9.95 +-0.18    9.14 +-0.29
+    WND-CHARM                      2893d   24.05 +-0.21   24.05 +-0.21   23.48 +-0.20
+    hand-8 (PRISM)                  617d   36.74 +-0.25   36.74 +-0.25   35.46 +-0.27   <- com branches
+    Fisher vector                 41984d   34.85 +-0.17   34.85 +-0.17   34.67 +-0.20   (5u)
+    PRISM + Fisher vector             --   48.10 +-0.20   48.10 +-0.20   47.81 +-0.19   (5u)
+      parcelas  PRISM | FV                 38.58| 34.85   38.58| 34.85   38.12| 34.67
+      delta sobre o PRISM                  +9.52          +9.52          +9.69        5/5 em BAcc, p=0.0000
+
+places_lt  (365 classes)   +- = sd entre 5 sementes (particao publicada)
+    Haralick                         13d    0.44 +-0.01    0.44 +-0.01    0.14 +-0.06
+    HOG                            1764d    0.48 +-0.10    0.48 +-0.10    0.12 +-0.06
+    WND-CHARM                      2895d    8.35 +-0.19    8.35 +-0.19    6.80 +-0.16
+    hand-8 (PRISM)                  617d   14.21 +-0.20   14.21 +-0.20   12.30 +-0.21   <- com branches
+    Fisher vector                 41984d   11.20 +-0.29   11.20 +-0.29    9.71 +-0.72   (5u)
+    PRISM + Fisher vector             --   17.18 +-0.34   17.18 +-0.34   14.88 +-0.46   (5u)
+      parcelas  PRISM | FV                 14.07| 11.20   14.07| 11.20   11.90|  9.71
+      delta sobre o PRISM                  +3.11          +3.11          +2.99        5/5 em BAcc, p=0.0001
+
+----------------------------------------------------------------------------------------------------
+LEGENDA OBRIGATORIA
+  · os baselines estao no estimador MAIS FAVORAVEL a eles entre quatro
+    (LDA svd, LDA shrinkage, denso-128, denso-512) mais o protocolo do
+    artigo original do WND-CHARM (WND5, que perde em 7 de 7, §5.19c).
+    A escolha e UMA por banco, por rank medio sobre os sete corpora.
+  · nessa regra o classificador deles e MAIOR que o nosso: WND-CHARM com
+    5,70M de parametros contra 774k do hand-8 (7,4x).
+  · treino com class_weight: a celula reportada e a PONDERADA do §7.12,
+    que troca ~7,3pp de Acc por ~2,8pp de BAcc. Nos tres de teste
+    balanceado (minc2500, food101, places_lt) Acc = BAcc exatamente.
+  · o Fisher vector e GPU; o §5.20 proibe comparar relogio com o hand-8.
+
+SOBRE A LINHA DE FUSAO (§5.23)
+  · media de log-probs com peso FIXO 0,5, zero parametro ajustado,
+    alinhamento por STEM. Nao tem coluna de dimensao porque combina os
+    posteriors de dois classificadores, nao um espaco de features
+    conjunto -- e e por isso que ela converte a complementaridade que a
+    CONCATENACAO dos mesmos dois bancos nao convertia (+0,81pp n.s.
+    contra +6,14 sobre o FV no rijksdraw).
+  · AS PARCELAS DELA NAO SAO AS DUAS LINHAS ACIMA, e e por isso que vao
+    impressas. O lado PRISM e o de PRODUCAO -- `hand-8 + grafo` sob
+    BranchMLP nos tres de CV, `hand-8` sob WideBranchMLP nos quatro de
+    split oficial -- contra o `hand-8` de cabeca estreita e sem grafo da
+    linha `hand-8 (PRISM)`. E o lado FV roda so nos folds cujo codebook
+    e honesto, entao no rijksdraw ele e 5u (fold 1) contra os 25u da
+    linha de cima. Sem as parcelas a tabela e irreconciliavel (§4.1f).
+  · braco SEM texto, que e o unico que sustenta zero supervisao externa
+    (§7.2). O braco COM texto esta em results/decision_fusion_banks_all
+    .csv e o ganho encolhe na proporcao do quanto o texto melhora o
+    nosso lado -- no places_lt vai a +0,25 com 3/5, indistinguivel de
+    zero. Promove-lo para esta tabela trocaria o TIPO da alegacao.
+  · 21 de 21 celulas positivas nos sete corpora, 100% das unidades.
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+dataset,fold,model_a,model_b,sup_a,sup_b,par,yule_q,odds_ratio,yule_q_macro,both,only_a,only_b,neither
+oilpainting,1,vit_b_16 finetuned,hand-8 + grafo,ImageNet + alvo,zero externa,nosso x CNN,0.6242,4.3216,0.5642,35.0935,26.5285,8.9944,29.3835
+oilpainting,1,resnet50 finetuned,hand-8 + grafo,ImageNet + alvo,zero externa,nosso x CNN,0.6137,4.1777,0.5671,36.7105,30.3941,7.3775,25.5179
+oilpainting,1,resnet18 do zero,hand-8 + grafo,zero externa,zero externa,nosso x CNN,0.6200,4.2636,0.5762,33.3249,23.5220,10.7630,32.3901
+oilpainting,1,resnet50 do zero,hand-8 + grafo,zero externa,zero externa,nosso x CNN,0.6577,4.8425,0.6100,33.8807,22.7388,10.2072,33.1733
+oilpainting,1,resnet50 finetuned,resnet50 do zero,ImageNet + alvo,zero externa,CNN x CNN,0.7526,7.0827,0.7188,48.0040,19.1006,8.6155,24.2799
+oilpainting,1,vit_b_16 finetuned,resnet18 do zero,ImageNet + alvo,zero externa,CNN x CNN,0.7435,6.7987,0.7216,45.5533,16.0687,11.2936,27.0844
+oilpainting,1,resnet50 finetuned,resnet18 do zero,ImageNet + alvo,zero externa,CNN x CNN,0.7344,6.5301,0.7248,47.8019,19.3027,9.0450,23.8504
+oilpainting,1,vit_b_16 finetuned,resnet50 do zero,ImageNet + alvo,zero externa,CNN x CNN,0.7781,8.0120,0.7706,46.1849,15.4371,10.4346,27.9434
+oilpainting,1,resnet50 finetuned,vit_b_16 finetuned,ImageNet + alvo,ImageNet + alvo,CNN x CNN,0.7843,8.2705,0.8033,51.9707,15.1339,9.6513,23.2441
+oilpainting,1,resnet18 do zero,resnet50 do zero,zero externa,zero externa,CNN x CNN,0.8525,12.5564,0.8393,45.8565,10.9904,10.7630,32.3901

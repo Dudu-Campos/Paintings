@@ -1,0 +1,95 @@
+====================================================================================================
+CLIP ViT-B/32 CONGELADO + cabeca treinada, nos sete corpora
+  encoder congelado; so o MLP e treinado, igual as outras congeladas
+  as DUAS cabecas vao impressas: o §5.18f mede que a largura INVERTE o
+  sinal da nossa complementaridade sobre o CLIP (+0,91 x -0,94, as duas n.s.)
+ordem das metricas: BAcc  ·  Acc  ·  macro-F1
+====================================================================================================
+
+oilpainting  (17 classes)   +- = sd entre 25 unid. (5 folds x 5 sementes)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  66.22 +-1.40   65.46 +-1.33   61.90 +-1.51   (25u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  67.35 +-1.03   69.43 +-1.15   65.55 +-1.23   (25u)
+    ResNet50 congelada (estreita)             48.60 +-0.79   48.19 +-2.26   44.11 +-1.72
+    ViT-B/16 congelado (estreita)             50.21 +-0.98   49.54 +-1.97   45.26 +-1.52
+    hand-8 (PRISM) (estreita)                 43.37 +-1.38   42.93 +-2.08   37.69 +-1.87
+
+rijksdraw  (11 classes)   +- = sd entre 25 unid. (5 folds x 5 sementes)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  56.37 +-0.62   51.78 +-1.16   52.30 +-1.24   (25u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  58.21 +-0.64   55.34 +-1.50   55.85 +-1.41   (25u)
+    ResNet50 congelada (estreita)             47.95 +-0.90   44.21 +-1.63   44.13 +-1.56
+    ViT-B/16 congelado (estreita)             47.83 +-0.76   43.51 +-1.35   43.16 +-1.45
+    hand-8 (PRISM) (estreita)                 55.83 +-0.76   51.90 +-1.39   51.94 +-1.43
+
+multitask  (125 classes)   +- = sd entre 25 unid. (5 folds x 5 sementes)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  53.28 +-1.35   26.21 +-1.16   28.92 +-1.43   (25u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  59.14 +-1.07   42.79 +-3.02   39.48 +-2.64   (25u)
+    ResNet50 congelada (estreita)             36.13 +-0.99   12.69 +-0.84   17.75 +-1.79
+    ViT-B/16 congelado (estreita)             36.03 +-1.08   12.11 +-0.62   17.46 +-1.28
+    hand-8 (PRISM) (estreita)                 38.75 +-1.09   13.81 +-0.87   15.98 +-1.22
+
+nct_crc  (9 classes)   +- = sd entre 5 sementes (particao publicada)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  89.44 +-0.45   90.14 +-0.63   88.49 +-0.57   (5u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  89.69 +-0.55   90.06 +-0.76   88.86 +-0.63   (5u)
+    ResNet50 congelada (estreita)             87.71 +-0.18   90.13 +-0.13   86.73 +-0.24  (letterbox!)
+    ViT-B/16 congelado (estreita)             91.87 +-0.33   93.16 +-0.30   91.51 +-0.36
+    hand-8 (PRISM) (estreita)                 87.16 +-0.39   86.51 +-0.32   85.92 +-0.35
+
+minc2500  (23 classes)   +- = sd entre 5 sementes (particao publicada)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  71.90 +-0.26   71.90 +-0.26   71.64 +-0.25   (5u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  71.79 +-0.19   71.79 +-0.19   71.58 +-0.21   (5u)
+    ResNet50 congelada (estreita)             67.49 +-0.04   67.49 +-0.04   67.27 +-0.03  (letterbox!)
+    ViT-B/16 congelado (estreita)             68.43 +-0.39   68.43 +-0.39   68.22 +-0.41
+    hand-8 (PRISM) (estreita)                 55.56 +-0.26   55.56 +-0.26   55.11 +-0.24
+
+food101  (101 classes)   +- = sd entre 5 sementes (particao publicada)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  87.28 +-0.18   87.28 +-0.18   87.27 +-0.18   (5u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  88.37 +-0.06   88.37 +-0.06   88.37 +-0.07   (5u)
+    ResNet50 congelada (estreita)             61.42 +-0.18   61.42 +-0.18   61.27 +-0.18  (letterbox!)
+    ViT-B/16 congelado (estreita)             73.80 +-0.09   73.80 +-0.09   73.66 +-0.10
+    hand-8 (PRISM) (estreita)                 36.74 +-0.25   36.74 +-0.25   35.46 +-0.27
+
+places_lt  (362 classes)   +- = sd entre 5 sementes (particao publicada)
+    CLIP ViT-B/32, cabeca estreita (512-256-128)  40.01 +-0.41   40.01 +-0.41   38.28 +-0.46   (5u)
+    CLIP ViT-B/32, cabeca larga (2048-1024-1024)  43.33 +-0.37   43.33 +-0.37   41.95 +-0.36   (5u)
+    hand-8 (PRISM), MESMO recorte             10.07 +-0.29   10.07 +-0.29    8.18 +-0.34
+    !! 362 classes, 61.971/36.200 -- NAO comparar com as
+       linhas de places_lt das outras tabelas (365 cl)
+
+----------------------------------------------------------------------------------------------------
+LEGENDA OBRIGATORIA
+  · MESMO DEGRAU DE SUPERVISAO que as congeladas do ImageNet: o encoder
+    nunca viu rotulo deste corpus. Mas o pre-treino e de 400M de pares
+    imagem-texto contra 1,28M de rotulos do ImageNet, e o §5.18f mede
+    que o CLIP reconhece os NOMES dos estilos -- zero-shot a 16,3x o
+    nulo embaralhado no multitask, escalando com o tamanho do encoder.
+  · ARQUITETURA CONTROLADA e corre CONTRA o CLIP: ViT-B/32 e o mesmo
+    ViT-Base do ViT-B/16, com patch 32 e portanto 4x MENOS tokens
+    visuais. E o encoder visualmente mais pobre dos dois e ganha mesmo
+    assim -- nao e arquitetura, e o que ele viu (§5.18f).
+  · A COMPLEMENTARIDADE SOBRE O CLIP NAO SE ESTABELECE, e esta tabela
+    nao a alega: +0,91 (p=0,107, 4/5) na cabeca estreita e -0,94
+    (p=0,079, 1/5) na larga (§5.18f). O enquadramento certo e o do
+    §7.2 -- contra supervisao externa a alegacao muda de TIPO --, e o
+    eixo contra o CLIP e AUDITABILIDADE, medida pelo par do §5.9b.
+  · as congeladas de referencia saem na MELHOR variante de
+    pre-processamento disponivel (resize+crop; `letterbox!` marca onde
+    so havia a pior). O §8 mede 4,91pp entre as duas nos mesmos pesos,
+    entao reportar a pior handicaparia o adversario (§7.17).
+  · o B/32 e o encoder mais FRACO: o §5.18g mede o L/14 em +4,68pp no
+    zero-shot. O cache do L/14 so existe para o multitask; reportar o
+    B/32 nos sete e a opcao disponivel, nao a mais adversa.
+  · TAMANHO MEDIDO (hook em Conv2d/Linear, o instrumento do §5.4b), e
+    ele corre CONTRA a leitura de que o CLIP ganha por ser maior:
+        ResNet50 (ImageNet-1k)   25.557.032 par.   4,09 GMACs   2048d
+        ViT-B/16 (ImageNet-1k)   86.567.656 par.  11,27 GMACs    768d
+        CLIP ViT-B/32 (WIT-400M) 87.456.000 par.   4,36 GMACs    512d
+    O CLIP e o MESMO ViT-Base do ViT-B/16 (12 camadas, 768 de largura)
+    com +1,0% de parametros -- so a projecao de patch muda, 32x32 em
+    vez de 16x16 -- e custa 2,6x MENOS FLOPs, porque a sequencia cai de
+    196 para 49 tokens. Contra a ResNet50 o custo e praticamente o
+    mesmo (+6,6%). E ele entrega o MENOR vetor dos tres. O que separa
+    os +17,3pp nao e capacidade: sao 400M de pares imagem-texto contra
+    1,28M de rotulos.
+  · treino com class_weight: celula PONDERADA do §7.12. Nos tres de
+    teste balanceado Acc = BAcc exatamente.
+----------------------------------------------------------------------------------------------------

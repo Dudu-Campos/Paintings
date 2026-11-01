@@ -1,0 +1,732 @@
+bloco,coluna,n_valores_distintos,std,constante
+Descriptors,Descriptors_0,99418,0.0322196,False
+Descriptors,Descriptors_1,98311,0.0206644,False
+Descriptors,Descriptors_2,98743,0.0168531,False
+Descriptors,Descriptors_3,98957,0.0152728,False
+Descriptors,Descriptors_4,99095,0.0133786,False
+Descriptors,Descriptors_5,99128,0.0125352,False
+Descriptors,Descriptors_6,99174,0.0117106,False
+Descriptors,Descriptors_7,99215,0.0112767,False
+Descriptors,Descriptors_8,99244,0.0242249,False
+Descriptors,Descriptors_9,99254,0.0111908,False
+Descriptors,Descriptors_10,99267,0.0110684,False
+Descriptors,Descriptors_11,99250,0.011936,False
+Descriptors,Descriptors_12,99258,0.0255879,False
+Descriptors,Descriptors_13,99271,0.0118201,False
+Descriptors,Descriptors_14,99259,0.0116794,False
+Descriptors,Descriptors_15,99264,0.012169,False
+Descriptors,Descriptors_16,99285,0.0148822,False
+Descriptors,Descriptors_17,99283,0.0134902,False
+Descriptors,Descriptors_18,99274,0.0128897,False
+Descriptors,Descriptors_19,99264,0.0159695,False
+Descriptors,Descriptors_20,99247,0.0134018,False
+Descriptors,Descriptors_21,99260,0.0142553,False
+Descriptors,Descriptors_22,99243,0.0147498,False
+Descriptors,Descriptors_23,99218,0.0160098,False
+Descriptors,Descriptors_24,99207,0.0174419,False
+Descriptors,Descriptors_25,99199,0.0184127,False
+Descriptors,Descriptors_26,99107,0.0212783,False
+Descriptors,Descriptors_27,99010,0.0235742,False
+Descriptors,Descriptors_28,98788,0.0275788,False
+Descriptors,Descriptors_29,99419,0.0355122,False
+Descriptors,Descriptors_30,99400,603.957,False
+Descriptors,Descriptors_31,97017,314.003,False
+Descriptors,Descriptors_32,98270,291.646,False
+Descriptors,Descriptors_33,98768,269.591,False
+Descriptors,Descriptors_34,98984,247.691,False
+Descriptors,Descriptors_35,99111,347.748,False
+Descriptors,Descriptors_36,99165,249.164,False
+Descriptors,Descriptors_37,99186,178.935,False
+Descriptors,Descriptors_38,99195,178.238,False
+Descriptors,Descriptors_39,99191,152.665,False
+Descriptors,Descriptors_40,99216,152.136,False
+Descriptors,Descriptors_41,99177,137.512,False
+Descriptors,Descriptors_42,99202,131.379,False
+Descriptors,Descriptors_43,99163,116.085,False
+Descriptors,Descriptors_44,99127,212.693,False
+Descriptors,Descriptors_45,99104,113.717,False
+Descriptors,Descriptors_46,99049,110.327,False
+Descriptors,Descriptors_47,98960,102.752,False
+Descriptors,Descriptors_48,98890,108.227,False
+Descriptors,Descriptors_49,98736,98.4721,False
+Descriptors,Descriptors_50,98564,108.07,False
+Descriptors,Descriptors_51,98311,107.023,False
+Descriptors,Descriptors_52,97965,106.791,False
+Descriptors,Descriptors_53,97491,107.469,False
+Descriptors,Descriptors_54,96910,111.745,False
+Descriptors,Descriptors_55,96012,111.088,False
+Descriptors,Descriptors_56,94528,109.065,False
+Descriptors,Descriptors_57,92351,101.139,False
+Descriptors,Descriptors_58,88550,91.918,False
+Descriptors,Descriptors_59,99306,148.626,False
+Descriptors,Descriptors_60,99381,78.0063,False
+Descriptors,Descriptors_61,96734,48.1504,False
+Descriptors,Descriptors_62,98023,53.3127,False
+Descriptors,Descriptors_63,98583,57.0972,False
+Descriptors,Descriptors_64,98918,56.7468,False
+Descriptors,Descriptors_65,99053,56.3578,False
+Descriptors,Descriptors_66,99122,57.3159,False
+Descriptors,Descriptors_67,99194,55.3536,False
+Descriptors,Descriptors_68,99208,54.8837,False
+Descriptors,Descriptors_69,99209,53.4332,False
+Descriptors,Descriptors_70,99263,53.8221,False
+Descriptors,Descriptors_71,99247,53.1448,False
+Descriptors,Descriptors_72,99243,53.8568,False
+Descriptors,Descriptors_73,99217,54.0664,False
+Descriptors,Descriptors_74,99253,54.1599,False
+Descriptors,Descriptors_75,99239,59.2732,False
+Descriptors,Descriptors_76,99202,61.6503,False
+Descriptors,Descriptors_77,99202,80.5813,False
+Descriptors,Descriptors_78,99186,71.6587,False
+Descriptors,Descriptors_79,99173,70.5707,False
+Descriptors,Descriptors_80,99129,79.1732,False
+Descriptors,Descriptors_81,99100,93.5251,False
+Descriptors,Descriptors_82,98987,90.1146,False
+Descriptors,Descriptors_83,98867,103.383,False
+Descriptors,Descriptors_84,98727,139.111,False
+Descriptors,Descriptors_85,98417,124.516,False
+Descriptors,Descriptors_86,97912,148.876,False
+Descriptors,Descriptors_87,96987,156.931,False
+Descriptors,Descriptors_88,95141,165.234,False
+Descriptors,Descriptors_89,99375,311.352,False
+Descriptors,Descriptors_90,99178,17.3171,False
+Descriptors,Descriptors_91,99074,6.10224,False
+Descriptors,Descriptors_92,99428,1.05779,False
+Descriptors,Descriptors_93,99419,7.17587,False
+Descriptors,Descriptors_94,99341,5.17809,False
+Descriptors,Descriptors_95,99403,1.52709,False
+Descriptors,Descriptors_96,99364,10.9367,False
+Descriptors,Descriptors_97,99277,6.70761,False
+Descriptors,Descriptors_98,99399,1.27404,False
+Descriptors,Descriptors_99,32938,0.0138926,False
+Descriptors,Descriptors_100,25178,0.00886369,False
+Descriptors,Descriptors_101,20810,0.00664497,False
+Descriptors,Descriptors_102,18608,0.0055586,False
+Descriptors,Descriptors_103,19943,0.00616143,False
+Descriptors,Descriptors_104,21379,0.0066603,False
+Descriptors,Descriptors_105,26057,0.00920405,False
+Descriptors,Descriptors_106,34664,0.0154325,False
+Descriptors,Descriptors_107,44639,0.0265653,False
+Descriptors,Descriptors_108,38031,0.0200073,False
+Descriptors,Descriptors_109,25586,0.00895603,False
+Descriptors,Descriptors_110,23426,0.00852887,False
+Descriptors,Descriptors_111,17497,0.00488544,False
+Descriptors,Descriptors_112,16865,0.00458438,False
+Descriptors,Descriptors_113,16572,0.00447528,False
+Descriptors,Descriptors_114,22650,0.0075055,False
+Descriptors,Descriptors_115,36672,0.0509983,False
+Descriptors,Descriptors_116,58538,0.0492655,False
+Descriptors,Descriptors_117,99330,380.244,False
+Descriptors,Descriptors_118,99328,113.706,False
+Descriptors,Descriptors_119,99216,5.16763,False
+Descriptors,Descriptors_120,99236,1.04956,False
+Descriptors,Descriptors_121,99256,0.122832,False
+Descriptors,Descriptors_122,99180,0.0149492,False
+Descriptors,Descriptors_123,99281,0.0633504,False
+Descriptors,Descriptors_124,99326,0.00215612,False
+Descriptors,Descriptors_125,97837,0.0680808,False
+Descriptors,Descriptors_126,99296,0.0205828,False
+Descriptors,Descriptors_127,99402,0.0319356,False
+Descriptors,Descriptors_128,99403,0.00105563,False
+Descriptors,Descriptors_129,96920,0.0454287,False
+Felzenszwalb,Felzenszwalb_n_nodes,4512,868.011,False
+Felzenszwalb,Felzenszwalb_n_edges,11507,2502.83,False
+Felzenszwalb,Felzenszwalb_density,95315,0.00426746,False
+Felzenszwalb,Felzenszwalb_area_gini,98823,0.115441,False
+Felzenszwalb,Felzenszwalb_area_entropy,98627,1.66912,False
+Felzenszwalb,Felzenszwalb_area_max_frac,99269,0.10608,False
+Felzenszwalb,Felzenszwalb_area_mean,8007,0.000903447,False
+Felzenszwalb,Felzenszwalb_area_std,99374,0.00600046,False
+Felzenszwalb,Felzenszwalb_color_dist_mean,99201,1.90555,False
+Felzenszwalb,Felzenszwalb_color_dist_std,99201,2.62341,False
+Felzenszwalb,Felzenszwalb_color_dist_max,98150,17.9277,False
+Felzenszwalb,Felzenszwalb_spatial_dist_mean,99194,0.0263182,False
+Felzenszwalb,Felzenszwalb_spatial_dist_std,99291,0.0291447,False
+Felzenszwalb,Felzenszwalb_degree_mean,84357,0.338744,False
+Felzenszwalb,Felzenszwalb_degree_std,99061,1.51521,False
+Felzenszwalb,Felzenszwalb_degree_max,486,48.1929,False
+Felzenszwalb,Felzenszwalb_hub_degree_ratio,98508,10.5213,False
+Felzenszwalb,Felzenszwalb_n_leaf_frac,67173,0.0599246,False
+Felzenszwalb,Felzenszwalb_degree_gini,98781,0.06036,False
+Felzenszwalb,Felzenszwalb_area_second_max_frac,99147,0.0420015,False
+Felzenszwalb,Felzenszwalb_area_cv,99310,2.77974,False
+Felzenszwalb,Felzenszwalb_spatial_density_cv,98726,0.141821,False
+Felzenszwalb,Felzenszwalb_spatial_density_max_block_frac,61830,0.0320549,False
+Felzenszwalb,Felzenszwalb_L_mean_w,99167,17.2922,False
+Felzenszwalb,Felzenszwalb_L_std_w,99097,6.28468,False
+Felzenszwalb,Felzenszwalb_a_mean_w,99425,7.15017,False
+Felzenszwalb,Felzenszwalb_a_std_w,99347,5.21587,False
+Felzenszwalb,Felzenszwalb_b_mean_w,99373,10.8942,False
+Felzenszwalb,Felzenszwalb_b_std_w,99285,6.7782,False
+Felzenszwalb,Felzenszwalb_chroma_mean_w,99299,10.4794,False
+Felzenszwalb,Felzenszwalb_chroma_std_w,99253,5.9117,False
+Felzenszwalb,Felzenszwalb_warm_frac,81192,0.241732,False
+Felzenszwalb,Felzenszwalb_knn_n_edges,22264,5532.35,False
+Felzenszwalb,Felzenszwalb_knn_density,94849,0.0113201,False
+Felzenszwalb,Felzenszwalb_knn_color_dist_mean,99043,1.59985,False
+Felzenszwalb,Felzenszwalb_knn_color_dist_std,99064,1.20332,False
+Felzenszwalb,Felzenszwalb_knn_color_dist_max,99055,10.3734,False
+Felzenszwalb,Felzenszwalb_knn_spatial_dist_mean,98810,0.0205119,False
+Felzenszwalb,Felzenszwalb_knn_spatial_dist_std,98933,0.0130162,False
+Felzenszwalb,Felzenszwalb_knn_degree_mean,82269,0.239744,False
+Felzenszwalb,Felzenszwalb_knn_degree_std,97188,0.173053,False
+Felzenszwalb,Felzenszwalb_knn_degree_max,20,1.81988,False
+Felzenszwalb,Felzenszwalb_knn_hub_degree_ratio,93956,0.129998,False
+Felzenszwalb,Felzenszwalb_knn_degree_gini,97376,0.00595359,False
+Felzenszwalb,Felzenszwalb_del_n_edges,11943,2602.61,False
+Felzenszwalb,Felzenszwalb_del_density,41259,0.00525889,False
+Felzenszwalb,Felzenszwalb_del_color_dist_mean,99122,6.01288,False
+Felzenszwalb,Felzenszwalb_del_color_dist_std,99138,5.05594,False
+Felzenszwalb,Felzenszwalb_del_color_dist_max,98809,17.2794,False
+Felzenszwalb,Felzenszwalb_del_spatial_dist_mean,99144,0.0131515,False
+Felzenszwalb,Felzenszwalb_del_spatial_dist_std,99132,0.0113309,False
+Felzenszwalb,Felzenszwalb_del_degree_mean,32149,0.0343928,False
+Felzenszwalb,Felzenszwalb_del_degree_std,96192,0.078486,False
+Felzenszwalb,Felzenszwalb_del_degree_max,25,1.44299,False
+Felzenszwalb,Felzenszwalb_del_hub_degree_ratio,62202,0.238048,False
+Felzenszwalb,Felzenszwalb_del_degree_gini,97823,0.00768917,False
+Felzenszwalb,Felzenszwalb_mst_n_edges,4548,875.809,False
+Felzenszwalb,Felzenszwalb_mst_density,77356,0.00152003,False
+Felzenszwalb,Felzenszwalb_mst_color_dist_mean,99063,2.49797,False
+Felzenszwalb,Felzenszwalb_mst_color_dist_std,99192,1.29142,False
+Felzenszwalb,Felzenszwalb_mst_color_dist_max,98561,11.8472,False
+Felzenszwalb,Felzenszwalb_mst_spatial_dist_mean,99187,0.0250802,False
+Felzenszwalb,Felzenszwalb_mst_spatial_dist_std,99258,0.0270812,False
+Felzenszwalb,Felzenszwalb_mst_degree_mean,57638,0.11277,False
+Felzenszwalb,Felzenszwalb_mst_degree_std,98959,0.751705,False
+Felzenszwalb,Felzenszwalb_mst_degree_max,308,23.8565,False
+Felzenszwalb,Felzenszwalb_mst_hub_degree_ratio,95114,12.551,False
+Felzenszwalb,Felzenszwalb_mst_n_leaf_frac,75172,0.0626897,False
+Felzenszwalb,Felzenszwalb_mst_degree_gini,98571,0.0492621,False
+SLIC,SLIC_n_nodes,1933,278.105,False
+SLIC,SLIC_n_edges,4728,780.382,False
+SLIC,SLIC_density,79869,0.00215009,False
+SLIC,SLIC_area_gini,99175,0.0756532,False
+SLIC,SLIC_area_entropy,92887,0.429245,False
+SLIC,SLIC_area_max_frac,96277,0.0113487,False
+SLIC,SLIC_area_mean,3476,0.000839202,False
+SLIC,SLIC_area_std,99248,0.00161821,False
+SLIC,SLIC_color_dist_mean,99269,1.41704,False
+SLIC,SLIC_color_dist_std,99241,2.57282,False
+SLIC,SLIC_color_dist_max,98263,17.404,False
+SLIC,SLIC_spatial_dist_mean,98447,0.00528247,False
+SLIC,SLIC_spatial_dist_std,99102,0.0069058,False
+SLIC,SLIC_degree_mean,73889,0.260927,False
+SLIC,SLIC_degree_std,98693,0.26846,False
+SLIC,SLIC_degree_max,94,5.80825,False
+SLIC,SLIC_hub_degree_ratio,93602,1.04423,False
+SLIC,SLIC_n_leaf_frac,4652,0.00294047,False
+SLIC,SLIC_degree_gini,98683,0.0230275,False
+SLIC,SLIC_area_second_max_frac,95483,0.00403973,False
+SLIC,SLIC_area_cv,99198,0.29479,False
+SLIC,SLIC_spatial_density_cv,95391,0.0716017,False
+SLIC,SLIC_spatial_density_max_block_frac,29823,0.0136414,False
+SLIC,SLIC_L_mean_w,99158,17.2922,False
+SLIC,SLIC_L_std_w,99085,6.17457,False
+SLIC,SLIC_a_mean_w,99416,7.15017,False
+SLIC,SLIC_a_std_w,99309,5.16499,False
+SLIC,SLIC_b_mean_w,99375,10.8942,False
+SLIC,SLIC_b_std_w,99268,6.69839,False
+SLIC,SLIC_chroma_mean_w,99285,10.4427,False
+SLIC,SLIC_chroma_std_w,99287,5.84527,False
+SLIC,SLIC_warm_frac,81203,0.238404,False
+SLIC,SLIC_knn_n_edges,9298,1734.6,False
+SLIC,SLIC_knn_density,91125,0.00481824,False
+SLIC,SLIC_knn_color_dist_mean,99212,1.60468,False
+SLIC,SLIC_knn_color_dist_std,99107,0.973678,False
+SLIC,SLIC_knn_color_dist_max,99132,10.1442,False
+SLIC,SLIC_knn_spatial_dist_mean,98838,0.0151128,False
+SLIC,SLIC_knn_spatial_dist_std,98926,0.0105247,False
+SLIC,SLIC_knn_degree_mean,86156,0.302047,False
+SLIC,SLIC_knn_degree_std,97836,0.219544,False
+SLIC,SLIC_knn_degree_max,20,1.74378,False
+SLIC,SLIC_knn_hub_degree_ratio,95286,0.122112,False
+SLIC,SLIC_knn_degree_gini,97929,0.00787905,False
+SLIC,SLIC_del_n_edges,5031,833.924,False
+SLIC,SLIC_del_density,22055,0.0030951,False
+SLIC,SLIC_del_color_dist_mean,99243,5.22329,False
+SLIC,SLIC_del_color_dist_std,99169,4.93386,False
+SLIC,SLIC_del_color_dist_max,98785,17.8532,False
+SLIC,SLIC_del_spatial_dist_mean,98104,0.00416298,False
+SLIC,SLIC_del_spatial_dist_std,98930,0.00781249,False
+SLIC,SLIC_del_degree_mean,18976,0.0198978,False
+SLIC,SLIC_del_degree_std,96370,0.139752,False
+SLIC,SLIC_del_degree_max,74,6.73677,False
+SLIC,SLIC_del_hub_degree_ratio,55863,1.13004,False
+SLIC,SLIC_del_degree_gini,98189,0.00870654,False
+SLIC,SLIC_mst_n_edges,1988,334.804,False
+SLIC,SLIC_mst_density,62579,0.00168672,False
+SLIC,SLIC_mst_color_dist_mean,99161,3.10196,False
+SLIC,SLIC_mst_color_dist_std,99275,2.98294,False
+SLIC,SLIC_mst_color_dist_max,98586,19.7857,False
+SLIC,SLIC_mst_spatial_dist_mean,98387,0.00545005,False
+SLIC,SLIC_mst_spatial_dist_std,99126,0.00739922,False
+SLIC,SLIC_mst_degree_mean,57906,0.289005,False
+SLIC,SLIC_mst_degree_std,96842,0.117932,False
+SLIC,SLIC_mst_degree_max,66,2.90393,False
+SLIC,SLIC_mst_hub_degree_ratio,72300,3.46457,False
+SLIC,SLIC_mst_n_leaf_frac,53604,0.0329391,False
+SLIC,SLIC_mst_degree_gini,98248,0.103419,False
+Line graph,Line graph_lg_n_nodes,4728,780.382,False
+Line graph,Line graph_lg_n_edges,17103,3900.39,False
+Line graph,Line graph_lg_density,97781,0.0035079,False
+Line graph,Line graph_lg_degree_mean,95157,0.611221,False
+Line graph,Line graph_lg_degree_std,98912,0.711154,False
+Line graph,Line graph_lg_degree_max,107,6.95064,False
+Line graph,Line graph_lg_degree_q90,102,1.12087,False
+Line graph,Line graph_lg_degree_gini,98993,0.0266971,False
+Line graph,Line graph_lg_wedge_load_gini,98690,0.0508591,False
+Line graph,Line graph_lg_wedge_load_max_frac,64673,0.0111362,False
+Line graph,Line graph_lg_degree_assortativity,98660,0.10662,False
+Line graph,Line graph_lg_color_gini,98895,0.131951,False
+Line graph,Line graph_lg_spatial_gini,98918,0.0429617,False
+Line graph,Line graph_lg_color_spatial_corr,99022,0.0774624,False
+Line graph,Line graph_lg_orientation_coherence,99261,0.0697407,False
+Line graph,Line graph_lg_midpoint_grid_cv,99065,0.0695715,False
+Line graph,Line graph_lg_midpoint_grid_max_frac,70537,0.0132038,False
+Line graph,Line graph_lg_contrast_assortativity,99189,0.0733347,False
+Line graph,Line graph_lg_spatial_assortativity,99309,0.139982,False
+Line graph,Line graph_lg_acute_junction_frac,97975,0.0257245,False
+Line graph,Line graph_lg_straight_junction_frac,96241,0.0151741,False
+Line graph,Line graph_lg_luminance_reversal_frac,97684,0.0305942,False
+Line graph,Line graph_lg_both_strong_frac,96617,0.127982,False
+Line graph,Line graph_lg_one_strong_frac,95962,0.0566507,False
+Line graph,Line graph_lg_color_mean,99271,1.41704,False
+Line graph,Line graph_lg_color_std,99290,2.57282,False
+Line graph,Line graph_lg_color_q10,25389,0.291234,False
+Line graph,Line graph_lg_color_q50,84610,0.84861,False
+Line graph,Line graph_lg_color_q90,98959,4.66931,False
+Line graph,Line graph_lg_spatial_mean,98411,0.00528247,False
+Line graph,Line graph_lg_spatial_std,99114,0.0069058,False
+Line graph,Line graph_lg_spatial_q10,88631,0.00164744,False
+Line graph,Line graph_lg_spatial_q50,94584,0.00364935,False
+Line graph,Line graph_lg_spatial_q90,98543,0.012318,False
+Line graph,Line graph_lg_endpoint_log_area_ratio_mean,99166,0.125534,False
+Line graph,Line graph_lg_endpoint_log_area_ratio_std,99013,0.10376,False
+Line graph,Line graph_lg_endpoint_log_area_ratio_q50,64692,0.10961,False
+Line graph,Line graph_lg_endpoint_log_area_ratio_q90,95157,0.269891,False
+Line graph,Line graph_lg_contrast_delta_mean,99242,1.81402,False
+Line graph,Line graph_lg_contrast_delta_std,99273,3.02375,False
+Line graph,Line graph_lg_contrast_delta_q50,94023,0.782747,False
+Line graph,Line graph_lg_contrast_delta_q90,99122,5.83276,False
+Line graph,Line graph_lg_spatial_delta_mean,99051,0.00526096,False
+Line graph,Line graph_lg_spatial_delta_std,99139,0.00883479,False
+Line graph,Line graph_lg_spatial_delta_q50,98202,0.00325672,False
+Line graph,Line graph_lg_spatial_delta_q90,99094,0.0131397,False
+Line graph,Line graph_lg_junction_angle_mean,92138,1.9345,False
+Line graph,Line graph_lg_junction_angle_std,95519,1.81053,False
+Line graph,Line graph_lg_junction_angle_q10,98188,4.96714,False
+Line graph,Line graph_lg_junction_angle_q50,91421,2.74217,False
+Line graph,Line graph_lg_junction_angle_q90,86963,3.31785,False
+Line graph,Line graph_lg_outer_lab_distance_mean,99210,5.4851,False
+Line graph,Line graph_lg_outer_lab_distance_std,99142,5.20839,False
+Line graph,Line graph_lg_outer_lab_distance_q50,99260,5.02925,False
+Line graph,Line graph_lg_outer_lab_distance_q90,99208,14.4164,False
+Line graph,Line graph_lg_outer_spatial_distance_mean,98271,0.00999597,False
+Line graph,Line graph_lg_outer_spatial_distance_std,98970,0.0147597,False
+Line graph,Line graph_lg_outer_spatial_distance_q50,97331,0.00657066,False
+Line graph,Line graph_lg_outer_spatial_distance_q90,98612,0.0238817,False
+Line graph,Line graph_lg_shared_area_mean,98721,0.004393,False
+Line graph,Line graph_lg_shared_area_std,99292,0.00386931,False
+Line graph,Line graph_lg_shared_area_q50,71339,0.00542004,False
+Line graph,Line graph_lg_shared_area_q90,89151,0.00918057,False
+L(G_felz),L(G_felz)_lg_n_nodes,11507,2502.83,False
+L(G_felz),L(G_felz)_lg_n_edges,48332,16810.4,False
+L(G_felz),L(G_felz)_lg_density,99278,0.0134795,False
+L(G_felz),L(G_felz)_lg_degree_mean,98437,9.11313,False
+L(G_felz),L(G_felz)_lg_degree_std,99277,15.324,False
+L(G_felz),L(G_felz)_lg_degree_max,578,62.5521,False
+L(G_felz),L(G_felz)_lg_degree_q90,1221,36.2768,False
+L(G_felz),L(G_felz)_lg_degree_gini,99109,0.10938,False
+L(G_felz),L(G_felz)_lg_wedge_load_gini,98776,0.117045,False
+L(G_felz),L(G_felz)_lg_wedge_load_max_frac,97824,0.133463,False
+L(G_felz),L(G_felz)_lg_degree_assortativity,98827,0.129298,False
+L(G_felz),L(G_felz)_lg_color_gini,98531,0.0806802,False
+L(G_felz),L(G_felz)_lg_spatial_gini,98954,0.0760071,False
+L(G_felz),L(G_felz)_lg_color_spatial_corr,99381,0.0941119,False
+L(G_felz),L(G_felz)_lg_orientation_coherence,99342,0.100011,False
+L(G_felz),L(G_felz)_lg_midpoint_grid_cv,99276,0.176796,False
+L(G_felz),L(G_felz)_lg_midpoint_grid_max_frac,88906,0.0419772,False
+L(G_felz),L(G_felz)_lg_contrast_assortativity,99270,0.0838538,False
+L(G_felz),L(G_felz)_lg_spatial_assortativity,99071,0.137786,False
+L(G_felz),L(G_felz)_lg_acute_junction_frac,97773,0.0286784,False
+L(G_felz),L(G_felz)_lg_straight_junction_frac,97837,0.0242941,False
+L(G_felz),L(G_felz)_lg_luminance_reversal_frac,98013,0.040387,False
+L(G_felz),L(G_felz)_lg_both_strong_frac,98035,0.0245666,False
+L(G_felz),L(G_felz)_lg_one_strong_frac,98533,0.0599764,False
+L(G_felz),L(G_felz)_lg_color_mean,99190,1.90555,False
+L(G_felz),L(G_felz)_lg_color_std,99215,2.62341,False
+L(G_felz),L(G_felz)_lg_color_q10,65733,0.417386,False
+L(G_felz),L(G_felz)_lg_color_q50,97173,1.15443,False
+L(G_felz),L(G_felz)_lg_color_q90,99152,5.60862,False
+L(G_felz),L(G_felz)_lg_spatial_mean,99193,0.0263182,False
+L(G_felz),L(G_felz)_lg_spatial_std,99293,0.0291447,False
+L(G_felz),L(G_felz)_lg_spatial_q10,99029,0.00461921,False
+L(G_felz),L(G_felz)_lg_spatial_q50,99084,0.0186523,False
+L(G_felz),L(G_felz)_lg_spatial_q90,99229,0.067818,False
+L(G_felz),L(G_felz)_lg_endpoint_log_area_ratio_mean,99061,0.487868,False
+L(G_felz),L(G_felz)_lg_endpoint_log_area_ratio_std,99086,0.417241,False
+L(G_felz),L(G_felz)_lg_endpoint_log_area_ratio_q50,81573,0.419455,False
+L(G_felz),L(G_felz)_lg_endpoint_log_area_ratio_q90,98748,1.19852,False
+L(G_felz),L(G_felz)_lg_contrast_delta_mean,99298,2.21406,False
+L(G_felz),L(G_felz)_lg_contrast_delta_std,99248,2.8656,False
+L(G_felz),L(G_felz)_lg_contrast_delta_q50,97373,1.13928,False
+L(G_felz),L(G_felz)_lg_contrast_delta_q90,99200,6.31062,False
+L(G_felz),L(G_felz)_lg_spatial_delta_mean,99258,0.0273094,False
+L(G_felz),L(G_felz)_lg_spatial_delta_std,99311,0.0273499,False
+L(G_felz),L(G_felz)_lg_spatial_delta_q50,99183,0.0194103,False
+L(G_felz),L(G_felz)_lg_spatial_delta_q90,99292,0.0679453,False
+L(G_felz),L(G_felz)_lg_junction_angle_mean,94976,2.40596,False
+L(G_felz),L(G_felz)_lg_junction_angle_std,97498,3.13124,False
+L(G_felz),L(G_felz)_lg_junction_angle_q10,98993,5.35436,False
+L(G_felz),L(G_felz)_lg_junction_angle_q50,95219,3.13616,False
+L(G_felz),L(G_felz)_lg_junction_angle_q90,88264,2.29334,False
+L(G_felz),L(G_felz)_lg_outer_lab_distance_mean,99109,5.78935,False
+L(G_felz),L(G_felz)_lg_outer_lab_distance_std,99140,4.85821,False
+L(G_felz),L(G_felz)_lg_outer_lab_distance_q50,99195,5.2776,False
+L(G_felz),L(G_felz)_lg_outer_lab_distance_q90,99171,13.4072,False
+L(G_felz),L(G_felz)_lg_outer_spatial_distance_mean,99289,0.0715498,False
+L(G_felz),L(G_felz)_lg_outer_spatial_distance_std,99307,0.0615168,False
+L(G_felz),L(G_felz)_lg_outer_spatial_distance_q50,99207,0.0594723,False
+L(G_felz),L(G_felz)_lg_outer_spatial_distance_q90,99329,0.165319,False
+L(G_felz),L(G_felz)_lg_shared_area_mean,99405,0.0618605,False
+L(G_felz),L(G_felz)_lg_shared_area_std,99402,0.0435622,False
+L(G_felz),L(G_felz)_lg_shared_area_q50,95092,0.0775926,False
+L(G_felz),L(G_felz)_lg_shared_area_q90,98872,0.105271,False
+Hilbert,Hilbert_0,99161,22.0858,False
+Hilbert,Hilbert_1,99104,18.6738,False
+Hilbert,Hilbert_2,99142,20.6222,False
+Hilbert,Hilbert_3,99166,18.3956,False
+Hilbert,Hilbert_4,99162,18.5324,False
+Hilbert,Hilbert_5,99170,20.7874,False
+Hilbert,Hilbert_6,99132,18.7806,False
+Hilbert,Hilbert_7,99128,22.072,False
+Hilbert,Hilbert_8,99240,7.62233,False
+Hilbert,Hilbert_9,99164,6.94734,False
+Hilbert,Hilbert_10,99168,7.15929,False
+Hilbert,Hilbert_11,99203,6.63831,False
+Hilbert,Hilbert_12,99173,6.62096,False
+Hilbert,Hilbert_13,99214,7.16785,False
+Hilbert,Hilbert_14,99200,6.9048,False
+Hilbert,Hilbert_15,99271,7.62669,False
+Hilbert,Hilbert_16,99104,17.3156,False
+Hilbert,Hilbert_17,99076,6.1153,False
+Hilbert,Hilbert_18,99403,8.10911,False
+Hilbert,Hilbert_19,99401,8.17137,False
+Hilbert,Hilbert_20,99350,8.21451,False
+Hilbert,Hilbert_21,99400,8.46256,False
+Hilbert,Hilbert_22,99398,8.435,False
+Hilbert,Hilbert_23,99369,8.19394,False
+Hilbert,Hilbert_24,99414,8.15749,False
+Hilbert,Hilbert_25,99395,8.14452,False
+Hilbert,Hilbert_26,99347,4.74971,False
+Hilbert,Hilbert_27,99330,5.22418,False
+Hilbert,Hilbert_28,99295,4.97664,False
+Hilbert,Hilbert_29,99333,5.27577,False
+Hilbert,Hilbert_30,99372,5.26562,False
+Hilbert,Hilbert_31,99337,4.95276,False
+Hilbert,Hilbert_32,99357,5.23424,False
+Hilbert,Hilbert_33,99361,4.76171,False
+Hilbert,Hilbert_34,99411,7.17295,False
+Hilbert,Hilbert_35,99311,5.20137,False
+Hilbert,Hilbert_36,99366,13.5093,False
+Hilbert,Hilbert_37,99337,12.6246,False
+Hilbert,Hilbert_38,99308,12.3468,False
+Hilbert,Hilbert_39,99341,12.4083,False
+Hilbert,Hilbert_40,99378,12.3923,False
+Hilbert,Hilbert_41,99346,12.3555,False
+Hilbert,Hilbert_42,99346,12.5787,False
+Hilbert,Hilbert_43,99382,13.4897,False
+Hilbert,Hilbert_44,99312,6.48844,False
+Hilbert,Hilbert_45,99302,6.66128,False
+Hilbert,Hilbert_46,99247,6.31597,False
+Hilbert,Hilbert_47,99315,6.52158,False
+Hilbert,Hilbert_48,99261,6.51787,False
+Hilbert,Hilbert_49,99294,6.27437,False
+Hilbert,Hilbert_50,99316,6.60839,False
+Hilbert,Hilbert_51,99311,6.41471,False
+Hilbert,Hilbert_52,99353,10.9326,False
+Hilbert,Hilbert_53,99264,6.73872,False
+Hilbert,Hilbert_54,99283,0.428925,False
+Hilbert,Hilbert_55,98552,0.449989,False
+Hilbert,Hilbert_56,99011,0.494085,False
+Fourier,Fourier_log_power_r00_a00,99196,0.591588,False
+Fourier,Fourier_log_power_r00_a03,99092,0.53747,False
+Fourier,Fourier_log_power_r00_a06,99222,0.559537,False
+Fourier,Fourier_log_power_r00_a09,99118,0.537685,False
+Fourier,Fourier_log_power_r01_a00,99161,0.658218,False
+Fourier,Fourier_log_power_r01_a01,99080,0.63472,False
+Fourier,Fourier_log_power_r01_a04,99070,0.604985,False
+Fourier,Fourier_log_power_r01_a06,99167,0.62501,False
+Fourier,Fourier_log_power_r01_a07,99059,0.609782,False
+Fourier,Fourier_log_power_r01_a10,99098,0.638751,False
+Fourier,Fourier_log_power_r02_a00,99089,0.688528,False
+Fourier,Fourier_log_power_r02_a01,99018,0.660208,False
+Fourier,Fourier_log_power_r02_a03,98953,0.651582,False
+Fourier,Fourier_log_power_r02_a04,99006,0.628,False
+Fourier,Fourier_log_power_r02_a06,99041,0.64518,False
+Fourier,Fourier_log_power_r02_a07,98992,0.626189,False
+Fourier,Fourier_log_power_r02_a09,98991,0.651232,False
+Fourier,Fourier_log_power_r02_a10,99027,0.657269,False
+Fourier,Fourier_log_power_r03_a00,99025,0.52515,False
+Fourier,Fourier_log_power_r03_a01,98905,0.669486,False
+Fourier,Fourier_log_power_r03_a02,98822,0.52446,False
+Fourier,Fourier_log_power_r03_a03,98877,0.485557,False
+Fourier,Fourier_log_power_r03_a04,98896,0.647594,False
+Fourier,Fourier_log_power_r03_a05,98965,0.636776,False
+Fourier,Fourier_log_power_r03_a06,98958,0.48501,False
+Fourier,Fourier_log_power_r03_a07,98917,0.651714,False
+Fourier,Fourier_log_power_r03_a08,98775,0.506989,False
+Fourier,Fourier_log_power_r03_a09,98869,0.49607,False
+Fourier,Fourier_log_power_r03_a10,98916,0.669331,False
+Fourier,Fourier_log_power_r03_a11,99009,0.66827,False
+Fourier,Fourier_log_power_r04_a00,98935,0.490501,False
+Fourier,Fourier_log_power_r04_a01,98786,0.497463,False
+Fourier,Fourier_log_power_r04_a02,98814,0.512505,False
+Fourier,Fourier_log_power_r04_a03,98756,0.45991,False
+Fourier,Fourier_log_power_r04_a04,98735,0.464185,False
+Fourier,Fourier_log_power_r04_a05,98771,0.473848,False
+Fourier,Fourier_log_power_r04_a06,98909,0.452862,False
+Fourier,Fourier_log_power_r04_a07,98721,0.462749,False
+Fourier,Fourier_log_power_r04_a08,98750,0.493522,False
+Fourier,Fourier_log_power_r04_a09,98719,0.468344,False
+Fourier,Fourier_log_power_r04_a10,98823,0.496989,False
+Fourier,Fourier_log_power_r04_a11,98925,0.512028,False
+Fourier,Fourier_log_power_r05_a00,98850,0.462488,False
+Fourier,Fourier_log_power_r05_a01,98749,0.462674,False
+Fourier,Fourier_log_power_r05_a02,98674,0.466532,False
+Fourier,Fourier_log_power_r05_a03,98659,0.449305,False
+Fourier,Fourier_log_power_r05_a04,98665,0.433675,False
+Fourier,Fourier_log_power_r05_a05,98688,0.427771,False
+Fourier,Fourier_log_power_r05_a06,98808,0.424426,False
+Fourier,Fourier_log_power_r05_a07,98677,0.430519,False
+Fourier,Fourier_log_power_r05_a08,98686,0.455071,False
+Fourier,Fourier_log_power_r05_a09,98654,0.455022,False
+Fourier,Fourier_log_power_r05_a10,98726,0.459651,False
+Fourier,Fourier_log_power_r05_a11,98790,0.466798,False
+Fourier,Fourier_log_power_r06_a00,98823,0.453353,False
+Fourier,Fourier_log_power_r06_a01,98665,0.446188,False
+Fourier,Fourier_log_power_r06_a02,98609,0.441905,False
+Fourier,Fourier_log_power_r06_a03,98614,0.427055,False
+Fourier,Fourier_log_power_r06_a04,98587,0.419827,False
+Fourier,Fourier_log_power_r06_a05,98599,0.414343,False
+Fourier,Fourier_log_power_r06_a06,98688,0.418995,False
+Fourier,Fourier_log_power_r06_a07,98574,0.419315,False
+Fourier,Fourier_log_power_r06_a08,98618,0.429095,False
+Fourier,Fourier_log_power_r06_a09,98556,0.429904,False
+Fourier,Fourier_log_power_r06_a10,98616,0.443214,False
+Fourier,Fourier_log_power_r06_a11,98706,0.449866,False
+Fourier,Fourier_log_power_r07_a00,98774,0.450578,False
+Fourier,Fourier_log_power_r07_a01,98628,0.441729,False
+Fourier,Fourier_log_power_r07_a02,98507,0.437203,False
+Fourier,Fourier_log_power_r07_a03,98603,0.428532,False
+Fourier,Fourier_log_power_r07_a04,98529,0.422294,False
+Fourier,Fourier_log_power_r07_a05,98668,0.413302,False
+Fourier,Fourier_log_power_r07_a06,98701,0.420538,False
+Fourier,Fourier_log_power_r07_a07,98567,0.419665,False
+Fourier,Fourier_log_power_r07_a08,98587,0.427808,False
+Fourier,Fourier_log_power_r07_a09,98567,0.431674,False
+Fourier,Fourier_log_power_r07_a10,98580,0.439259,False
+Fourier,Fourier_log_power_r07_a11,98705,0.444,False
+Fourier,Fourier_log_power_r08_a00,98794,0.46117,False
+Fourier,Fourier_log_power_r08_a01,98637,0.448745,False
+Fourier,Fourier_log_power_r08_a02,98588,0.444024,False
+Fourier,Fourier_log_power_r08_a03,98595,0.438427,False
+Fourier,Fourier_log_power_r08_a04,98585,0.433965,False
+Fourier,Fourier_log_power_r08_a05,98644,0.424063,False
+Fourier,Fourier_log_power_r08_a06,98699,0.431342,False
+Fourier,Fourier_log_power_r08_a07,98604,0.430633,False
+Fourier,Fourier_log_power_r08_a08,98618,0.436914,False
+Fourier,Fourier_log_power_r08_a09,98665,0.440418,False
+Fourier,Fourier_log_power_r08_a10,98680,0.446941,False
+Fourier,Fourier_log_power_r08_a11,98715,0.453248,False
+Fourier,Fourier_log_power_r09_a00,98780,0.475794,False
+Fourier,Fourier_log_power_r09_a01,98673,0.46444,False
+Fourier,Fourier_log_power_r09_a02,98638,0.46054,False
+Fourier,Fourier_log_power_r09_a03,98703,0.456631,False
+Fourier,Fourier_log_power_r09_a04,98688,0.451907,False
+Fourier,Fourier_log_power_r09_a05,98673,0.442769,False
+Fourier,Fourier_log_power_r09_a06,98674,0.448242,False
+Fourier,Fourier_log_power_r09_a07,98688,0.450008,False
+Fourier,Fourier_log_power_r09_a08,98656,0.454114,False
+Fourier,Fourier_log_power_r09_a09,98698,0.457616,False
+Fourier,Fourier_log_power_r09_a10,98747,0.462186,False
+Fourier,Fourier_log_power_r09_a11,98706,0.470449,False
+Fourier,Fourier_log_power_r10_a00,98840,0.494145,False
+Fourier,Fourier_log_power_r10_a01,98755,0.483513,False
+Fourier,Fourier_log_power_r10_a02,98745,0.480589,False
+Fourier,Fourier_log_power_r10_a03,98778,0.477487,False
+Fourier,Fourier_log_power_r10_a04,98738,0.474327,False
+Fourier,Fourier_log_power_r10_a05,98760,0.46726,False
+Fourier,Fourier_log_power_r10_a06,98737,0.471477,False
+Fourier,Fourier_log_power_r10_a07,98736,0.472099,False
+Fourier,Fourier_log_power_r10_a08,98746,0.475374,False
+Fourier,Fourier_log_power_r10_a09,98725,0.478097,False
+Fourier,Fourier_log_power_r10_a10,98673,0.481945,False
+Fourier,Fourier_log_power_r10_a11,98783,0.490371,False
+Fourier,Fourier_log_power_r11_a00,98836,0.513047,False
+Fourier,Fourier_log_power_r11_a01,98817,0.499765,False
+Fourier,Fourier_log_power_r11_a02,98760,0.497873,False
+Fourier,Fourier_log_power_r11_a03,98807,0.49627,False
+Fourier,Fourier_log_power_r11_a04,98778,0.49408,False
+Fourier,Fourier_log_power_r11_a05,98809,0.49309,False
+Fourier,Fourier_log_power_r11_a06,98760,0.496904,False
+Fourier,Fourier_log_power_r11_a07,98738,0.492518,False
+Fourier,Fourier_log_power_r11_a08,98760,0.49437,False
+Fourier,Fourier_log_power_r11_a09,98797,0.496297,False
+Fourier,Fourier_log_power_r11_a10,98773,0.49827,False
+Fourier,Fourier_log_power_r11_a11,98851,0.508911,False
+Fourier,Fourier_radial_centroid,99240,0.0506503,False
+Fourier,Fourier_radial_spread,99135,0.0434435,False
+Fourier,Fourier_low_frequency_fraction,99144,0.194161,False
+Fourier,Fourier_high_frequency_fraction,99329,0.103115,False
+Fourier,Fourier_spectral_entropy,98541,0.106421,False
+Fourier,Fourier_orientation_entropy,98300,0.0968092,False
+Fourier,Fourier_orientation_peak_fraction,99169,0.109348,False
+Fourier,Fourier_spectral_slope,99321,0.360657,False
+Gabor,Gabor_0,99178,0.00772376,False
+Gabor,Gabor_1,99173,0.0074498,False
+Gabor,Gabor_2,99203,0.0059485,False
+Gabor,Gabor_3,99149,0.00654785,False
+Gabor,Gabor_4,99206,0.00478571,False
+Gabor,Gabor_5,99163,0.00596203,False
+Gabor,Gabor_6,99232,0.00393711,False
+Gabor,Gabor_7,99226,0.00578355,False
+Gabor,Gabor_8,99205,0.00434013,False
+Gabor,Gabor_9,99164,0.00361256,False
+Gabor,Gabor_10,99224,0.00362103,False
+Gabor,Gabor_11,99193,0.00323693,False
+Gabor,Gabor_12,99243,0.00298794,False
+Gabor,Gabor_13,99165,0.00278857,False
+Gabor,Gabor_14,99226,0.0023934,False
+Gabor,Gabor_15,99186,0.00228574,False
+Gabor,Gabor_16,99176,0.0071014,False
+Gabor,Gabor_17,99149,0.00727083,False
+Gabor,Gabor_18,99187,0.00545033,False
+Gabor,Gabor_19,99165,0.0062665,False
+Gabor,Gabor_20,99207,0.00440684,False
+Gabor,Gabor_21,99174,0.00572676,False
+Gabor,Gabor_22,99198,0.00367025,False
+Gabor,Gabor_23,99186,0.00561131,False
+Gabor,Gabor_24,99158,0.00426641,False
+Gabor,Gabor_25,99139,0.00349634,False
+Gabor,Gabor_26,99214,0.00352053,False
+Gabor,Gabor_27,99173,0.00312104,False
+Gabor,Gabor_28,99233,0.00290265,False
+Gabor,Gabor_29,99170,0.00268667,False
+Gabor,Gabor_30,99221,0.00233753,False
+Gabor,Gabor_31,99173,0.002204,False
+Random walk,Random walk_0,99195,17.8567,False
+Random walk,Random walk_1,99421,7.48838,False
+Random walk,Random walk_2,99373,11.343,False
+Random walk,Random walk_3,99150,6.89039,False
+Random walk,Random walk_4,99332,5.45064,False
+Random walk,Random walk_5,99292,7.05083,False
+Random walk,Random walk_6,99178,19.1811,False
+Random walk,Random walk_7,99424,7.37403,False
+Random walk,Random walk_8,99374,11.4468,False
+Random walk,Random walk_9,99184,7.2278,False
+Random walk,Random walk_10,99326,5.26053,False
+Random walk,Random walk_11,99278,6.98532,False
+Random walk,Random walk_12,99169,17.2163,False
+Random walk,Random walk_13,99412,7.67999,False
+Random walk,Random walk_14,99365,11.596,False
+Random walk,Random walk_15,99103,6.80947,False
+Random walk,Random walk_16,99332,5.49264,False
+Random walk,Random walk_17,99291,6.95784,False
+Random walk,Random walk_18,99184,18.8337,False
+Random walk,Random walk_19,99429,7.26769,False
+Random walk,Random walk_20,99362,11.155,False
+Random walk,Random walk_21,99159,7.08265,False
+Random walk,Random walk_22,99335,5.27313,False
+Random walk,Random walk_23,99275,6.9257,False
+Random walk,Random walk_24,99142,19.1491,False
+Random walk,Random walk_25,99431,7.39659,False
+Random walk,Random walk_26,99375,11.418,False
+Random walk,Random walk_27,99189,7.34297,False
+Random walk,Random walk_28,99340,5.28511,False
+Random walk,Random walk_29,99300,7.09904,False
+Random walk,Random walk_30,99176,18.1999,False
+Random walk,Random walk_31,99418,7.56212,False
+Random walk,Random walk_32,99361,11.5984,False
+Random walk,Random walk_33,99139,6.9189,False
+Random walk,Random walk_34,99344,5.45934,False
+Random walk,Random walk_35,99299,7.05131,False
+Random walk,Random walk_36,99180,17.7918,False
+Random walk,Random walk_37,99410,7.53007,False
+Random walk,Random walk_38,99370,11.4392,False
+Random walk,Random walk_39,99161,6.88665,False
+Random walk,Random walk_40,99337,5.45684,False
+Random walk,Random walk_41,99285,6.93893,False
+Random walk,Random walk_42,99182,17.943,False
+Random walk,Random walk_43,99416,7.45919,False
+Random walk,Random walk_44,99366,11.3099,False
+Random walk,Random walk_45,99156,7.13203,False
+Random walk,Random walk_46,99320,5.44554,False
+Random walk,Random walk_47,99297,6.98628,False
+Random walk,Random walk_48,99172,17.7065,False
+Random walk,Random walk_49,99427,7.22051,False
+Random walk,Random walk_50,99369,11.0483,False
+Random walk,Random walk_51,99100,6.54755,False
+Random walk,Random walk_52,99329,5.34436,False
+Random walk,Random walk_53,99272,6.92607,False
+Random walk,Random walk_54,99302,0.434649,False
+Random walk,Random walk_55,98501,0.457622,False
+Random walk,Random walk_56,99000,0.503646,False
+HVG,hvg_l_degree_mean,138,0.0642075,False
+HVG,hvg_l_degree_std,6633,0.131748,False
+HVG,hvg_l_degree_skewness,81294,0.440111,False
+HVG,hvg_l_degree_kurtosis,85728,4.14669,False
+HVG,hvg_l_degree_entropy,84232,0.0398756,False
+HVG,hvg_l_degree_q10,1,0,True
+HVG,hvg_l_degree_q25,3,0.206964,False
+HVG,hvg_l_degree_q50,5,0.199789,False
+HVG,hvg_l_degree_q75,6,0.167315,False
+HVG,hvg_l_degree_q90,8,0.462203,False
+HVG,hvg_l_hub_fraction,44,0.0298284,False
+HVG,hvg_l_leaf_fraction,3,0.0030657,False
+HVG,hvg_l_span_mean,43434,1.48112,False
+HVG,hvg_l_span_std,85658,6.28313,False
+HVG,hvg_l_span_q50,1,0,True
+HVG,hvg_l_span_q90,274,2.26303,False
+HVG,hvg_l_long_edge_fraction,2432,0.0177779,False
+HVG,hvg_l_max_span,240,54.8092,False
+HVG,hvg_a_degree_mean,68,0.0498684,False
+HVG,hvg_a_degree_std,6219,0.13887,False
+HVG,hvg_a_degree_skewness,80405,0.452745,False
+HVG,hvg_a_degree_kurtosis,85709,4.31641,False
+HVG,hvg_a_degree_entropy,84248,0.0396547,False
+HVG,hvg_a_degree_q10,1,0,True
+HVG,hvg_a_degree_q25,3,0.128161,False
+HVG,hvg_a_degree_q50,4,0.135429,False
+HVG,hvg_a_degree_q75,5,0.164075,False
+HVG,hvg_a_degree_q90,8,0.46467,False
+HVG,hvg_a_hub_fraction,33,0.0298411,False
+HVG,hvg_a_leaf_fraction,3,0.00291175,False
+HVG,hvg_a_span_mean,32804,1.03294,False
+HVG,hvg_a_span_std,85622,4.58791,False
+HVG,hvg_a_span_q50,1,0,True
+HVG,hvg_a_span_q90,210,1.75096,False
+HVG,hvg_a_long_edge_fraction,1967,0.0159934,False
+HVG,hvg_a_max_span,233,48.0658,False
+HVG,hvg_b_degree_mean,121,0.0589871,False
+HVG,hvg_b_degree_std,6401,0.139721,False
+HVG,hvg_b_degree_skewness,80732,0.438443,False
+HVG,hvg_b_degree_kurtosis,85710,4.20231,False
+HVG,hvg_b_degree_entropy,84237,0.0392299,False
+HVG,hvg_b_degree_q10,1,0,True
+HVG,hvg_b_degree_q25,3,0.155004,False
+HVG,hvg_b_degree_q50,5,0.156579,False
+HVG,hvg_b_degree_q75,6,0.172975,False
+HVG,hvg_b_degree_q90,9,0.462372,False
+HVG,hvg_b_hub_fraction,40,0.029708,False
+HVG,hvg_b_leaf_fraction,3,0.00298313,False
+HVG,hvg_b_span_mean,35977,1.14915,False
+HVG,hvg_b_span_std,85641,4.96669,False
+HVG,hvg_b_span_q50,1,0,True
+HVG,hvg_b_span_q90,231,1.94363,False
+HVG,hvg_b_long_edge_fraction,2191,0.0170384,False
+HVG,hvg_b_max_span,241,50.3599,False
+HVG,hvg_degree_corr_la,85839,0.257958,False
+HVG,hvg_degree_corr_lb,85058,0.307526,False
+HVG,hvg_degree_corr_ab,85816,0.302182,False

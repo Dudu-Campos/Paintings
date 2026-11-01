@@ -1,0 +1,31 @@
+k,classifier,fold,added,blocks,dimensions,bacc,seconds
+10,LDA,1,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,36.9320,2.4000
+10,MLP,1,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,36.9036,9.8000
+11,LDA,1,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,36.7695,2.6000
+11,MLP,1,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,39.8866,8.5000
+12,LDA,1,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,36.8160,2.8000
+12,MLP,1,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,38.1749,9.6000
+10,LDA,2,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,37.6124,2.5000
+10,MLP,2,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,39.1503,12.2000
+11,LDA,2,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,37.5943,2.8000
+11,MLP,2,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,39.4799,14.0000
+12,LDA,2,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,37.4744,3.1000
+12,MLP,2,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,38.6273,8.7000
+10,LDA,3,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,36.2009,2.7000
+10,MLP,3,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,37.4170,8.7000
+11,LDA,3,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,36.1148,2.6000
+11,MLP,3,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,38.3544,9.3000
+12,LDA,3,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,36.1774,2.8000
+12,MLP,3,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,37.3210,9.9000
+10,LDA,4,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,34.4307,2.5000
+10,MLP,4,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,37.2179,9.4000
+11,LDA,4,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,34.3489,2.9000
+11,MLP,4,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,37.2186,9.9000
+12,LDA,4,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,34.4037,3.2000
+12,MLP,4,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,36.8739,9.0000
+10,LDA,5,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,36.7470,2.4000
+10,MLP,5,Fourier,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier,971,37.3041,7.6000
+11,LDA,5,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,37.1999,2.6000
+11,MLP,5,Random walk,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk,1028,38.4520,11.2000
+12,LDA,5,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,37.1327,3.4000
+12,MLP,5,HVG,Felzenszwalb|SLIC|Descriptors|L(G_felz)|Line graph|Gabor|Hilbert|Similarity graph|Text|Fourier|Random walk|HVG,1085,36.0870,7.9000

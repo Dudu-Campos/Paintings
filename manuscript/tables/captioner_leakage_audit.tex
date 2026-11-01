@@ -1,0 +1,33 @@
+% Auditoria de nomeacao: quanto cada captioner escreve nome de MOVIMENTO e de AUTOR.
+% Coorte: MultitaskPainting100k, 99.816 imagens, 125 classes -- a MESMA nos tres.
+% Produzido por: audit de 19/set (ver CLAUDE.md §5.18g).
+% Requer: \usepackage{booktabs}
+\begin{table}[t]
+\centering
+\caption{How often each captioner writes an art-movement name or the
+painting's own artist name, over the same 99{,}816 images. Counts are
+captions containing at least one matching token, with the same text
+normalisation used by the text channel. \emph{Movement} is decomposed because
+\texttt{abstract} is an ordinary English adjective: describing an abstract
+canvas as ``abstract'' is perception, not label leakage, and removing it costs
+the channel $-0.13$\,pp. \emph{Artist (strict)} requires the last two tokens of
+the true artist's name to appear contiguously (e.g.\ \emph{van gogh});
+\emph{(surname)} requires only the last token and is an upper bound, since
+surnames such as \emph{Bacon}, \emph{Wood} and \emph{Church} are common English
+words. Painting titles are not auditable in this corpus: the ground truth
+provides \texttt{filename}, \texttt{artist}, \texttt{style} and \texttt{genre},
+and the identifier is numeric.}
+\label{tab:captioner-leakage}
+\begin{tabular}{lrrrrr}
+\toprule
+& \multicolumn{3}{c}{Movement name} & \multicolumn{2}{c}{Artist name} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}
+Captioner & any term & \texttt{abstract} only & excl.\ \texttt{abstract}
+          & strict & (surname) \\
+\midrule
+CATR/COCO            &      6 \ (0.01\%) &      5 \ (0.01\%) &     1 \ (0.00\%) &  0 \ (0.00\%) &   2 \ (0.00\%) \\
+Distilled student    &  5{,}929 \ (5.94\%) &  5{,}727 \ (5.74\%) &   202 \ (0.20\%) &  0 \ (0.00\%) &   6 \ (0.01\%) \\
+Qwen2-VL-7B (teacher)& 15{,}433 \ (15.46\%) & 13{,}916 \ (13.94\%) & 1{,}517 \ (1.52\%) & 63 \ (0.06\%) & 109 \ (0.11\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

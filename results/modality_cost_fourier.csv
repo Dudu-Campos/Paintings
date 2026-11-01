@@ -1,0 +1,5 @@
+step,side,n_base,n_full,seg_max_side,seconds_base,seconds_full,fixed_overhead_s,ms_per_image
+Fourier,128,150,600,,1.2235,1.5986,1.0985,0.8334
+Fourier,256,150,600,,1.4618,2.6377,1.0698,2.6131
+Fourier,512,150,600,,3.8824,7.7295,2.6000,8.5492
+Fourier,1024,150,600,,8.1198,25.9757,2.1678,39.6798

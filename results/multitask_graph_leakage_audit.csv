@@ -1,0 +1,4 @@
+dataset,fold,braco,linhas,n,seconds,bacc
+multitask,1,producao,treino (OOF aninhado),79852,196.1830,10.0676
+multitask,1,producao,teste,19964,196.1830,11.4150
+multitask,1,SEM cross-fit,treino (auto-consulta),79852,56.9044,12.8386

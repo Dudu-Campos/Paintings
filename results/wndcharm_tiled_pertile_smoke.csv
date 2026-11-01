@@ -1,0 +1,2 @@
+fold,dimensions,n_train_tiles,n_test_images,best_epoch,validation_bacc,seconds,bacc,accuracy,macro_f1,tile_level_bacc
+1,2894,1149856,19964,42,0.2019,2698.8615,29.4041,6.8373,8.2704,19.4118

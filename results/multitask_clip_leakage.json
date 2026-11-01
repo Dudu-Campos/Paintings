@@ -1,0 +1,11 @@
+{
+  "dataset": "multitask",
+  "n_classes": 125,
+  "chance": 0.008,
+  "zero_shot_bacc": 0.1273570047854455,
+  "null_shuffled_mean": 0.007809690135382333,
+  "null_shuffled_std": 0.0034806574999691536,
+  "null_flat_template_bacc": 0.008112286479935612,
+  "ratio_real_over_shuffled": 16.307561833784664,
+  "classes_with_nonzero_recall": 83
+}

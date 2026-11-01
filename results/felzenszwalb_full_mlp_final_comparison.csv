@@ -1,0 +1,2 @@
+classifier,scope,baseline,condition,delta_felz_vs_baseline_pp,p_felz_vs_baseline,felz_minus_baseline_fold_1_pp,felz_minus_baseline_fold_2_pp,felz_minus_baseline_fold_3_pp,felz_minus_baseline_fold_4_pp,felz_minus_baseline_fold_5_pp
+MLP,Visual+line,Visual 258 + line graph,Visual 258 + line + Felzenszwalb,1.709904015182164,0.019850565415471887,1.2581829881506412,3.5155233468046667,1.328280925726233,1.0459040473339787,1.401628767895302

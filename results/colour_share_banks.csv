@@ -1,0 +1,46 @@
+dataset,condicao,fold,variante,dims,seconds,dims_vivas,bacc,accuracy,macro_f1
+rijksdraw,hand-8,1,shrinkage,617,2.9264,617,44.0458,37.5712,37.2796
+rijksdraw,hand-8 sem cor,1,shrinkage,468,2.1667,468,43.7490,37.1985,36.5359
+rijksdraw,so cor,1,shrinkage,149,0.6005,149,35.4612,26.1518,24.8548
+rijksdraw,hand-8,2,shrinkage,617,2.9768,617,45.9947,38.7514,38.8937
+rijksdraw,hand-8 sem cor,2,shrinkage,468,2.0431,468,44.9776,37.8093,37.3356
+rijksdraw,so cor,2,shrinkage,149,0.6140,149,34.8719,26.4831,25.0653
+rijksdraw,hand-8,3,shrinkage,617,2.9478,617,45.5400,39.5693,38.8390
+rijksdraw,hand-8 sem cor,3,shrinkage,468,2.1765,468,44.6592,38.5133,37.3455
+rijksdraw,so cor,3,shrinkage,149,0.6245,149,35.7580,27.0214,25.7479
+rijksdraw,hand-8,4,shrinkage,617,2.9364,617,45.5030,39.0206,38.4851
+rijksdraw,hand-8 sem cor,4,shrinkage,468,2.0338,468,44.9426,38.2027,37.4397
+rijksdraw,so cor,4,shrinkage,149,0.6275,149,35.1543,26.5555,25.0036
+rijksdraw,hand-8,5,shrinkage,617,2.9660,617,46.7164,39.6211,39.1492
+rijksdraw,hand-8 sem cor,5,shrinkage,468,2.1708,468,46.1109,38.5237,38.0332
+rijksdraw,so cor,5,shrinkage,149,0.6025,149,34.7160,26.6177,24.9852
+oilpainting,hand-8,1,shrinkage,617,1.0803,617,40.6061,40.2476,35.7895
+oilpainting,hand-8 sem cor,1,shrinkage,468,0.7780,468,39.1201,38.7317,34.5662
+oilpainting,so cor,1,shrinkage,149,0.2274,149,26.2072,26.9581,22.3918
+oilpainting,hand-8,2,shrinkage,617,1.1629,617,37.7323,39.0601,33.8090
+oilpainting,hand-8 sem cor,2,shrinkage,468,0.7407,468,36.9858,38.7822,33.4020
+oilpainting,so cor,2,shrinkage,149,0.2236,149,26.5868,27.9939,22.4874
+oilpainting,hand-8,3,shrinkage,617,1.1689,617,40.6778,40.0051,35.7545
+oilpainting,hand-8 sem cor,3,shrinkage,468,0.7841,468,39.4311,38.8173,34.6538
+oilpainting,so cor,3,shrinkage,149,0.2291,149,25.8118,27.1165,21.6589
+oilpainting,hand-8,4,shrinkage,617,1.0834,617,40.0883,41.1676,35.9870
+oilpainting,hand-8 sem cor,4,shrinkage,468,0.7866,468,38.9429,39.6513,34.7051
+oilpainting,so cor,4,shrinkage,149,0.2342,149,27.0105,28.2790,23.1338
+oilpainting,hand-8,5,shrinkage,617,1.1982,617,37.7710,38.7920,33.9494
+oilpainting,hand-8 sem cor,5,shrinkage,468,0.7917,468,37.1707,38.2866,33.4046
+oilpainting,so cor,5,shrinkage,149,0.2162,149,25.3097,27.0154,21.6609
+multitask,hand-8,1,shrinkage,617,6.8838,617,33.5888,17.6818,17.0355
+multitask,hand-8 sem cor,1,shrinkage,468,4.9196,468,31.6280,16.5849,15.8769
+multitask,so cor,1,shrinkage,149,1.4459,149,24.1147,8.8359,7.9277
+multitask,hand-8,2,shrinkage,617,7.0034,617,33.6452,17.3521,17.4550
+multitask,hand-8 sem cor,2,shrinkage,468,4.9297,468,31.3444,16.3102,16.3042
+multitask,so cor,2,shrinkage,149,1.4475,149,21.3179,8.7512,7.7874
+multitask,hand-8,3,shrinkage,617,6.8939,617,33.4489,17.0265,16.6938
+multitask,hand-8 sem cor,3,shrinkage,468,4.9292,468,33.3693,16.1699,16.1408
+multitask,so cor,3,shrinkage,149,1.4470,149,22.2946,8.8714,8.1344
+multitask,hand-8,4,shrinkage,617,6.9130,617,32.1192,16.8712,16.4902
+multitask,hand-8 sem cor,4,shrinkage,468,4.9231,468,31.1947,16.1950,15.7916
+multitask,so cor,4,shrinkage,149,1.4693,149,22.2399,8.6710,8.0673
+multitask,hand-8,5,shrinkage,617,7.1316,617,32.7064,17.0816,16.9663
+multitask,hand-8 sem cor,5,shrinkage,468,4.9349,468,31.3829,16.3102,16.3223
+multitask,so cor,5,shrinkage,149,1.5443,149,19.3614,8.5709,7.2499

@@ -1,0 +1,3 @@
+dataset,model,seed,our_seed,fold,n_test,ours_bacc,cnn_bacc,fusion_half,fusion_crossfit,w_crossfit,w_sd,both,only_ours,only_cnn,neither,oracle_bacc,oracle_bacc_null,yule_q,odds_ratio,yule_q_macro,gap,d_half,d_cross,oracle_headroom,oracle_excess_vs_null,capture
+oilpainting,resnet18,42,42,1,3958,43.5209,54.1725,56.1025,57.1033,0.3500,0.0000,33.3249,10.7630,23.5220,32.3901,66.0131,73.0907,0.6200,4.2636,0.5762,10.6516,1.9300,2.9308,11.8406,-7.0776,19.2499
+oilpainting,resnet50,42,42,1,3958,43.5209,53.5801,56.2453,56.8348,0.4100,0.0200,33.8807,10.2072,22.7388,33.1733,65.1230,72.6319,0.6577,4.8425,0.6100,10.0592,2.6652,3.2547,11.5429,-7.5088,18.2558

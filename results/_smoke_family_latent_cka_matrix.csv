@@ -1,0 +1,13 @@
+scope,class_centered,family_a,family_b,cka_mean,cka_std,n
+all,False,Image statistics,Image statistics,0.9751397371292114,,1
+all,False,Image statistics,Spectral,0.17458351701498032,0.014840416885355678,4
+all,False,Spectral,Spectral,0.9233894944190979,,1
+all,True,Image statistics,Image statistics,0.9738755822181702,,1
+all,True,Image statistics,Spectral,0.09892557747662067,0.012996059864245738,4
+all,True,Spectral,Spectral,0.8880751729011536,,1
+contested,False,Image statistics,Image statistics,0.97563236951828,,1
+contested,False,Image statistics,Spectral,0.15283554419875145,0.015614684980526268,4
+contested,False,Spectral,Spectral,0.9019346833229065,,1
+contested,True,Image statistics,Image statistics,0.9751526713371277,,1
+contested,True,Image statistics,Spectral,0.10149437561631203,0.012719010888102664,4
+contested,True,Spectral,Spectral,0.8797418475151062,,1

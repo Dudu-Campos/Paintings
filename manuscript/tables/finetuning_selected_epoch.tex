@@ -1,0 +1,32 @@
+% Epoca selecionada por celula -- evidencia AFIRMATIVA de convergencia.
+% Fonte: `best_epoch` de todos os `fold_metrics.csv` em outputs/final_finetune_grid/,
+% auditados em 23/set. n = 5 (split oficial) ou 25 (CV, 5 folds x 5 sementes).
+% Requer: \usepackage{booktabs}
+\begin{table}[t]
+\centering
+\caption{Epoch selected by validation balanced accuracy, averaged over runs, as
+an absolute value and as a fraction of the epoch budget (75 for ResNet-50, 40
+for ViT-B/16). Stopping well inside the budget is affirmative evidence that the
+run converged rather than that it was cut short. Two cells sit close to the
+ceiling and are the ones for which an ``under-trained'' objection would be
+fair: Food-101/ResNet-50 and NCT-CRC/ViT-B/16. At the other extreme, MINC-2500
+and Places-LT select very early epochs; Places-LT did so with the full budget
+available (patience equal to the budget, see Table~\ref{tab:finetune-hparams}),
+so an early optimum there is a property of the corpus and not of the stopping
+rule.}
+\label{tab:finetune-epoch}
+\small
+\begin{tabular}{lcc}
+\toprule
+\textbf{Corpus} & \textbf{ResNet-50 (of 75)} & \textbf{ViT-B/16 (of 40)} \\
+\midrule
+Rijksmuseum drawings & 56.4 \, (75\%) & 24.6 \, (62\%) \\
+Food-101             & 62.2 \, (83\%) & 31.2 \, (78\%) \\
+NCT-CRC              & 34.2 \, (46\%) & 35.2 \, (88\%) \\
+OilPainting          & 28.8 \, (38\%) & 11.6 \, (29\%) \\
+Multitask-125        & 17.8 \, (24\%) & 10.1 \, (25\%) \\
+Places-LT            &  8.4 \, (11\%) &  6.0 \, (15\%) \\
+MINC-2500            &  7.6 \, (10\%) &  4.6 \, (12\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

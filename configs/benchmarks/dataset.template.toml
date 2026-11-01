@@ -1,0 +1,11 @@
+# Copy this file to datasets.toml and add a new [datasets.<name>] section.
+# `metadata` must contain a unique `stem` column and the column named by `task`.
+# Images may be nested arbitrarily below `image_dir`; their filename stem must
+# match the metadata stem.  A `filename` column is optional.
+
+[datasets.example_texture]
+image_dir = "data/example_texture/images"
+metadata = "data/example_texture/labels.csv"
+task = "label"
+min_per_class = 20
+description = "Replace with dataset/task description"

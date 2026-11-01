@@ -1,0 +1,8 @@
+{
+  "n_images": 100252,
+  "n_styles": 365,
+  "bacc_oof": 0.2072465334300584,
+  "bacc_fold_mean": 0.20722995488801682,
+  "bacc_fold_std": 0.0026405419499295544,
+  "dataset": "places_lt"
+}

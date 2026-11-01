@@ -1,0 +1,401 @@
+head,condition,fold,seed,seconds,bacc,accuracy,macro_f1,dimensions
+narrow,Haralick,1,42,15.2552,33.3773,23.4289,21.7792,13
+narrow,Haralick,2,42,15.8084,32.3565,23.5428,21.3816,13
+narrow,Haralick,3,42,25.5572,34.4927,24.5885,23.1017,13
+narrow,Haralick,4,42,13.7295,32.6226,23.0976,20.8092,13
+narrow,Haralick,5,42,13.6190,31.9808,23.0976,21.0772,13
+narrow,HOG,1,42,7.9614,30.4914,21.4618,20.8410,1764
+narrow,HOG,2,42,8.7536,30.6104,23.4496,22.3489,1764
+narrow,HOG,3,42,9.5911,30.7888,23.2633,22.8763,1764
+narrow,HOG,4,42,9.3652,30.8066,23.4082,22.4954,1764
+narrow,HOG,5,42,11.6614,30.4757,25.7169,24.6574,1764
+narrow,hand-8,1,42,21.0585,55.3754,51.6306,51.8130,617
+narrow,hand-8,2,42,11.7131,53.9405,47.5929,47.2850,617
+narrow,hand-8,3,42,17.1047,55.4693,50.9059,50.8768,617
+narrow,hand-8,4,42,16.6360,56.0405,51.2682,51.2948,617
+narrow,hand-8,5,42,22.0233,56.5322,52.8833,52.4074,617
+narrow,hand-8 + grafo,1,42,58.8223,56.6219,53.8254,53.0453,671
+narrow,hand-8 + grafo,2,42,51.1658,55.6409,51.5374,51.3174,671
+narrow,hand-8 + grafo,3,42,52.4809,55.9462,51.3925,50.6475,671
+narrow,hand-8 + grafo,4,42,55.9737,57.0491,53.7012,53.1324,671
+narrow,hand-8 + grafo,5,42,55.4080,57.7011,54.3327,53.4083,671
+narrow,ResNet50 letterbox,1,42,13.4890,47.8856,46.3091,45.6898,2048
+narrow,ResNet50 letterbox,2,42,13.0166,48.8629,45.6880,46.0676,2048
+narrow,ResNet50 letterbox,3,42,15.8757,49.4530,46.7750,46.9687,2048
+narrow,ResNet50 letterbox,4,42,11.3209,48.6444,44.0729,44.1112,2048
+narrow,ResNet50 letterbox,5,42,11.5733,49.3364,44.1247,44.5913,2048
+narrow,hand-8 + ResNet50 letterbox,1,42,13.4028,55.2738,50.9784,51.0204,2665
+narrow,hand-8 + ResNet50 letterbox,2,42,14.1323,54.5170,50.8852,50.9136,2665
+narrow,hand-8 + ResNet50 letterbox,3,42,16.0987,54.0752,52.1793,51.6718,2665
+narrow,hand-8 + ResNet50 letterbox,4,42,12.0815,53.6413,49.5496,49.1161,2665
+narrow,hand-8 + ResNet50 letterbox,5,42,14.2257,55.1513,51.0405,50.7519,2665
+narrow,hand-8 + grafo + ResNet50 letterbox,1,42,47.5795,55.6702,50.1087,50.3389,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,2,42,56.1870,54.8333,54.4673,53.8077,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,3,42,52.8936,55.0554,53.3492,52.6371,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,4,42,48.5926,54.6116,50.1915,50.4010,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,5,42,50.4178,56.3804,53.2974,52.5142,2719
+narrow,ViT letterbox,1,42,10.9898,48.6062,43.3792,44.0218,768
+narrow,ViT letterbox,2,42,13.8105,48.9520,45.5948,45.6514,768
+narrow,ViT letterbox,3,42,12.0504,50.9580,45.1392,46.4598,768
+narrow,ViT letterbox,4,42,11.6271,49.7762,45.0668,45.5358,768
+narrow,ViT letterbox,5,42,11.9932,49.9494,44.4663,46.0689,768
+narrow,hand-8 + ViT letterbox,1,42,13.5833,56.8725,54.5295,53.9172,1385
+narrow,hand-8 + ViT letterbox,2,42,12.7534,57.2799,53.6287,53.9694,1385
+narrow,hand-8 + ViT letterbox,3,42,17.6138,57.8399,56.0203,55.8616,1385
+narrow,hand-8 + ViT letterbox,4,42,11.7029,56.2076,53.2871,52.8443,1385
+narrow,hand-8 + ViT letterbox,5,42,14.7089,57.0460,55.0678,54.4444,1385
+narrow,hand-8 + grafo + ViT letterbox,1,42,50.4650,57.4644,54.8297,53.7530,1439
+narrow,hand-8 + grafo + ViT letterbox,2,42,52.2011,57.4602,55.7925,55.2570,1439
+narrow,hand-8 + grafo + ViT letterbox,3,42,49.7687,57.9326,55.0885,54.8766,1439
+narrow,hand-8 + grafo + ViT letterbox,4,42,48.6968,57.1119,54.2913,53.3751,1439
+narrow,hand-8 + grafo + ViT letterbox,5,42,48.8183,57.1771,54.4156,52.9641,1439
+narrow,ResNet50 resize+crop,1,42,11.3778,46.9732,44.0108,43.3127,2048
+narrow,ResNet50 resize+crop,2,42,10.4491,49.1157,45.5430,45.8019,2048
+narrow,ResNet50 resize+crop,3,42,9.9500,48.2745,44.6216,44.7814,2048
+narrow,ResNet50 resize+crop,4,42,9.3600,48.3795,44.3214,44.1589,2048
+narrow,ResNet50 resize+crop,5,42,11.6539,47.3711,45.6983,45.3945,2048
+narrow,hand-8 + ResNet50 resize+crop,1,42,9.9544,53.8148,50.0155,49.0348,2665
+narrow,hand-8 + ResNet50 resize+crop,2,42,13.0183,54.0196,52.9454,52.1149,2665
+narrow,hand-8 + ResNet50 resize+crop,3,42,13.9522,53.5374,52.3967,51.2646,2665
+narrow,hand-8 + ResNet50 resize+crop,4,42,8.7381,54.2438,48.1106,48.1188,2665
+narrow,hand-8 + ResNet50 resize+crop,5,42,12.4017,54.7138,51.5064,50.9943,2665
+narrow,hand-8 + grafo + ResNet50 resize+crop,1,42,38.5382,55.2338,52.0861,51.1153,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,2,42,40.0784,56.8583,54.4880,54.5767,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,3,42,41.5227,55.1819,53.5356,52.3484,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,4,42,37.9222,56.2202,52.4485,51.7094,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,5,42,41.1436,56.9494,54.4984,53.7526,2719
+narrow,ViT resize+crop,1,42,8.4660,47.4659,43.2653,42.7894,768
+narrow,ViT resize+crop,2,42,12.0266,47.7265,44.1350,44.0332,768
+narrow,ViT resize+crop,3,42,7.4960,48.3953,41.9298,41.8058,768
+narrow,ViT resize+crop,4,42,9.2704,48.6780,43.8658,43.9072,768
+narrow,ViT resize+crop,5,42,6.1617,47.5932,40.7392,40.3396,768
+narrow,hand-8 + ViT resize+crop,1,42,10.2128,55.7438,54.5812,53.7271,1385
+narrow,hand-8 + ViT resize+crop,2,42,8.4428,56.4644,53.4527,52.5685,1385
+narrow,hand-8 + ViT resize+crop,3,42,17.6278,56.5792,56.4655,55.5946,1385
+narrow,hand-8 + ViT resize+crop,4,42,8.2317,56.6678,52.9247,52.7180,1385
+narrow,hand-8 + ViT resize+crop,5,42,10.5454,57.0734,55.7408,54.2194,1385
+narrow,hand-8 + grafo + ViT resize+crop,1,42,39.3341,57.0720,55.7304,54.3921,1439
+narrow,hand-8 + grafo + ViT resize+crop,2,42,36.8314,57.4867,54.6537,54.2177,1439
+narrow,hand-8 + grafo + ViT resize+crop,3,42,37.0718,57.1305,55.1196,54.2063,1439
+narrow,hand-8 + grafo + ViT resize+crop,4,42,36.0853,57.5471,53.0800,52.5219,1439
+narrow,hand-8 + grafo + ViT resize+crop,5,42,42.9437,57.5179,57.5836,55.2172,1439
+narrow,Haralick,1,43,16.6424,34.2571,24.2365,22.6934,13
+narrow,Haralick,2,43,18.9325,32.8815,24.0294,22.0373,13
+narrow,Haralick,3,43,15.6346,34.8444,24.5367,22.9726,13
+narrow,Haralick,4,43,12.6160,33.5135,24.2261,22.2244,13
+narrow,Haralick,5,43,8.7179,32.0017,22.6110,20.5573,13
+narrow,Haralick,1,44,12.0249,33.9641,23.7292,22.1506,13
+narrow,Haralick,2,44,10.9390,32.3207,23.5532,21.5774,13
+narrow,Haralick,3,44,16.3807,34.4058,24.5471,23.0219,13
+narrow,Haralick,4,44,13.0619,33.0123,23.8430,21.7495,13
+narrow,Haralick,5,44,11.6875,32.7305,24.1329,22.2621,13
+narrow,Haralick,1,45,11.3128,33.0919,22.9320,21.2595,13
+narrow,Haralick,2,45,11.8820,32.4765,23.2322,21.2380,13
+narrow,Haralick,3,45,4.5656,30.7321,20.0952,17.8108,13
+narrow,Haralick,4,45,9.0589,32.3691,22.8595,20.5461,13
+narrow,Haralick,5,45,15.4461,33.6582,24.1951,22.3186,13
+narrow,Haralick,1,46,10.4189,34.3856,23.8534,22.2542,13
+narrow,Haralick,2,46,9.6030,31.9781,22.9320,20.7791,13
+narrow,Haralick,3,46,14.0508,34.5829,24.3503,22.8437,13
+narrow,Haralick,4,46,16.6337,33.9942,24.3814,22.5219,13
+narrow,Haralick,5,46,10.0217,32.5496,23.1080,21.3515,13
+narrow,HOG,1,43,5.2728,29.7376,21.8449,21.7159,1764
+narrow,HOG,2,43,8.5920,29.9446,25.8826,24.2494,1764
+narrow,HOG,3,43,5.8137,31.5606,23.5325,23.7878,1764
+narrow,HOG,4,43,6.4174,31.2788,24.1536,23.8203,1764
+narrow,HOG,5,43,6.2142,30.3849,22.9630,23.3014,1764
+narrow,HOG,1,44,7.3751,30.3430,25.1268,24.3233,1764
+narrow,HOG,2,44,7.3427,29.5627,24.3814,23.8322,1764
+narrow,HOG,3,44,7.6866,29.1820,25.1993,24.7982,1764
+narrow,HOG,4,44,6.3413,30.5884,23.0769,22.9556,1764
+narrow,HOG,5,44,6.6664,30.9796,24.2054,24.0565,1764
+narrow,HOG,1,45,7.0108,30.7961,24.3400,24.4019,1764
+narrow,HOG,2,45,8.0277,30.7612,25.8308,25.2100,1764
+narrow,HOG,3,45,6.0807,30.8691,22.7560,23.5711,1764
+narrow,HOG,4,45,6.7251,30.5797,23.9776,23.6101,1764
+narrow,HOG,5,45,6.8331,30.9534,24.6920,25.0198,1764
+narrow,HOG,1,46,7.4564,31.4052,24.4953,24.1854,1764
+narrow,HOG,2,46,7.1521,30.0146,24.2986,23.3147,1764
+narrow,HOG,3,46,9.2898,30.1377,25.5824,25.3629,1764
+narrow,HOG,4,46,6.4704,31.3105,24.1019,23.7512,1764
+narrow,HOG,5,46,4.8111,30.0167,20.2505,19.7554,1764
+narrow,hand-8,1,43,18.9810,56.7951,53.5666,53.7043,617
+narrow,hand-8,2,43,12.4233,54.7050,51.3821,51.4869,617
+narrow,hand-8,3,43,14.5841,55.4803,52.3967,51.9757,617
+narrow,hand-8,4,43,16.8322,56.1565,52.3346,52.5402,617
+narrow,hand-8,5,43,12.2733,55.9803,51.4235,51.6671,617
+narrow,hand-8,1,44,15.4565,56.2843,52.6245,53.3282,617
+narrow,hand-8,2,44,9.6772,54.9870,49.2183,49.2470,617
+narrow,hand-8,3,44,17.5069,55.7391,52.5624,52.5644,617
+narrow,hand-8,4,44,12.2123,56.3291,51.6410,51.9054,617
+narrow,hand-8,5,44,12.9950,56.7586,51.9412,51.9332,617
+narrow,hand-8,1,45,15.0147,55.2666,52.0447,52.2878,617
+narrow,hand-8,2,45,13.9342,56.4770,53.2043,53.7750,617
+narrow,hand-8,3,45,17.5819,56.0034,52.5313,52.6564,617
+narrow,hand-8,4,45,15.8161,56.4599,53.3492,53.2890,617
+narrow,hand-8,5,45,13.9572,55.7779,52.6348,52.0581,617
+narrow,hand-8,1,46,12.8340,56.0653,51.3821,51.4607,617
+narrow,hand-8,2,46,18.4379,56.2319,52.8937,53.1331,617
+narrow,hand-8,3,46,10.9991,54.3259,50.1087,50.3654,617
+narrow,hand-8,4,46,14.1588,55.7329,52.1172,52.0456,617
+narrow,hand-8,5,46,19.8428,56.9220,53.8979,53.4641,617
+narrow,hand-8 + grafo,1,43,43.4233,58.2053,54.2085,54.0016,671
+narrow,hand-8 + grafo,2,43,40.0433,56.9721,53.0697,52.4376,671
+narrow,hand-8 + grafo,3,43,42.4586,55.5404,53.2871,51.9768,671
+narrow,hand-8 + grafo,4,43,40.4093,56.8466,52.7280,52.2024,671
+narrow,hand-8 + grafo,5,43,39.3452,56.8790,52.4588,51.5010,671
+narrow,hand-8 + grafo,1,44,38.0753,56.3259,51.2682,51.1019,671
+narrow,hand-8 + grafo,2,44,39.7975,56.4935,52.9558,52.3307,671
+narrow,hand-8 + grafo,3,44,41.4032,56.4355,53.4631,53.0746,671
+narrow,hand-8 + grafo,4,44,39.3908,56.5848,52.1690,52.0151,671
+narrow,hand-8 + grafo,5,44,43.0812,57.1749,54.4363,53.4859,671
+narrow,hand-8 + grafo,1,45,40.9570,57.0260,53.3492,52.6146,671
+narrow,hand-8 + grafo,2,45,38.7157,57.0872,51.8273,50.8833,671
+narrow,hand-8 + grafo,3,45,35.2544,53.7517,47.0960,45.9320,671
+narrow,hand-8 + grafo,4,45,46.4453,57.6079,54.5709,54.4547,671
+narrow,hand-8 + grafo,5,45,38.8131,57.1037,51.3821,50.2589,671
+narrow,hand-8 + grafo,1,46,38.2131,55.9713,51.1026,50.2767,671
+narrow,hand-8 + grafo,2,46,39.7292,57.0459,52.8005,52.1505,671
+narrow,hand-8 + grafo,3,46,49.4986,56.9679,54.3949,53.9992,671
+narrow,hand-8 + grafo,4,46,41.0675,56.9403,53.4527,53.2004,671
+narrow,hand-8 + grafo,5,46,41.9987,56.8796,53.8047,52.5881,671
+narrow,ResNet50 letterbox,1,43,10.6319,48.6845,46.5680,46.1092,2048
+narrow,ResNet50 letterbox,2,43,9.4679,48.7094,44.6009,44.4462,2048
+narrow,ResNet50 letterbox,3,43,9.6477,50.1012,45.2531,45.8557,2048
+narrow,ResNet50 letterbox,4,43,10.6248,48.5973,45.7811,45.8289,2048
+narrow,ResNet50 letterbox,5,43,12.4921,48.3867,46.2884,45.9231,2048
+narrow,ResNet50 letterbox,1,44,11.2056,47.9444,46.4230,45.6695,2048
+narrow,ResNet50 letterbox,2,44,11.5066,47.8500,46.8889,46.3520,2048
+narrow,ResNet50 letterbox,3,44,16.0457,47.9086,47.4273,47.1363,2048
+narrow,ResNet50 letterbox,4,44,9.7167,48.7846,45.2842,45.6543,2048
+narrow,ResNet50 letterbox,5,44,8.2777,48.2781,43.2136,43.5092,2048
+narrow,ResNet50 letterbox,1,45,12.6201,47.6711,46.6715,45.7366,2048
+narrow,ResNet50 letterbox,2,45,12.5530,48.7399,46.9407,47.0645,2048
+narrow,ResNet50 letterbox,3,45,13.6764,48.5593,47.1477,47.5512,2048
+narrow,ResNet50 letterbox,4,45,10.2575,48.5951,45.7087,45.7531,2048
+narrow,ResNet50 letterbox,5,45,10.9465,48.5326,45.8743,45.6205,2048
+narrow,ResNet50 letterbox,1,46,10.2720,48.3869,45.1600,44.9015,2048
+narrow,ResNet50 letterbox,2,46,10.2666,49.2739,45.3360,45.2685,2048
+narrow,ResNet50 letterbox,3,46,9.7444,49.0038,44.5491,44.9481,2048
+narrow,ResNet50 letterbox,4,46,12.0085,47.8575,45.8225,45.7121,2048
+narrow,ResNet50 letterbox,5,46,10.2916,48.0788,45.0047,44.6852,2048
+narrow,hand-8 + ResNet50 letterbox,1,43,17.4942,53.5506,53.1421,51.8619,2665
+narrow,hand-8 + ResNet50 letterbox,2,43,9.6962,54.7177,49.9948,50.4570,2665
+narrow,hand-8 + ResNet50 letterbox,3,43,11.0215,54.9117,51.3304,51.5865,2665
+narrow,hand-8 + ResNet50 letterbox,4,43,14.0892,53.8970,52.7591,51.5580,2665
+narrow,hand-8 + ResNet50 letterbox,5,43,9.4112,55.3778,49.8706,49.7757,2665
+narrow,hand-8 + ResNet50 letterbox,1,44,8.1618,54.3461,46.9200,47.6029,2665
+narrow,hand-8 + ResNet50 letterbox,2,44,9.0024,54.6866,48.8974,49.7755,2665
+narrow,hand-8 + ResNet50 letterbox,3,44,10.3983,54.7955,51.4339,50.9364,2665
+narrow,hand-8 + ResNet50 letterbox,4,44,15.7772,53.5677,53.3803,52.1500,2665
+narrow,hand-8 + ResNet50 letterbox,5,44,9.5831,54.4101,49.1769,49.1067,2665
+narrow,hand-8 + ResNet50 letterbox,1,45,13.6944,53.8382,53.6184,51.9451,2665
+narrow,hand-8 + ResNet50 letterbox,2,45,9.7186,54.4203,50.0362,50.1995,2665
+narrow,hand-8 + ResNet50 letterbox,3,45,10.6392,54.3933,50.8231,50.2968,2665
+narrow,hand-8 + ResNet50 letterbox,4,45,10.3752,53.7663,50.7092,49.7311,2665
+narrow,hand-8 + ResNet50 letterbox,5,45,13.7060,54.3693,52.8937,51.4758,2665
+narrow,hand-8 + ResNet50 letterbox,1,46,12.1122,53.9854,52.7073,52.1768,2665
+narrow,hand-8 + ResNet50 letterbox,2,46,10.9301,54.4832,51.9723,51.2030,2665
+narrow,hand-8 + ResNet50 letterbox,3,46,9.2072,54.2956,49.7049,49.8559,2665
+narrow,hand-8 + ResNet50 letterbox,4,46,10.1314,53.6311,50.6471,51.0496,2665
+narrow,hand-8 + ResNet50 letterbox,5,46,14.5581,53.1200,53.0593,50.9998,2665
+narrow,hand-8 + grafo + ResNet50 letterbox,1,43,37.5771,56.0593,51.1647,50.5287,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,2,43,44.6961,55.1157,54.7572,54.0108,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,3,43,39.0118,56.0650,51.2475,51.1270,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,4,43,39.6578,55.5956,52.0551,51.9592,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,5,43,39.6319,56.7556,52.6556,52.5292,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,1,44,37.4799,54.8292,49.5186,49.6567,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,2,44,40.0202,56.1919,53.2664,52.5228,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,3,44,43.8820,54.5783,54.2499,52.4865,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,4,44,36.8827,54.5077,47.6550,47.6696,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,5,44,38.7035,56.4186,51.2890,50.6215,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,1,45,37.6583,55.4513,49.3322,48.9630,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,2,45,39.5579,55.4946,52.5003,51.8867,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,3,45,38.8141,56.0743,52.8626,52.2994,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,4,45,38.4712,54.8863,51.2579,50.3848,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,5,45,40.9430,55.7872,54.0429,53.2512,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,1,46,38.7089,55.6340,52.3864,51.7013,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,2,46,42.0766,55.7022,54.6537,53.5772,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,3,46,38.6709,56.3883,51.5788,51.1941,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,4,46,39.2315,55.9883,53.1318,52.9246,2719
+narrow,hand-8 + grafo + ResNet50 letterbox,5,46,41.9038,56.4670,54.8504,53.4992,2719
+narrow,ResNet50 resize+crop,1,43,8.4429,47.6081,43.8865,43.6060,2048
+narrow,ResNet50 resize+crop,2,43,8.3609,48.8829,44.4352,44.4617,2048
+narrow,ResNet50 resize+crop,3,43,9.7787,49.0915,45.2635,45.1374,2048
+narrow,ResNet50 resize+crop,4,43,9.4458,48.2619,45.0978,44.8596,2048
+narrow,ResNet50 resize+crop,5,43,8.4226,48.6333,43.6070,43.6407,2048
+narrow,ResNet50 resize+crop,1,44,9.2470,46.2464,44.9115,43.8265,2048
+narrow,ResNet50 resize+crop,2,44,9.5181,49.2975,45.4602,45.7682,2048
+narrow,ResNet50 resize+crop,3,44,9.9967,48.1474,44.2799,44.4914,2048
+narrow,ResNet50 resize+crop,4,44,8.9610,47.1154,43.2861,43.4337,2048
+narrow,ResNet50 resize+crop,5,44,8.8444,48.1844,43.7105,43.6830,2048
+narrow,ResNet50 resize+crop,1,45,10.7258,46.2006,45.7501,44.5293,2048
+narrow,ResNet50 resize+crop,2,45,14.3194,48.5088,47.0649,47.2901,2048
+narrow,ResNet50 resize+crop,3,45,8.9869,48.4068,43.5552,43.8036,2048
+narrow,ResNet50 resize+crop,4,45,8.5994,47.7300,43.0893,43.3353,2048
+narrow,ResNet50 resize+crop,5,45,8.2342,47.3761,41.7952,42.5041,2048
+narrow,ResNet50 resize+crop,1,46,9.4980,47.3021,44.1454,43.7756,2048
+narrow,ResNet50 resize+crop,2,46,8.9244,49.5232,44.0315,44.6510,2048
+narrow,ResNet50 resize+crop,3,46,9.4590,47.6474,43.0893,42.7648,2048
+narrow,ResNet50 resize+crop,4,46,12.6331,47.4961,45.9054,45.4433,2048
+narrow,ResNet50 resize+crop,5,46,6.8936,46.9716,38.5754,38.6905,2048
+narrow,hand-8 + ResNet50 resize+crop,1,43,10.2993,53.9496,51.7341,50.6689,2665
+narrow,hand-8 + ResNet50 resize+crop,2,43,9.4830,55.9280,50.4297,50.6525,2665
+narrow,hand-8 + ResNet50 resize+crop,3,43,11.9814,54.8320,51.9205,51.2430,2665
+narrow,hand-8 + ResNet50 resize+crop,4,43,11.3992,54.9074,52.9972,51.9895,2665
+narrow,hand-8 + ResNet50 resize+crop,5,43,10.2090,55.0586,50.0052,50.0623,2665
+narrow,hand-8 + ResNet50 resize+crop,1,44,10.6036,54.1414,51.8894,50.9171,2665
+narrow,hand-8 + ResNet50 resize+crop,2,44,10.2170,55.1745,51.5788,51.2349,2665
+narrow,hand-8 + ResNet50 resize+crop,3,44,15.5269,54.2460,53.4734,52.2754,2665
+narrow,hand-8 + ResNet50 resize+crop,4,44,9.5953,54.7337,50.9680,50.2621,2665
+narrow,hand-8 + ResNet50 resize+crop,5,44,9.7407,54.5105,50.7195,50.2410,2665
+narrow,hand-8 + ResNet50 resize+crop,1,45,10.0240,54.2645,51.5581,51.0315,2665
+narrow,hand-8 + ResNet50 resize+crop,2,45,9.6896,55.4484,51.0301,50.9820,2665
+narrow,hand-8 + ResNet50 resize+crop,3,45,13.4400,54.0528,52.6866,52.0312,2665
+narrow,hand-8 + ResNet50 resize+crop,4,45,9.0636,55.2255,49.6842,49.5497,2665
+narrow,hand-8 + ResNet50 resize+crop,5,45,10.6311,55.0183,50.7402,50.8782,2665
+narrow,hand-8 + ResNet50 resize+crop,1,46,9.7641,54.9759,51.8894,51.2347,2665
+narrow,hand-8 + ResNet50 resize+crop,2,46,13.8839,54.5010,53.8979,52.9962,2665
+narrow,hand-8 + ResNet50 resize+crop,3,46,9.2868,54.7786,50.4814,50.4717,2665
+narrow,hand-8 + ResNet50 resize+crop,4,46,16.9057,55.1495,55.3888,53.8839,2665
+narrow,hand-8 + ResNet50 resize+crop,5,46,10.7689,54.9116,51.2372,51.0142,2665
+narrow,hand-8 + grafo + ResNet50 resize+crop,1,43,40.4856,55.2670,54.7676,52.9294,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,2,43,38.7874,57.4758,53.5356,53.6080,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,3,43,38.5911,56.9629,52.5520,52.5341,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,4,43,40.1506,56.6276,53.7012,53.1270,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,5,43,38.0631,56.8118,51.2682,51.2573,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,1,44,38.7236,55.7126,51.0922,50.7612,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,2,44,39.9779,55.8260,53.7633,53.0006,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,3,44,38.1422,57.4667,51.3614,51.6246,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,4,44,43.2283,55.7577,55.0678,53.6296,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,5,44,39.7168,57.0569,53.2767,52.7416,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,1,45,40.2222,55.4009,54.3224,52.2965,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,2,45,39.6072,55.6725,54.2189,53.2103,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,3,45,39.6159,56.1738,53.0800,51.9162,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,4,45,37.9392,55.4108,51.3097,50.6338,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,5,45,40.5903,56.4406,54.4984,53.4987,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,1,46,38.6923,55.4087,53.0697,51.7801,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,2,46,39.2081,56.8612,54.6433,54.0475,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,3,46,40.3650,55.5787,54.6847,52.9733,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,4,46,40.4075,56.5486,55.0989,53.4267,2719
+narrow,hand-8 + grafo + ResNet50 resize+crop,5,46,40.0999,57.5901,53.5666,53.2511,2719
+narrow,ViT letterbox,1,43,8.4437,50.0622,46.2988,46.6512,768
+narrow,ViT letterbox,2,43,7.6429,49.2423,45.5430,45.5634,768
+narrow,ViT letterbox,3,43,13.7433,50.2774,47.3134,48.1925,768
+narrow,ViT letterbox,4,43,9.2380,50.7594,46.3506,47.5113,768
+narrow,ViT letterbox,5,43,9.2439,49.4625,45.7294,46.6877,768
+narrow,ViT letterbox,1,44,8.6672,48.3203,45.0978,45.8834,768
+narrow,ViT letterbox,2,44,7.0240,49.8263,45.1496,45.8192,768
+narrow,ViT letterbox,3,44,8.6308,49.3375,46.4334,46.9335,768
+narrow,ViT letterbox,4,44,6.9874,50.3978,45.5534,46.8080,768
+narrow,ViT letterbox,5,44,6.2902,48.3406,42.5613,43.2697,768
+narrow,ViT letterbox,1,45,8.0703,49.3209,45.4188,46.1228,768
+narrow,ViT letterbox,2,45,6.9222,48.8848,44.4352,44.5595,768
+narrow,ViT letterbox,3,45,5.3525,48.1575,41.8677,41.9877,768
+narrow,ViT letterbox,4,45,5.3412,48.5643,42.9651,43.2299,768
+narrow,ViT letterbox,5,45,6.1865,48.3955,42.5717,43.6875,768
+narrow,ViT letterbox,1,46,10.1354,50.1939,47.5929,47.9845,768
+narrow,ViT letterbox,2,46,9.1992,48.2490,46.1642,46.3605,768
+narrow,ViT letterbox,3,46,8.3369,49.0715,44.3524,45.1517,768
+narrow,ViT letterbox,4,46,7.3203,48.8536,44.4042,44.7558,768
+narrow,ViT letterbox,5,46,6.0854,48.5691,42.8616,43.1091,768
+narrow,hand-8 + ViT letterbox,1,43,11.1407,56.4461,55.0264,54.4399,1385
+narrow,hand-8 + ViT letterbox,2,43,9.6510,57.3369,54.0739,53.9624,1385
+narrow,hand-8 + ViT letterbox,3,43,9.0201,56.9462,53.8151,53.9409,1385
+narrow,hand-8 + ViT letterbox,4,43,10.0626,57.3064,53.5977,53.5842,1385
+narrow,hand-8 + ViT letterbox,5,43,10.5300,56.3627,53.9704,53.5565,1385
+narrow,hand-8 + ViT letterbox,1,44,8.5241,56.8708,53.2664,53.5184,1385
+narrow,hand-8 + ViT letterbox,2,44,10.5323,56.3991,54.7365,54.4979,1385
+narrow,hand-8 + ViT letterbox,3,44,13.3177,57.9499,56.3826,55.9590,1385
+narrow,hand-8 + ViT letterbox,4,44,10.3278,58.0136,55.1713,55.2369,1385
+narrow,hand-8 + ViT letterbox,5,44,10.1245,57.4599,55.0160,54.7297,1385
+narrow,hand-8 + ViT letterbox,1,45,10.9770,56.6501,54.8711,54.6860,1385
+narrow,hand-8 + ViT letterbox,2,45,10.1175,56.4106,54.4570,54.4354,1385
+narrow,hand-8 + ViT letterbox,3,45,8.5543,56.7260,53.2974,52.9810,1385
+narrow,hand-8 + ViT letterbox,4,45,13.1471,57.3481,55.2438,55.2395,1385
+narrow,hand-8 + ViT letterbox,5,45,9.8180,56.5408,54.3949,53.6105,1385
+narrow,hand-8 + ViT letterbox,1,46,7.7584,56.2427,53.1836,52.5950,1385
+narrow,hand-8 + ViT letterbox,2,46,11.5762,57.1688,55.3163,55.3278,1385
+narrow,hand-8 + ViT letterbox,3,46,15.8633,56.3641,55.3577,54.7640,1385
+narrow,hand-8 + ViT letterbox,4,46,9.4890,57.7270,54.4259,54.9586,1385
+narrow,hand-8 + ViT letterbox,5,46,12.2871,56.7270,55.7097,54.4816,1385
+narrow,hand-8 + grafo + ViT letterbox,1,43,37.5479,57.8732,54.6019,54.1981,1439
+narrow,hand-8 + grafo + ViT letterbox,2,43,36.4406,58.3938,54.1153,54.2637,1439
+narrow,hand-8 + grafo + ViT letterbox,3,43,37.3535,57.4575,53.9600,52.9444,1439
+narrow,hand-8 + grafo + ViT letterbox,4,43,36.9207,57.6863,53.5770,52.9989,1439
+narrow,hand-8 + grafo + ViT letterbox,5,43,37.9405,58.0563,54.8608,53.7438,1439
+narrow,hand-8 + grafo + ViT letterbox,1,44,37.9400,58.3217,55.7097,55.4022,1439
+narrow,hand-8 + grafo + ViT letterbox,2,44,36.1101,57.9642,53.9186,53.6561,1439
+narrow,hand-8 + grafo + ViT letterbox,3,44,36.9486,57.8067,54.7262,54.2460,1439
+narrow,hand-8 + grafo + ViT letterbox,4,44,36.0736,57.5922,53.2974,52.5591,1439
+narrow,hand-8 + grafo + ViT letterbox,5,44,38.9364,58.4838,55.9789,55.0298,1439
+narrow,hand-8 + grafo + ViT letterbox,1,45,39.4581,57.8197,55.9375,55.2333,1439
+narrow,hand-8 + grafo + ViT letterbox,2,45,37.1402,57.0193,54.4156,54.2951,1439
+narrow,hand-8 + grafo + ViT letterbox,3,45,36.2552,57.5696,53.3389,53.1008,1439
+narrow,hand-8 + grafo + ViT letterbox,4,45,42.5408,58.3373,57.4490,56.6203,1439
+narrow,hand-8 + grafo + ViT letterbox,5,45,39.3116,58.1349,56.4758,55.4967,1439
+narrow,hand-8 + grafo + ViT letterbox,1,46,46.4680,57.6365,57.6147,56.1027,1439
+narrow,hand-8 + grafo + ViT letterbox,2,46,35.9821,56.9994,53.0697,53.0901,1439
+narrow,hand-8 + grafo + ViT letterbox,3,46,35.8532,57.3970,51.9826,51.9005,1439
+narrow,hand-8 + grafo + ViT letterbox,4,46,39.3634,58.1453,55.8546,55.8883,1439
+narrow,hand-8 + grafo + ViT letterbox,5,46,46.0561,57.4494,57.6043,56.1592,1439
+narrow,ViT resize+crop,1,43,9.1732,47.6249,44.9322,43.9717,768
+narrow,ViT resize+crop,2,43,7.0083,47.7230,43.2446,42.4921,768
+narrow,ViT resize+crop,3,43,7.4223,47.2063,43.0376,42.7977,768
+narrow,ViT resize+crop,4,43,7.1894,48.1426,43.7830,43.3110,768
+narrow,ViT resize+crop,5,43,8.9414,48.6275,45.1392,44.1926,768
+narrow,ViT resize+crop,1,44,6.6434,46.5420,41.7331,41.1811,768
+narrow,ViT resize+crop,2,44,10.6038,48.3798,45.1392,45.5485,768
+narrow,ViT resize+crop,3,44,7.9188,47.5989,43.5656,43.8578,768
+narrow,ViT resize+crop,4,44,6.8200,48.6483,43.4517,43.6038,768
+narrow,ViT resize+crop,5,44,9.3162,48.6560,44.8494,44.7802,768
+narrow,ViT resize+crop,1,45,7.5327,47.8666,43.8865,43.9712,768
+narrow,ViT resize+crop,2,45,7.9538,48.0711,43.4517,43.5855,768
+narrow,ViT resize+crop,3,45,5.3872,45.1804,39.6521,38.7517,768
+narrow,ViT resize+crop,4,45,7.9251,47.4481,43.4724,42.8166,768
+narrow,ViT resize+crop,5,45,6.2706,47.6159,42.9237,42.5279,768
+narrow,ViT resize+crop,1,46,8.3561,48.3209,44.7251,43.7548,768
+narrow,ViT resize+crop,2,46,8.2724,48.3064,43.5242,43.5343,768
+narrow,ViT resize+crop,3,46,8.7351,48.0704,44.2282,44.0265,768
+narrow,ViT resize+crop,4,46,7.9518,47.6445,43.7623,42.9197,768
+narrow,ViT resize+crop,5,46,11.6088,48.2937,45.2635,44.4814,768
+narrow,hand-8 + ViT resize+crop,1,43,10.5262,57.2358,54.5709,54.2617,1385
+narrow,hand-8 + ViT resize+crop,2,43,7.7233,56.5496,52.4588,52.0595,1385
+narrow,hand-8 + ViT resize+crop,3,43,9.6750,56.8636,53.7116,53.2178,1385
+narrow,hand-8 + ViT resize+crop,4,43,12.0686,57.7498,55.2749,55.0566,1385
+narrow,hand-8 + ViT resize+crop,5,43,11.2533,56.6991,54.5605,53.4053,1385
+narrow,hand-8 + ViT resize+crop,1,44,7.8527,56.5573,52.6763,52.7041,1385
+narrow,hand-8 + ViT resize+crop,2,44,9.3681,57.1574,54.2085,53.9640,1385
+narrow,hand-8 + ViT resize+crop,3,44,7.7257,56.0489,52.3553,52.1743,1385
+narrow,hand-8 + ViT resize+crop,4,44,9.9552,57.2613,53.8565,53.5065,1385
+narrow,hand-8 + ViT resize+crop,5,44,8.1446,56.9393,52.9765,52.0735,1385
+narrow,hand-8 + ViT resize+crop,1,45,7.5674,57.2534,52.2000,51.8385,1385
+narrow,hand-8 + ViT resize+crop,2,45,8.6708,57.4961,53.5149,53.5448,1385
+narrow,hand-8 + ViT resize+crop,3,45,9.4278,56.4270,54.2292,53.6192,1385
+narrow,hand-8 + ViT resize+crop,4,45,11.5947,57.0021,54.1878,53.8238,1385
+narrow,hand-8 + ViT resize+crop,5,45,11.4287,56.2206,55.3991,53.3605,1385
+narrow,hand-8 + ViT resize+crop,1,46,9.8642,57.2278,53.6909,53.2719,1385
+narrow,hand-8 + ViT resize+crop,2,46,10.0844,56.9687,53.5666,53.6400,1385
+narrow,hand-8 + ViT resize+crop,3,46,10.8709,56.4111,54.4052,54.1989,1385
+narrow,hand-8 + ViT resize+crop,4,46,12.6941,57.7216,55.3681,54.9042,1385
+narrow,hand-8 + ViT resize+crop,5,46,12.8189,56.6469,55.1920,53.8989,1385
+narrow,hand-8 + grafo + ViT resize+crop,1,43,42.0792,58.3713,56.8899,55.9943,1439
+narrow,hand-8 + grafo + ViT resize+crop,2,43,37.1570,58.3231,54.1982,53.6834,1439
+narrow,hand-8 + grafo + ViT resize+crop,3,43,36.8898,57.1629,53.6805,53.0292,1439
+narrow,hand-8 + grafo + ViT resize+crop,4,43,38.6432,58.3186,55.1713,54.6746,1439
+narrow,hand-8 + grafo + ViT resize+crop,5,43,39.8030,57.4940,55.5648,54.0080,1439
+narrow,hand-8 + grafo + ViT resize+crop,1,44,38.3748,58.1683,55.3266,54.4193,1439
+narrow,hand-8 + grafo + ViT resize+crop,2,44,36.6288,57.6436,53.4838,52.7187,1439
+narrow,hand-8 + grafo + ViT resize+crop,3,44,36.4343,57.4828,54.2706,53.5334,1439
+narrow,hand-8 + grafo + ViT resize+crop,4,44,40.3380,58.7447,56.6311,55.7028,1439
+narrow,hand-8 + grafo + ViT resize+crop,5,44,41.4984,57.5395,57.2420,54.9082,1439
+narrow,hand-8 + grafo + ViT resize+crop,1,45,36.7453,57.5809,54.1671,53.0840,1439
+narrow,hand-8 + grafo + ViT resize+crop,2,45,38.2476,59.1392,56.1342,55.7706,1439
+narrow,hand-8 + grafo + ViT resize+crop,3,45,37.8829,57.9504,55.1403,54.9975,1439
+narrow,hand-8 + grafo + ViT resize+crop,4,45,42.1455,57.6225,57.6871,56.1240,1439
+narrow,hand-8 + grafo + ViT resize+crop,5,45,38.5478,57.4108,56.2895,54.6541,1439
+narrow,hand-8 + grafo + ViT resize+crop,1,46,39.9548,58.3284,56.4551,55.5724,1439
+narrow,hand-8 + grafo + ViT resize+crop,2,46,36.5113,57.2414,53.1007,52.6392,1439
+narrow,hand-8 + grafo + ViT resize+crop,3,46,38.2860,57.6202,55.3059,54.0703,1439
+narrow,hand-8 + grafo + ViT resize+crop,4,46,43.8935,59.4176,57.8321,56.8470,1439
+narrow,hand-8 + grafo + ViT resize+crop,5,46,49.1631,57.1303,57.6664,55.3503,1439

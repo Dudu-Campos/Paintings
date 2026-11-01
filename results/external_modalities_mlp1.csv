@@ -1,0 +1,5 @@
+dataset,condition,fold,n_images,n_classes,bacc,accuracy,macro_f1,dimensions,k
+pandora,ResNet50,1,18038,18,0.540084,0.531042,0.530870,2048,0
+pandora,todas hand-designed (8),1,18038,18,0.561356,0.549612,0.553811,1639,0
+rijksmuseum,ResNet50,1,4866,10,0.402536,0.426078,0.382083,2048,0
+rijksmuseum,todas hand-designed (8),1,4866,10,0.335967,0.350103,0.298930,1639,0

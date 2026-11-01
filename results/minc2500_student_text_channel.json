@@ -1,0 +1,8 @@
+{
+  "n_images": 57500,
+  "n_styles": 23,
+  "bacc_oof": 0.49184347826086955,
+  "bacc_fold_mean": 0.49184347826086955,
+  "bacc_fold_std": 0.0038624360316126096,
+  "dataset": "minc2500"
+}

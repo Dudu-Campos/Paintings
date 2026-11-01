@@ -1,0 +1,7 @@
+source,target,n_pairs,median,p90,frac_above_0.5
+image,image,210925,0.001410,0.198618,0.026920
+image,region graphs,358800,0.002512,0.049715,0.001656
+image,curve,185250,0.002553,0.021016,0.004000
+region graphs,region graphs,152076,0.029542,0.288533,0.030840
+region graphs,curve,157320,0.004960,0.059733,0.006382
+curve,curve,40470,0.017353,0.306316,0.038695

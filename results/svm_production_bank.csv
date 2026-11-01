@@ -1,0 +1,2 @@
+condition,fold,dimensions,n_support,bacc,accuracy,macro_f1,seconds
+hand-8,1,639,62521,0.467434,0.482704,0.465198,1142.054051

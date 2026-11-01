@@ -1,0 +1,271 @@
+n_modalities,modalities,train_size,fold,dimensions,bacc,k,accuracy,macro_f1,nll,nll_macro
+1,Felzenszwalb,2500,1,71,0.228725,64,0.220525,0.198643,3.046143,4.196053
+1,Felzenszwalb,5000,1,71,0.245283,64,0.225596,0.206341,2.839106,3.714790
+1,Felzenszwalb,10000,1,71,0.252401,64,0.230848,0.212519,2.766831,3.476284
+1,Felzenszwalb,20000,1,71,0.267654,64,0.235376,0.222454,2.730643,3.298964
+1,Felzenszwalb,40000,1,71,0.272766,64,0.238575,0.224946,2.712261,3.252120
+1,Felzenszwalb,66259,1,71,0.273611,64,0.238153,0.225777,2.703348,3.205659
+1,Felzenszwalb,2500,2,71,0.236602,64,0.218775,0.201345,3.114824,4.300070
+1,Felzenszwalb,5000,2,71,0.258336,64,0.227286,0.214278,2.888201,3.712673
+1,Felzenszwalb,10000,2,71,0.263371,64,0.232659,0.216770,2.817104,3.566360
+1,Felzenszwalb,20000,2,71,0.271201,64,0.239541,0.223200,2.761446,3.396081
+1,Felzenszwalb,40000,2,71,0.276983,64,0.242741,0.226506,2.723412,3.221876
+1,Felzenszwalb,66259,2,71,0.276951,64,0.242620,0.225742,2.716127,3.214483
+1,Felzenszwalb,2500,3,71,0.227389,64,0.212013,0.193531,3.089628,4.080825
+1,Felzenszwalb,5000,3,71,0.248802,64,0.225355,0.204954,2.920268,3.688972
+1,Felzenszwalb,10000,3,71,0.257428,64,0.227468,0.209151,2.817785,3.413024
+1,Felzenszwalb,20000,3,71,0.273303,64,0.235979,0.222782,2.765226,3.275712
+1,Felzenszwalb,40000,3,71,0.276189,64,0.236040,0.224528,2.740825,3.199203
+1,Felzenszwalb,66259,3,71,0.276103,64,0.234832,0.223540,2.723856,3.154050
+1,Felzenszwalb,2500,4,71,0.233030,64,0.222457,0.197530,3.185064,4.358194
+1,Felzenszwalb,5000,4,71,0.256625,64,0.235678,0.216320,2.888681,3.747156
+1,Felzenszwalb,10000,4,71,0.266731,64,0.238877,0.221711,2.798928,3.527203
+1,Felzenszwalb,20000,4,71,0.275019,64,0.240024,0.226783,2.738669,3.321569
+1,Felzenszwalb,40000,4,71,0.279676,64,0.243888,0.229411,2.716959,3.219054
+1,Felzenszwalb,66259,4,71,0.278532,64,0.242560,0.228819,2.696632,3.131658
+1,Felzenszwalb,2500,5,71,0.233335,64,0.212751,0.198032,3.076456,3.973662
+1,Felzenszwalb,5000,5,71,0.259609,64,0.229413,0.213903,2.852062,3.505614
+1,Felzenszwalb,10000,5,71,0.273738,64,0.232553,0.219232,2.768388,3.308139
+1,Felzenszwalb,20000,5,71,0.282252,64,0.238710,0.226248,2.754270,3.279438
+1,Felzenszwalb,40000,5,71,0.283606,64,0.240763,0.226261,2.726128,3.176480
+1,Felzenszwalb,66260,5,71,0.287438,64,0.243419,0.229323,2.719884,3.171454
+2,Felzenszwalb+Descriptors,2500,1,201,0.241193,192,0.252279,0.217721,3.850502,5.509493
+2,Felzenszwalb+Descriptors,5000,1,201,0.268867,192,0.263568,0.236120,3.126520,4.315060
+2,Felzenszwalb+Descriptors,10000,1,201,0.291016,192,0.273589,0.254441,2.875403,3.757373
+2,Felzenszwalb+Descriptors,20000,1,201,0.305319,192,0.278901,0.264854,2.720859,3.434093
+2,Felzenszwalb+Descriptors,40000,1,201,0.314746,192,0.283369,0.271021,2.666436,3.284531
+2,Felzenszwalb+Descriptors,66259,1,201,0.318707,192,0.283248,0.274346,2.626343,3.165725
+2,Felzenszwalb+Descriptors,2500,2,201,0.248644,128,0.251615,0.223850,3.401047,4.862152
+2,Felzenszwalb+Descriptors,5000,2,201,0.284163,192,0.272985,0.251689,3.108247,4.295195
+2,Felzenszwalb+Descriptors,10000,2,201,0.302266,192,0.281920,0.264476,2.901709,3.864590
+2,Felzenszwalb+Descriptors,20000,2,201,0.310841,192,0.284334,0.269042,2.752068,3.542436
+2,Felzenszwalb+Descriptors,40000,2,201,0.318337,192,0.285059,0.271266,2.672312,3.312408
+2,Felzenszwalb+Descriptors,66259,2,201,0.319197,192,0.284033,0.271859,2.644896,3.237737
+2,Felzenszwalb+Descriptors,2500,3,201,0.233737,192,0.250166,0.214535,3.881461,5.664165
+2,Felzenszwalb+Descriptors,5000,3,201,0.269317,192,0.268095,0.239302,3.242415,4.526429
+2,Felzenszwalb+Descriptors,10000,3,201,0.292781,192,0.275340,0.255133,2.917098,3.856008
+2,Felzenszwalb+Descriptors,20000,3,201,0.300982,192,0.275883,0.258000,2.774391,3.526567
+2,Felzenszwalb+Descriptors,40000,3,201,0.307946,192,0.278599,0.263255,2.710736,3.329106
+2,Felzenszwalb+Descriptors,66259,3,201,0.310679,192,0.280773,0.264258,2.682572,3.254438
+2,Felzenszwalb+Descriptors,2500,4,201,0.239929,128,0.245276,0.217896,3.477405,4.843820
+2,Felzenszwalb+Descriptors,5000,4,201,0.279553,192,0.270872,0.249083,3.191233,4.323660
+2,Felzenszwalb+Descriptors,10000,4,201,0.298823,192,0.278358,0.259103,2.878972,3.788640
+2,Felzenszwalb+Descriptors,20000,4,201,0.315120,192,0.284516,0.270888,2.756767,3.554390
+2,Felzenszwalb+Descriptors,40000,4,201,0.317841,192,0.286145,0.273420,2.682115,3.317863
+2,Felzenszwalb+Descriptors,66259,4,201,0.320198,192,0.286810,0.275071,2.636161,3.203595
+2,Felzenszwalb+Descriptors,2500,5,201,0.241737,192,0.243842,0.217577,4.043502,5.479103
+2,Felzenszwalb+Descriptors,5000,5,201,0.278409,192,0.264248,0.243310,3.273861,4.353450
+2,Felzenszwalb+Descriptors,10000,5,201,0.300428,192,0.276262,0.257787,2.878469,3.659909
+2,Felzenszwalb+Descriptors,20000,5,201,0.316156,192,0.281997,0.268044,2.742196,3.413718
+2,Felzenszwalb+Descriptors,40000,5,201,0.324930,192,0.284653,0.273750,2.654324,3.161431
+2,Felzenszwalb+Descriptors,66260,5,201,0.325799,192,0.286706,0.273989,2.630406,3.140997
+3,Felzenszwalb+Descriptors+SLIC,2500,1,272,0.248975,128,0.251494,0.224402,3.377059,4.750292
+3,Felzenszwalb+Descriptors+SLIC,5000,1,272,0.283198,256,0.284334,0.255609,3.262185,4.642047
+3,Felzenszwalb+Descriptors+SLIC,10000,1,272,0.308568,256,0.298219,0.275748,2.910790,3.900095
+3,Felzenszwalb+Descriptors+SLIC,20000,1,272,0.324771,256,0.302143,0.288023,2.718889,3.521615
+3,Felzenszwalb+Descriptors+SLIC,40000,1,272,0.336656,256,0.305946,0.295516,2.634686,3.307725
+3,Felzenszwalb+Descriptors+SLIC,66259,1,272,0.342881,256,0.308663,0.299709,2.582180,3.161508
+3,Felzenszwalb+Descriptors+SLIC,2500,2,272,0.263668,128,0.262119,0.235782,3.283973,4.685422
+3,Felzenszwalb+Descriptors+SLIC,5000,2,272,0.289585,256,0.289405,0.263907,3.230675,4.664502
+3,Felzenszwalb+Descriptors+SLIC,10000,2,272,0.315718,256,0.303471,0.284034,2.946033,4.117901
+3,Felzenszwalb+Descriptors+SLIC,20000,2,272,0.328004,256,0.306912,0.290559,2.750924,3.659915
+3,Felzenszwalb+Descriptors+SLIC,40000,2,272,0.340748,256,0.309025,0.298086,2.638883,3.340256
+3,Felzenszwalb+Descriptors+SLIC,66259,2,272,0.343332,256,0.311802,0.300389,2.611155,3.268320
+3,Felzenszwalb+Descriptors+SLIC,2500,3,272,0.239580,192,0.257350,0.223234,3.722986,5.593561
+3,Felzenszwalb+Descriptors+SLIC,5000,3,272,0.281876,256,0.288017,0.258628,3.357551,4.855742
+3,Felzenszwalb+Descriptors+SLIC,10000,3,272,0.303129,256,0.294959,0.271617,2.953877,4.033810
+3,Felzenszwalb+Descriptors+SLIC,20000,3,272,0.318302,256,0.299185,0.281693,2.768689,3.603410
+3,Felzenszwalb+Descriptors+SLIC,40000,3,272,0.331275,256,0.303109,0.290378,2.689281,3.393609
+3,Felzenszwalb+Descriptors+SLIC,66259,3,272,0.332288,256,0.303954,0.290979,2.652562,3.279818
+3,Felzenszwalb+Descriptors+SLIC,2500,4,272,0.249787,128,0.251796,0.225581,3.433141,4.751153
+3,Felzenszwalb+Descriptors+SLIC,5000,4,272,0.291163,256,0.287775,0.265450,3.308775,4.605389
+3,Felzenszwalb+Descriptors+SLIC,10000,4,272,0.315169,256,0.300634,0.282023,2.888915,3.870827
+3,Felzenszwalb+Descriptors+SLIC,20000,4,272,0.332086,256,0.306731,0.294116,2.726810,3.538846
+3,Felzenszwalb+Descriptors+SLIC,40000,4,272,0.341424,256,0.310655,0.300182,2.640240,3.301713
+3,Felzenszwalb+Descriptors+SLIC,66259,4,272,0.346791,256,0.313311,0.304320,2.585961,3.164132
+3,Felzenszwalb+Descriptors+SLIC,2500,5,272,0.251182,192,0.257184,0.231437,3.790389,5.301335
+3,Felzenszwalb+Descriptors+SLIC,5000,5,272,0.295343,256,0.285016,0.266443,3.392389,4.629961
+3,Felzenszwalb+Descriptors+SLIC,10000,5,272,0.317983,256,0.296788,0.281603,2.882013,3.745122
+3,Felzenszwalb+Descriptors+SLIC,20000,5,272,0.336771,256,0.304757,0.294071,2.700768,3.390083
+3,Felzenszwalb+Descriptors+SLIC,40000,5,272,0.347585,256,0.309466,0.301279,2.611599,3.147760
+3,Felzenszwalb+Descriptors+SLIC,66260,5,272,0.346864,256,0.307534,0.298873,2.585093,3.118315
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),2500,1,335,0.254936,128,0.256384,0.229699,3.295110,4.639662
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),5000,1,335,0.287732,256,0.288922,0.259700,3.220293,4.615078
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),10000,1,335,0.310278,256,0.299125,0.278666,2.860926,3.861751
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),20000,1,335,0.329042,256,0.306912,0.292112,2.673990,3.512234
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),40000,1,335,0.331794,256,0.307938,0.292242,2.604999,3.297919
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),66259,1,335,0.340708,256,0.310957,0.299399,2.566954,3.191460
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),2500,2,335,0.263984,128,0.263990,0.237106,3.246997,4.616808
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),5000,2,335,0.293800,192,0.290069,0.267226,3.032477,4.266203
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),10000,2,335,0.313906,256,0.304618,0.284734,2.903017,4.045516
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),20000,2,335,0.332209,256,0.315062,0.297750,2.713021,3.614779
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),40000,2,335,0.341655,256,0.314519,0.300344,2.610583,3.310371
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),66259,2,335,0.344402,256,0.315062,0.302234,2.585563,3.241154
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),2500,3,335,0.248175,128,0.254573,0.226483,3.309261,4.649531
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),5000,3,335,0.285368,256,0.292182,0.261614,3.276696,4.709631
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),10000,3,335,0.310598,256,0.299849,0.279933,2.889467,3.941106
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),20000,3,335,0.316499,256,0.301902,0.280593,2.725842,3.567567
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),40000,3,335,0.332276,256,0.307697,0.292271,2.649038,3.320224
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),66259,3,335,0.338279,256,0.309810,0.296499,2.621720,3.263086
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),2500,4,335,0.257680,128,0.259583,0.234206,3.379516,4.631276
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),5000,4,335,0.293838,256,0.294235,0.268647,3.181849,4.492677
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),10000,4,335,0.322175,256,0.307335,0.290041,2.819274,3.738666
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),20000,4,335,0.334070,256,0.309085,0.298205,2.676288,3.438910
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),40000,4,335,0.340611,256,0.313492,0.302074,2.592706,3.204384
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),66259,4,335,0.346817,256,0.315484,0.306679,2.552973,3.110165
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),2500,5,335,0.255169,128,0.252536,0.228360,3.351362,4.541925
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),5000,5,335,0.294911,128,0.276443,0.256693,2.936310,3.762541
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),10000,5,335,0.322003,192,0.296607,0.279835,2.769203,3.501568
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),20000,5,335,0.338792,256,0.309647,0.296551,2.676911,3.336545
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),40000,5,335,0.355574,256,0.316590,0.308539,2.584384,3.058003
+4,Felzenszwalb+Descriptors+SLIC+L(G_felz),66260,5,335,0.354868,256,0.315926,0.306459,2.564134,3.056974
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,2500,1,398,0.255473,128,0.259946,0.232070,3.299338,4.656321
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,5000,1,398,0.290544,256,0.292545,0.265106,3.203660,4.596758
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,10000,1,398,0.320844,256,0.305886,0.289802,2.830381,3.800789
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,20000,1,398,0.344576,384,0.323634,0.312149,2.756931,3.749445
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,40000,1,398,0.353811,384,0.328162,0.318443,2.649194,3.483769
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,66259,1,398,0.361014,384,0.330456,0.322955,2.587555,3.339910
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,2500,2,398,0.266508,128,0.270088,0.240214,3.252952,4.626027
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,5000,2,398,0.298022,192,0.291398,0.271246,3.039617,4.312318
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,10000,2,398,0.326592,384,0.320193,0.302539,3.033041,4.362668
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,20000,2,398,0.346757,384,0.330335,0.318890,2.752472,3.758728
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,40000,2,398,0.360223,384,0.334078,0.326015,2.612799,3.394888
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,66259,2,398,0.362588,384,0.333776,0.326390,2.580536,3.308649
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,2500,3,398,0.250176,128,0.257048,0.229161,3.314065,4.702597
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,5000,3,398,0.286450,256,0.294114,0.263482,3.247625,4.778512
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,10000,3,398,0.324976,384,0.318925,0.300407,3.018900,4.252091
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,20000,3,398,0.340628,384,0.324057,0.311013,2.752340,3.650804
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,40000,3,398,0.353378,384,0.329792,0.318513,2.658900,3.393599
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,66259,3,398,0.358057,384,0.331482,0.321817,2.622806,3.320883
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,2500,4,398,0.257325,256,0.275641,0.244553,4.164204,6.259785
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,5000,4,398,0.300302,384,0.308965,0.282048,3.610990,5.221196
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,10000,4,398,0.331417,384,0.319831,0.305555,2.975531,4.084286
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,20000,4,398,0.346870,384,0.328705,0.318257,2.747442,3.676246
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,40000,4,398,0.361079,384,0.335104,0.328113,2.630099,3.375047
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,66259,4,398,0.363302,384,0.336070,0.327897,2.567169,3.216398
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,2500,5,398,0.255626,128,0.255433,0.231175,3.323048,4.502006
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,5000,5,398,0.300019,192,0.289423,0.269018,3.072416,4.111468
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,10000,5,398,0.329351,384,0.319307,0.301993,2.971398,4.068792
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,20000,5,398,0.352192,384,0.325223,0.316452,2.720356,3.518784
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,40000,5,398,0.368069,384,0.331562,0.328198,2.590091,3.172675
+5,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph,66260,5,398,0.367809,384,0.330959,0.325616,2.553724,3.120180
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,2500,1,455,0.256713,128,0.257772,0.234767,3.245329,4.536716
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,5000,1,455,0.291554,128,0.272804,0.256477,2.839403,3.669496
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,10000,1,455,0.322986,384,0.320918,0.298166,2.977393,4.252140
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,20000,1,455,0.358492,384,0.333535,0.323669,2.716501,3.663701
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,40000,1,455,0.363461,384,0.337338,0.326181,2.611217,3.415070
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,66259,1,455,0.371554,384,0.340899,0.332607,2.542255,3.245877
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,2500,2,455,0.261299,128,0.260308,0.236767,3.214413,4.477512
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,5000,2,455,0.297346,384,0.306610,0.281987,3.450732,5.186647
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,10000,2,455,0.331576,384,0.325324,0.307735,2.985420,4.291238
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,20000,2,455,0.346581,384,0.331361,0.317662,2.716136,3.707646
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,40000,2,455,0.366662,384,0.339451,0.330163,2.579188,3.364846
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,66259,2,455,0.370648,384,0.341141,0.333799,2.546089,3.276804
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,2500,3,455,0.249432,128,0.257048,0.229296,3.267279,4.661693
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,5000,3,455,0.286937,128,0.275400,0.253606,2.897130,3.767419
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,10000,3,455,0.320027,384,0.319589,0.296953,2.983987,4.240298
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,20000,3,455,0.342659,384,0.329550,0.312081,2.726192,3.634386
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,40000,3,455,0.358051,384,0.337096,0.323863,2.627151,3.358876
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,66259,3,455,0.363315,384,0.337277,0.325136,2.595960,3.290807
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,2500,4,455,0.260830,128,0.259342,0.238364,3.343246,4.578094
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,5000,4,455,0.298006,384,0.307576,0.280781,3.495863,5.142965
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,10000,4,455,0.336254,384,0.326713,0.310552,2.917061,4.043779
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,20000,4,455,0.349036,384,0.333052,0.320116,2.693868,3.624316
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,40000,4,455,0.366556,384,0.340054,0.332476,2.586129,3.341212
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,66259,4,455,0.372495,384,0.344280,0.336575,2.525073,3.172545
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,2500,5,455,0.258110,128,0.255373,0.234538,3.274277,4.439416
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,5000,5,455,0.303833,128,0.282661,0.264557,2.882462,3.668344
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,10000,5,455,0.335431,384,0.325344,0.306146,2.936782,4.033325
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,20000,5,455,0.357194,384,0.332589,0.320704,2.679283,3.421869
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,40000,5,455,0.374651,384,0.340860,0.333217,2.555906,3.095477
+6,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert,66260,5,455,0.375294,384,0.340920,0.332520,2.521190,3.057319
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,2500,1,607,0.254781,128,0.252158,0.233966,3.183102,4.370736
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,5000,1,607,0.294440,128,0.267371,0.261111,2.767781,3.513834
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,10000,1,607,0.324470,384,0.307999,0.298237,2.855965,3.864644
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,20000,1,607,0.358620,512,0.334138,0.330022,2.707813,3.600147
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,40000,1,607,0.373447,512,0.343858,0.339018,2.569554,3.255051
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,66259,1,607,0.382262,512,0.348446,0.345481,2.500681,3.110245
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,2500,2,607,0.262989,192,0.269906,0.248550,3.395682,4.900782
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,5000,2,607,0.298342,256,0.291096,0.276632,3.006683,4.183827
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,10000,2,607,0.324717,512,0.322548,0.306523,3.024487,4.391548
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,20000,2,607,0.354551,512,0.339511,0.329549,2.714258,3.720346
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,40000,2,607,0.373191,512,0.346212,0.341789,2.556980,3.331996
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,66259,2,607,0.375774,512,0.347178,0.342228,2.513063,3.219776
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,2500,3,607,0.252107,64,0.239602,0.220734,2.893680,3.751682
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,5000,3,607,0.289795,192,0.282161,0.263550,2.937722,3.940144
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,10000,3,607,0.319652,512,0.319469,0.301241,3.047814,4.419246
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,20000,3,607,0.347328,512,0.332931,0.319675,2.719893,3.624224
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,40000,3,607,0.367704,512,0.342348,0.335237,2.588593,3.287571
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,66259,3,607,0.373669,512,0.343375,0.337692,2.548113,3.198009
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,2500,4,607,0.263887,128,0.258799,0.238833,3.245782,4.400415
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,5000,4,607,0.297043,192,0.281135,0.267481,2.859170,3.858522
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,10000,4,607,0.336494,512,0.327377,0.315367,2.978794,4.201512
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,20000,4,607,0.358745,512,0.340598,0.331968,2.686318,3.619120
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,40000,4,607,0.373945,512,0.347781,0.341868,2.557154,3.303236
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,66259,4,607,0.384910,512,0.353094,0.350468,2.488683,3.126171
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,2500,5,607,0.263765,128,0.255071,0.240638,3.132053,4.203619
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,5000,5,607,0.300771,192,0.283808,0.271111,2.899695,3.742755
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,10000,5,607,0.337497,512,0.328544,0.313654,2.972456,4.080879
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,20000,5,607,0.362771,512,0.336030,0.329913,2.669037,3.390061
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,40000,5,607,0.386686,512,0.348648,0.347689,2.518972,3.022092
+7,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier,66260,5,607,0.394029,512,0.353779,0.351327,2.478579,2.989790
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,2500,1,639,0.254420,64,0.239964,0.223324,2.928196,3.730808
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,5000,1,639,0.296143,128,0.272140,0.262926,2.762758,3.537401
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,10000,1,639,0.329561,512,0.324660,0.309691,2.973759,4.215515
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,20000,1,639,0.358675,512,0.337338,0.331057,2.677833,3.574265
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,40000,1,639,0.371437,512,0.345487,0.337836,2.549632,3.235130
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,66259,1,639,0.384495,512,0.350860,0.348095,2.481995,3.099414
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,2500,2,639,0.265640,192,0.272080,0.250837,3.383617,4.888136
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,5000,2,639,0.299775,256,0.292665,0.277655,2.997399,4.173895
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,10000,2,639,0.329295,512,0.329490,0.311710,2.996865,4.407001
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,20000,2,639,0.356321,512,0.342892,0.332195,2.698971,3.744130
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,40000,2,639,0.378349,512,0.352611,0.348013,2.539357,3.322488
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,66259,2,639,0.382292,512,0.353215,0.347954,2.497337,3.213308
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,2500,3,639,0.255277,64,0.240326,0.223115,2.882773,3.754977
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,5000,3,639,0.292929,192,0.287232,0.267782,2.928092,3.957316
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,10000,3,639,0.330358,512,0.328705,0.311678,3.005365,4.340633
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,20000,3,639,0.351820,512,0.336251,0.324083,2.701428,3.613999
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,40000,3,639,0.368328,512,0.346031,0.337248,2.575279,3.303514
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,66259,3,639,0.375898,512,0.348566,0.341115,2.530497,3.189678
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,2500,4,639,0.261615,128,0.261032,0.237893,3.229650,4.441433
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,5000,4,639,0.301139,192,0.287474,0.272622,2.849305,3.867703
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,10000,4,639,0.338405,512,0.330758,0.317330,2.953641,4.172591
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,20000,4,639,0.364583,512,0.345186,0.337975,2.670990,3.612097
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,40000,4,639,0.377068,512,0.352128,0.344521,2.546940,3.319913
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,66259,4,639,0.385545,512,0.355992,0.351002,2.478291,3.137455
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,2500,5,639,0.267501,128,0.258090,0.243904,3.120694,4.188014
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,5000,5,639,0.304452,192,0.288940,0.276316,2.894313,3.781594
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,10000,5,639,0.341024,512,0.331623,0.317647,2.956101,4.126130
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,20000,5,639,0.364550,512,0.340196,0.331635,2.657835,3.410569
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,40000,5,639,0.386093,512,0.350761,0.347114,2.507127,3.031260
+8,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor,66260,5,639,0.390048,512,0.355470,0.350366,2.464580,2.978626
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,2500,1,681,0.262449,128,0.258799,0.238360,3.170492,4.364918
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,5000,1,681,0.303221,192,0.282644,0.273504,2.880587,3.764524
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,10000,1,681,0.339654,384,0.320736,0.312070,2.853261,3.830940
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,20000,1,681,0.372401,512,0.347299,0.342166,2.663601,3.518927
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,40000,1,681,0.394858,512,0.364866,0.359765,2.526713,3.183486
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,66259,1,681,0.411654,512,0.376275,0.374225,2.424392,3.025896
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,2500,2,681,0.275676,128,0.266888,0.248181,3.128836,4.338428
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,5000,2,681,0.306833,256,0.295986,0.282096,2.979423,4.124226
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,10000,2,681,0.340408,512,0.336010,0.320711,3.012984,4.398031
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,20000,2,681,0.369881,512,0.355327,0.344338,2.701619,3.765771
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,40000,2,681,0.391383,512,0.367039,0.359788,2.498744,3.255810
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,66259,2,681,0.406370,512,0.377060,0.371989,2.433411,3.133785
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,2500,3,681,0.262876,128,0.254331,0.236590,3.168963,4.398258
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,5000,3,681,0.299282,256,0.290130,0.274386,3.073499,4.281421
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,10000,3,681,0.336374,512,0.333776,0.316947,3.012359,4.326713
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,20000,3,681,0.364401,512,0.346453,0.336477,2.696246,3.571310
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,40000,3,681,0.390581,512,0.366073,0.358481,2.532885,3.239688
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,66259,3,681,0.400783,512,0.371567,0.364790,2.470731,3.117571
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,2500,4,681,0.266983,128,0.256807,0.240997,3.262388,4.419275
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,5000,4,681,0.305253,192,0.287353,0.274070,2.865386,3.817727
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,10000,4,681,0.349190,512,0.334802,0.324848,2.962357,4.137441
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,20000,4,681,0.371383,512,0.352430,0.344921,2.659005,3.534422
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,40000,4,681,0.390477,512,0.368367,0.359236,2.504428,3.208590
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,66259,4,681,0.406548,512,0.377603,0.372437,2.406590,3.018995
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,2500,5,681,0.267055,192,0.260807,0.246580,3.409589,4.708283
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,5000,5,681,0.310965,256,0.295460,0.282570,3.023333,4.034300
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,10000,5,681,0.347870,384,0.327880,0.317817,2.782384,3.650687
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,20000,5,681,0.374149,512,0.349372,0.340814,2.647221,3.381384
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,40000,5,681,0.402174,512,0.365914,0.364139,2.467083,2.997356
+9,Felzenszwalb+Descriptors+SLIC+L(G_felz)+Line graph+Hilbert+Fourier+Gabor+Similarity graph,66260,5,681,0.413379,512,0.379800,0.372829,2.400106,2.907544

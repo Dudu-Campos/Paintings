@@ -1,0 +1,3 @@
+scope,n_pairs,mean,median,frac_above_0.5
+same modality,27402,0.148476,0.152695,0.022079
+different modalities,143297,0.117294,0.125374,0.003685

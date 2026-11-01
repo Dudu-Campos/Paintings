@@ -1,0 +1,4 @@
+dataset,fold,model_a,model_b,sup_a,sup_b,par,yule_q,odds_ratio,yule_q_macro,both,only_a,only_b,neither
+multitask,1,resnet50 finetuned,hand-8 + grafo,ImageNet + alvo,zero externa,nosso x CNN,0.7349,6.5456,0.4595,10.6592,28.5464,3.2809,57.5135
+multitask,1,vit_b_16 finetuned,hand-8 + grafo,ImageNet + alvo,zero externa,nosso x CNN,0.7471,6.9092,0.5282,9.0112,18.0074,4.9289,68.0525
+multitask,1,resnet50 finetuned,vit_b_16 finetuned,ImageNet + alvo,ImageNet + alvo,CNN x CNN,0.7861,8.3492,0.6909,20.1713,19.0343,6.8473,53.9471

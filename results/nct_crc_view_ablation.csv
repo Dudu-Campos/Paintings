@@ -1,0 +1,18 @@
+dataset,classifier,seed,fold,condition,view,kind,n_train,n_val,n_test,n_classes,dimensions,seconds,bacc,accuracy,macro_f1,best_val_bacc,epochs_run
+nct_crc,lda,42,1,hand-8,all,full,100000,10000,7180,9,617,7.620486,0.857101,0.852089,0.837440,,0
+nct_crc,lda,42,1,single/Descriptors,Descriptors,single,100000,10000,7180,9,130,1.353530,0.776602,0.779109,0.756970,,0
+nct_crc,lda,42,1,single/Felzenszwalb,Felzenszwalb,single,100000,10000,7180,9,69,0.694735,0.794201,0.842758,0.789719,,0
+nct_crc,lda,42,1,single/SLIC,SLIC,single,100000,10000,7180,9,69,0.671557,0.796390,0.850836,0.799249,,0
+nct_crc,lda,42,1,single/Line graph,Line graph,single,100000,10000,7180,9,63,0.629630,0.664502,0.699721,0.650918,,0
+nct_crc,lda,42,1,single/L(G_felz),L(G_felz),single,100000,10000,7180,9,63,0.627195,0.638373,0.652089,0.618143,,0
+nct_crc,lda,42,1,single/Hilbert,Hilbert,single,100000,10000,7180,9,57,0.571875,0.649634,0.719499,0.646373,,0
+nct_crc,lda,42,1,single/Fourier,Fourier,single,100000,10000,7180,9,134,1.434627,0.526775,0.495822,0.494081,,0
+nct_crc,lda,42,1,single/Gabor,Gabor,single,100000,10000,7180,9,32,0.322026,0.578412,0.581337,0.535904,,0
+nct_crc,lda,42,1,drop/Descriptors,Descriptors,drop,100000,10000,7180,9,487,6.443951,0.851733,0.875070,0.844910,,0
+nct_crc,lda,42,1,drop/Felzenszwalb,Felzenszwalb,drop,100000,10000,7180,9,548,7.362980,0.851914,0.846518,0.832636,,0
+nct_crc,lda,42,1,drop/SLIC,SLIC,drop,100000,10000,7180,9,548,6.601036,0.855435,0.851532,0.835691,,0
+nct_crc,lda,42,1,drop/Line graph,Line graph,drop,100000,10000,7180,9,554,7.025889,0.856416,0.850279,0.835864,,0
+nct_crc,lda,42,1,drop/L(G_felz),L(G_felz),drop,100000,10000,7180,9,554,7.097807,0.853234,0.848607,0.833386,,0
+nct_crc,lda,42,1,drop/Hilbert,Hilbert,drop,100000,10000,7180,9,560,6.927954,0.854693,0.849443,0.835572,,0
+nct_crc,lda,42,1,drop/Fourier,Fourier,drop,100000,10000,7180,9,483,6.315537,0.855685,0.850836,0.836089,,0
+nct_crc,lda,42,1,drop/Gabor,Gabor,drop,100000,10000,7180,9,585,7.303433,0.854806,0.850975,0.836465,,0

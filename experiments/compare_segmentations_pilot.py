@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+import sys as _sys  # noqa: E402
+from pathlib import Path as _Path  # noqa: E402
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[1] / "src" / "pipeline"))
+
 import argparse
 from pathlib import Path
 
@@ -28,12 +32,7 @@ METHOD_PATHS = {
     ),
     "Quickshift": PILOT_ROOT / "quickshift_k3_d10/combined_features.parquet",
 }
-FEATURE_COLUMNS = (
-    RAG_FEATURES
-    + [f"knn_{column}" for column in EDGE_FEATURES]
-    + [f"del_{column}" for column in EDGE_FEATURES]
-    + [f"mst_{column}" for column in EDGE_FEATURES]
-)
+from corpora import FEATURE_COLUMNS  # noqa: E402,F401
 assert len(FEATURE_COLUMNS) == 71
 
 OUTPUT_CSV = ROOT / "paper/segmentation_methods_pilot_results.csv"

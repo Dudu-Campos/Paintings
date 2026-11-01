@@ -1,0 +1,57 @@
+% Hiperparametros do fine-tuning dos dois backbones.
+% Fonte: auditoria dos 190 `outputs/final_finetune_grid/*/*/seed_*/fold_*/config.json`
+% em 23/set -- nao da memoria nem do driver. Ver CLAUDE.md §9.9.
+% Requer: \usepackage{booktabs}
+%
+% NOTA DE LARGURA: a linha de augmentacao de treino e a mais larga. Ela foi
+% encurtada (a interpolacao foi para a legenda) e a tabela usa \small; sem as
+% duas coisas o corpo estoura a coluna.
+\begin{table}[t]
+\centering
+\caption{Fine-tuning configuration for both backbones. All image operations use
+bicubic interpolation and ImageNet channel statistics. Class weights are
+$w_c \propto 1/n_c$, normalised to unit mean; this targets balanced accuracy and
+deliberately trades simple accuracy for it, which is why all three metrics are
+reported. $^{*}$Early-stop patience was initially 12 (ResNet-50) and 10
+(ViT-B/16); for the two corpora trained last (Places-LT, Rijksmuseum) it was set
+equal to the epoch budget, because a short patience interacts badly with cosine
+annealing --- the mid-run plateau is a property of the schedule rather than
+evidence of convergence. Food-101, MINC-2500, Multitask-125, NCT-CRC and
+OilPainting retain the shorter setting and were not re-run. Every other
+hyperparameter is identical across the fourteen corpus $\times$ backbone cells.
+A shorter patience can only weaken the fine-tuned baselines, so where it remains
+it works in favour of the fusion results we report; and in Places-LT, where the
+full budget was available, the selected epoch was still 8 of 75 (ResNet-50) and
+6 of 40 (ViT-B/16), indicating that early stopping was not the binding
+constraint there.}
+\label{tab:finetune-hparams}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Setting} & \textbf{ResNet-50} & \textbf{ViT-B/16} \\
+\midrule
+\multicolumn{3}{l}{\emph{Shared}} \\
+Initialisation      & \multicolumn{2}{c}{ImageNet-1k, all layers trainable} \\
+Resolution          & \multicolumn{2}{c}{$224 \times 224$} \\
+Train augmentation  & \multicolumn{2}{c}{RandomResizedCrop(0.6--1.0) + flip + RandAugment(2,\,9)} \\
+Eval transform      & \multicolumn{2}{c}{Resize(256) + CenterCrop(224)} \\
+Loss                & \multicolumn{2}{c}{cross-entropy, class weights $\propto 1/n_c$} \\
+Scheduler           & \multicolumn{2}{c}{cosine, $T_{\max} =$ budget, no warm-up} \\
+Precision           & \multicolumn{2}{c}{mixed (AMP)} \\
+Model selection     & \multicolumn{2}{c}{best epoch by validation balanced accuracy} \\
+Validation          & \multicolumn{2}{c}{official \texttt{val}, else stratified 10\% of train} \\
+Repetitions         & \multicolumn{2}{c}{5 seeds; 5 folds if no published split} \\
+\midrule
+\multicolumn{3}{l}{\emph{Per architecture}} \\
+Optimiser           & SGD (Nesterov)    & AdamW \\
+Learning rate       & $0.01$            & $1 \times 10^{-4}$ \\
+Weight decay        & $1 \times 10^{-4}$ & $0.05$ \\
+Momentum            & $0.9$             & --- \\
+Label smoothing     & ---               & $0.1$ \\
+Batch size          & $128$             & $64$ \\
+Epoch budget        & $75$              & $40$ \\
+Early-stop patience & $12$ / $75^{*}$   & $10$ / $40^{*}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

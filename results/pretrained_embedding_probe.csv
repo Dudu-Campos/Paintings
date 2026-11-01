@@ -1,0 +1,9 @@
+embedding,classifier,dims,fold,selected_k,bacc,accuracy,macro_f1,elapsed
+"v1 (sem máscara, alvo 607d)",lda,2048,1,1024,0.387739,0.343580,0.311434,565.791605
+"v1 (sem máscara, alvo 607d)",mlp,2048,1,2048,0.388195,0.315112,0.287411,101.641131
+"v2 (máscara 50%, Descriptors PCA)",lda,2048,1,1280,0.407270,0.372870,0.340009,833.424154
+"v2 (máscara 50%, Descriptors PCA)",mlp,2048,1,2048,0.410786,0.322118,0.293954,87.511127
+ImageNet congelada,lda,2048,1,2048,0.530024,0.485608,0.475491,764.404206
+ImageNet congelada,mlp,2048,1,2048,0.528017,0.456950,0.458477,63.828527
+aleatória congelada,lda,2048,1,2048,0.205547,0.203888,0.168523,751.312212
+aleatória congelada,mlp,2048,1,2048,0.203947,0.121197,0.109714,85.955513

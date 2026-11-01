@@ -1,0 +1,33 @@
+variant,modality,cka_with_rest,dimensions,classifier,shapley_pp_mean
+bruto,SLIC,0.644554,71,lda,6.724717
+bruto,SLIC,0.644554,71,mlp,8.116720
+bruto,Descriptors,0.637032,130,lda,7.696686
+bruto,Descriptors,0.637032,130,mlp,9.563990
+bruto,Hilbert,0.468175,57,lda,3.764941
+bruto,Hilbert,0.468175,57,mlp,5.059735
+bruto,Line graph,0.525604,63,lda,5.516821
+bruto,Line graph,0.525604,63,mlp,7.037026
+bruto,Felzenszwalb,0.518082,71,lda,7.257586
+bruto,Felzenszwalb,0.518082,71,mlp,8.060121
+bruto,Fourier,0.219089,152,lda,3.364768
+bruto,Fourier,0.219089,152,mlp,3.722400
+bruto,Text,0.118356,27,lda,5.613832
+bruto,Text,0.118356,27,mlp,6.207226
+bruto,Multiscale,0.700456,1032,lda,1.397074
+bruto,Multiscale,0.700456,1032,mlp,1.410585
+branqueado,SLIC,0.291811,71,lda,6.724717
+branqueado,SLIC,0.291811,71,mlp,8.116720
+branqueado,Descriptors,0.294989,130,lda,7.696686
+branqueado,Descriptors,0.294989,130,mlp,9.563990
+branqueado,Hilbert,0.220162,57,lda,3.764941
+branqueado,Hilbert,0.220162,57,mlp,5.059735
+branqueado,Line graph,0.208019,63,lda,5.516821
+branqueado,Line graph,0.208019,63,mlp,7.037026
+branqueado,Felzenszwalb,0.238696,71,lda,7.257586
+branqueado,Felzenszwalb,0.238696,71,mlp,8.060121
+branqueado,Fourier,0.057622,152,lda,3.364768
+branqueado,Fourier,0.057622,152,mlp,3.722400
+branqueado,Text,0.053632,27,lda,5.613832
+branqueado,Text,0.053632,27,mlp,6.207226
+branqueado,Multiscale,0.278677,1032,lda,1.397074
+branqueado,Multiscale,0.278677,1032,mlp,1.410585

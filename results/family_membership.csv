@@ -1,0 +1,92 @@
+name,kind,family,dims,reference_dims,median_max_r2,p90_max_r2,frac_above_0.5
+Descriptors,referência:image,image,130,520,0.686237,0.807767,0.692308
+Descriptors,referência:image,segmentation,130,552,0.109369,0.591277,0.153846
+Descriptors,referência:image,curve,130,285,0.034406,0.302940,0.053846
+Descriptors,referência:image,spectral,130,152,0.007184,0.278974,0.023077
+SLIC,referência:segmentation,image,71,650,0.326283,0.741857,0.225352
+SLIC,referência:segmentation,segmentation,71,481,0.826820,0.999999,0.830986
+SLIC,referência:segmentation,curve,71,285,0.079706,0.477881,0.098592
+SLIC,referência:segmentation,spectral,71,152,0.093062,0.299782,0.000000
+Felzenszwalb,referência:segmentation,image,71,650,0.469140,0.675411,0.408451
+Felzenszwalb,referência:segmentation,segmentation,71,481,0.820902,0.999999,0.788732
+Felzenszwalb,referência:segmentation,curve,71,285,0.094622,0.476214,0.098592
+Felzenszwalb,referência:segmentation,spectral,71,152,0.113862,0.301971,0.000000
+Line graph,referência:segmentation,image,63,650,0.352834,0.596579,0.333333
+Line graph,referência:segmentation,segmentation,63,489,0.811414,0.967434,0.841270
+Line graph,referência:segmentation,curve,63,285,0.089741,0.243584,0.000000
+Line graph,referência:segmentation,spectral,63,152,0.155034,0.279392,0.000000
+L(G_felz),referência:segmentation,image,63,650,0.430043,0.572303,0.349206
+L(G_felz),referência:segmentation,segmentation,63,489,0.845173,0.945212,0.873016
+L(G_felz),referência:segmentation,curve,63,285,0.081988,0.184860,0.000000
+L(G_felz),referência:segmentation,spectral,63,152,0.162482,0.300952,0.000000
+Hilbert,referência:curve,image,57,650,0.904621,0.955188,0.947368
+Hilbert,referência:curve,segmentation,57,552,0.904476,0.953450,0.947368
+Hilbert,referência:curve,curve,57,228,0.890872,0.921138,1.000000
+Hilbert,referência:curve,spectral,57,152,0.012228,0.074481,0.000000
+Fourier,referência:spectral,image,152,650,0.179432,0.451956,0.032895
+Fourier,referência:spectral,segmentation,152,552,0.150735,0.389256,0.000000
+Fourier,referência:spectral,curve,152,285,0.044863,0.094820,0.000000
+HOG,candidato,image,1764,650,0.034860,0.070640,0.000000
+HOG,candidato,segmentation,1764,552,0.035482,0.076993,0.000000
+HOG,candidato,curve,1764,285,0.024129,0.059688,0.000000
+HOG,candidato,spectral,1764,152,0.028607,0.058566,0.000000
+Haralick,candidato,image,13,650,0.941579,0.991359,1.000000
+Haralick,candidato,segmentation,13,552,0.574572,0.653762,0.615385
+Haralick,candidato,curve,13,285,0.100798,0.305976,0.000000
+Haralick,candidato,spectral,13,152,0.211305,0.722831,0.230769
+Tourist walk,candidato,image,45,650,0.207676,0.603266,0.155556
+Tourist walk,candidato,segmentation,45,552,0.185318,0.744913,0.155556
+Tourist walk,candidato,curve,45,285,0.034082,0.062161,0.000000
+Tourist walk,candidato,spectral,45,152,0.042950,0.095489,0.000000
+Triangles SLIC,candidato,image,13,650,0.395828,0.677155,0.230769
+Triangles SLIC,candidato,segmentation,13,552,0.861551,0.995786,0.769231
+Triangles SLIC,candidato,curve,13,285,0.075198,0.119841,0.000000
+Triangles SLIC,candidato,spectral,13,152,0.113784,0.271798,0.000000
+Triangles Felz,candidato,image,13,650,0.482586,0.550574,0.307692
+Triangles Felz,candidato,segmentation,13,552,0.956324,0.999777,0.692308
+Triangles Felz,candidato,curve,13,285,0.100211,0.130262,0.000000
+Triangles Felz,candidato,spectral,13,152,0.231189,0.329448,0.000000
+Percolation SLIC,candidato,image,95,650,0.188678,0.472512,0.073684
+Percolation SLIC,candidato,segmentation,95,552,0.460198,0.835429,0.463158
+Percolation SLIC,candidato,curve,95,285,0.092114,0.162273,0.000000
+Percolation SLIC,candidato,spectral,95,152,0.105390,0.179765,0.000000
+Percolation Felz,candidato,image,95,650,0.319018,0.470392,0.052632
+Percolation Felz,candidato,segmentation,95,552,0.628260,0.855454,0.621053
+Percolation Felz,candidato,curve,95,285,0.113006,0.202359,0.000000
+Percolation Felz,candidato,spectral,95,152,0.182023,0.252120,0.000000
+Random walk,candidato,image,57,650,0.915377,0.964706,0.947368
+Random walk,candidato,segmentation,57,552,0.914830,0.962851,0.947368
+Random walk,candidato,curve,57,285,0.918405,0.983953,1.000000
+Random walk,candidato,spectral,57,152,0.016507,0.090286,0.000000
+Hybrid walk,candidato,image,57,650,0.904075,0.960034,0.947368
+Hybrid walk,candidato,segmentation,57,552,0.903067,0.958635,0.947368
+Hybrid walk,candidato,curve,57,285,0.910197,0.980185,1.000000
+Hybrid walk,candidato,spectral,57,152,0.016625,0.090353,0.000000
+Square graph,candidato,image,64,650,0.334641,0.564916,0.250000
+Square graph,candidato,segmentation,64,552,0.880783,0.979167,0.843750
+Square graph,candidato,curve,64,285,0.094123,0.157010,0.000000
+Square graph,candidato,spectral,64,152,0.161920,0.332045,0.015625
+Hilbert catch22,candidato,image,66,650,0.115423,0.599096,0.121212
+Hilbert catch22,candidato,segmentation,66,552,0.134073,0.507901,0.106061
+Hilbert catch22,candidato,curve,66,285,0.042163,0.227959,0.000000
+Hilbert catch22,candidato,spectral,66,152,0.088846,0.365548,0.060606
+Hilbert spectrum1d,candidato,image,108,650,0.235241,0.564287,0.166667
+Hilbert spectrum1d,candidato,segmentation,108,552,0.353682,0.478106,0.064815
+Hilbert spectrum1d,candidato,curve,108,285,0.095512,0.235968,0.000000
+Hilbert spectrum1d,candidato,spectral,108,152,0.235217,0.588330,0.166667
+Hilbert visibility,candidato,image,57,650,0.043976,0.093928,0.000000
+Hilbert visibility,candidato,segmentation,57,552,0.027562,0.089501,0.000000
+Hilbert visibility,candidato,curve,57,285,0.021781,0.092531,0.052632
+Hilbert visibility,candidato,spectral,57,152,0.014437,0.071976,0.000000
+Hilbert wavelet,candidato,image,276,650,0.603405,0.901021,0.572464
+Hilbert wavelet,candidato,segmentation,276,552,0.626300,0.893122,0.539855
+Hilbert wavelet,candidato,curve,276,285,0.532788,0.995308,0.528986
+Hilbert wavelet,candidato,spectral,276,152,0.024290,0.143828,0.000000
+ResNet50,candidato,image,2048,650,0.020849,0.058615,0.000000
+ResNet50,candidato,segmentation,2048,552,0.021198,0.065549,0.000000
+ResNet50,candidato,curve,2048,285,0.013604,0.046389,0.000000
+ResNet50,candidato,spectral,2048,152,0.011855,0.037915,0.000000
+ResNet50 random,candidato,image,2048,650,0.281256,0.316268,0.000488
+ResNet50 random,candidato,segmentation,2048,552,0.233428,0.305501,0.000488
+ResNet50 random,candidato,curve,2048,285,0.233178,0.305125,0.000488
+ResNet50 random,candidato,spectral,2048,152,0.058435,0.080923,0.000000

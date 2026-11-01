@@ -1,0 +1,10 @@
+modality,shapley,std,dimensions
+Multiscale,8.0400,0.4003,1032
+Felzenszwalb,4.8012,0.1895,71
+Descriptors,4.5272,0.1535,130
+SLIC,4.2227,0.1453,71
+L(G_felz),4.0947,0.1140,63
+Line graph,3.4833,0.0727,63
+Hilbert,2.7536,0.1253,57
+Fourier,2.7117,0.1481,152
+Gabor,2.5211,0.1223,32

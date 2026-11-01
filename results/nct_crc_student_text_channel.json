@@ -1,0 +1,8 @@
+{
+  "n_images": 100000,
+  "n_styles": 9,
+  "bacc_oof": 0.6287586724715971,
+  "bacc_fold_mean": 0.6287587686859851,
+  "bacc_fold_std": 0.0009590992354348023,
+  "dataset": "nct_crc"
+}

@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import sys
 import time
 from pathlib import Path
 
@@ -29,7 +30,13 @@ from torch.utils.data import DataLoader, TensorDataset
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+sys.path.insert(0, str(ROOT / "src" / "pipeline"))
+# O classificador de producao mora em src/pipeline/models.py desde 06/set. Ele
+# nasceu aqui e era importado deste arquivo por 48 scripts -- os nomes seguem
+# re-exportados para nao quebrar nenhum deles.
+from models import (  # noqa: E402,F401
+    DEVICE, BranchMLP, seed_everything, train_one,
+)
 SLIC_METADATA = {
     "stem", "style", "segmentation", "slic_requested_segments",
     "slic_actual_segments", "slic_compactness", "slic_sigma",
@@ -53,39 +60,8 @@ RECIPES = {
 }
 
 
-class BranchMLP(nn.Module):
-    def __init__(self, branch_sizes: list[int], n_classes: int) -> None:
-        super().__init__()
-        self.branch_sizes = branch_sizes
-        self.encoders = nn.ModuleList([
-            nn.Sequential(
-                nn.Linear(size, 128), nn.BatchNorm1d(128), nn.GELU(), nn.Dropout(0.25)
-            ) for size in branch_sizes
-        ])
-        width = 128 * len(branch_sizes)
-        self.head = nn.Sequential(
-            nn.Linear(width, 512), nn.BatchNorm1d(512), nn.GELU(), nn.Dropout(0.35),
-            nn.Linear(512, 256), nn.BatchNorm1d(256), nn.GELU(), nn.Dropout(0.35),
-            nn.Linear(256, 128), nn.BatchNorm1d(128), nn.GELU(), nn.Dropout(0.35),
-            nn.Linear(128, n_classes),
-        )
-
-    def forward(self, values: torch.Tensor) -> torch.Tensor:
-        encoded = [
-            encoder(block) for encoder, block in zip(self.encoders, torch.split(values, self.branch_sizes, dim=1))
-        ]
-        return self.head(torch.cat(encoded, dim=1))
-
-
 def log(message: str) -> None:
     print(f"[{time.strftime('%H:%M:%S')}] {message}", flush=True)
-
-
-def seed_everything(seed: int) -> None:
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
 
 
 def load_npy(values_path: Path, ids_path: Path) -> pd.DataFrame:
@@ -137,60 +113,6 @@ def make_values(
         ]))
         targets.append(labels.loc[parent_ids].to_numpy())
     return np.vstack(values).astype(np.float32), np.concatenate(targets)
-
-
-def train_one(
-    train_x: np.ndarray, train_y: np.ndarray, validation_x: np.ndarray,
-    validation_y: np.ndarray, test_x: np.ndarray, test_y: np.ndarray,
-    branch_sizes: list[int], n_classes: int, seed: int, max_epochs: int, patience: int,
-) -> tuple[dict, np.ndarray]:
-    seed_everything(seed)
-    model = BranchMLP(branch_sizes, n_classes).to(DEVICE)
-    counts = np.bincount(train_y, minlength=n_classes).astype(np.float32)
-    weights = (1 / counts) / (1 / counts).mean()
-    criterion = nn.CrossEntropyLoss(weight=torch.tensor(weights, dtype=torch.float32, device=DEVICE))
-    optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=1e-4)
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
-    loader = DataLoader(
-        TensorDataset(torch.from_numpy(train_x), torch.from_numpy(train_y).long()),
-        batch_size=4096, shuffle=True, num_workers=0, pin_memory=DEVICE.type == "cuda",
-        generator=torch.Generator().manual_seed(seed),
-    )
-    validation_tensor = torch.from_numpy(validation_x).to(DEVICE, non_blocking=True)
-    test_tensor = torch.from_numpy(test_x).to(DEVICE, non_blocking=True)
-    best_score, best_state, best_epoch, stale = -1.0, None, 0, 0
-    for epoch in range(1, max_epochs + 1):
-        model.train()
-        for xb, yb in loader:
-            xb, yb = xb.to(DEVICE, non_blocking=True), yb.to(DEVICE, non_blocking=True)
-            optimizer.zero_grad(set_to_none=True)
-            criterion(model(xb), yb).backward()
-            optimizer.step()
-        scheduler.step()
-        model.eval()
-        with torch.no_grad():
-            prediction = model(validation_tensor).argmax(1).cpu().numpy()
-        score = balanced_accuracy_score(validation_y, prediction)
-        if score > best_score:
-            best_score, best_state, best_epoch, stale = float(score), copy.deepcopy(model.state_dict()), epoch, 0
-        else:
-            stale += 1
-        if stale >= patience:
-            break
-    model.load_state_dict(best_state)
-    model.eval()
-    with torch.no_grad():
-        prediction = model(test_tensor).argmax(1).cpu().numpy()
-    metrics = {
-        "bacc": balanced_accuracy_score(test_y, prediction),
-        "accuracy": accuracy_score(test_y, prediction),
-        "macro_f1": f1_score(test_y, prediction, average="macro"),
-        "validation_bacc": best_score, "best_epoch": best_epoch,
-    }
-    del model, validation_tensor, test_tensor
-    if DEVICE.type == "cuda":
-        torch.cuda.empty_cache()
-    return metrics, prediction
 
 
 def main() -> None:

@@ -1,0 +1,16 @@
+condition,fold,dimensions,bacc
+felzenszwalb 1024x50,1,639,49.8748
+felzenszwalb 1024x50,2,639,48.2467
+felzenszwalb 1024x50,3,639,48.6523
+felzenszwalb 1024x50,4,639,50.0658
+felzenszwalb 1024x50,5,639,50.6058
+felzenszwalb 1024x100,1,639,49.1635
+felzenszwalb 1024x100,2,639,48.9379
+felzenszwalb 1024x100,3,639,48.7667
+felzenszwalb 1024x100,4,639,49.9910
+felzenszwalb 1024x100,5,639,50.7727
+felzenszwalb 256x50,1,639,49.8137
+felzenszwalb 256x50,2,639,48.2400
+felzenszwalb 256x50,3,639,48.4089
+felzenszwalb 256x50,4,639,49.4768
+felzenszwalb 256x50,5,639,50.1711

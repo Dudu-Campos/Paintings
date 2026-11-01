@@ -1,0 +1,24 @@
+# A dataset needs only images, a table containing `stem` and the target column,
+# and a minimum class count.  Texture benchmarks can be added here without
+# changing the benchmark launcher.
+
+[datasets.wikiart]
+image_dir = "wikiart"
+metadata = "data/artemis/wikiart_meta.csv"
+task = "style"
+min_per_class = 50
+description = "27-way painting-style classification"
+
+[datasets.pandora]
+image_dir = "data/pandora_flat"
+metadata = "data/pandora_meta.csv"
+task = "style"
+min_per_class = 50
+description = "18-way painting-style classification"
+
+[datasets.rijksmuseum]
+image_dir = "rijksmuseum/painting"
+metadata = "data/rijksmuseum_labels.csv"
+task = "period"
+min_per_class = 50
+description = "Half-century period classification of Rijksmuseum paintings"

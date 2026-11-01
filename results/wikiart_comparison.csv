@@ -1,0 +1,7 @@
+label,value,error,dims,probe,kind,source
+Haralick + HOG,21.6500,0.8800,1777,LDA probe,classical,"medido aqui, 5 folds"
+ResNet-50 trained from scratch,42.3400,,2048,end-to-end,trained,"escada de escala, n=63.949"
+Our pipeline (no Text),52.1000,1.3300,1127,branch MLP,hand-designed,outputs/percolation_hierarchy
+ResNet-50 frozen (ImageNet),52.2700,0.8900,2048,branch MLP,transfer,outputs/blocks_over_backbone
+ResNet-101 frozen (ImageNet),52.7465,0.6916,2048,branch MLP,transfer,"medido aqui, 5 folds"
+Ours + ResNet-50 frozen,56.3100,0.6100,3175,branch MLP,combination,outputs/blocks_over_backbone

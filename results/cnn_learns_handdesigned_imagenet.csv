@@ -1,0 +1,8 @@
+source,block,dims,mse,r2
+imagenet,Hilbert,57,0.470040,0.521355
+imagenet,Felzenszwalb,71,0.460627,0.505847
+imagenet,L(G_felz),63,0.480112,0.504514
+imagenet,Line graph,63,0.450653,0.452056
+imagenet,SLIC,71,0.497536,0.424474
+imagenet,Fourier,152,0.513617,0.373646
+imagenet,Descriptors,130,0.753549,0.207845

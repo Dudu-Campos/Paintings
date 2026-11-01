@@ -1,0 +1,13 @@
+group,quadrant,features,importance_pp_sum
+Descriptors,baixo sinal e redundante,66,12.679041
+Descriptors,importante e pouco redundante,15,10.985484
+Descriptors,"importante, mas redundante",6,3.363363
+Descriptors,"pouco redundante, baixo sinal",43,14.179672
+Hilbert,baixo sinal e redundante,5,1.387180
+Hilbert,importante e pouco redundante,8,4.480461
+Hilbert,"importante, mas redundante",3,1.734120
+Hilbert,"pouco redundante, baixo sinal",41,14.987304
+SLIC multigraph,baixo sinal e redundante,22,8.897888
+SLIC multigraph,importante e pouco redundante,16,10.751875
+SLIC multigraph,"importante, mas redundante",16,10.514282
+SLIC multigraph,"pouco redundante, baixo sinal",15,6.039329

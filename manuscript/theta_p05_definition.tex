@@ -1,0 +1,60 @@
+% Definição do p05 de theta-robustez.
+% Pontos que a construção precisa carregar, todos discutidos e medidos:
+%   - Delta COM SINAL (o p05 do |Delta| mede o melhor caso, não o pior).
+%   - Medida uniforme em LOG (theta é escolhido em potências de 2 na prática;
+%     uniforme na escala linear pesaria as resoluções altas de forma absurda).
+%   - Quantil sobre a SUPERFÍCIE AJUSTADA, não sobre a grade: o quantil de uma
+%     grade é estatística da grade -- 5 níveis num eixo que não importa contra
+%     4 no que importa distorce em ~0,5pp, medido.
+%   - Reportado NO PIPELINE, não na view isolada: é o regime de operação.
+
+Let $f$ be a transformation family with admissible parameter set
+$\Theta_f$, and let $\theta^{\ast}\in\Theta_f$ be the configuration fixed
+\emph{a priori} for all experiments.  Write $A_f(\theta)$ for the balanced
+accuracy of the full pipeline when the block produced by $f$ is extracted at
+$\theta$ and every other view is held fixed, and define the substitution
+effect
+%
+\begin{equation}
+  \Delta_f(\theta) \;=\; A_f(\theta) \;-\; A_f(\theta^{\ast}).
+\end{equation}
+%
+$\Delta_f$ is kept \emph{signed}: the quantity of interest is how much is
+lost by replacing $\theta^{\ast}$, and $|\Delta_f|$ would conflate a loss
+with an equally large gain.
+
+Let $\mu$ be the uniform probability measure on $\log\Theta_f$ --- uniform in
+the logarithm because admissible values are chosen multiplicatively in
+practice (powers of two), so a linear measure would place almost all of its
+mass on the largest settings.  The \emph{worst-case substitution cost at
+level $\alpha$} is the $\alpha$-quantile of $\Delta_f$ under $\mu$,
+%
+\begin{equation}
+  q_\alpha(f) \;=\; \inf\Bigl\{\,t\in\mathbb{R} \;:\;
+    \mu\bigl(\{\theta\in\Theta_f : \Delta_f(\theta)\le t\}\bigr)\ \ge\ \alpha \Bigr\},
+\end{equation}
+%
+and we report $q_{0.05}$: with probability $0.95$ over admissible
+implementations, replacing $\theta^{\ast}$ costs at most $|q_{0.05}|$
+accuracy points.
+
+Because $\mu$ is continuous and $\Delta_f$ is observed on a finite grid
+$G\subset\Theta_f$, we do not take the empirical quantile over $G$: that
+statistic depends on how many levels each axis of the grid received, and an
+axis with little influence dilutes the distribution towards zero.  We
+instead fit a quadratic response surface $\hat{\Delta}_f$ in
+$\log\theta$, validate it by leave-one-out over $G$, and evaluate
+$q_{0.05}$ on $\hat{\Delta}_f$ under $\mu$.  $\Theta_f$ is the convex hull
+of the measured settings; the surface is never extrapolated beyond it.
+
+A single quantile does not describe concentration, so $q_{0.05}$ is reported
+together with the mass of $\Theta_f$ that is close to $\theta^{\ast}$,
+%
+\begin{equation}
+  m_\varepsilon(f) \;=\; \mu\bigl(\{\theta\in\Theta_f :
+    |\Delta_f(\theta)| \le \varepsilon\}\bigr),
+\end{equation}
+%
+for a tolerance $\varepsilon$ fixed in advance.  Together the two state that
+no admissible $\theta$ costs more than $|q_{0.05}|$, and that a fraction
+$m_\varepsilon$ of them costs essentially nothing.

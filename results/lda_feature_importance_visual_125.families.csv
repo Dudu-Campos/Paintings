@@ -1,0 +1,5 @@
+family,features,total_importance,mean_feature_importance,total_importance_percent,mean_feature_importance_percent
+Region graphs,264,0.43367159,0.00164270,43.36715897,0.16426954
+Space-filling curve,57,0.28583062,0.00501457,28.58306156,0.50145722
+Image statistics,130,0.24989816,0.00192229,24.98981556,0.19222935
+Spectral,166,0.03059964,0.00018434,3.05996391,0.01843352

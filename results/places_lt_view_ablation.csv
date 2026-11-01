@@ -1,0 +1,18 @@
+dataset,classifier,seed,fold,condition,view,kind,n_train,n_val,n_test,n_classes,dimensions,seconds,bacc,accuracy,macro_f1,best_val_bacc,epochs_run
+places_lt,lda,42,1,hand-8,all,full,62500,6250,36500,365,617,6.416468,0.126411,0.126411,0.111515,,0
+places_lt,lda,42,1,single/Descriptors,Descriptors,single,62500,6250,36500,365,130,1.243101,0.056110,0.056110,0.045506,,0
+places_lt,lda,42,1,single/Felzenszwalb,Felzenszwalb,single,62500,6250,36500,365,69,0.841938,0.061890,0.061890,0.053346,,0
+places_lt,lda,42,1,single/SLIC,SLIC,single,62500,6250,36500,365,69,0.844255,0.063507,0.063507,0.054659,,0
+places_lt,lda,42,1,single/Line graph,Line graph,single,62500,6250,36500,365,63,0.801853,0.044055,0.044055,0.034866,,0
+places_lt,lda,42,1,single/L(G_felz),L(G_felz),single,62500,6250,36500,365,63,0.809742,0.046658,0.046658,0.037329,,0
+places_lt,lda,42,1,single/Hilbert,Hilbert,single,62500,6250,36500,365,57,0.762050,0.050658,0.050658,0.041508,,0
+places_lt,lda,42,1,single/Fourier,Fourier,single,62500,6250,36500,365,134,1.285470,0.026877,0.026877,0.022319,,0
+places_lt,lda,42,1,single/Gabor,Gabor,single,62500,6250,36500,365,32,0.576836,0.038767,0.038767,0.028699,,0
+places_lt,lda,42,1,drop/Descriptors,Descriptors,drop,62500,6250,36500,365,487,4.804601,0.124192,0.124192,0.109721,,0
+places_lt,lda,42,1,drop/Felzenszwalb,Felzenszwalb,drop,62500,6250,36500,365,548,5.358908,0.125315,0.125315,0.111046,,0
+places_lt,lda,42,1,drop/SLIC,SLIC,drop,62500,6250,36500,365,548,5.565514,0.124247,0.124247,0.109346,,0
+places_lt,lda,42,1,drop/Line graph,Line graph,drop,62500,6250,36500,365,554,5.674041,0.125123,0.125123,0.110407,,0
+places_lt,lda,42,1,drop/L(G_felz),L(G_felz),drop,62500,6250,36500,365,554,5.493128,0.123781,0.123781,0.109343,,0
+places_lt,lda,42,1,drop/Hilbert,Hilbert,drop,62500,6250,36500,365,560,5.460400,0.115753,0.115753,0.101978,,0
+places_lt,lda,42,1,drop/Fourier,Fourier,drop,62500,6250,36500,365,483,4.758980,0.117918,0.117918,0.104033,,0
+places_lt,lda,42,1,drop/Gabor,Gabor,drop,62500,6250,36500,365,585,6.087785,0.123945,0.123945,0.109265,,0

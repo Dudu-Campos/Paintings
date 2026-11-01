@@ -1,0 +1,41 @@
+scope,class_centered,family_a,family_b,cka_mean,cka_std,n
+all,False,Image statistics,Image statistics,0.9092468667030335,0.006755669693988637,50
+all,False,Image statistics,Region graphs,0.587199227809906,0.0087819923021996,125
+all,False,Image statistics,Space-filling curve,0.49500704669952394,0.008769642409711991,125
+all,False,Image statistics,Spectral,0.4689675204753876,0.011600058779289418,125
+all,False,Region graphs,Region graphs,0.8860195124149323,0.009231857616077633,50
+all,False,Region graphs,Space-filling curve,0.43340565967559813,0.008277561216253913,125
+all,False,Region graphs,Spectral,0.4051913561820984,0.014360974995245933,125
+all,False,Space-filling curve,Space-filling curve,0.8979616510868073,0.007537094186207045,50
+all,False,Space-filling curve,Spectral,0.32148975229263305,0.007285477638381411,125
+all,False,Spectral,Spectral,0.8811556947231293,0.015239357604640421,50
+all,True,Image statistics,Image statistics,0.8605520462989807,0.0099878229723152,50
+all,True,Image statistics,Region graphs,0.419238872051239,0.01294662647615065,125
+all,True,Image statistics,Space-filling curve,0.3850726978778839,0.011872004699016376,125
+all,True,Image statistics,Spectral,0.35508696889877317,0.015594256377954734,125
+all,True,Region graphs,Region graphs,0.8041019093990326,0.013836082264549557,50
+all,True,Region graphs,Space-filling curve,0.3073897714614868,0.011242974577173583,125
+all,True,Region graphs,Spectral,0.283413277387619,0.014854634504081206,125
+all,True,Space-filling curve,Space-filling curve,0.8630220508575439,0.009884399153800742,50
+all,True,Space-filling curve,Spectral,0.24203282117843627,0.009976374370060858,125
+all,True,Spectral,Spectral,0.8404433178901672,0.02004483633117511,50
+contested,False,Image statistics,Image statistics,0.9095514357089997,0.006771708217640249,50
+contested,False,Image statistics,Region graphs,0.5863865485191345,0.008715577302448164,125
+contested,False,Image statistics,Space-filling curve,0.49456225872039794,0.008859862643830882,125
+contested,False,Image statistics,Spectral,0.4672014892101288,0.01173906349460199,125
+contested,False,Region graphs,Region graphs,0.8865700221061706,0.009287389597903997,50
+contested,False,Region graphs,Space-filling curve,0.4332013144493103,0.008279396237479515,125
+contested,False,Region graphs,Spectral,0.4030769248008728,0.014349683973673522,125
+contested,False,Space-filling curve,Space-filling curve,0.8978588795661926,0.007521592453036145,50
+contested,False,Space-filling curve,Spectral,0.32013933968544006,0.007171998145103413,125
+contested,False,Spectral,Spectral,0.8809849691390991,0.015245986353816587,50
+contested,True,Image statistics,Image statistics,0.861211816072464,0.009945682148910314,50
+contested,True,Image statistics,Region graphs,0.41981948709487915,0.012935309245881734,125
+contested,True,Image statistics,Space-filling curve,0.3856210043430328,0.011866680902981656,125
+contested,True,Image statistics,Spectral,0.355553373336792,0.015590796060935174,125
+contested,True,Region graphs,Region graphs,0.8048368167877197,0.013828376586455556,50
+contested,True,Region graphs,Space-filling curve,0.3078408753871918,0.011238230263053905,125
+contested,True,Region graphs,Spectral,0.2837074429988861,0.014848814080508093,125
+contested,True,Space-filling curve,Space-filling curve,0.8632963335514069,0.00987375183969615,50
+contested,True,Space-filling curve,Spectral,0.2420199521780014,0.00995775925851415,125
+contested,True,Spectral,Spectral,0.8409377098083496,0.01998409292893717,50

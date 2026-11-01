@@ -2,23 +2,16 @@
 raw/
 wikiart/
 outputs/*
+Pandora_18k.zip
 logs/
+data/ 
+results/
 
 # Metadados e subconjuntos derivados localmente.  Os scripts em src/data/
 # reconstroem estes artefatos; apenas metadados de fontes externas curados
 # manualmente devem ser adicionados explicitamente.
 data/wikiart_all_images.csv
 data/wikiart_robustness*/
-
-# Exceção: descrições geradas pelo SLM são versionadas
-!outputs/slm_descriptions/
-
-# Exceção: só o modelo final de captioning é versionado (não os checkpoints intermediários)
-!outputs/caption_model/
-outputs/caption_model/checkpoint-*/
-
-# Exceção: predições do modelo de captioning são versionadas
-!outputs/caption_predictions/
 
 # Dataset COCO (cada servidor baixa sua própria cópia)
 data/coco/
@@ -32,6 +25,7 @@ data/wikiart_robustness*/images/
 __pycache__/
 *.py[cod]
 *.egg-info/
+.ABSvenv/
 .venv/
 .venv-*/
 venv/
@@ -49,6 +43,7 @@ nohup.out
 *.tmp
 *.orig
 *.pdf
+*.zip
 
 # Intermediários grandes de avaliação.  As tabelas resumidas, figuras e scripts
 # em results/ são versionados; caches, vetores por imagem e predições OOF são
@@ -70,3 +65,6 @@ experiments/image-to-text/artifacts/clip_feats_*.npy
 experiments/image-to-text/artifacts/teacher_captions*.jsonl
 experiments/image-to-text/teacher_captions*.jsonl
 experiments/image-to-text/artifacts/full_run/
+
+# Artefatos de linhas encerradas (results/ ja e ignorado; explicito por clareza)
+results/attic/

@@ -1,0 +1,6 @@
+comparison,mean_delta_bacc_pp,std_delta_bacc_pp,t_statistic,p_paired,positive_folds,folds
+hand-8 - resnet,1.332240,0.157455,18.919580,0.000046,5,5
+hand-8 - descriptors,0.198740,0.123552,3.596845,0.022822,5,5
+fusion - resnet,1.166760,0.149765,17.420363,0.000064,5,5
+fusion - hand-8,-0.165480,0.075237,-4.918117,0.007940,0,5
+fusion - descriptors,0.033260,0.102643,0.724565,0.508831,3,5

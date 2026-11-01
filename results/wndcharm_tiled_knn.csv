@@ -1,0 +1,16 @@
+condition,fold,dimensions,seconds,bacc,accuracy,macro_f1
+hand-8 (kNN plano),1,617,5.1881,28.3786,12.6027,11.2155
+WND-CHARM tiled pooled (kNN plano),1,2894,21.4719,22.3045,8.3500,8.0596
+WND-CHARM tiled pooled (kNN Fisher-weighted),1,2894,17.2453,21.5080,8.5504,7.7494
+hand-8 (kNN plano),2,617,5.3464,30.0078,12.3879,11.4606
+WND-CHARM tiled pooled (kNN plano),2,2894,20.2461,22.3135,7.9297,7.8746
+WND-CHARM tiled pooled (kNN Fisher-weighted),2,2894,17.2542,22.3399,8.1100,8.0244
+hand-8 (kNN plano),3,617,5.4998,28.6562,12.3278,10.9657
+WND-CHARM tiled pooled (kNN plano),3,2894,19.9525,20.4665,8.0148,7.4463
+WND-CHARM tiled pooled (kNN Fisher-weighted),3,2894,17.4069,20.0990,8.3955,7.6441
+hand-8 (kNN plano),4,617,5.2201,26.8455,12.4981,11.3278
+WND-CHARM tiled pooled (kNN plano),4,2894,20.5196,22.6589,8.2052,8.0990
+WND-CHARM tiled pooled (kNN Fisher-weighted),4,2894,17.5908,22.5586,8.3605,8.1327
+hand-8 (kNN plano),5,617,5.1056,28.9586,12.5131,11.2987
+WND-CHARM tiled pooled (kNN plano),5,2894,20.1665,20.0609,7.8295,7.2419
+WND-CHARM tiled pooled (kNN Fisher-weighted),5,2894,17.1729,21.1485,8.0499,7.6232
